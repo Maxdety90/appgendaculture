@@ -4,7 +4,25 @@
 // Format des dates : YYYY-MM-DD.
 
 const DAYS_DATA = [
-  // Jours 1 à 8 : Décembre 2025
+  // --- Décembre 2025 (8 jours) ---
+  {
+    date: "2025-12-24",
+    general_question: {
+      question: "Quelle est la capitale de l'Australie ?",
+      answer: "Canberra.",
+      explanation:
+        "Contrairement à une idée reçue, la capitale n'est ni Sydney ni Melbourne, mais Canberra, choisie comme compromis entre les deux villes rivales en 1908.",
+    },
+    open_question: {
+      question:
+        "Le concept de 'neutralité carbone' d'ici 2050 est-il techniquement et économiquement réaliste à l'échelle mondiale ?",
+      notes:
+        "Débat sur la faisabilité des technologies de capture de carbone, les changements de mode de vie nécessaires et le coût de la transition énergétique.",
+    },
+    did_you_know: {
+      text: "Le Père Noël porte traditionnellement du rouge et blanc à cause d'une campagne publicitaire de Coca-Cola dans les années 1930, bien qu'il ait été historiquement représenté dans d'autres couleurs (vert, bleu, ou brun).",
+    },
+  },
   {
     date: "2025-12-25",
     general_question: {
@@ -95,14 +113,16 @@ const DAYS_DATA = [
     },
     did_you_know: {
       text: "Le cœur d'une crevette se situe dans sa tête.",
-      date: "2025-12-30",
-      general_question: {
-        question:
-          "Quel est le nom de la galaxie qui contient notre système solaire ?",
-        answer: "La Voie Lactée.",
-        explanation:
-          "La Voie Lactée est une galaxie spirale barrée, abritant des centaines de milliards d'étoiles, dont notre Soleil.",
-      },
+    },
+  },
+  {
+    date: "2025-12-30",
+    general_question: {
+      question:
+        "Quel est le nom de la galaxie qui contient notre système solaire ?",
+      answer: "La Voie Lactée.",
+      explanation:
+        "La Voie Lactée est une galaxie spirale barrée, abritant des centaines de milliards d'étoiles, dont notre Soleil.",
     },
     open_question: {
       question:
@@ -125,6825 +145,6925 @@ const DAYS_DATA = [
     },
     open_question: {
       question:
-        "Quelles sont les résolutions de Nouvel An les plus importantes pour une société durable en 2026 ?",
+        "Les prévisions apocalyptiques de fin d'année sont-elles un phénomène psychologique ou un symptôme d'une crise environnementale et sociale réelle ?",
       notes:
-        "Réflexion sur les changements sociaux, environnementaux et politiques nécessaires pour l'année à venir.",
+        "Discussion sur l'anxiété collective, la désinformation et la perception des risques globaux.",
     },
     did_you_know: {
-      text: "Le temps de latence avant de s'endormir est appelé 'latence d'endormissement'. S'il est inférieur à cinq minutes, cela indique souvent un déficit de sommeil.",
-    },
-  },
-  {
-    date: "2026-01-01",
-    general_question: {
-      question: "Quel est le nom du plus grand océan sur Terre ?",
-      answer: "L'océan Pacifique.",
-      explanation:
-        "L'océan Pacifique est le plus vaste et le plus profond des cinq océans. Il couvre environ un tiers de la surface terrestre.",
-    },
-    open_question: {
-      question:
-        "Est-il préférable de se fixer des objectifs à long terme ambitieux ou de petits objectifs quotidiens pour la réussite personnelle ?",
-      notes:
-        "Débat sur les stratégies de développement personnel (vision globale vs. micro-progression).",
-    },
-    did_you_know: {
-      text: "Une journée sur Vénus est plus longue qu'une année sur Vénus (rotation sidérale : 243 jours terrestres ; période orbitale : 225 jours terrestres).",
+      text: "Pour célébrer le Nouvel An, on lâche des milliers de ballons ou de confettis. La ville de New York utilise environ une tonne de confettis à Times Square.",
     },
   },
 
-  // Jours 9 à 39 : Janvier 2026 (31 jours)
+  // --- Janvier 2026 (31 jours) ---
+  {
+    date: "2026-01-01",
+    general_question: {
+      question: "Qui était le premier empereur romain ?",
+      answer: "Auguste (Octave).",
+      explanation:
+        "Il a régné de 27 av. J.-C. à 14 ap. J.-C. et est considéré comme le fondateur du Principat, la première phase de l'Empire romain.",
+    },
+    open_question: {
+      question:
+        "Comment concilier le besoin de souveraineté alimentaire nationale avec les principes du libre-échange international ?",
+      notes:
+        "Débat sur les subventions agricoles, les barrières douanières et la sécurité alimentaire mondiale.",
+    },
+    did_you_know: {
+      text: "Le mois de janvier a été nommé d'après Janus, le dieu romain des commencements, des transitions, des portes et des fins, qui est représenté avec deux visages.",
+    },
+  },
   {
     date: "2026-01-02",
     general_question: {
       question:
-        "Qui est l'auteur des romans '1984' et 'La Ferme des animaux' ?",
-      answer: "George Orwell.",
+        "Combien de temps faut-il à la lumière du Soleil pour atteindre la Terre ?",
+      answer: "Environ 8 minutes et 20 secondes.",
       explanation:
-        "Ces deux œuvres sont des classiques de la littérature dystopique et satirique, critiquant le totalitarisme et la manipulation politique.",
+        "La distance moyenne entre le Soleil et la Terre est d'environ 150 millions de kilomètres. La lumière voyage à $299 792$ km/seconde.",
     },
     open_question: {
       question:
-        "La censure de contenu sur Internet par les plateformes privées est-elle une protection nécessaire ou une atteinte à la liberté d'expression ?",
+        "Le sport professionnel moderne est-il un modèle d'excellence athlétique ou une machine de divertissement hyper-commercialisée ?",
       notes:
-        "Débat sur la modération du contenu et la responsabilité des grandes entreprises technologiques.",
+        "Discussion sur les salaires, les droits de diffusion, le dopage et l'esprit olympique.",
     },
     did_you_know: {
-      text: "Le bambou est la plante qui pousse le plus rapidement sur Terre, certaines espèces pouvant grandir de près d'un mètre par jour.",
+      text: "Il existe plus de 20 000 espèces d'abeilles dans le monde, et seulement une petite fraction d'entre elles produisent du miel.",
     },
   },
   {
     date: "2026-01-03",
     general_question: {
-      question: "Quelle est la capitale de l'Australie ?",
-      answer: "Canberra.",
+      question:
+        "Quel est le processus par lequel les plantes créent leur nourriture en utilisant la lumière du soleil ?",
+      answer: "La photosynthèse.",
       explanation:
-        "Contrairement à la croyance populaire, Sydney et Melbourne ne sont pas la capitale. Canberra a été choisie comme compromis entre les deux villes rivales en 1908.",
+        "C'est un processus biochimique essentiel par lequel les plantes, les algues et certaines bactéries convertissent l'énergie lumineuse en énergie chimique.",
     },
     open_question: {
       question:
-        "L'éducation à domicile (homeschooling) offre-t-elle de meilleurs résultats que l'école publique traditionnelle ?",
+        "L'utilisation d'assistants vocaux (Alexa, Google, Siri) dans les foyers représente-t-elle un risque acceptable pour la vie privée ?",
       notes:
-        "Débat sur les méthodes pédagogiques, la socialisation et la personnalisation de l'apprentissage.",
+        "Débat sur la collecte de données, l'écoute permanente et la transparence des politiques de confidentialité.",
     },
     did_you_know: {
-      text: "Les fourmis sont incroyablement fortes et peuvent soulever entre 50 et 100 fois leur propre poids corporel.",
+      text: "Les poulpes ont trois cœurs : deux pompent le sang vers les branchies, et un troisième le fait circuler vers le reste du corps.",
     },
   },
   {
     date: "2026-01-04",
     general_question: {
-      question: "Quel est l'élément chimique avec le symbole 'Fe' ?",
-      answer: "Le Fer.",
+      question:
+        "Qui est l'auteur des romans '1984' et 'La Ferme des animaux' ?",
+      answer: "George Orwell.",
       explanation:
-        "Le symbole Fe vient du mot latin 'ferrum'. Le fer est un métal essentiel à la vie, notamment dans l'hémoglobine du sang.",
+        "Ces deux œuvres majeures sont des satires politiques et des critiques du totalitarisme et de la manipulation du langage.",
     },
     open_question: {
       question:
-        "Le droit à l'oubli numérique devrait-il être étendu à toutes les informations personnelles en ligne ?",
+        "Face à l'urgence climatique, les actes de désobéissance civile extrêmes (blocages, sabotages) sont-ils justifiés ?",
       notes:
-        "Débat sur l'effacement des données, la mémoire d'Internet et la liberté d'information.",
+        "Discussion sur l'efficacité, la légitimité et l'impact moral de l'action directe non violente.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est d'environ 356 400 kilomètres, tandis que la plus grande est d'environ 406 700 kilomètres (apogée et périgée).",
+      text: "La langue des serpents ne sert pas à goûter mais à 'sentir' l'air. Ils collectent des particules et les transfèrent à un organe spécialisé appelé l'organe de Jacobson.",
     },
   },
   {
     date: "2026-01-05",
     general_question: {
-      question:
-        "Quel peintre espagnol est associé au mouvement du Surréalisme et à l'œuvre 'La Persistance de la mémoire' ?",
-      answer: "Salvador Dalí.",
+      question: "Quel est l'élément chimique le plus abondant dans l'univers ?",
+      answer: "L'hydrogène (H).",
       explanation:
-        "Ce tableau, souvent appelé 'Les montres molles', est l'une des images les plus célèbres du Surréalisme. ",
+        "L'hydrogène compose environ 75 % de la masse de l'univers, étant le principal constituant des étoiles et des nuages de gaz interstellaires.",
     },
     open_question: {
       question:
-        "Le salaire universel de base (revenu de base) est-il une solution économique viable pour l'avenir ?",
+        "La démocratie peut-elle survivre à l'ère de l'information où la vérité et le mensonge sont de plus en plus difficiles à distinguer ?",
       notes:
-        "Débat sur l'impact sur le travail, l'égalité sociale et le financement d'un revenu inconditionnel.",
+        "Débat sur les chambres d'écho, les 'deepfakes' et l'éducation aux médias.",
     },
     did_you_know: {
-      text: "Il y a plus d'arbres sur Terre qu'il n'y a d'étoiles dans la Voie Lactée (environ 3 000 milliards d'arbres contre 100 à 400 milliards d'étoiles).",
+      text: "Le cri du canard ne produit pas d'écho. Bien que ce soit une légende populaire, des scientifiques ont démontré que la déformation de l'écho est si forte qu'elle est souvent inaudible.",
     },
   },
   {
     date: "2026-01-06",
     general_question: {
       question:
-        "Quel est le rôle principal des mitochondries dans la cellule ?",
-      answer: "La production d'énergie (ATP).",
+        "Quel est le nom du célèbre musée du Louvre à Paris avant de devenir un musée ?",
+      answer: "Une forteresse médiévale, puis une résidence royale.",
       explanation:
-        "Les mitochondries sont souvent appelées les 'centrales électriques' de la cellule, car elles effectuent la respiration cellulaire pour générer de l'Adénosine triphosphate (ATP).",
+        "Commencé au XIIe siècle comme forteresse par Philippe Auguste, il fut transformé en palais royal au XVIe siècle avant d'ouvrir comme musée en 1793.",
     },
     open_question: {
       question:
-        "Faut-il réglementer la durée maximale de travail par semaine (32 heures, 4 jours) pour améliorer le bien-être général ?",
+        "Les monnaies numériques de banque centrale (MNBC) doivent-elles remplacer l'argent liquide traditionnel ?",
       notes:
-        "Débat sur la productivité, le stress professionnel et l'équilibre vie privée/vie professionnelle.",
+        "Discussion sur la surveillance financière, l'inclusion bancaire et la stabilité économique.",
     },
     did_you_know: {
-      text: "Le cri d'un canard n'aurait pas d'écho. Des études ont prouvé que c'est faux : le cri d'un canard émet bien un écho.",
+      text: "Le lait d'hippopotame est rose. Cette coloration est due à la présence de deux acides : l'acide hipposudoric (rouge) et l'acide norhipposudoric (orange).",
     },
   },
   {
     date: "2026-01-07",
     general_question: {
       question:
-        "Quel pays a remporté la première Coupe du Monde de football en 1930 ?",
-      answer: "L'Uruguay.",
+        "Qui est la seule personne à avoir remporté le Prix Nobel dans deux catégories scientifiques différentes ?",
+      answer: "Marie Curie.",
       explanation:
-        "Le tournoi a eu lieu en Uruguay, et l'équipe nationale uruguayenne a battu l'Argentine en finale (4-2).",
+        "Elle a reçu le Nobel de physique en 1903 (avec son mari Pierre Curie) et le Nobel de chimie en 1911.",
     },
     open_question: {
       question:
-        "L'exploration des fonds marins est-elle plus importante pour l'humanité que l'exploration spatiale ?",
+        "Jusqu'où la technologie de modification génétique (CRISPR) doit-elle être autorisée chez l'homme ?",
       notes:
-        "Débat sur l'allocation des ressources entre la connaissance de la Terre (océans) et la quête de l'extérieur (espace).",
+        "Débat sur la thérapie des maladies génétiques vs. la modification des caractères héréditaires (bébés 'sur mesure').",
     },
     did_you_know: {
-      text: "L'odeur de la pluie est appelée 'pétrichor'. Elle est due à un mélange d'huiles végétales et d'une substance chimique produite par des bactéries, la géosmine.",
+      text: "Les crocodiles sont les seuls animaux qui ne peuvent pas tirer leur langue, car celle-ci est fixée au fond de leur gueule.",
     },
   },
   {
     date: "2026-01-08",
     general_question: {
       question:
-        "Quelle loi de la physique stipule que 'l'énergie ne peut être ni créée ni détruite, seulement transformée' ?",
-      answer: "Le premier principe de la thermodynamique.",
+        "Comment appelle-t-on le phénomène selon lequel la Lune semble plus grande lorsqu'elle est près de l'horizon ?",
+      answer: "L'illusion lunaire.",
       explanation:
-        "Ce principe est également connu sous le nom de loi de la conservation de l'énergie.",
+        "C'est une illusion d'optique où le cerveau compare la Lune aux objets terrestres proches (arbres, bâtiments), la faisant paraître plus massive.",
     },
     open_question: {
       question:
-        "L'accès gratuit et illimité à l'information en ligne est-il un droit fondamental dans la société moderne ?",
+        "Le revenu universel de base est-il une solution viable pour l'automatisation croissante des emplois ?",
       notes:
-        "Débat sur la neutralité du net, le financement de l'information et les barrières économiques ou géographiques.",
+        "Discussion sur son coût, son impact sur l'incitation au travail et la réduction de la pauvreté.",
     },
     did_you_know: {
-      text: "Le Mont Everest, mesuré à 8 848,86 mètres, continue de grandir d'environ 4 millimètres par an en raison du mouvement des plaques tectoniques.",
+      text: "Le cheval de Troie de l'Antiquité a donné son nom à un type de logiciel malveillant (malware) qui se déguise en programme utile ou inoffensif.",
     },
   },
   {
     date: "2026-01-09",
     general_question: {
-      question: "Qui était le premier empereur romain ?",
-      answer: "Auguste (Octave).",
+      question:
+        "Quel est le nom du détroit qui sépare l'Alaska (États-Unis) de la Sibérie (Russie) ?",
+      answer: "Le détroit de Béring.",
       explanation:
-        "Auguste est le fondateur du Principat, la première phase de l'Empire romain, qu'il a dirigé de 27 av. J.-C. jusqu'à sa mort en 14 apr. J.-C.",
+        "Il relie la mer des Tchouktches (océan Arctique) et la mer de Béring (océan Pacifique) et fut nommé d'après l'explorateur Vitus Béring.",
     },
     open_question: {
       question:
-        "Faut-il mettre en place un système de vote obligatoire dans les démocraties pour garantir une participation maximale ?",
+        "Le droit à l'oubli numérique devrait-il être absolu ou limité par l'intérêt historique et la liberté d'expression ?",
       notes:
-        "Débat sur la citoyenneté, la légitimité des élus et la liberté individuelle.",
+        "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
     },
     did_you_know: {
-      text: "Les humains et les bananes partagent environ 50% de leur ADN.",
+      text: "La phrase 'Houston, nous avons un problème' n'a jamais été prononcée exactement sous cette forme. La phrase réelle était 'Houston, we've had a problem' lors de la mission Apollo 13.",
     },
   },
   {
     date: "2026-01-10",
     general_question: {
-      question: "Quelle est l'unité de mesure de la résistance électrique ?",
-      answer: "L'Ohm (Ω).",
+      question:
+        "En architecture, comment appelle-t-on un élément de construction situé en haut d'un mur qui sert à supporter une structure en surplomb ?",
+      answer: "Une corniche.",
       explanation:
-        "L'ohm est l'unité de résistance électrique du Système international (SI), nommée d'après le physicien allemand Georg Simon Ohm.",
+        "Une corniche est un élément horizontal saillant qui sert souvent de couronnement à un bâtiment ou à une partie de celui-être.",
     },
     open_question: {
       question:
-        "Le sport professionnel moderne est-il trop axé sur le profit, au détriment de l'esprit sportif et de l'accessibilité ?",
+        "Le système éducatif actuel prépare-t-il adéquatement les jeunes aux métiers du futur, dominés par l'IA et l'automatisation ?",
       notes:
-        "Débat sur les salaires des athlètes, les contrats publicitaires et l'impact de l'argent sur la compétition.",
+        "Discussion sur l'importance des 'soft skills', de l'apprentissage continu et de la littératie numérique.",
     },
     did_you_know: {
-      text: "Le savais-tu ? La NASA utilise des brosses à dents pour nettoyer en douceur les roches fossilisées sur les sites d'exploration.",
+      text: "Les girafes ont le même nombre de vertèbres cervicales (sept) que les humains, mais elles sont beaucoup plus longues.",
     },
   },
   {
     date: "2026-01-11",
     general_question: {
-      question: "Dans quel roman apparaît le personnage de Jean Valjean ?",
-      answer: "Les Misérables.",
+      question: "Quel est le nom du virus qui cause la pandémie de SIDA ?",
+      answer: "Le VIH (Virus de l'Immunodéficience Humaine).",
       explanation:
-        "Écrit par Victor Hugo en 1862, ce roman épique suit la vie de Jean Valjean, un ancien forçat en quête de rédemption.",
+        "Le VIH attaque le système immunitaire, le rendant incapable de lutter contre les infections, conduisant au SIDA (Syndrome d'Immunodéficience Acquise).",
     },
     open_question: {
       question:
-        "Le 'zéro déchet' est-il un objectif réaliste ou une utopie pour la majorité des foyers ?",
+        "Comment l'urbanisme peut-il être repensé pour améliorer la qualité de vie et réduire l'empreinte carbone des grandes métropoles ?",
       notes:
-        "Débat sur les défis logistiques et économiques du mode de vie 'zéro déchet' face à la société de consommation.",
+        "Débat sur la 'ville du quart d'heure', les transports doux et la végétalisation urbaine.",
     },
     did_you_know: {
-      text: "Le mot 'pangramme' désigne une phrase qui utilise toutes les lettres de l'alphabet au moins une fois (ex: Portez ce vieux whisky au juge blond qui fume).",
+      text: "Les fourmis peuvent soulever entre 50 et 100 fois leur propre poids, ce qui est proportionnellement bien supérieur aux capacités humaines.",
     },
   },
   {
     date: "2026-01-12",
     general_question: {
-      question:
-        "Quel gaz est responsable de l'odeur caractéristique de l'ail et des oignons ?",
-      answer: "Les composés soufrés (ou organo-sulfurés).",
+      question: "Quelle rivière traverse la ville de Londres ?",
+      answer: "La Tamise.",
       explanation:
-        "Ce sont des molécules organiques contenant du soufre qui sont libérées lorsque les cellules sont écrasées ou coupées, provoquant l'odeur et parfois les larmes.",
+        "Elle prend sa source dans les collines de Cotswold et se jette dans la mer du Nord. Elle est la plus longue rivière entièrement située en Angleterre.",
     },
     open_question: {
       question:
-        "Devrait-on imposer une éducation financière obligatoire dès le lycée ?",
+        "Le droit d'auteur doit-il être révisé à l'ère des contenus générés par l'IA (texte, art, musique) ?",
       notes:
-        "Débat sur la nécessité d'enseigner la gestion budgétaire, l'épargne et l'investissement aux jeunes.",
+        "Discussion sur la paternité des œuvres, l'entraînement des modèles d'IA sur des données protégées et la rémunération des artistes.",
     },
     did_you_know: {
-      text: "Le ciel est bleu parce que l'atmosphère terrestre diffuse plus efficacement la lumière bleue que les autres couleurs (phénomène de diffusion de Rayleigh).",
+      text: "Le cœur d'une baleine bleue est si grand qu'un humain pourrait nager dans ses artères.",
     },
   },
   {
     date: "2026-01-13",
     general_question: {
-      question: "Quelle est la plus grande île du monde (hors continents) ?",
-      answer: "Le Groenland.",
+      question: "Qui a peint 'La Nuit étoilée' ?",
+      answer: "Vincent van Gogh.",
       explanation:
-        "Le Groenland, territoire autonome rattaché au Danemark, est la plus grande île non continentale avec une superficie de plus de 2,1 millions de km².",
+        "Ce célèbre tableau post-impressionniste, peint en 1889, représente la vue qu'il avait de sa chambre à l'asile de Saint-Rémy-de-Provence.",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être légalement obligées de divulguer les algorithmes utilisés pour prendre des décisions importantes (recrutement, prêts) ?",
+        "Faut-il imposer des limites aux multinationales en matière d'optimisation fiscale (évasion fiscale légale) ?",
       notes:
-        "Débat sur la transparence des algorithmes et le risque de biais dans les systèmes automatisés.",
+        "Débat sur les impôts minimums mondiaux, la concurrence fiscale et l'équité des contributions.",
     },
     did_you_know: {
-      text: "La température la plus basse jamais enregistrée sur Terre est de $-89,2^{circ}\text{C}$ à Vostok, Antarctique, en 1983.",
+      text: "Les chameaux ont trois paupières pour se protéger du sable du désert.",
     },
   },
   {
     date: "2026-01-14",
     general_question: {
-      question: "Qui a inventé le téléphone en 1876 ?",
-      answer: "Alexander Graham Bell.",
+      question:
+        "Quel pays a été le premier à accorder le droit de vote aux femmes en 1893 ?",
+      answer: "La Nouvelle-Zélande.",
       explanation:
-        "Bell a déposé le brevet pour le téléphone en mars 1876. Il y a eu débat avec Elisha Gray, mais Bell est généralement reconnu comme l'inventeur commercial.",
+        "La Nouvelle-Zélande est le premier pays au monde à avoir accordé le droit de vote sans restriction aux femmes en 1893.",
     },
     open_question: {
       question:
-        "Le développement de l'énergie nucléaire est-il une nécessité face à l'urgence climatique, malgré ses risques ?",
+        "Les technologies de surveillance de masse (caméras intelligentes, reconnaissance faciale) sont-elles un mal nécessaire pour la sécurité urbaine ?",
       notes:
-        "Débat sur l'énergie bas carbone, la gestion des déchets radioactifs et la sécurité des installations.",
+        "Discussion sur la balance entre la sécurité publique et les libertés individuelles, ainsi que les risques de dérives autoritaires.",
     },
     did_you_know: {
-      text: "Les crocodiles ne peuvent pas tirer leur langue, car celle-ci est fixée au fond de leur gueule.",
+      text: "Le jour le plus froid jamais enregistré sur Terre était de $-89,2$ degrés Celsius, mesuré à la station Vostok en Antarctique, le 21 juillet 1983.",
     },
   },
   {
     date: "2026-01-15",
     general_question: {
-      question: "Quelle est la monnaie officielle du Japon ?",
-      answer: "Le Yen (¥).",
-      explanation:
-        "Le Yen est la troisième devise la plus échangée sur le marché des changes après le dollar américain et l'euro.",
-    },
-    open_question: {
-      question:
-        "Dans quelle mesure l'Histoire enseignée dans les écoles doit-elle être révisée pour inclure des perspectives non-occidentales ?",
-      notes:
-        "Débat sur le programme scolaire, la décolonisation de l'Histoire et la mémoire collective.",
-    },
-    did_you_know: {
-      text: "Le plus grand organisme vivant connu est un champignon, Armillaria ostoyae, qui s'étend sur plus de 9 km² dans l'Oregon, aux États-Unis.",
-    },
-  },
-  {
-    date: "2026-01-16",
-    general_question: {
-      question: "Quel océan borde la côte est des États-Unis ?",
-      answer: "L'océan Atlantique.",
-      explanation:
-        "L'océan Atlantique sépare les Amériques de l'Europe et de l'Afrique.",
-
-      open_question: {
-        question:
-          "La créativité humaine peut-elle être réellement remplacée par des outils d'Intelligence Artificielle générative ?",
-        notes:
-          "Débat sur la propriété intellectuelle, l'originalité et le rôle de l'artiste à l'ère du numérique.",
-      },
-      did_you_know: {
-        text: "Les flocons de neige se forment en hexagones (six côtés) car les molécules d'eau se lient de manière à créer des réseaux cristallins à six branches stables.",
-      },
-    },
-
-    date: "2026-01-17",
-    general_question: {
-      question:
-        "Quel est le nom de l'instrument de musique national de l'Écosse ?",
-      answer: "La cornemuse (Great Highland Bagpipe).",
-      explanation:
-        "Bien que la cornemuse existe dans de nombreuses cultures, l'instrument est fortement associé à la culture écossaise.",
-    },
-    open_question: {
-      question:
-        "Le sport électronique (e-sport) mérite-t-il d'être reconnu comme un sport olympique officiel ?",
-      notes:
-        "Débat sur la définition du sport, l'effort physique et la reconnaissance culturelle du jeu vidéo.",
-    },
-    did_you_know: {
-      text: "Le corps humain contient assez de carbone pour fabriquer 9 000 crayons.",
-    },
-  },
-  {
-    date: "2026-01-18",
-    general_question: {
-      question: "Qui a peint 'La Joconde' (Mona Lisa) ?",
-      answer: "Léonard de Vinci.",
-      explanation:
-        "Ce portrait, achevé vers 1506, est exposé au musée du Louvre à Paris et est considéré comme l'une des œuvres d'art les plus célèbres au monde.",
-    },
-    open_question: {
-      question:
-        "Le 'droit à la déconnexion' est-il suffisant pour protéger les employés des exigences du travail constant ?",
-      notes:
-        "Débat sur les frontières entre vie professionnelle et vie privée à l'ère des smartphones et des mails professionnels tardifs.",
-    },
-    did_you_know: {
-      text: "Le silence complet n'existe pas : si vous vous trouvez dans une chambre anéchoïque (insonorisée), vous entendrez le son de votre propre cœur et de votre sang circulant.",
-    },
-  },
-  {
-    date: "2026-01-19",
-    general_question: {
-      question: "Quelle est la formule chimique du sel de table ?",
-      answer: "NaCl (Chlorure de sodium).",
-      explanation:
-        "Le chlorure de sodium est un composé ionique essentiel à la vie et le principal composant du sel de table.",
-    },
-    open_question: {
-      question:
-        "Devrait-on limiter l'utilisation de l'eau pour l'agriculture intensive dans les régions soumises à la sécheresse ?",
-      notes:
-        "Débat sur la sécurité alimentaire, la gestion des ressources en eau et l'impact du changement climatique.",
-    },
-    did_you_know: {
-      text: "Jupiter est si grand que tous les autres corps du système solaire (planètes, astéroïdes, comètes, etc.) pourraient tenir à l'intérieur.",
-    },
-  },
-  {
-    date: "2026-01-20",
-    general_question: {
-      question:
-        "Quel pays est le berceau de la philosophie stoïcienne antique ?",
-      answer: "La Grèce (Athènes).",
-      explanation:
-        "Le Stoïcisme a été fondé à Athènes par Zénon de Citium vers 300 av. J.-C. Il met l'accent sur la vertu, la raison et le contrôle des émotions.",
-    },
-    open_question: {
-      question:
-        "Les gouvernements devraient-ils investir massivement dans la géo-ingénierie pour lutter contre le réchauffement climatique ?",
-      notes:
-        "Débat sur les solutions technologiques radicales, le risque de conséquences imprévues et l'éthique de la manipulation du climat.",
-    },
-    did_you_know: {
-      text: "Un cafard peut vivre plusieurs semaines sans tête ; il meurt finalement de faim, car il ne peut plus boire d'eau.",
-    },
-  },
-  {
-    date: "2026-01-21",
-    general_question: {
-      question: "Quel fleuve traverse Londres ?",
-      answer: "La Tamise.",
-      explanation:
-        "La Tamise (Thames en anglais) est le fleuve le plus long entièrement en Angleterre et a été essentielle au développement historique de Londres.",
-    },
-    open_question: {
-      question:
-        "La surveillance numérique de masse (caméras, reconnaissance faciale) est-elle compatible avec une société libre et démocratique ?",
-      notes:
-        "Débat sur la sécurité publique, le droit à la vie privée et les abus potentiels de la technologie de surveillance.",
-    },
-    did_you_know: {
-      text: "Le miel est le seul aliment qui ne se gâte pas. Des pots de miel vieux de milliers d'années ont été trouvés dans des tombes égyptiennes et étaient encore comestibles.",
-    },
-  },
-  {
-    date: "2026-01-22",
-    general_question: {
-      question: "Qui a découvert la pénicilline en 1928 ?",
-      answer: "Alexander Fleming.",
-      explanation:
-        "Le médecin et bactériologiste écossais a accidentellement découvert les propriétés antibactériennes du champignon Penicillium rubens.",
-    },
-    open_question: {
-      question:
-        "Le système de notation scolaire traditionnel (notes, examens) est-il un bon indicateur de la capacité d'apprentissage et de la réussite future ?",
-      notes:
-        "Débat sur l'évaluation, la mémorisation vs. la pensée critique, et le stress lié aux notes.",
-    },
-    did_you_know: {
-      text: "Le colibri est le seul oiseau capable de voler en arrière.",
-    },
-  },
-  {
-    date: "2026-01-23",
-    general_question: {
-      question: "Quelle est la capitale du Canada ?",
-      answer: "Ottawa.",
-      explanation:
-        "Ottawa, en Ontario, est la capitale fédérale du Canada. Elle a été choisie par la reine Victoria en 1857 pour son emplacement stratégique et neutre.",
-    },
-    open_question: {
-      question:
-        "Faut-il limiter le droit de propriété pour des raisons écologiques (ex: interdiction de construire sur certaines terres naturelles) ?",
-      notes:
-        "Débat sur le droit individuel vs. l'intérêt général de la préservation de l'environnement.",
-    },
-    did_you_know: {
-      text: "La Terre est la seule planète de notre système solaire qui ne doit pas son nom à une divinité gréco-romaine.",
-    },
-  },
-  {
-    date: "2026-01-24",
-    general_question: {
-      question: "Dans quel pays se trouve le célèbre Machu Picchu ?",
-      answer: "Au Pérou.",
-      explanation:
-        "Cette citadelle inca du XVe siècle est située dans la cordillère des Andes, au-dessus de la Vallée Sacrée.",
-    },
-    open_question: {
-      question:
-        "Le développement de véhicules autonomes est-il un progrès incontournable ou un risque sécuritaire et social trop grand ?",
-      notes:
-        "Débat sur l'impact sur l'emploi (chauffeurs), la sécurité routière et l'éthique des décisions algorithmiques en cas d'accident.",
-    },
-    did_you_know: {
-      text: "Les vaches ont chacune une meilleure amie et peuvent être stressées lorsqu'elles en sont séparées.",
-    },
-  },
-  {
-    date: "2026-01-25",
-    general_question: {
-      question: "Quel est le plus grand mammifère terrestre ?",
-      answer: "L'éléphant d'Afrique.",
-      explanation:
-        "L'éléphant de savane d'Afrique est le plus grand animal terrestre. Les mâles peuvent peser jusqu'à 6 tonnes.",
-    },
-    open_question: {
-      question:
-        "L'anonymat sur Internet devrait-il être strictement réglementé pour prévenir la cyberintimidation et la criminalité ?",
-      notes:
-        "Débat sur le droit à l'anonymat comme protection des lanceurs d'alerte et la nécessité d'identifier les auteurs d'abus.",
-    },
-    did_you_know: {
-      text: "Le soleil est si puissant qu'il peut éclairer la Terre même à 150 millions de kilomètres de distance.",
-    },
-  },
-  {
-    date: "2026-01-26",
-    general_question: {
-      question:
-        "Quel dramaturge anglais a écrit 'Hamlet' et 'Roméo et Juliette' ?",
-      answer: "William Shakespeare.",
-      explanation:
-        "Souvent considéré comme le plus grand écrivain de langue anglaise, il est l'auteur de 39 pièces de théâtre et de 154 sonnets.",
-    },
-    open_question: {
-      question:
-        "L'obsolescence programmée devrait-elle être sévèrement punie pour encourager la durabilité des produits ?",
-      notes:
-        "Débat sur la responsabilité des fabricants et la promotion d'une économie circulaire.",
-    },
-    did_you_know: {
-      text: "Un an (une période orbitale) sur Mercure (88 jours terrestres) est plus court qu'une journée sidérale (la durée d'une rotation : 58 jours terrestres).",
-    },
-  },
-  {
-    date: "2026-01-27",
-    general_question: {
-      question:
-        "Quel était le nom du premier satellite artificiel lancé dans l'espace en 1957 ?",
-      answer: "Spoutnik 1.",
-      explanation:
-        "Lancé par l'Union Soviétique, Spoutnik 1 a marqué le début de l'ère spatiale et de la course à l'espace avec les États-Unis.",
-    },
-    open_question: {
-      question:
-        "Faut-il instaurer une 'taxe carbone' mondiale uniforme pour financer la transition écologique ?",
-      notes:
-        "Débat sur l'équité de cette taxe pour les pays en développement et son impact sur le coût de la vie.",
-    },
-    did_you_know: {
-      text: "Les escargots ont environ 14 000 dents, situées sur leur langue appelée radula.",
-    },
-  },
-  {
-    date: "2026-01-28",
-    general_question: {
-      question:
-        "Quel célèbre scientifique est connu pour avoir laissé tomber un marteau et une plume en même temps sur la Lune (vidéo) ?",
-      answer: "David Scott.",
-      explanation:
-        "Ceci a été réalisé lors de la mission Apollo 15 en 1971 pour démontrer que, sans résistance de l'air, tous les objets tombent à la même vitesse (principe d'équivalence de Galilée).",
-    },
-    open_question: {
-      question:
-        "Le sport de haut niveau nécessite-t-il l'utilisation de méthodes extrêmes (nutrition, entraînement, médicaments) qui dépassent les limites éthiques ?",
-      notes:
-        "Débat sur le dopage, la pression de la performance et la santé à long terme des athlètes.",
-    },
-    did_you_know: {
-      text: "La lumière met environ 8 minutes et 20 secondes pour voyager du Soleil à la Terre.",
-    },
-  },
-  {
-    date: "2026-01-29",
-    general_question: {
-      question: "Quelle est la plus longue chaîne de montagnes du monde ?",
-      answer: "Les Andes.",
-      explanation:
-        "Situées en Amérique du Sud, les Andes s'étendent sur environ 7 000 km, traversant sept pays.",
-    },
-    open_question: {
-      question:
-        "L'art doit-il être financé principalement par des fonds publics ou par des mécènes privés ?",
-      notes:
-        "Débat sur l'indépendance artistique, l'accès à la culture et la politique budgétaire.",
-    },
-    did_you_know: {
-      text: "Le pingouin Adélie est un oiseau, mais il passe environ 75% de sa vie dans l'eau.",
-    },
-  },
-  {
-    date: "2026-01-30",
-    general_question: {
-      question:
-        "Quel est le seul pays d'Amérique du Sud dont le nom vient d'une ligne imaginaire ?",
-      answer: "L'Équateur.",
-      explanation:
-        "Son nom dérive de l'équateur, la ligne de latitude zéro qui traverse le pays.",
-    },
-    open_question: {
-      question:
-        "Est-il éthique de créer des 'bébés à la carte' par modification génétique pour éliminer certaines maladies héréditaires ?",
-      notes:
-        "Débat sur le génie génétique, le risque de dérives eugénistes et l'acceptation du handicap.",
-    },
-    did_you_know: {
-      text: "Le 'test du Marshmallow' est une célèbre expérience psychologique qui mesurait l'autocontrôle chez les enfants.",
-    },
-  },
-  {
-    date: "2026-01-31",
-    general_question: {
-      question:
-        "Quel scientifique a découvert le noyau atomique à travers l'expérience de la feuille d'or ?",
-      answer: "Ernest Rutherford.",
-      explanation:
-        "En 1911, Rutherford a démontré que l'atome possède un noyau petit et dense chargé positivement, remettant en cause le modèle de Thomson (plum pudding).",
-    },
-    open_question: {
-      question:
-        "Faut-il imposer l'apprentissage du code informatique (programmation) dès l'école primaire ?",
-      notes:
-        "Débat sur les compétences numériques, la pensée logique et l'adaptation aux métiers du futur.",
-    },
-    did_you_know: {
-      text: "Le bourdonnement que vous entendez dans une coquille de mer n'est pas l'océan, mais le son ambiant de votre environnement amplifié et réverbéré à l'intérieur de la coquille.",
-    },
-  },
-
-  // Jours 40 à 68 : Février 2026 (28 jours)
-  {
-    date: "2026-02-01",
-    general_question: {
-      question:
-        "Quel est l'organe qui consomme le plus d'oxygène dans le corps humain ?",
-      answer: "Le cerveau.",
-      explanation:
-        "Bien qu'il ne représente qu'environ 2% du poids corporel, le cerveau consomme près de 20% de l'oxygène total du corps au repos.",
-    },
-    open_question: {
-      question:
-        "Les voyages internationaux devraient-ils être limités pour les particuliers, et réservés aux nécessités professionnelles ou humanitaires ?",
-      notes:
-        "Débat sur la réduction de l'empreinte carbone personnelle et l'impact sur le tourisme et les échanges culturels.",
-    },
-    did_you_know: {
-      text: "L'étoile la plus proche du système solaire est Proxima Centauri, située à environ 4,24 années-lumière de la Terre.",
-    },
-  },
-  {
-    date: "2026-02-02",
-    general_question: {
-      question: "Quel est le nom du plus long fleuve du monde ?",
-      answer: "L'Amazone.",
-      explanation:
-        "Bien que le Nil ait longtemps été considéré comme le plus long, des études récentes (2007) confirment que l'Amazone le dépasse légèrement, atteignant environ 7 062 km.",
-    },
-    open_question: {
-      question:
-        "Devrait-on autoriser la création de réserves naturelles entièrement gérées par l'intelligence artificielle pour la protection de la faune ?",
-      notes:
-        "Débat sur l'efficacité des systèmes automatisés face à l'expertise humaine et l'éthique de la gestion des écosystèmes.",
-    },
-    did_you_know: {
-      text: "Le drapeau de la Californie, 'Bear Flag', porte un ours grizzly, mais aucun ours grizzly sauvage n'a été vu en Californie depuis 1922.",
-    },
-  },
-  {
-    date: "2026-02-03",
-    general_question: {
-      question: "Quel est le seul continent qui est aussi un pays ?",
-      answer: "L'Australie.",
-      explanation:
-        "Le continent de l'Australie est composé du Commonwealth d'Australie, de la Tasmanie, de la Nouvelle-Guinée et d'autres îles environnantes. Souvent, on confond le continent (Australie/Océanie) et le pays (Australie).",
-    },
-    open_question: {
-      question:
-        "Le sport pour enfants doit-il se concentrer sur la compétition ou sur le développement des compétences et le plaisir ?",
-      notes:
-        "Débat sur la pression précoce, les bienfaits du jeu et la spécialisation sportive.",
-    },
-    did_you_know: {
-      text: "Les chevreuils n'ont pas de vésicule biliaire.",
-    },
-  },
-  {
-    date: "2026-02-04",
-    general_question: {
-      question: "Quel compositeur est l'auteur des 'Quatre Saisons' ?",
-      answer: "Antonio Vivaldi.",
-      explanation:
-        "Ce groupe de quatre concertos pour violon est l'une des œuvres les plus célèbres du répertoire de la musique classique baroque. ",
-    },
-    open_question: {
-      question:
-        "Faut-il limiter la durée des mandats politiques pour favoriser le renouvellement des idées et prévenir la corruption ?",
-      notes:
-        "Débat sur l'expérience politique versus la stagnation du pouvoir et le professionnalisme de la classe politique.",
-    },
-    did_you_know: {
-      text: "La plus ancienne loi toujours en vigueur au monde est celle sur les feux de circulation au Royaume-Uni (datant de 1865).",
-    },
-  },
-  {
-    date: "2026-02-05",
-    general_question: {
-      question: "Quel gaz est le plus abondant dans l'atmosphère terrestre ?",
-      answer: "L'Azote (N₂).",
-      explanation:
-        "L'azote représente environ 78% de l'atmosphère, suivi par l'oxygène (environ 21%).",
-    },
-    open_question: {
-      question:
-        "Le 'bien-être animal' doit-il être placé au même niveau de priorité que les droits humains dans les lois nationales ?",
-      notes:
-        "Débat sur l'éthique de l'exploitation animale, la sentience et la hiérarchie des droits.",
-    },
-    did_you_know: {
-      text: "Le seul aliment qui ne se gâte pas et ne pourrit pas est le miel.",
-    },
-  },
-  {
-    date: "2026-02-06",
-    general_question: {
-      question: "Quel est le prénom du fondateur de la marque Ferrari ?",
-      answer: "Enzo.",
-      explanation:
-        "Enzo Ferrari (1898-1988) était un pilote automobile italien et le fondateur de la Scuderia Ferrari, puis de la compagnie automobile Ferrari.",
-    },
-    open_question: {
-      question:
-        "Faut-il rendre l'accès à l'université gratuit, indépendamment des revenus des étudiants et de leurs résultats ?",
-      notes:
-        "Débat sur l'égalité des chances, la qualité de l'enseignement supérieur et le financement public.",
-    },
-    did_you_know: {
-      text: "La température du corps humain augmente légèrement à mesure que le jour avance et diminue au milieu de la nuit.",
-    },
-  },
-  {
-    date: "2026-02-07",
-    general_question: {
-      question:
-        "Comment s'appelle l'organe qui régule le taux de sucre dans le sang (glycémie) ?",
+      question: "Quel est l'organe qui produit l'insuline ?",
       answer: "Le pancréas.",
       explanation:
-        "Le pancréas produit l'insuline et le glucagon, deux hormones qui contrôlent les niveaux de glucose dans le sang.",
+        "L'insuline est une hormone vitale produite par les îlots de Langerhans du pancréas, et elle permet de réguler le taux de sucre dans le sang (glycémie).",
     },
     open_question: {
       question:
-        "Les technologies de réalité virtuelle et augmentée sont-elles une échappatoire bienvenue ou une menace pour la connexion sociale réelle ?",
+        "Faut-il légaliser et encadrer le marché des organes humains pour sauver des vies et combattre le trafic illégal ?",
       notes:
-        "Débat sur l'immersion numérique, l'isolement social et l'avenir des interactions humaines.",
-    },
-    did_you_know: {
-      text: "En moyenne, un adulte sourit 15 fois par jour, tandis qu'un enfant sourit environ 400 fois par jour.",
-    },
-  },
-  {
-    date: "2026-02-08",
-    general_question: {
-      question: "Quelle est la plus grande planète du système solaire ?",
-      answer: "Jupiter.",
-      explanation:
-        "Jupiter est plus de deux fois et demie plus massive que toutes les autres planètes combinées.",
-    },
-    open_question: {
-      question:
-        "Faut-il développer une législation mondiale unique pour encadrer la protection des données personnelles en ligne ?",
-      notes:
-        "Débat sur la souveraineté numérique, le RGPD européen et la coopération internationale en matière de vie privée.",
-    },
-    did_you_know: {
-      text: "Les koalas dorment en moyenne 20 heures par jour, en partie à cause de leur régime alimentaire pauvre en calories à base de feuilles d'eucalyptus.",
-    },
-  },
-  {
-    date: "2026-02-09",
-    general_question: {
-      question:
-        "Quel pays a pour devise nationale 'Liberté, Égalité, Fraternité' ?",
-      answer: "La France.",
-      explanation:
-        "Cette devise républicaine trouve ses origines dans la Révolution française et est inscrite dans la Constitution française.",
-    },
-    open_question: {
-      question:
-        "Le mouvement végane est-il une solution écologique et éthique ou une approche trop radicale de l'alimentation ?",
-      notes:
-        "Débat sur l'impact environnemental de la viande, le traitement des animaux et les défis nutritionnels du véganisme.",
-    },
-    did_you_know: {
-      text: "Les chauves-souris sont les seuls mammifères capables de voler.",
-    },
-  },
-  {
-    date: "2026-02-10",
-    general_question: {
-      question: "Qui a peint le plafond de la chapelle Sixtine ?",
-      answer: "Michel-Ange (Michelangelo).",
-      explanation:
-        "Michel-Ange a peint le célèbre plafond entre 1508 et 1512, sur commande du pape Jules II. L'œuvre la plus célèbre est 'La Création d'Adam'.",
-    },
-    open_question: {
-      question:
-        "La critique et l'opposition politique sont-elles plus importantes pour une démocratie que le consensus et la stabilité ?",
-      notes:
-        "Débat sur le rôle de l'opposition, la polarisation et l'efficacité gouvernementale.",
-    },
-    did_you_know: {
-      text: "Il faut environ 8 minutes pour que les globules rouges parcourent le corps humain en entier.",
-    },
-  },
-  {
-    date: "2026-02-11",
-    general_question: {
-      question:
-        "Quel scientifique a découvert la loi de la gravitation universelle ?",
-      answer: "Isaac Newton.",
-      explanation:
-        "Newton a formulé cette loi dans son ouvrage 'Philosophiae Naturalis Principia Mathematica' (1687), décrivant la force d'attraction entre deux masses. ",
-    },
-    open_question: {
-      question:
-        "La privatisation des services publics essentiels (eau, énergie, santé) est-elle inévitable ou doit-elle être évitée ?",
-      notes:
-        "Débat sur l'efficacité du marché versus l'accès universel et l'équité des services.",
-    },
-    did_you_know: {
-      text: "L'organe le plus long du corps humain n'est pas l'intestin grêle, mais la peau, qui couvre une surface de près de 2 mètres carrés chez l'adulte.",
-    },
-  },
-  {
-    date: "2026-02-12",
-    general_question: {
-      question:
-        "Quel gaz est le principal responsable de l'effet de serre d'origine humaine ?",
-      answer: "Le dioxyde de carbone ($\text{CO}_2$).",
-      explanation:
-        "Le $\text{CO}_2$ est libéré en grande quantité par la combustion des énergies fossiles et est le moteur principal du réchauffement climatique anthropique.",
-    },
-    open_question: {
-      question:
-        "Les influenceurs des réseaux sociaux devraient-ils être tenus responsables des conseils (financiers, santé) qu'ils donnent à leurs abonnés ?",
-      notes:
-        "Débat sur la crédibilité, la désinformation et la réglementation des contenus promotionnels et informatifs.",
-    },
-    did_you_know: {
-      text: "Le plus long mot français sans aucune lettre répétée est 'syndicalisme' (12 lettres).",
-    },
-  },
-  {
-    date: "2026-02-13",
-    general_question: {
-      question: "Quel pays a donné naissance à la danse du Tango ?",
-      answer: "L'Argentine (et l'Uruguay).",
-      explanation:
-        "Le Tango est né dans les faubourgs de Buenos Aires (Argentine) et Montevideo (Uruguay) à la fin du XIXe siècle.",
-    },
-    open_question: {
-      question:
-        "Faut-il abolir les tests sur animaux pour la recherche scientifique, même si cela ralentit les avancées médicales ?",
-      notes:
-        "Débat sur l'éthique animale, les méthodes alternatives et les impératifs de la santé humaine.",
-    },
-    did_you_know: {
-      text: "Les fourmis sont plus nombreuses sur Terre que les humains, avec une biomasse totale estimée similaire à celle de l'humanité.",
-    },
-  },
-  {
-    date: "2026-02-14",
-    general_question: {
-      question: "Quel est le seul métal liquide à température ambiante ?",
-      answer: "Le Mercure (Hg).",
-      explanation:
-        "Le mercure est un élément chimique unique, métal et liquide, utilisé historiquement dans les thermomètres avant d'être remplacé par des alternatives moins toxiques.",
-    },
-    open_question: {
-      question:
-        "La Saint-Valentin est-elle une fête commerciale ou une célébration utile de l'amour dans une société individualiste ?",
-      notes:
-        "Débat sur la consommation, les traditions et l'expression des sentiments.",
-    },
-    did_you_know: {
-      text: "La plus petite montagne du monde, le Mont Wycheproof en Australie, mesure seulement 43 mètres de haut.",
-    },
-  },
-  {
-    date: "2026-02-15",
-    general_question: {
-      question: "Qui a peint 'Le Cri' ?",
-      answer: "Edvard Munch.",
-      explanation:
-        "Ce tableau expressionniste norvégien (créé en plusieurs versions entre 1893 et 1910) est souvent interprété comme une représentation de l'angoisse existentielle moderne.",
-    },
-    open_question: {
-      question:
-        "La liberté d'expression doit-elle permettre la diffusion de propos offensants ou discriminatoires ?",
-      notes:
-        "Débat sur les limites de la liberté d'expression face au respect d'autrui et aux lois anti-haine.",
-    },
-    did_you_know: {
-      text: "Un 'jiffy' est une unité de temps réelle, définie en physique comme le temps qu'il faut à la lumière pour parcourir un centimètre dans le vide (environ 33 picosecondes).",
-    },
-  },
-  {
-    date: "2026-02-16",
-    general_question: {
-      question: "Quelle est la capitale de l'Allemagne ?",
-      answer: "Berlin.",
-      explanation:
-        "Berlin est à la fois la capitale et la plus grande ville d'Allemagne, jouant un rôle central dans l'histoire européenne contemporaine.",
-    },
-    open_question: {
-      question:
-        "Devrait-on créer une citoyenneté mondiale pour traiter les problèmes transnationaux (climat, pandémies) ?",
-      notes:
-        "Débat sur la souveraineté nationale versus la gouvernance mondiale et la solidarité internationale.",
-    },
-    did_you_know: {
-      text: "La pomme de terre, en plus d'être un féculent, est un légume qui contient 80% d'eau.",
-    },
-  },
-  {
-    date: "2026-02-17",
-    general_question: {
-      question:
-        "Quel animal est le symbole de la sagesse dans de nombreuses cultures occidentales ?",
-      answer: "La chouette (ou le hibou).",
-      explanation:
-        "Dans la mythologie grecque, la chouette était l'attribut de la déesse Athéna, déesse de la sagesse et de la stratégie.",
-    },
-    open_question: {
-      question:
-        "Le système de santé doit-il privilégier les soins préventifs plutôt que les traitements curatifs ?",
-      notes:
-        "Débat sur l'investissement dans la prévention (éducation, dépistage) et le coût du traitement des maladies chroniques.",
-    },
-    did_you_know: {
-      text: "Le lac Baïkal en Sibérie contient environ 20% de l'eau douce de surface non gelée du monde.",
-    },
-  },
-  {
-    date: "2026-02-18",
-    general_question: {
-      question:
-        "Quel célèbre bâtiment a été construit pour l'Exposition universelle de 1889 à Paris ?",
-      answer: "La Tour Eiffel.",
-      explanation:
-        "Conçue par Gustave Eiffel, elle devait initialement être démolie après l'Exposition, mais son utilité pour la transmission radio l'a sauvée.",
-    },
-    open_question: {
-      question:
-        "L'automatisation et les robots vont-ils libérer les humains du travail ou provoquer un chômage de masse ?",
-      notes:
-        "Débat sur la transformation du marché de l'emploi, la reconversion professionnelle et le rôle du travail dans la société.",
-    },
-    did_you_know: {
-      text: "Le cri du paon s'appelle le léonnement. Le cri est très aigu et strident.",
-    },
-  },
-  {
-    date: "2026-02-19",
-    general_question: {
-      question:
-        "Quelles sont les trois couleurs primaires additives (lumière) ?",
-      answer: "Rouge, Vert, Bleu (RVB).",
-      explanation:
-        "Les couleurs primaires additives sont utilisées dans les écrans d'ordinateur et la télévision. Leur superposition crée le blanc.",
-    },
-    open_question: {
-      question:
-        "L'adoption par les couples de même sexe devrait-elle être légalement autorisée dans tous les pays ?",
-      notes:
-        "Débat sur l'égalité des droits, le bien-être de l'enfant et la définition traditionnelle de la famille.",
-    },
-    did_you_know: {
-      text: "La plus petite partie d'un être vivant capable de fonctionner de manière autonome est la cellule.",
-    },
-  },
-  {
-    date: "2026-02-20",
-    general_question: {
-      question: "Quel prix Nobel est attribué dans le domaine de l'économie ?",
-      answer:
-        "Le Prix de la Banque de Suède en sciences économiques en mémoire d'Alfred Nobel.",
-      explanation:
-        "Il n'est pas techniquement un prix Nobel 'original', mais il est administré et présenté avec les autres prix Nobel.",
-    },
-    open_question: {
-      question:
-        "Devrait-on interdire la possession de voitures individuelles dans les centres-villes pour des raisons écologiques et de congestion ?",
-      notes:
-        "Débat sur la mobilité urbaine, les transports en commun et la liberté individuelle de déplacement.",
-    },
-    did_you_know: {
-      text: "Le son voyage près de 5 fois plus vite dans l'eau que dans l'air.",
-    },
-  },
-  {
-    date: "2026-02-21",
-    general_question: {
-      question: "Qui a écrit 'Don Quichotte' ?",
-      answer: "Miguel de Cervantes.",
-      explanation:
-        "Publié en deux parties (1605 et 1615), 'L'Ingénieux Hidalgo Don Quichotte de la Manche' est considéré comme le premier roman moderne.",
-    },
-    open_question: {
-      question:
-        "Le rôle principal des médias est-il d'informer objectivement ou de servir de contre-pouvoir et d'éduquer les citoyens ?",
-      notes:
-        "Débat sur la neutralité, l'engagement et l'indépendance financière des médias.",
-    },
-    did_you_know: {
-      text: "Il y a plus de combinaisons possibles dans le jeu d'échecs (estimées à $10^{120}$) qu'il n'y a d'atomes dans l'univers observable (estimés à $10^{80}$).",
-    },
-  },
-  {
-    date: "2026-02-22",
-    general_question: {
-      question:
-        "Comment appelle-t-on la réaction chimique qui permet aux plantes de créer leur nourriture à partir de la lumière du soleil ?",
-      answer: "La photosynthèse.",
-      explanation:
-        "Processus par lequel les plantes, les algues et certaines bactéries transforment l'énergie lumineuse, l'eau et le $\text{CO}_2$ en sucres et en oxygène.",
-    },
-    open_question: {
-      question:
-        "Les artistes devraient-ils retirer leurs œuvres des plateformes qui utilisent l'IA pour générer du contenu sans compensation équitable ?",
-      notes:
-        "Débat sur la rémunération de la création, le droit d'auteur et l'utilisation des données d'entraînement par l'IA.",
-    },
-    did_you_know: {
-      text: "Il faut environ 100 litres d'eau pour produire une tasse de café (de la culture du grain à la tasse).",
-    },
-  },
-  {
-    date: "2026-02-23",
-    general_question: {
-      question:
-        "Quel est le nom du plus long fleuve d'Europe occidentale (entièrement en Europe) ?",
-      answer: "Le Danube.",
-      explanation:
-        "Le Danube est le deuxième plus long fleuve d'Europe après la Volga. Il traverse dix pays différents avant de se jeter dans la mer Noire.",
-    },
-    open_question: {
-      question:
-        "Faut-il interdire l'exploration et l'exploitation des ressources de l'Arctique pour protéger l'écosystème polaire ?",
-      notes:
-        "Débat sur les enjeux économiques (pétrole, gaz) face à l'urgence climatique et la biodiversité.",
-    },
-    did_you_know: {
-      text: "Le caméléon ne change pas de couleur pour se camoufler, mais principalement pour réguler sa température ou communiquer son humeur.",
-    },
-  },
-  {
-    date: "2026-02-24",
-    general_question: {
-      question: "Qui a été le premier homme à marcher sur la Lune ?",
-      answer: "Neil Armstrong.",
-      explanation:
-        "Il a posé le pied sur la Lune le 20 juillet 1969, lors de la mission Apollo 11, et a prononcé la célèbre phrase : 'Un petit pas pour l'homme, un pas de géant pour l'humanité'.",
-    },
-    open_question: {
-      question:
-        "Le droit de manifester est-il absolu ou doit-il être strictement encadré pour garantir l'ordre public ?",
-      notes:
-        "Débat sur la liberté de réunion, la sécurité des citoyens et les méthodes de maintien de l'ordre.",
-    },
-    did_you_know: {
-      text: "La plus vieille créature connue est une palourde d'Islande nommée Ming, morte à l'âge de 507 ans en 2006.",
-    },
-  },
-  {
-    date: "2026-02-25",
-    general_question: {
-      question: "Quel artiste est connu pour avoir peint 'La Nuit Étoilée' ?",
-      answer: "Vincent van Gogh.",
-      explanation:
-        "Le célèbre tableau 'La Nuit Étoilée' a été peint par le peintre post-impressionniste néerlandais en juin 1889, lors de son séjour à l'asile de Saint-Rémy-de-Provence.",
-    },
-    open_question: {
-      question:
-        "Faut-il accorder le droit de vote à partir de 16 ans dans les élections nationales ?",
-      notes:
-        "Débat sur la maturité politique des jeunes, leur implication civique et l'impact sur les résultats électoraux.",
-    },
-    did_you_know: {
-      text: "L'émail des dents est la substance la plus dure du corps humain.",
-    },
-  },
-  {
-    date: "2026-02-26",
-    general_question: {
-      question: "Quelle est la science qui étudie les champignons ?",
-      answer: "La mycologie.",
-      explanation:
-        "La mycologie est une branche de la biologie qui se concentre sur les champignons, leurs propriétés, leur classification et leurs usages.",
-    },
-    open_question: {
-      question:
-        "Les pays riches ont-ils une obligation morale de compenser les pays pauvres pour les dommages causés par le changement climatique ?",
-      notes:
-        "Débat sur la justice climatique, la dette historique et les fonds de 'pertes et dommages'.",
-    },
-    did_you_know: {
-      text: "La Station Spatiale Internationale (ISS) orbite autour de la Terre à environ 28 000 km/h, effectuant 16 révolutions complètes par jour.",
-    },
-  },
-  {
-    date: "2026-02-27",
-    general_question: {
-      question:
-        "Quel écrivain français est l'auteur des 'Trois Mousquetaires' ?",
-      answer: "Alexandre Dumas.",
-      explanation:
-        "Ce roman historique d'aventure (1844) raconte les exploits de d'Artagnan et de ses amis Athos, Porthos et Aramis, avec la célèbre devise : 'Un pour tous, tous pour un'.",
-    },
-    open_question: {
-      question:
-        "L'abolition de la peine de mort est-elle un signe de civilisation avancée ou une menace pour la justice et la sécurité ?",
-      notes:
-        "Débat sur les droits humains, la dissuasion et le risque d'erreur judiciaire.",
-    },
-    did_you_know: {
-      text: "Un chameau peut boire jusqu'à 150 litres d'eau en moins de 15 minutes.",
-    },
-  },
-  {
-    date: "2026-02-28",
-    general_question: {
-      question: "Quelle est l'unité de mesure de la pression atmosphérique ?",
-      answer: "Le Pascal (Pa) ou l'Hectopascal (hPa).",
-      explanation:
-        "Le Pascal est l'unité SI. L'hPa est souvent utilisé en météorologie (1 hPa = 1 millibar). La pression moyenne au niveau de la mer est d'environ 1013 hPa.",
-    },
-    open_question: {
-      question:
-        "Devrait-on financer la recherche spatiale au détriment de la résolution des problèmes terrestres (faim, pauvreté) ?",
-      notes:
-        "Débat sur l'utilité pratique de l'espace (technologies, satellites) face à l'urgence des problèmes sociaux.",
-    },
-    did_you_know: {
-      text: "Le sang de la limule (crabe fer à cheval) est bleu et est utilisé pour tester la stérilité des vaccins et des équipements médicaux.",
-    },
-  },
-
-  // Jours 69 à 100 : Mars 2026 (31 jours) et Avril 2026 (3 jours)
-
-  {
-    date: "2026-03-01",
-    general_question: {
-      question:
-        "Quel est le nom de la péninsule partagée par l'Espagne et le Portugal ?",
-      answer: "La péninsule Ibérique.",
-      explanation:
-        "La péninsule Ibérique est située à l'extrémité sud-ouest de l'Europe et est bordée par la mer Méditerranée et l'océan Atlantique.",
-    },
-    open_question: {
-      question:
-        "La liberté de la presse est-elle vraiment garantie par la loi ou est-elle inévitablement influencée par les intérêts financiers de ses propriétaires ?",
-      notes:
-        "Débat sur l'indépendance éditoriale, la concentration des médias et le journalisme d'investigation.",
-    },
-    did_you_know: {
-      text: "La Grande Barrière de Corail, au large de l'Australie, est la plus grande structure vivante sur Terre et peut être vue de l'espace.",
-    },
-  },
-  {
-    date: "2026-03-02",
-    general_question: {
-      question:
-        "Quelle est la principale fonction du cône de l'œil (cellules coniques) ?",
-      answer: "La perception des couleurs (vision diurne).",
-      explanation:
-        "Les cônes sont l'un des deux types de photorécepteurs de la rétine. Ils sont responsables de la perception des couleurs et de la vision de jour (vision photopique).",
-    },
-    open_question: {
-      question:
-        "Faut-il taxer les transactions financières spéculatives pour financer les services sociaux ?",
-      notes:
-        "Débat sur la 'taxe Tobin', la stabilité financière et la redistribution des richesses.",
-    },
-    did_you_know: {
-      text: "Les astronautes de l'ISS voient environ 16 levers et couchers de soleil chaque jour, en raison de leur vitesse orbitale.",
-    },
-  },
-  {
-    date: "2026-03-03",
-    general_question: {
-      question:
-        "Quel est le nom du célèbre musée à Saint-Pétersbourg, Russie ?",
-      answer: "Le Musée de l'Ermitage.",
-      explanation:
-        "Situé dans le Palais d'Hiver, l'Ermitage est l'un des plus grands et des plus anciens musées du monde. ",
-    },
-    open_question: {
-      question:
-        "L'agriculture biologique est-elle la seule voie possible pour une alimentation saine et durable ?",
-      notes:
-        "Débat sur la productivité, l'utilisation des pesticides et le coût pour le consommateur.",
-    },
-    did_you_know: {
-      text: "La baleine bleue, le plus grand animal de la planète, a un cœur de la taille d'une petite voiture, et son bruit peut être entendu à des kilomètres.",
-    },
-  },
-  {
-    date: "2026-03-04",
-    general_question: {
-      question: "Qui a fondé l'entreprise Microsoft avec Paul Allen ?",
-      answer: "Bill Gates.",
-      explanation:
-        "Microsoft, fondée en 1975, est devenue l'une des plus grandes entreprises technologiques du monde, pionnière dans le domaine des systèmes d'exploitation (Windows).",
-    },
-    open_question: {
-      question:
-        "La diversité culturelle et ethnique des équipes est-elle un avantage stratégique prouvé pour les entreprises ?",
-      notes:
-        "Débat sur les études de cas, la lutte contre les biais et les bénéfices de perspectives multiples.",
-    },
-    did_you_know: {
-      text: "Le son de la foudre est créé lorsque la chaleur intense de l'éclair fait exploser l'air qui l'entoure, se déplaçant plus lentement que la lumière.",
-    },
-  },
-  {
-    date: "2026-03-05",
-    general_question: {
-      question: "Dans quelle ville se trouve le Colisée (Colosseum) ?",
-      answer: "Rome (Italie).",
-      explanation:
-        "Cet amphithéâtre elliptique, construit entre 70 et 80 après J.-C., est l'un des symboles les plus puissants de la Rome antique.",
-    },
-    open_question: {
-      question:
-        "La régulation gouvernementale des loyers est-elle la meilleure solution pour garantir l'accès à un logement abordable ?",
-      notes:
-        "Débat sur l'offre et la demande de logements, l'impact sur l'investissement et les alternatives (construction publique).",
-    },
-    did_you_know: {
-      text: "L'Australie est le seul pays à avoir une chaîne de montagnes qui s'appelle 'The Great Dividing Range' (la Grande Chaîne de Division).",
-    },
-  },
-  {
-    date: "2026-03-06",
-    general_question: {
-      question:
-        "Quel est le seul chiffre dont le nom a le même nombre de lettres que sa valeur ?",
-      answer: "Quatre.",
-      explanation:
-        "Quatre (4) lettres pour représenter la valeur 4. (Un : 3, Deux : 4, etc.)",
-    },
-    open_question: {
-      question:
-        "Faut-il taxer lourdement les produits de luxe (voitures, yachts, jets privés) pour financer les initiatives écologiques ?",
-      notes:
-        "Débat sur la 'justice verte', la consommation ostentatoire et l'efficacité fiscale.",
-    },
-    did_you_know: {
-      text: "Un nuage cirrus est composé de cristaux de glace plutôt que de gouttelettes d'eau, et peut atteindre une altitude de 20 km.",
-    },
-  },
-  {
-    date: "2026-03-07",
-    general_question: {
-      question:
-        "Quel est le nom de la théorie selon laquelle les continents se déplacent lentement sur la surface de la Terre ?",
-      answer: "La tectonique des plaques.",
-      explanation:
-        "Cette théorie, proposée initialement par Alfred Wegener (dérive des continents), explique les tremblements de terre, les volcans et la formation des chaînes de montagnes.",
-    },
-    open_question: {
-      question:
-        "Le système de justice pénale devrait-il se concentrer davantage sur la réhabilitation des délinquants que sur la punition ?",
-      notes:
-        "Débat sur la justice réparatrice, la récidive et le rôle de la prison dans la société.",
-    },
-    did_you_know: {
-      text: "Le nombre $pi$ ($approx 3,14159$) ne se termine jamais et ne se répète jamais, c'est un nombre irrationnel.",
-    },
-  },
-  {
-    date: "2026-03-08",
-    general_question: {
-      question:
-        "Qui était la reine d'Égypte célèbre pour sa liaison avec Jules César et Marc Antoine ?",
-      answer: "Cléopâtre VII.",
-      explanation:
-        "Elle fut la dernière pharaonne d'Égypte et son histoire est célèbre pour ses manœuvres politiques et ses relations avec les dirigeants romains.",
-    },
-    open_question: {
-      question:
-        "La Journée Internationale des Droits des Femmes est-elle toujours pertinente dans les sociétés occidentales modernes ?",
-      notes:
-        "Débat sur l'égalité formelle versus l'égalité réelle, et la persistance des inégalités salariales ou du plafond de verre.",
-    },
-    did_you_know: {
-      text: "Les papillons goûtent avec leurs pieds.",
-    },
-  },
-  {
-    date: "2026-03-09",
-    general_question: {
-      question: "Quel est le sport pratiqué par l'équipe des 'All Blacks' ?",
-      answer: "Le Rugby.",
-      explanation:
-        "Les All Blacks sont l'équipe nationale de Nouvelle-Zélande de rugby à XV, célèbres pour leur 'Haka' (danse maorie) avant les matchs.",
-    },
-    open_question: {
-      question:
-        "L'éducation civique devrait-elle inclure des cours obligatoires sur la vérification des sources (fact-checking) et la pensée critique ?",
-      notes:
-        "Débat sur la lutte contre la désinformation (fake news) et le rôle de l'école dans la formation d'un citoyen éclairé.",
-    },
-    did_you_know: {
-      text: "Le plus ancien livre imprimé au monde a été réalisé en Chine en 868 après J.-C. : il s'agit du 'Soutra du Diamant'.",
-    },
-  },
-  {
-    date: "2026-03-10",
-    general_question: {
-      question: "Quelle est la capitale du Brésil ?",
-      answer: "Brasília.",
-      explanation:
-        "Brasília a été inaugurée en 1960, remplaçant Rio de Janeiro, et a été construite selon un plan architectural moderne célèbre (d'Oscar Niemeyer).",
-    },
-    open_question: {
-      question:
-        "La colonisation d'autres planètes (Mars) est-elle la prochaine étape inévitable pour l'humanité, ou une distraction coûteuse ?",
-      notes:
-        "Débat sur l'avenir de l'espèce, le risque d'extinction sur Terre et les investissements nécessaires.",
-    },
-    did_you_know: {
-      text: "La pomme est plus efficace qu'une tasse de café pour vous réveiller le matin, grâce à son taux de fructose et d'autres sucres naturels.",
-    },
-  },
-  {
-    date: "2026-03-11",
-    general_question: {
-      question: "Quel est le nom de la planète la plus proche du Soleil ?",
-      answer: "Mercure.",
-      explanation:
-        "Mercure est la planète la plus petite et la plus proche du Soleil. Sa température de surface varie entre $427^{circ}\text{C}$ le jour et $-173^{circ}\text{C}$ la nuit.",
-    },
-    open_question: {
-      question:
-        "Faut-il imposer une taxe sur l'héritage pour limiter la concentration de la richesse et favoriser l'égalité des chances ?",
-      notes:
-        "Débat sur la méritocratie, le droit de transmettre son patrimoine et le rôle de l'État dans la redistribution.",
-    },
-    did_you_know: {
-      text: "Le mot 'buffet' a été emprunté de la langue française par l'anglais, mais la prononciation est souvent différente (le 't' est souvent silencieux en français).",
-    },
-  },
-  {
-    date: "2026-03-12",
-    general_question: {
-      question:
-        "Qui est l'auteur de l'hymne national français, 'La Marseillaise' ?",
-      answer: "Claude Joseph Rouget de Lisle.",
-      explanation:
-        "L'officier de génie l'a composé en 1792, initialement sous le titre 'Chant de guerre pour l'armée du Rhin'.",
-    },
-    open_question: {
-      question:
-        "Le droit de grève devrait-il être limité dans certains secteurs considérés comme vitaux (santé, transports) ?",
-      notes:
-        "Débat sur l'équilibre entre les droits des travailleurs et la continuité des services publics essentiels.",
-    },
-    did_you_know: {
-      text: "Les chats ne peuvent pas goûter le sucré, car ils ont perdu les récepteurs gustatifs pour le sucré au cours de l'évolution.",
-    },
-  },
-  {
-    date: "2026-03-13",
-    general_question: {
-      question:
-        "Quelle est la plus grande réserve d'eau douce (non gelée) sur Terre ?",
-      answer: "Les eaux souterraines (aquifères).",
-      explanation:
-        "La plus grande partie de l'eau douce terrestre est stockée sous forme de glace (70%). Parmi l'eau liquide, la grande majorité se trouve dans les aquifères souterrains, bien plus que dans les lacs et rivières.",
-    },
-    open_question: {
-      question:
-        "Les entreprises de jeux vidéo sont-elles moralement responsables des phénomènes d'addiction de leurs utilisateurs ?",
-      notes:
-        "Débat sur les mécanismes de rétention des jeux (loot boxes, micro-transactions) et la santé publique.",
-    },
-    did_you_know: {
-      text: "Le cri de l'ara (un grand perroquet) est si puissant qu'il peut être entendu à plus de 8 kilomètres de distance.",
-    },
-  },
-  {
-    date: "2026-03-14",
-    general_question: {
-      question:
-        "Quel est le nom du célèbre scientifique connu pour avoir jeté les bases de la physique quantique ?",
-      answer: "Max Planck.",
-      explanation:
-        "Planck est le fondateur de la théorie des quanta (1900), qui postule que l'énergie est rayonnée en unités discrètes appelées 'quanta'.",
-    },
-    open_question: {
-      question:
-        "La surveillance des employés via des outils numériques (logiciels, caméras) est-elle une pratique acceptable pour maximiser la productivité ?",
-      notes:
-        "Débat sur la confiance, le droit à la vie privée au travail et le stress induit par la surveillance.",
-    },
-    did_you_know: {
-      text: "Le jour de $pi$ est célébré le 14 mars (3/14 aux États-Unis), car les trois premiers chiffres de $pi$ sont 3.14.",
-    },
-  },
-  {
-    date: "2026-03-15",
-    general_question: {
-      question: "Quel est l'élément chimique le plus léger de l'univers ?",
-      answer: "L'Hydrogène (H).",
-      explanation:
-        "L'hydrogène (H) est l'élément le plus léger et le plus abondant dans l'univers. Il est composé d'un seul proton et d'un seul électron.",
-    },
-    open_question: {
-      question:
-        "La démocratie directe (référendums fréquents) est-elle supérieure à la démocratie représentative ?",
-      notes:
-        "Débat sur la compétence des citoyens, la manipulation de l'opinion et la rapidité des décisions politiques.",
-    },
-    did_you_know: {
-      text: "Il n'y a pas de ponts sur le fleuve Amazone, car il traverse principalement des zones de jungle peu peuplées.",
-    },
-  },
-  {
-    date: "2026-03-16",
-    general_question: {
-      question:
-        "Quel mouvement artistique est caractérisé par des formes géométriques et la décomposition de la perspective (ex: 'Les Demoiselles d'Avignon') ?",
-      answer: "Le Cubisme.",
-      explanation:
-        "Le cubisme a été développé au début du XXe siècle par Pablo Picasso et Georges Braque.",
-    },
-    open_question: {
-      question:
-        "Faut-il rendre obligatoire l'emballage réutilisable ou consigné pour tous les produits de grande consommation ?",
-      notes:
-        "Débat sur la pollution plastique, le coût de la logistique du réemploi et l'acceptation par le consommateur.",
-    },
-    did_you_know: {
-      text: "La tortue peut respirer par l'anus. Elle utilise des sacs appelés bourses cloacales, qui servent de branchies improvisées.",
-    },
-  },
-  {
-    date: "2026-03-17",
-    general_question: {
-      question:
-        "Quel est le nom de la déesse romaine de l'amour et de la beauté ?",
-      answer: "Vénus.",
-      explanation:
-        "Vénus est l'équivalent de la déesse grecque Aphrodite. Le terme est également utilisé pour désigner la deuxième planète du système solaire.",
-    },
-    open_question: {
-      question:
-        "Les influenceurs des réseaux sociaux devraient-ils être considérés comme des professionnels du marketing et être réglementés comme tels ?",
-      notes:
-        "Débat sur la publicité déguisée, la transparence et la protection des consommateurs (notamment les jeunes).",
-    },
-    did_you_know: {
-      text: "Saint Patrick n'était pas irlandais. Il est né en Grande-Bretagne (probablement en Écosse ou au Pays de Galles) et a été capturé par des pirates pour être vendu comme esclave en Irlande.",
-    },
-  },
-  {
-    date: "2026-03-18",
-    general_question: {
-      question:
-        "Quel est le plus grand désert froid du monde (le plus grand désert tout court) ?",
-      answer: "L'Antarctique.",
-      explanation:
-        "Un désert est défini par ses faibles précipitations annuelles. L'Antarctique, malgré la glace, reçoit très peu de pluie ou de neige et est donc le plus grand désert.",
-    },
-    open_question: {
-      question:
-        "Faut-il limiter la liberté de circulation des personnes non vaccinées en cas de pandémie mondiale ?",
-      notes:
-        "Débat sur la santé publique, les droits individuels et la discrimination médicale (question hypothétique).",
-    },
-    did_you_know: {
-      text: "La planète Uranus est inclinée sur le côté, si bien qu'elle tourne sur son axe à un angle de presque 90 degrés par rapport au plan de son orbite.",
-    },
-  },
-  {
-    date: "2026-03-19",
-    general_question: {
-      question:
-        "Quel est l'inventeur de l'ampoule électrique commercialement viable ?",
-      answer: "Thomas Edison.",
-      explanation:
-        "Bien que d'autres aient travaillé sur des versions antérieures, Edison est crédité de l'invention de l'ampoule pratique et durable (fin des années 1870).",
-    },
-    open_question: {
-      question:
-        "Le système de retraite par répartition est-il encore viable face à l'augmentation de la longévité et au déclin de la natalité ?",
-      notes:
-        "Débat sur l'âge de départ, le financement des retraites et la solidarité intergénérationnelle.",
-    },
-    did_you_know: {
-      text: "Un calmar géant a les plus grands yeux du règne animal, avec un diamètre pouvant atteindre 27 centimètres.",
-    },
-  },
-  {
-    date: "2026-03-20",
-    general_question: {
-      question:
-        "Quel est l'organe qui produit la bile pour aider à la digestion des graisses ?",
-      answer: "Le Foie.",
-      explanation:
-        "Le foie produit la bile, qui est ensuite stockée et concentrée dans la vésicule biliaire, avant d'être libérée dans l'intestin grêle pour émulsionner les graisses.",
-    },
-    open_question: {
-      question:
-        "Le développement des métavers va-t-il créer une économie réelle ou une bulle spéculative sans valeur durable ?",
-      notes:
-        "Débat sur l'investissement dans les mondes virtuels, le travail numérique et l'impact de la réalité augmentée.",
-    },
-    did_you_know: {
-      text: "Le jour et la nuit sont égaux aujourd'hui (équinoxe de printemps dans l'hémisphère nord, ou d'automne dans le sud).",
-    },
-  },
-  {
-    date: "2026-03-21",
-    general_question: {
-      question: "Dans quel pays se trouve le célèbre temple d'Angkor Wat ?",
-      answer: "Le Cambodge.",
-      explanation:
-        "Ce complexe de temples du XIIe siècle était à l'origine dédié au dieu hindou Vishnou, puis au bouddhisme.",
-    },
-    open_question: {
-      question:
-        "L'énergie solaire et éolienne doit-elle être privilégiée même si elle est intermittente et nécessite d'énormes infrastructures de stockage ?",
-      notes:
-        "Débat sur les énergies renouvelables, l'impact paysager et la nécessité d'une production de base (nucléaire, gaz).",
-    },
-    did_you_know: {
-      text: "Le papier est composé de cellulose, une molécule organique, ce qui en fait un polymère naturel. La cellulose est un glucide.",
-    },
-  },
-  {
-    date: "2026-03-22",
-    general_question: {
-      question: "Qui a peint 'Le Jardin des délices' ?",
-      answer: "Jérôme Bosch.",
-      explanation:
-        "Ce triptyque allégorique (vers 1490-1510) est célèbre pour ses scènes fantastiques, ses créatures hybrides et son symbolisme complexe.",
-    },
-    open_question: {
-      question:
-        "Les musées et les institutions culturelles devraient-ils restituer tous les artefacts historiques acquis à l'époque coloniale ?",
-      notes:
-        "Débat sur la réparation historique, la conservation des œuvres et la définition de la propriété culturelle.",
-    },
-    did_you_know: {
-      text: "Un nuage moyen pèse environ 500 tonnes (l'équivalent de 100 éléphants), mais il est maintenu en l'air par l'effet de la densité et des courants d'air ascendants.",
-    },
-  },
-  {
-    date: "2026-03-23",
-    general_question: {
-      question:
-        "Quel auteur de science-fiction a popularisé l'idée des 'Trois Lois de la Robotique' ?",
-      answer: "Isaac Asimov.",
-      explanation:
-        "Ces lois sont un ensemble de règles destinées à guider le comportement des robots pour éviter qu'ils ne nuisent aux humains (publiées en 1942 dans la nouvelle 'Runaround').",
-    },
-    open_question: {
-      question:
-        "Faut-il limiter l'utilisation des antibiotiques dans l'élevage intensif pour prévenir l'émergence de bactéries résistantes ?",
-      notes:
-        "Débat sur la santé publique, l'industrie alimentaire et le risque d'une crise d'antibiorésistance mondiale.",
-    },
-    did_you_know: {
-      text: "La Russie est si grande qu'elle compte 11 fuseaux horaires différents.",
-    },
-  },
-  {
-    date: "2026-03-24",
-    general_question: {
-      question: "Quel est le plus grand organe sensoriel du corps humain ?",
-      answer: "La Peau.",
-      explanation:
-        "La peau est l'organe le plus étendu et le plus lourd du corps. Elle est responsable du sens du toucher et sert de barrière protectrice.",
-    },
-    open_question: {
-      question:
-        "Le développement de l'exploration minière dans l'espace est-il une menace pour l'avenir ou une nécessité pour les ressources terrestres ?",
-      notes:
-        "Débat sur la pollution spatiale, les traités internationaux et l'accès aux minéraux rares (sur les astéroïdes).",
-    },
-    did_you_know: {
-      text: "Le café était à l'origine considéré comme la 'boisson amère de Satan' avant d'être finalement accepté par l'Église au XVIe siècle.",
-    },
-  },
-  {
-    date: "2026-03-25",
-    general_question: {
-      question:
-        "Qui était le chef militaire carthaginois célèbre pour avoir traversé les Alpes avec des éléphants de guerre ?",
-      answer: "Hannibal Barca.",
-      explanation:
-        "Pendant la Deuxième Guerre punique (218 av. J.-C.), Hannibal a mené une armée de 37 éléphants pour attaquer Rome par le nord. ",
-    },
-    open_question: {
-      question:
-        "Le concept de 'neutralité carbone' (compenser les émissions) est-il une solution écologique viable ou un permis de polluer pour les entreprises ?",
-      notes:
-        "Débat sur l'efficacité de la compensation (plantation d'arbres, marchés du carbone) face à la nécessité de la réduction absolue.",
-    },
-    did_you_know: {
-      text: "Les astronautes en orbite deviennent temporairement plus grands (jusqu'à 5 cm) en raison de l'absence de gravité qui permet à la colonne vertébrale de s'étirer.",
-    },
-  },
-  {
-    date: "2026-03-26",
-    general_question: {
-      question: "Quel pays a pour symbole la feuille d'érable ?",
-      answer: "Le Canada.",
-      explanation:
-        "La feuille d'érable est l'emblème national depuis le XVIIIe siècle et figure sur le drapeau du pays depuis 1965.",
-    },
-    open_question: {
-      question:
-        "Faut-il rendre le bénévolat obligatoire pour les étudiants afin de renforcer le lien social et l'engagement civique ?",
-      notes:
-        "Débat sur le service communautaire, l'implication contrainte et les bénéfices du volontariat.",
-    },
-    did_you_know: {
-      text: "La vitesse de la lumière est d'environ 299 792 kilomètres par seconde dans le vide ($c = 299,792,458 \text{m/s}$). Elle est la limite de vitesse dans l'univers.",
-    },
-  },
-  {
-    date: "2026-03-27",
-    general_question: {
-      question:
-        "Qui est l'auteur de l'œuvre philosophique 'Ainsi parlait Zarathoustra' ?",
-      answer: "Friedrich Nietzsche.",
-      explanation:
-        "Ce livre, publié entre 1883 et 1885, est célèbre pour introduire les concepts de 'Volonté de puissance' et de 'Surhomme' (Übermensch).",
-    },
-    open_question: {
-      question:
-        "L'intelligence artificielle devrait-elle être utilisée par les forces de police pour prédire les crimes ?",
-      notes:
-        "Débat sur la 'justice prédictive', le risque de biais algorithmique et la présomption d'innocence.",
-    },
-    did_you_know: {
-      text: "Le 'rêve' moyen dure entre 5 et 20 minutes, et vous en faites plusieurs par nuit sans vous en souvenir.",
-    },
-  },
-  {
-    date: "2026-03-28",
-    general_question: {
-      question: "Quel est le gaz noble le plus léger ?",
-      answer: "L'Hélium (He).",
-      explanation:
-        "L'hélium est le deuxième élément le plus abondant dans l'univers après l'hydrogène. C'est un gaz inerte utilisé pour gonfler les ballons et dans l'imagerie par résonance magnétique (IRM).",
-    },
-    open_question: {
-      question:
-        "Faut-il abolir la propriété privée des données génétiques humaines pour en faire un bien commun de l'humanité ?",
-      notes:
-        "Débat sur les brevets sur la vie, la recherche médicale et l'éthique de la bio-ingénierie.",
-    },
-    did_you_know: {
-      text: "Les éléphants sont les seuls animaux qui ne peuvent pas sauter.",
-    },
-  },
-  {
-    date: "2026-03-29",
-    general_question: {
-      question: "Quelle est la religion majoritaire en Inde ?",
-      answer: "L'Hindouisme.",
-      explanation:
-        "L'Hindouisme est la plus ancienne religion encore pratiquée. Environ 80% de la population indienne est hindoue.",
-    },
-    open_question: {
-      question:
-        "Le concept de 'Croissance Zéro' ou 'Décroissance' est-il la seule issue crédible pour sauver la planète ?",
-      notes:
-        "Débat sur la compatibilité de la croissance économique avec la soutenabilité écologique et le bien-être social.",
-    },
-    did_you_know: {
-      text: "La plus petite pièce de monnaie américaine, le 'demi-cent', a été frappée pour la dernière fois en 1857.",
-    },
-  },
-  {
-    date: "2026-03-30",
-    general_question: {
-      question: "Quel est le nom de la péninsule où se trouve la Mecque ?",
-      answer: "La péninsule Arabique.",
-      explanation:
-        "La Mecque, ville sainte de l'Islam, est située dans la région du Hedjaz, dans l'actuelle Arabie saoudite, sur la péninsule Arabique.",
-    },
-    open_question: {
-      question:
-        "L'accès à la culture (musées, concerts, livres) devrait-il être gratuit pour tous les citoyens ?",
-      notes:
-        "Débat sur le financement de la culture, la démocratisation de l'accès et le rôle de l'État.",
-    },
-    did_you_know: {
-      text: "Les dauphins dorment avec un seul œil fermé. Ils alternent les hémisphères de leur cerveau pour pouvoir rester à la fois vigilants et en repos.",
-    },
-  },
-  {
-    date: "2026-03-31",
-    general_question: {
-      question: "Quel est le nom donné au phénomène de la queue d'une comète ?",
-      answer: "La chevelure (ou la queue).",
-      explanation:
-        "La queue, ou coma, est formée par les gaz et les poussières sublimés sous l'effet du vent solaire, et pointe toujours à l'opposé du Soleil. ",
-    },
-    open_question: {
-      question:
-        "Faut-il interdire l'usage des téléphones portables aux enfants de moins de 13 ans, y compris à l'école ?",
-      notes:
-        "Débat sur la sécurité en ligne, l'impact sur la concentration et le développement social des enfants.",
-    },
-    did_you_know: {
-      text: "Le son produit par le craquement des doigts est dû à l'éclatement de bulles de gaz dans le liquide synovial des articulations, selon la théorie la plus acceptée.",
-    },
-  },
-
-  {
-    date: "2026-04-01",
-    general_question: {
-      question:
-        "Quel est le surnom populaire donné au poisson d'avril en France ?",
-      answer: "Poisson d'avril.",
-      explanation:
-        "Le 1er avril, il est de coutume de faire des farces et de coller un poisson en papier dans le dos des gens. L'origine est incertaine, mais remonterait au XVIe siècle et au changement de calendrier.",
-    },
-    open_question: {
-      question:
-        "Est-il éthique d'utiliser l'humour (la farce) comme un outil politique ou social pour dénoncer une injustice ?",
-      notes:
-        "Débat sur la satire, la critique et les limites de l'humour dans l'espace public.",
-    },
-    did_you_know: {
-      text: "Le chocolat au lait a été inventé en Suisse par Daniel Peter en 1875, qui a trouvé le moyen d'y incorporer du lait en poudre (lait concentré par Nestlé).",
-    },
-  },
-  {
-    date: "2026-04-02",
-    general_question: {
-      question:
-        "Quel célèbre bâtiment de Pise, Italie, est connu pour son inclinaison involontaire ?",
-      answer: "La Tour de Pise (Torre Pendente di Pisa).",
-      explanation:
-        "La tour a commencé à s'incliner lors de sa construction au XIIe siècle à cause d'un sol instable, mais elle a été stabilisée au début du XXIe siècle.",
-    },
-    open_question: {
-      question:
-        "Faut-il privilégier les investissements dans les énergies renouvelables locales (éoliennes, panneaux solaires) ou les projets d'énergie verte à grande échelle (barrages, fermes solaires désertiques) ?",
-      notes:
-        "Débat sur la décentralisation de l'énergie, l'impact environnemental local et l'efficacité de la production.",
-    },
-    did_you_know: {
-      text: "L'aigle à tête blanche (symbole des États-Unis) ne pèse qu'environ 4,5 à 6,5 kg. Il doit rester léger pour pouvoir voler.",
-    },
-  },
-  {
-    date: "2026-04-03",
-    general_question: {
-      question:
-        "Quel gaz est le principal composant de l'air que nous expirons (le plus grand volume) ?",
-      answer: "L'Azote ($\text{N}_2$).",
-      explanation:
-        "L'air inhalé est composé d'environ 78% d'azote. L'azote n'est pas utilisé par le corps, donc l'air expiré contient toujours près de 78% d'azote (l'oxygène passe de 21% à 16%).",
-    },
-    open_question: {
-      question:
-        "L'euthanasie et le suicide assisté devraient-ils être un droit universel et légalement accessible à toute personne en souffrance incurable ?",
-      notes:
-        "Débat sur l'autonomie individuelle, l'éthique médicale et la définition de la fin de vie.",
-    },
-    did_you_know: {
-      text: "Les tornades les plus fortes du monde peuvent atteindre des vitesses de vent allant jusqu'à 480 km/h.",
-    },
-
-    date: "2026-04-04",
-    general_question: {
-      question:
-        "Quel est le plus grand lac d'eau douce au monde, en superficie ?",
-      answer: "Le Lac Supérieur.",
-      explanation:
-        "Situé à la frontière entre les États-Unis et le Canada, le Lac Supérieur est le plus grand des Grands Lacs et le plus grand lac d'eau douce par sa surface.",
-    },
-    open_question: {
-      question:
-        "L'abolition des brevets sur les médicaments vitaux est-elle nécessaire pour garantir un accès mondial à la santé ?",
-      notes:
-        "Débat sur l'innovation pharmaceutique, la recherche et le droit à la santé universel.",
-    },
-    did_you_know: {
-      text: "Le son voyage plus rapidement dans un solide (comme l'acier) que dans un liquide (l'eau) ou un gaz (l'air).",
-    },
-  },
-  {
-    date: "2026-04-05",
-    general_question: {
-      question:
-        "Qui a peint le célèbre tableau post-impressionniste 'Les Tournesols' ?",
-      answer: "Vincent van Gogh.",
-      explanation:
-        "Van Gogh a peint plusieurs séries de natures mortes de tournesols à Arles à la fin des années 1880. ",
-    },
-    open_question: {
-      question:
-        "Les parents sont-ils responsables des infractions commises en ligne par leurs enfants mineurs ?",
-      notes:
-        "Débat sur la responsabilité légale, l'éducation numérique et la protection des mineurs sur Internet.",
-    },
-    did_you_know: {
-      text: "Les kangourous utilisent leur queue comme une cinquième patte pour l'équilibre et la propulsion.",
-    },
-  },
-  {
-    date: "2026-04-06",
-    general_question: {
-      question:
-        "Quel pays a été le premier à reconnaître la déclaration d'indépendance des États-Unis en 1777 ?",
-      answer: "La France.",
-      explanation:
-        "La France a été le premier pays à reconnaître formellement les États-Unis comme une nation souveraine, jouant un rôle crucial dans la Guerre d'Indépendance.",
-    },
-    open_question: {
-      question:
-        "Faut-il imposer un quota minimum de représentation des femmes en politique pour atteindre la parité ?",
-      notes:
-        "Débat sur les politiques de discrimination positive, l'efficacité des quotas et la méritocratie.",
+        "Débat éthique, social et économique sur la marchandisation du corps humain et l'altruisme.",
     },
     did_you_know: {
       text: "L'odorat du chien est environ 10 000 à 100 000 fois plus développé que celui de l'homme.",
     },
   },
   {
-    date: "2026-04-07",
+    date: "2026-01-16",
     general_question: {
-      question:
-        "Quelle est l'unité de mesure de la fréquence (nombre de cycles par seconde) ?",
-      answer: "Le Hertz (Hz).",
+      question: "Quelle est la plus grande forêt tropicale du monde ?",
+      answer: "L'Amazonie.",
       explanation:
-        "Le Hertz est l'unité SI de la fréquence. Il est nommé d'après le physicien allemand Heinrich Hertz. 1 Hz = 1 cycle par seconde.",
+        "Répartie sur neuf pays d'Amérique du Sud, elle couvre une superficie d'environ 5,5 millions de kilomètres carrés.",
     },
     open_question: {
       question:
-        "Le sport automobile (Formule 1, Rallye) peut-il justifier son existence face aux enjeux de la transition énergétique ?",
+        "Le concept de 'croissance infinie' dans une planète aux ressources finies est-il une contradiction fondamentale ?",
       notes:
-        "Débat sur l'innovation technologique vs. l'empreinte carbone élevée et l'exemple donné par ces industries.",
+        "Discussion sur la croissance verte, la décroissance et l'économie circulaire.",
     },
     did_you_know: {
-      text: "Le seul continent qui ne possède pas de moustiques est l'Antarctique.",
+      text: "La sueur humaine est inodore. C'est l'action des bactéries sur la sueur qui produit les odeurs corporelles.",
+    },
+  },
+  {
+    date: "2026-01-17",
+    general_question: {
+      question:
+        "Quel physicien a développé le principe d'incertitude quantique ?",
+      answer: "Werner Heisenberg.",
+      explanation:
+        "Ce principe fondamental de la mécanique quantique stipule qu'il est impossible de connaître simultanément la position et la quantité de mouvement (impulsion) d'une particule avec une précision arbitraire.",
+    },
+    open_question: {
+      question:
+        "L'exploration spatiale (missions vers Mars, etc.) doit-elle être la priorité des budgets scientifiques ?",
+      notes:
+        "Débat sur la pertinence des dépenses spatiales face aux problèmes terrestres (climat, faim, maladies).",
+    },
+    did_you_know: {
+      text: "Les humains partagent environ 50 % de leur ADN avec les bananes.",
+    },
+  },
+  {
+    date: "2026-01-18",
+    general_question: {
+      question:
+        "Quel peintre espagnol est célèbre pour ses 'montres molles' (La Persistance de la mémoire) ?",
+      answer: "Salvador Dalí.",
+      explanation:
+        "Figure majeure du surréalisme, il a créé des œuvres explorant l'inconscient, le rêve et la symbolique freudienne.",
+    },
+    open_question: {
+      question:
+        "La transparence totale des salaires au sein des entreprises est-elle un facteur de motivation ou de conflit ?",
+      notes:
+        "Discussion sur l'égalité salariale, la jalousie et l'efficacité des négociations individuelles.",
+    },
+    did_you_know: {
+      text: "Le bruit le plus fort jamais enregistré a été celui de l'éruption du volcan Krakatoa en 1883, audible à plus de 4800 km.",
+    },
+  },
+  {
+    date: "2026-01-19",
+    general_question: {
+      question:
+        "Quel est le plus long fleuve du monde, souvent cité comme étant plus long que l'Amazone ?",
+      answer: "Le Nil.",
+      explanation:
+        "Bien que le débat sur le plus long fleuve soit complexe et dépende des méthodes de mesure, le Nil (environ 6 650 km) a longtemps été considéré comme le plus long, devant l'Amazone (environ 6 400 km, mais peut-être plus selon certaines sources).",
+    },
+    open_question: {
+      question:
+        "Faut-il interdire la chasse de loisir pour préserver la biodiversité et l'équilibre des écosystèmes ?",
+      notes:
+        "Débat sur la régulation des populations animales, les traditions locales et l'éthique animale.",
+    },
+    did_you_know: {
+      text: "Les flocons de neige ont toujours six côtés ou six branches, en raison de la structure hexagonale des molécules d'eau gelée.",
+    },
+  },
+  {
+    date: "2026-01-20",
+    general_question: {
+      question:
+        "Quelle est la principale fonction des mitochondries dans la cellule ?",
+      answer: "La production d'énergie (ATP) par respiration cellulaire.",
+      explanation:
+        "On les surnomme souvent la 'centrale énergétique' de la cellule. L'ATP est la molécule essentielle utilisée pour les activités cellulaires.",
+    },
+    open_question: {
+      question:
+        "L'hyper-connectivité et la dépendance aux smartphones modifient-elles la structure cognitive du cerveau humain ?",
+      notes:
+        "Discussion sur la capacité d'attention, la mémorisation et l'impact sur le sommeil.",
+    },
+    did_you_know: {
+      text: "Le plus ancien chewing-gum jamais trouvé date d'il y a plus de 9 000 ans, fait à partir d'écorce de bouleau et découvert en Finlande.",
+    },
+  },
+  {
+    date: "2026-01-21",
+    general_question: {
+      question:
+        "Quel célèbre chef d'État a ordonné la construction de la Grande Muraille de Chine au IIIe siècle av. J.-C. ?",
+      answer: "Qin Shi Huang (Premier Empereur de Chine).",
+      explanation:
+        "Bien que des sections aient existé avant, il est considéré comme l'initiateur de la connexion et de l'extension des différentes fortifications pour former une seule défense.",
+    },
+    open_question: {
+      question:
+        "La peine de mort est-elle un châtiment justifiable dans un système de justice moderne ?",
+      notes:
+        "Débat éthique sur la dissuasion, l'erreur judiciaire et le principe de la dignité humaine.",
+    },
+    did_you_know: {
+      text: "Si vous criez pendant 8 ans, 7 mois et 6 jours, vous produirez suffisamment d'énergie sonore pour chauffer une tasse de café.",
+    },
+  },
+  {
+    date: "2026-01-22",
+    general_question: {
+      question: "Quel océan est le plus grand et le plus profond du monde ?",
+      answer: "L'océan Pacifique.",
+      explanation:
+        "Il couvre environ un tiers de la surface terrestre et contient la fosse des Mariannes, le point le plus profond connu sur Terre.",
+    },
+    open_question: {
+      question:
+        "Les pays développés devraient-ils annuler la dette des pays en développement en échange d'engagements environnementaux ?",
+      notes:
+        "Discussion sur le 'swap' dette-nature, la souveraineté économique et l'équité Nord-Sud.",
+    },
+    did_you_know: {
+      text: "La glace sèche est en fait du dioxyde de carbone ($CO_2$) solide, qui passe directement de l'état solide à l'état gazeux (sublimation) à température ambiante.",
+    },
+  },
+  {
+    date: "2026-01-23",
+    general_question: {
+      question: "Qui a écrit la pièce de théâtre 'Roméo et Juliette' ?",
+      answer: "William Shakespeare.",
+      explanation:
+        "Cette tragédie romantique, écrite vers 1595, raconte l'histoire de deux jeunes amants dont les familles sont rivales.",
+    },
+    open_question: {
+      question:
+        "Le concept de 'travail pour la vie' a-t-il disparu au profit de carrières plus courtes et variées ?",
+      notes:
+        "Débat sur la précarité, la reconversion professionnelle et la gestion de carrière par l'individu.",
+    },
+    did_you_know: {
+      text: "Les flamants roses ne naissent pas roses. Ils acquièrent leur couleur distinctive en mangeant des algues et des crevettes riches en pigments de caroténoïdes.",
+    },
+  },
+  {
+    date: "2026-01-24",
+    general_question: {
+      question:
+        "Dans quel pays se trouve le mont Everest (du côté qui est le plus souvent désigné) ?",
+      answer: "Le Népal (et la Chine/Tibet).",
+      explanation:
+        "L'Everest est situé sur la frontière entre le Népal et la région autonome du Tibet (Chine). L'ascension classique se fait souvent depuis le côté népalais.",
+    },
+    open_question: {
+      question:
+        "Le droit à l'avortement est-il un droit fondamental absolu ou doit-il être soumis à certaines restrictions ?",
+      notes:
+        "Débat éthique et légal sur la temporalité, la conscience médicale et les motifs d'interruption de grossesse.",
+    },
+    did_you_know: {
+      text: "Une journée sur Vénus est plus longue qu'une année sur Vénus. Sa rotation prend 243 jours terrestres, tandis que sa révolution (année) en prend 225.",
+    },
+  },
+  {
+    date: "2026-01-25",
+    general_question: {
+      question:
+        "Qui est le mathématicien et philosophe à l'origine de la célèbre phrase 'Je pense, donc je suis' ?",
+      answer: "René Descartes.",
+      explanation:
+        "Cette maxime ('Cogito ergo sum') est le premier principe de sa philosophie, qui établit l'existence du sujet pensant (le 'je') comme certitude absolue.",
+    },
+    open_question: {
+      question:
+        "La privatisation des services publics essentiels (eau, énergie, santé) est-elle plus efficace que leur gestion étatique ?",
+      notes:
+        "Discussion sur la qualité des services, l'accessibilité pour tous et la rentabilité.",
+    },
+    did_you_know: {
+      text: "Les kangourous ne peuvent pas sauter en arrière en raison de la rigidité de leur queue et de la structure de leurs pattes arrière.",
+    },
+  },
+  {
+    date: "2026-01-26",
+    general_question: {
+      question:
+        "Quel instrument de musique est surnommé 'le roi des instruments' ?",
+      answer: "L'orgue.",
+      explanation:
+        "En raison de sa complexité, de sa taille imposante et de sa richesse sonore, il a historiquement dominé la musique sacrée et classique.",
+    },
+    open_question: {
+      question:
+        "La censure des contenus extrêmes sur les plateformes numériques (discours de haine, terrorisme) menace-t-elle la liberté d'expression ?",
+      notes:
+        "Débat sur le rôle des modérateurs, les algorithmes de détection et la définition de l'abus.",
+    },
+    did_you_know: {
+      text: "Le drapeau du Danemark est le plus ancien drapeau national encore utilisé, datant du XIIIe siècle.",
+    },
+  },
+  {
+    date: "2026-01-27",
+    general_question: {
+      question:
+        "Quelle est l'unité de mesure standard pour la fréquence du courant alternatif (électricité) ?",
+      answer: "Le Hertz (Hz).",
+      explanation:
+        "Le Hertz mesure le nombre de cycles par seconde. En Europe, le courant est généralement de 50 Hz, aux États-Unis, il est de 60 Hz.",
+    },
+    open_question: {
+      question:
+        "Le boycott des entreprises qui ne respectent pas certaines normes éthiques (environnement, travail) est-il un outil efficace de changement social ?",
+      notes:
+        "Discussion sur l'impact économique réel, le 'greenwashing' et le pouvoir du consommateur.",
+    },
+    did_you_know: {
+      text: "Le jour de l'an chinois (ou Nouvel An Lunaire) tombe toujours entre le 21 janvier et le 20 février.",
+    },
+  },
+  {
+    date: "2026-01-28",
+    general_question: {
+      question:
+        "Quel était le nom de l'empire dirigé par Gengis Khan au XIIIe siècle ?",
+      answer: "L'Empire Mongol.",
+      explanation:
+        "À son apogée, il s'étendait de l'Europe de l'Est à la mer du Japon, devenant le plus vaste empire terrestre contigu de l'histoire.",
+    },
+    open_question: {
+      question:
+        "La colonisation de Mars est-elle une étape inévitable pour la survie de l'humanité ou une fuite coûteuse face aux problèmes terrestres ?",
+      notes:
+        "Débat sur les risques existentiels, l'éthique de la terraformation et l'allocation des ressources.",
+    },
+    did_you_know: {
+      text: "Les vaches ont un meilleur ami et sont stressées si elles en sont séparées.",
+    },
+  },
+  {
+    date: "2026-01-29",
+    general_question: {
+      question:
+        "Quel est le nom de la péninsule qui est le cœur historique de la Grèce antique ?",
+      answer: "Le Péloponnèse.",
+      explanation:
+        "Elle est reliée au continent par l'isthme de Corinthe. C'est là que se trouvaient des cités importantes comme Sparte et Olympie.",
+    },
+    open_question: {
+      question:
+        "Le secret bancaire est-il nécessaire pour la liberté économique ou favorise-t-il la criminalité financière et la fraude fiscale ?",
+      notes:
+        "Discussion sur la transparence fiscale internationale, les paradis fiscaux et le droit à l'intimité financière.",
+    },
+    did_you_know: {
+      text: "La Grande Barrière de Corail en Australie est la plus grande structure vivante sur Terre et peut être vue de l'espace.",
+    },
+  },
+  {
+    date: "2026-01-30",
+    general_question: {
+      question:
+        "Quelle est la principale fonction du cortex préfrontal du cerveau humain ?",
+      answer:
+        "La planification, la prise de décision et le contrôle des impulsions (fonctions exécutives).",
+      explanation:
+        "Cette zone du cerveau est cruciale pour le comportement social complexe et la personnalité.",
+    },
+    open_question: {
+      question:
+        "Les 'influenceurs' numériques doivent-ils être soumis aux mêmes règles de transparence et de déontologie que les médias traditionnels ?",
+      notes:
+        "Débat sur la publicité déguisée, la crédibilité des sources et la responsabilité éditoriale.",
+    },
+    did_you_know: {
+      text: "Il y a plus de combinaisons possibles au jeu d'échecs que d'atomes dans l'univers observable.",
+    },
+  },
+  {
+    date: "2026-01-31",
+    general_question: {
+      question: "Qui a écrit la fable 'Le Corbeau et le Renard' ?",
+      answer: "Jean de La Fontaine.",
+      explanation:
+        "Elle fait partie du recueil des Fables de La Fontaine, publiées au XVIIe siècle, et se termine par la morale 'Tout flatteur vit aux dépens de celui qui l'écoute.'",
+    },
+    open_question: {
+      question:
+        "Le système de retraite par répartition est-il durable face au vieillissement démographique et à l'allongement de l'espérance de vie ?",
+      notes:
+        "Discussion sur l'âge de départ, les cotisations et la nécessité de réformes structurelles.",
+    },
+    did_you_know: {
+      text: "Le miel ne se périme jamais, grâce à sa faible teneur en eau et à l'acidité qui le rend inhospitalier aux bactéries.",
+    },
+  },
+
+  // --- Février 2026 (28 jours, car 2026 n'est pas bissextile) ---
+  {
+    date: "2026-02-01",
+    general_question: {
+      question:
+        "Quelle est la seule planète du système solaire à tourner sur elle-même dans le sens des aiguilles d'une montre ?",
+      answer: "Vénus.",
+      explanation:
+        "La plupart des planètes ont une rotation prograde (antihoraire), mais Vénus et Uranus ont une rotation rétrograde (horaire).",
+    },
+    open_question: {
+      question:
+        "Faut-il conditionner l'aide au développement des pays pauvres à des critères de bonne gouvernance et de respect des droits humains ?",
+      notes:
+        "Débat sur la souveraineté, l'efficacité de l'aide et les risques d'ingérence.",
+    },
+    did_you_know: {
+      text: "Février est le seul mois dont le nombre de jours change : 28 ou 29 jours selon qu'il s'agisse ou non d'une année bissextile.",
+    },
+  },
+  {
+    date: "2026-02-02",
+    general_question: {
+      question: "Quel écrivain français a inventé le mot 'surréalisme' ?",
+      answer: "Guillaume Apollinaire.",
+      explanation:
+        "Il a utilisé ce terme pour la première fois en 1917 pour qualifier son drame 'Les Mamelles de Tirésias', avant qu'André Breton ne l'adopte comme nom du mouvement artistique.",
+    },
+    open_question: {
+      question:
+        "Les technologies de réalité virtuelle et augmentée sont-elles une source d'évasion enrichissante ou une menace pour l'interaction sociale réelle ?",
+      notes:
+        "Discussion sur l'éducation, la formation professionnelle et l'isolement social.",
+    },
+    did_you_know: {
+      text: "La corne de rhinocéros est composée de kératine, la même protéine qui compose nos ongles et nos cheveux.",
+    },
+  },
+  {
+    date: "2026-02-03",
+    general_question: {
+      question:
+        "Quel est le nom de l'instrument qui mesure la pression atmosphérique ?",
+      answer: "Le baromètre.",
+      explanation:
+        "Inventé par Evangelista Torricelli en 1643, il est crucial en météorologie pour prévoir les changements de temps.",
+    },
+    open_question: {
+      question:
+        "Les classes préparatoires et les grandes écoles sont-elles le meilleur modèle pour former l'élite d'une nation ?",
+      notes:
+        "Débat sur l'égalité des chances, l'élitisme et la diversité des parcours éducatifs.",
+    },
+    did_you_know: {
+      text: "Le cochon est l'un des rares mammifères qui ne peut pas regarder le ciel directement sans se pencher en arrière.",
+    },
+  },
+  {
+    date: "2026-02-04",
+    general_question: {
+      question:
+        "Dans quel pays se trouve le site archéologique de Machu Picchu ?",
+      answer: "Le Pérou.",
+      explanation:
+        "Cette ancienne cité inca, construite au XVe siècle, est perchée dans les montagnes de la cordillère des Andes.",
+    },
+    open_question: {
+      question:
+        "Le droit de vote devrait-il être obligatoire pour assurer une représentation démocratique maximale ?",
+      notes:
+        "Discussion sur la légitimité du vote, l'apathie politique et les sanctions en cas d'abstention.",
+    },
+    did_you_know: {
+      text: "Les arbres communiquent entre eux sous terre grâce à un réseau de champignons appelé 'réseau de Wood Wide Web'.",
+    },
+  },
+  {
+    date: "2026-02-05",
+    general_question: {
+      question:
+        "Quelle est la formule chimique de l'eau lourde (oxyde de deutérium) ?",
+      answer: "$D_2O$ (ou ${}^2H_2O$).",
+      explanation:
+        "L'eau lourde est une forme d'eau contenant l'isotope lourd de l'hydrogène, le deutérium (D), souvent utilisée dans les réacteurs nucléaires comme modérateur.",
+    },
+    open_question: {
+      question:
+        "Les véhicules autonomes doivent-ils être programmés pour privilégier la vie du passager ou celle du piéton en cas d'accident inévitable ?",
+      notes:
+        "Problème du dilemme du 'Trolley' appliqué à l'IA et aux véhicules, débat éthique sur la programmation morale.",
+    },
+    did_you_know: {
+      text: "Un seul spaghetti s'appelle un 'spaghetto'.",
+    },
+  },
+  {
+    date: "2026-02-06",
+    general_question: {
+      question:
+        "Qui a été le premier homme à effectuer un vol suborbital puis orbital autour de la Terre ?",
+      answer: "Youri Gagarine.",
+      explanation:
+        "Le cosmonaute soviétique a effectué le premier vol spatial habité le 12 avril 1961 à bord de Vostok 1.",
+    },
+    open_question: {
+      question:
+        "Le service militaire ou civil obligatoire pour les jeunes est-il un outil efficace d'intégration et de cohésion nationale ?",
+      notes:
+        "Discussion sur l'utilité, la contrainte individuelle et l'apprentissage de la citoyenneté.",
+    },
+    did_you_know: {
+      text: "La tour Eiffel peut grandir jusqu'à 15 centimètres en été en raison de la dilatation thermique du métal.",
+    },
+  },
+  {
+    date: "2026-02-07",
+    general_question: {
+      question:
+        "Quel est le nom de l'accord international signé en 1997 visant à réduire les émissions de gaz à effet de serre ?",
+      answer: "Le Protocole de Kyoto.",
+      explanation:
+        "Il a été le premier accord majeur à fixer des objectifs contraignants de réduction des émissions pour les pays industrialisés.",
+    },
+    open_question: {
+      question:
+        "Le sport électronique ('esports') est-il un sport légitime nécessitant la même reconnaissance que le sport traditionnel ?",
+      notes:
+        "Débat sur la reconnaissance athlétique, l'entraînement, la discipline et les compétitions internationales.",
+    },
+    did_you_know: {
+      text: "Il faut plus de calories pour manger du céleri que le céleri n'en contient réellement (calorie négative).",
+    },
+  },
+  {
+    date: "2026-02-08",
+    general_question: {
+      question:
+        "Quel dramaturge français a écrit 'Le Bourgeois gentilhomme' et 'Tartuffe' ?",
+      answer: "Molière (Jean-Baptiste Poquelin).",
+      explanation:
+        "Molière est l'un des plus grands maîtres de la comédie française, célèbre pour sa critique des mœurs et de l'hypocrisie de son époque.",
+    },
+    open_question: {
+      question:
+        "La vaccination obligatoire est-elle une atteinte aux libertés individuelles ou une nécessité de santé publique ?",
+      notes:
+        "Discussion sur l'immunité collective, le consentement éclairé et l'information scientifique.",
+    },
+    did_you_know: {
+      text: "Les nuages ne sont pas composés de vapeur d'eau (qui est invisible), mais de minuscules gouttelettes d'eau liquide ou de cristaux de glace en suspension.",
+    },
+  },
+  {
+    date: "2026-02-09",
+    general_question: {
+      question:
+        "Quel terme désigne la vitesse maximale qu'un objet atteint en chute libre dans l'atmosphère ?",
+      answer: "La vitesse terminale (ou limite).",
+      explanation:
+        "Elle est atteinte lorsque la force de traînée (résistance de l'air) est égale à la force gravitationnelle.",
+    },
+    open_question: {
+      question:
+        "La démocratie directe (référendums fréquents, initiatives citoyennes) est-elle supérieure à la démocratie représentative ?",
+      notes:
+        "Débat sur l'efficacité des décisions, la complexité des lois et le risque de 'tyrannie de la majorité'.",
+    },
+    did_you_know: {
+      text: "Un rat peut rester plus longtemps sans boire d'eau qu'un chameau.",
+    },
+  },
+  {
+    date: "2026-02-10",
+    general_question: {
+      question:
+        "Quel est le plus grand lac d'eau douce au monde, en superficie ?",
+      answer: "Le lac Supérieur.",
+      explanation:
+        "Situé à la frontière entre les États-Unis et le Canada, il est le plus grand des Grands Lacs d'Amérique du Nord.",
+    },
+    open_question: {
+      question:
+        "Les entreprises devraient-elles avoir une obligation légale de réparer leurs produits plutôt que d'encourager le renouvellement (obsolescence programmée) ?",
+      notes:
+        "Discussion sur le 'droit à la réparation', la durabilité des produits et l'économie circulaire.",
+    },
+    did_you_know: {
+      text: "Le corps humain contient suffisamment de carbone pour fabriquer 9 000 crayons à mine.",
+    },
+  },
+  {
+    date: "2026-02-11",
+    general_question: {
+      question:
+        "Quel est l'auteur de l'hymne national des États-Unis ('The Star-Spangled Banner') ?",
+      answer: "Francis Scott Key.",
+      explanation:
+        "Il a écrit le poème en 1814 après avoir été témoin du bombardement du Fort McHenry par les Britanniques pendant la guerre de 1812.",
+    },
+    open_question: {
+      question:
+        "L'utilisation d'armes autonomes létales (robots tueurs) est-elle moralement acceptable pour la guerre du futur ?",
+      notes:
+        "Débat sur la responsabilité éthique en cas de 'bavure', le contrôle humain et l'escalade des conflits.",
+    },
+    did_you_know: {
+      text: "Le 'penny' (pièce d'un cent américain) coûte plus cher à fabriquer que sa propre valeur nominale, en raison du prix des métaux.",
+    },
+  },
+  {
+    date: "2026-02-12",
+    general_question: {
+      question:
+        "Quelle est la plus grande île du monde qui n'est pas un continent ?",
+      answer: "Le Groenland.",
+      explanation:
+        "Le Groenland, territoire autonome rattaché au Danemark, est la plus grande île. L'Australie est un continent/pays, donc n'est pas considérée comme une île unique.",
+    },
+    open_question: {
+      question:
+        "Le mécénat privé (fondations d'entreprises) est-il un substitut bienvenu ou une menace à l'art et à la culture financés par l'État ?",
+      notes:
+        "Discussion sur l'indépendance artistique, les priorités de financement et l'influence privée.",
+    },
+    did_you_know: {
+      text: "Les chats peuvent produire plus de 100 sons vocaux différents, tandis que les chiens n'en produisent qu'environ 10.",
+    },
+  },
+  {
+    date: "2026-02-13",
+    general_question: {
+      question:
+        "Quelle théorie scientifique postule que l'univers est en expansion ?",
+      answer: "Le Big Bang (ou la théorie de l'expansion de l'univers).",
+      explanation:
+        "Cette théorie est soutenue par l'observation du décalage vers le rouge des galaxies et la détection du fond diffus cosmologique.",
+    },
+    open_question: {
+      question:
+        "Le salaire minimum est-il un outil efficace pour lutter contre la pauvreté ou un frein à l'emploi et à la compétitivité des entreprises ?",
+      notes:
+        "Débat sur l'inflation, le pouvoir d'achat et le marché du travail.",
+    },
+    did_you_know: {
+      text: "L'odorat humain est capable de distinguer environ un billion (mille milliards) d'odeurs différentes.",
+    },
+  },
+  {
+    date: "2026-02-14",
+    general_question: {
+      question:
+        "Quel est le nom de la ligne imaginaire qui sépare le jour de la veille, permettant le changement de date dans le monde ?",
+      answer: "La ligne de changement de date internationale.",
+      explanation:
+        "Elle suit approximativement le $180^circ$ de longitude dans l'océan Pacifique et permet de maintenir la cohérence des fuseaux horaires.",
+    },
+    open_question: {
+      question:
+        "Le développement de la 5G et des réseaux futurs pose-t-il des risques sanitaires et environnementaux sérieux ?",
+      notes:
+        "Discussion sur les ondes électromagnétiques, l'impact énergétique des réseaux et la désinformation.",
+    },
+    did_you_know: {
+      text: "La plus grande pizza jamais faite mesurait $13 580$ pieds carrés (environ $1262$ $m^2$) et a été faite à Rome, en Italie, en 2012.",
+    },
+  },
+  {
+    date: "2026-02-15",
+    general_question: {
+      question:
+        "Quel est le nom de l'architecte qui a conçu l'Opéra de Sydney, en Australie ?",
+      answer: "Jørn Utzon.",
+      explanation:
+        "L'architecte danois a remporté le concours international en 1957, mais a démissionné avant l'achèvement du projet en 1973 en raison de différends.",
+    },
+    open_question: {
+      question:
+        "La peine de prison est-elle avant tout punitive ou doit-elle être réhabilitatrice pour permettre la réinsertion sociale ?",
+      notes:
+        "Débat sur la surpopulation carcérale, les taux de récidive et les alternatives à l'incarcération.",
+    },
+    did_you_know: {
+      text: "Les poissons rouges ont une durée de vie relativement longue : s'ils sont bien soignés, ils peuvent vivre jusqu'à 20 ans, voire plus.",
+    },
+  },
+  {
+    date: "2026-02-16",
+    general_question: {
+      question:
+        "Quel philosophe grec antique est connu pour avoir été condamné à mort pour impiété et corruption de la jeunesse ?",
+      answer: "Socrate.",
+      explanation:
+        "Il n'a laissé aucun écrit. Nous connaissons sa pensée et son procès principalement à travers les dialogues de son élève Platon.",
+    },
+    open_question: {
+      question:
+        "Le 'revenu de citoyenneté' (ou RSA) favorise-t-il la paresse ou offre-t-il la sécurité nécessaire pour l'entrepreneuriat et la formation ?",
+      notes:
+        "Discussion sur l'effet de seuil, l'incitation à l'activité et le rôle social de l'aide publique.",
+    },
+    did_you_know: {
+      text: "Le mot 'buffet' en français vient du verbe 'buffer', qui signifie frapper, car on tapait sur la table pour annoncer le début du repas au Moyen Âge.",
+    },
+  },
+  {
+    date: "2026-02-17",
+    general_question: {
+      question:
+        "Comment appelle-t-on la maladie caractérisée par une perte progressive des fonctions cognitives et de la mémoire ?",
+      answer: "La maladie d'Alzheimer.",
+      explanation:
+        "C'est la cause la plus fréquente de démence chez les personnes âgées, liée à l'accumulation de plaques amyloïdes et de dégénérescences neurofibrillaires dans le cerveau.",
+    },
+    open_question: {
+      question:
+        "La notion de 'guerre juste' est-elle obsolète ou reste-t-elle pertinente pour juger des conflits internationaux modernes ?",
+      notes:
+        "Débat sur la légitimité d'entrer en guerre (jus ad bellum) et la conduite de la guerre (jus in bello) à l'ère nucléaire.",
+    },
+    did_you_know: {
+      text: "La glace d'un glacier peut apparaître bleue parce que l'eau absorbe toutes les autres couleurs du spectre visible sauf le bleu.",
+    },
+  },
+  {
+    date: "2026-02-18",
+    general_question: {
+      question:
+        "Quelle est l'œuvre musicale la plus connue du compositeur russe Piotr Ilitch Tchaïkovski, souvent jouée à Noël ?",
+      answer: "Le ballet 'Casse-Noisette'.",
+      explanation:
+        "Créé en 1892, c'est l'un des ballets les plus populaires, notamment grâce à sa célèbre 'Danse de la Fée Dragée'.",
+    },
+    open_question: {
+      question:
+        "Les médias traditionnels (presse, télévision) doivent-ils s'adapter aux formats courts et rapides des réseaux sociaux ou maintenir leur modèle d'information approfondie ?",
+      notes:
+        "Discussion sur la vitesse de l'information, le journalisme d'investigation et l'économie des médias.",
+    },
+    did_you_know: {
+      text: "Les manchots sont les seuls oiseaux qui ne peuvent pas voler, mais ils sont excellents nageurs.",
+    },
+  },
+  {
+    date: "2026-02-19",
+    general_question: {
+      question:
+        "Quel est le nom de la plus grande structure non-atomique que l'œil humain peut voir ?",
+      answer: "Un globule rouge (érythrocyte).",
+      explanation:
+        "Bien qu'il faille un microscope pour le voir clairement, c'est la plus grande cellule pouvant être perçue, même s'il est plus simple de voir les œufs de grenouilles ou de poissons.",
+    },
+    open_question: {
+      question:
+        "La légalisation des drogues douces est-elle une solution pour réduire le crime organisé et améliorer la santé publique ?",
+      notes:
+        "Débat sur la réglementation, les recettes fiscales et les risques d'abus et de dépendance.",
+    },
+    did_you_know: {
+      text: "Le nom complet de la poupée Barbie est Barbara Millicent Roberts.",
+    },
+  },
+  {
+    date: "2026-02-20",
+    general_question: {
+      question:
+        "Quel corps céleste est principalement composé de glace, de poussière et de roche et possède une queue lumineuse ?",
+      answer: "Une comète.",
+      explanation:
+        "La queue se forme lorsque la chaleur du Soleil sublime la glace, créant un panache de gaz et de poussière ionisés.",
+    },
+    open_question: {
+      question:
+        "Les critères de beauté (mode, chirurgie esthétique) sont-ils une forme de pression sociale genrée ou une libre expression individuelle ?",
+      notes:
+        "Discussion sur l'impact des médias, le patriarcat et l'autonomie corporelle.",
+    },
+    did_you_know: {
+      text: "Le mot 'jazz' a été officiellement utilisé pour la première fois dans un journal de San Francisco en 1913, mais ses origines sont plus anciennes et diverses.",
+    },
+  },
+  {
+    date: "2026-02-21",
+    general_question: {
+      question:
+        "Qui a formulé les trois lois du mouvement et la loi de la gravitation universelle ?",
+      answer: "Isaac Newton.",
+      explanation:
+        "Publiées en 1687 dans ses *Philosophiæ Naturalis Principia Mathematica*, ces lois sont la base de la mécanique classique.",
+    },
+    open_question: {
+      question:
+        "Les systèmes de notation et de classement des universités (type Shanghai) sont-ils une mesure fiable de la qualité académique ?",
+      notes:
+        "Débat sur les critères de recherche vs. d'enseignement, l'homogénéisation des modèles et la course au prestige.",
+    },
+    did_you_know: {
+      text: "Le plus long règne d'un monarque dans l'histoire moderne est celui de Louis XIV (72 ans) en France, devant la Reine Elizabeth II (70 ans).",
+    },
+  },
+  {
+    date: "2026-02-22",
+    general_question: {
+      question: "Quel est le plus grand mammifère terrestre d'Afrique ?",
+      answer: "L'éléphant d'Afrique.",
+      explanation:
+        "Il existe deux espèces d'éléphants d'Afrique (savane et forêt). L'éléphant d'Afrique de la savane est le plus grand, pouvant peser jusqu'à 6 tonnes.",
+    },
+    open_question: {
+      question:
+        "Faut-il limiter le droit de manifester pour éviter les débordements (blocages, violences, dégradations) ?",
+      notes:
+        "Discussion sur la liberté de réunion, l'ordre public et la légitimité de la contestation.",
+    },
+    did_you_know: {
+      text: "Les chiens ont un sens du temps. Des études montrent qu'ils peuvent anticiper les habitudes quotidiennes de leurs maîtres (heure de promenade, retour du travail).",
+    },
+  },
+  {
+    date: "2026-02-23",
+    general_question: {
+      question:
+        "Dans quel pays a eu lieu la Révolution des Œillets en 1974, qui a mis fin à la dictature la plus longue d'Europe de l'Ouest ?",
+      answer: "Le Portugal.",
+      explanation:
+        "Cette révolution militaire et populaire, sans effusion de sang, a mis fin à la dictature de l'Estado Novo.",
+    },
+    open_question: {
+      question:
+        "Les technologies de surveillance des employés à distance (logiciels de suivi) sont-elles un abus ou une nécessité de gestion ?",
+      notes:
+        "Débat sur la confiance, le droit à la déconnexion et la mesure de la productivité.",
+    },
+    did_you_know: {
+      text: "Le mot 'sandwich' tire son nom d'un aristocrate britannique du XVIIIe siècle, le 4e comte de Sandwich, qui ne voulait pas quitter sa table de jeu pour manger.",
+    },
+  },
+  {
+    date: "2026-02-24",
+    general_question: {
+      question:
+        "Quel est le nom de la molécule qui porte l'information génétique dans les cellules ?",
+      answer: "L'ADN (Acide Désoxyribonucléique).",
+      explanation:
+        "Découverte par Watson et Crick (grâce aux travaux de Rosalind Franklin), sa structure en double hélice est le support de l'hérédité.",
+    },
+    open_question: {
+      question:
+        "Faut-il interdire l'exploitation minière en haute mer pour protéger des écosystèmes encore largement inexplorés ?",
+      notes:
+        "Discussion sur le besoin de métaux rares, les conséquences environnementales irréversibles et la réglementation internationale.",
+    },
+    did_you_know: {
+      text: "Le point le plus éloigné de la Terre du centre de la Terre n'est pas le sommet de l'Everest, mais le sommet du volcan Chimborazo en Équateur, en raison du renflement équatorial.",
+    },
+  },
+  {
+    date: "2026-02-25",
+    general_question: {
+      question: "Qui est l'auteur du roman philosophique 'L'Étranger' ?",
+      answer: "Albert Camus.",
+      explanation:
+        "Publié en 1942, ce roman illustre la philosophie de l'absurde à travers l'histoire de Meursault.",
+    },
+    open_question: {
+      question:
+        "L'utilisation de la reconnaissance faciale par la police est-elle un outil efficace de lutte contre la criminalité ou une menace pour les libertés publiques ?",
+      notes:
+        "Débat sur le taux d'erreur, les biais raciaux et l'anonymat dans l'espace public.",
+    },
+    did_you_know: {
+      text: "Le Canada a plus de lacs que le reste du monde réuni, avec plus de 3 millions de lacs. ",
+    },
+  },
+  {
+    date: "2026-02-26",
+    general_question: {
+      question:
+        "Quel est le nom de la tempête tourbillonnante géante visible sur Jupiter ?",
+      answer: "La Grande Tache Rouge.",
+      explanation:
+        "C'est un anticyclone persistant (une tempête) qui existe depuis au moins 350 ans, mais qui rétrécit au fil du temps.",
+    },
+    open_question: {
+      question:
+        "La démocratie est-elle le seul modèle politique légitime ou les régimes autoritaires peuvent-ils être plus efficaces pour la stabilité et le développement économique ?",
+      notes:
+        "Discussion sur les droits de l'homme, la corruption et la performance économique.",
+    },
+    did_you_know: {
+      text: "Les escargots peuvent dormir pendant trois ans s'ils se trouvent dans des conditions climatiques défavorables.",
+    },
+  },
+  {
+    date: "2026-02-27",
+    general_question: {
+      question:
+        "Quel peintre impressionniste français est célèbre pour ses séries de Nymphéas ?",
+      answer: "Claude Monet.",
+      explanation:
+        "Monet est le chef de file du mouvement impressionniste. Il a peint environ 250 toiles de Nymphéas, inspirées de son jardin à Giverny.",
+    },
+    open_question: {
+      question:
+        "Le système de permis de conduire devrait-il être réévalué plus fréquemment pour les personnes âgées pour garantir la sécurité routière ?",
+      notes:
+        "Débat sur l'autonomie, la capacité physique et les discriminations liées à l'âge.",
+    },
+    did_you_know: {
+      text: "La 'Nécropole des Lyciens' est un ensemble de tombeaux taillés dans la roche dans le sud de la Turquie, datant du IVe siècle av. J.-C.",
+    },
+  },
+  {
+    date: "2026-02-28",
+    general_question: {
+      question:
+        "Quel est le nom du gaz noble utilisé dans les enseignes lumineuses colorées, souvent bleues ?",
+      answer: "Le Néon.",
+      explanation:
+        "Le néon pur émet une lumière rouge-orange, mais d'autres gaz nobles comme l'argon et le krypton sont mélangés pour produire d'autres couleurs (le bleu étant souvent l'argon).",
+    },
+    open_question: {
+      question:
+        "Le concept de 'nation' et d'identité nationale est-il obsolète à l'ère de la mondialisation et des identités multiples ?",
+      notes:
+        "Discussion sur le nationalisme, le cosmopolitisme et le multiculturalisme.",
+    },
+    did_you_know: {
+      text: "Le mot 'février' vient du latin 'februare' qui signifie purifier, car c'était la période des fêtes de purification (Februa) dans la Rome antique.",
+    },
+  },
+
+  // --- Mars 2026 (27 jours - jusqu'au 2026-03-27) ---
+  {
+    date: "2026-03-01",
+    general_question: {
+      question: "Quel est le plus grand désert de glace du monde ?",
+      answer: "L'Antarctique.",
+      explanation:
+        "C'est techniquement le plus grand désert de la planète. Un désert est défini par le peu de précipitations qu'il reçoit, et l'Antarctique reçoit très peu de neige et de pluie.",
+    },
+    open_question: {
+      question:
+        "Les entreprises devraient-elles être obligées d'atteindre une parité homme-femme dans leurs conseils d'administration et leurs postes de direction ?",
+      notes:
+        "Débat sur les quotas, la discrimination positive et la méritocratie.",
+    },
+    did_you_know: {
+      text: "Il existe une discipline sportive appelée 'ironing extrême' où les participants repassent des vêtements dans des lieux insolites, comme sous l'eau ou en escalade.",
+    },
+  },
+  {
+    date: "2026-03-02",
+    general_question: {
+      question: "Qui a inventé le téléphone en 1876 ?",
+      answer: "Alexander Graham Bell.",
+      explanation:
+        "Bien que d'autres (comme Elisha Gray ou Antonio Meucci) aient développé des dispositifs similaires, Bell est généralement reconnu comme l'inventeur officiel aux États-Unis.",
+    },
+    open_question: {
+      question:
+        "Faut-il interdire l'élevage intensif des animaux pour des raisons éthiques, sanitaires et environnementales ?",
+      notes:
+        "Discussion sur le bien-être animal, les coûts de la viande et la sécurité alimentaire.",
+    },
+    did_you_know: {
+      text: "Le seul mot en français qui utilise la lettre 'w' dans la liste officielle des mots est 'wagon'.",
+    },
+  },
+  {
+    date: "2026-03-03",
+    general_question: {
+      question:
+        "Comment appelle-t-on le phénomène où les rayons lumineux sont déviés lorsqu'ils passent d'un milieu à un autre (air/eau) ?",
+      answer: "La réfraction.",
+      explanation:
+        "C'est ce qui fait que les objets semblent courbés ou déplacés lorsqu'ils sont partiellement immergés dans l'eau.",
+    },
+    open_question: {
+      question:
+        "Le droit à la santé est-il une responsabilité individuelle ou une obligation collective prise en charge par l'État ?",
+      notes:
+        "Débat sur les systèmes de santé universels, les assurances privées et la prévention.",
+    },
+    did_you_know: {
+      text: "Les chouettes sont les seuls oiseaux capables de tourner leur tête à 270 degrés sans bouger leur corps.",
+    },
+  },
+  {
+    date: "2026-03-04",
+    general_question: {
+      question:
+        "Quel personnage de fiction est connu pour vivre au 221B Baker Street à Londres ?",
+      answer: "Sherlock Holmes.",
+      explanation:
+        "Le célèbre détective créé par Arthur Conan Doyle y réside avec son ami et biographe, le Dr John Watson.",
+    },
+    open_question: {
+      question:
+        "La peine d'amende est-elle juste si elle n'est pas proportionnelle aux revenus de la personne (amendes forfaitaires) ?",
+      notes:
+        "Débat sur l'égalité devant la loi, la justice sociale et les 'amendes au jour' (proportionnelles au salaire).",
+    },
+    did_you_know: {
+      text: "Le métal le plus lourd sur Terre est l'osmium, qui est environ deux fois plus dense que le plomb.",
+    },
+  },
+  {
+    date: "2026-03-05",
+    general_question: {
+      question: "Qui a commandé la construction du Taj Mahal en Inde ?",
+      answer: "L'empereur Shah Jahan.",
+      explanation:
+        "Il l'a fait construire en mémoire de son épouse favorite, Mumtaz Mahal, décédée en 1631. C'est un mausolée et non un palais.",
+    },
+    open_question: {
+      question:
+        "L'exploration et la commercialisation des astéroïdes (exploitation minière spatiale) sont-elles le futur de l'humanité ?",
+      notes:
+        "Discussion sur la faisabilité technique, les traités internationaux (espace), et le risque de pollution spatiale.",
+    },
+    did_you_know: {
+      text: "Les fourmis sont si nombreuses sur Terre que leur biomasse totale (poids combiné) est presque égale à celle de tous les humains.",
+    },
+  },
+  {
+    date: "2026-03-06",
+    general_question: {
+      question:
+        "Quel est le plus grand volcan du système solaire, situé sur Mars ?",
+      answer: "Olympus Mons (Mont Olympe).",
+      explanation:
+        "C'est un volcan bouclier éteint, trois fois plus haut que l'Everest et d'une largeur de $600$ km à sa base.",
+    },
+    open_question: {
+      question:
+        "Le système du collège/lycée unique est-il le plus efficace pour l'épanouissement des élèves ou faut-il introduire une sélection plus précoce ?",
+      notes:
+        "Débat sur l'orientation, l'égalité des chances et les besoins éducatifs différenciés.",
+    },
+    did_you_know: {
+      text: "Le rire peut améliorer la circulation sanguine et réduire le taux d'hormones de stress dans le corps.",
+    },
+  },
+  {
+    date: "2026-03-07",
+    general_question: {
+      question:
+        "Quel est le seul pays d'Amérique du Sud dont la côte est à la fois sur l'océan Atlantique et l'océan Pacifique ?",
+      answer: "La Colombie.",
+      explanation:
+        "Elle est le seul pays d'Amérique du Sud à posséder une façade sur les deux océans.",
+    },
+    open_question: {
+      question:
+        "L'obligation pour les entreprises de compenser leurs émissions de carbone ('crédits carbone') est-elle une solution réelle ou un 'droit à polluer' ?",
+      notes:
+        "Discussion sur l'additionnalité des projets de compensation, la véracité des calculs et l'effort réel de réduction.",
+    },
+    did_you_know: {
+      text: "Les cochons d'Inde ne sont ni des cochons ni originaires de Guinée (ils viennent d'Amérique du Sud).",
+    },
+  },
+  {
+    date: "2026-03-08",
+    general_question: {
+      question:
+        "Qui est l'auteur du célèbre roman 'Orgueil et Préjugés' (Pride and Prejudice) ?",
+      answer: "Jane Austen.",
+      explanation:
+        "Ce roman publié en 1813 est une œuvre phare de la littérature anglaise, explorant les mœurs et les mariages de la petite noblesse rurale anglaise.",
+    },
+    open_question: {
+      question:
+        "La journée internationale des droits des femmes est-elle un jour de célébration ou de revendication ?",
+      notes:
+        "Débat sur les acquis, les inégalités persistantes et la nécessité d'une mobilisation continue.",
+    },
+    did_you_know: {
+      text: "Le mot 'mars' vient du dieu romain de la guerre, Mars, mais était à l'origine le premier mois de l'ancien calendrier romain.",
+    },
+  },
+  {
+    date: "2026-03-09",
+    general_question: {
+      question:
+        "Quel processus est à l'origine de l'énergie émise par le Soleil ?",
+      answer: "La fusion nucléaire (transformation d'hydrogène en hélium).",
+      explanation:
+        "Dans le noyau du Soleil, la température et la pression sont suffisantes pour que les atomes d'hydrogène fusionnent en hélium, libérant une quantité massive d'énergie.",
+    },
+    open_question: {
+      question:
+        "Le journalisme d'investigation peut-il survivre économiquement à l'ère de l'information gratuite et des clics rapides ?",
+      notes:
+        "Discussion sur les modèles d'abonnement, le financement public et le rôle des fondations.",
+    },
+    did_you_know: {
+      text: "La langue d'une baleine bleue pèse autant qu'un éléphant.",
+    },
+  },
+  {
+    date: "2026-03-10",
+    general_question: {
+      question:
+        "Qui est le compositeur du ballet 'Le Sacre du printemps', dont la première a causé une émeute à Paris en 1913 ?",
+      answer: "Igor Stravinsky.",
+      explanation:
+        "Le caractère rythmique et l'harmonie novatrice de l'œuvre ont choqué le public et provoqué un scandale majeur lors de sa première au Théâtre des Champs-Élysées.",
+    },
+    open_question: {
+      question:
+        "L'interdiction de la GPA (Gestation Pour Autrui) dans de nombreux pays est-elle justifiable ou entrave-t-elle la liberté de procréer ?",
+      notes:
+        "Débat éthique sur la marchandisation du corps, l'exploitation des femmes et le droit des couples stériles.",
+    },
+    did_you_know: {
+      text: "Les chèvres ont des pupilles rectangulaires, ce qui leur donne une vision panoramique à $320^circ$ et les aide à repérer les prédateurs.",
+    },
+  },
+  {
+    date: "2026-03-11",
+    general_question: {
+      question:
+        "Quel est le nom de la période de l'histoire européenne qui s'étend du Ve au XVe siècle ?",
+      answer: "Le Moyen Âge.",
+      explanation:
+        "Cette période débute avec la chute de l'Empire romain d'Occident (476) et s'achève avec la découverte de l'Amérique (1492) ou la chute de Constantinople (1453).",
+    },
+    open_question: {
+      question:
+        "Les entreprises technologiques (GAFA) sont-elles devenues trop puissantes et doivent-elles être démantelées (lois antitrust) ?",
+      notes:
+        "Discussion sur le monopole, la concurrence, la protection des données et le lobbying politique.",
+    },
+    did_you_know: {
+      text: "Le thé glacé a été inventé accidentellement lors de l'Exposition universelle de Saint-Louis en 1904, où un marchand, ne pouvant vendre son thé chaud par forte chaleur, eut l'idée d'y ajouter de la glace.",
+    },
+  },
+  {
+    date: "2026-03-12",
+    general_question: {
+      question:
+        "Quelle est l'unité de mesure utilisée en informatique pour désigner un octet ?",
+      answer: "Le Byte (B).",
+      explanation:
+        "Un octet (byte) est généralement composé de 8 bits. Un bit (binary digit) est la plus petite unité d'information binaire.",
+    },
+    open_question: {
+      question:
+        "Faut-il réglementer ou interdire les jeux d'argent en ligne (paris sportifs, casinos) pour prévenir l'addiction et l'endettement ?",
+      notes:
+        "Débat sur la liberté individuelle, la protection des plus vulnérables et les recettes fiscales.",
+    },
+    did_you_know: {
+      text: "Le cri du paon est souvent confondu avec un cri de chat ou d'enfant en détresse, et est étonnamment fort et aigu.",
+    },
+  },
+  {
+    date: "2026-03-13",
+    general_question: {
+      question:
+        "Quel pays est le leader mondial dans la production d'huile d'olive ?",
+      answer: "L'Espagne.",
+      explanation:
+        "L'Espagne, notamment la région d'Andalousie, produit à elle seule environ 40 % de l'huile d'olive mondiale.",
+    },
+    open_question: {
+      question:
+        "Les lanceurs d'alerte (whistleblowers) doivent-ils bénéficier d'une immunité totale s'ils révèlent des informations d'intérêt public ?",
+      notes:
+        "Discussion sur la protection légale, le secret d'État, et la distinction entre divulgation légitime et espionnage.",
+    },
+    did_you_know: {
+      text: "La mer Morte est le point le plus bas du monde sur terre ferme, son rivage étant à environ $-430$ mètres sous le niveau de la mer.",
+    },
+  },
+  {
+    date: "2026-03-14",
+    general_question: {
+      question:
+        "Qui est le physicien à l'origine du paradoxe du chat (expérience de pensée quantique) ?",
+      answer: "Erwin Schrödinger.",
+      explanation:
+        "Cette expérience de pensée de 1935 illustre l'étrangeté de la superposition quantique, où un système est à la fois dans plusieurs états (mort et vivant) tant qu'il n'est pas observé.",
+    },
+    open_question: {
+      question:
+        "Faut-il enseigner une histoire nationale neutre et globale ou mettre l'accent sur les spécificités et les complexités de l'identité locale ?",
+      notes:
+        "Débat sur le programme scolaire, le récit national et la diversité culturelle.",
+    },
+    did_you_know: {
+      text: "L'anniversaire de la naissance d'Albert Einstein, le 14 mars, est également connu comme le 'Jour de Pi' (car $pi approx 3.14$).",
+    },
+  },
+  {
+    date: "2026-03-15",
+    general_question: {
+      question:
+        "Quel est le nom de la bactérie souvent responsable des intoxications alimentaires et présente dans les œufs et la volaille ?",
+      answer: "La Salmonelle (Salmonella).",
+      explanation:
+        "Les salmonelles sont des bactéries responsables d'infections intestinales (salmonelloses) qui peuvent être graves.",
+    },
+    open_question: {
+      question:
+        "Le mécénat privé (fondations d'entreprises) est-il un substitut bienvenu ou une menace à l'art et à la culture financés par l'État ?",
+      notes:
+        "Discussion sur l'indépendance artistique, les priorités de financement et l'influence privée.",
+    },
+    did_you_know: {
+      text: "Les baleines à bosse mâles chantent des chansons complexes qui peuvent durer des heures. Ces chansons évoluent et changent chaque année.",
+    },
+  },
+  {
+    date: "2026-03-16",
+    general_question: {
+      question: "Quelle est la capitale du Brésil ?",
+      answer: "Brasília.",
+      explanation:
+        "Elle a été inaugurée en 1960, remplaçant Rio de Janeiro, et a été construite spécifiquement pour être la nouvelle capitale, selon les plans de l'urbaniste Lúcio Costa et de l'architecte Oscar Niemeyer.",
+    },
+    open_question: {
+      question:
+        "Les entreprises peuvent-elles être moralement neutres ou ont-elles une responsabilité éthique et sociale (RSE) au-delà du profit ?",
+      notes:
+        "Débat sur le 'capitalisme de partie prenante' (stakeholder capitalism) vs. le 'capitalisme actionnarial' (shareholder capitalism).",
+    },
+    did_you_know: {
+      text: "La plupart des diamants naturels sont vieux de 1 à 3,3 milliards d'années, soit presque l'âge de la Terre elle-même (4,5 milliards d'années).",
+    },
+  },
+  {
+    date: "2026-03-17",
+    general_question: {
+      question:
+        "Quel pays a pour devise nationale 'Erin go Bragh' (l'Irlande pour toujours) ?",
+      answer: "L'Irlande.",
+      explanation:
+        "C'est une anglicisation de la phrase en gaélique irlandais 'Éirinn go Brách', associée à la fierté et au nationalisme irlandais.",
+    },
+    open_question: {
+      question:
+        "Les médias traditionnels (presse, télévision) doivent-ils s'adapter aux formats courts et rapides des réseaux sociaux ou maintenir leur modèle d'information approfondie ?",
+      notes:
+        "Discussion sur la vitesse de l'information, le journalisme d'investigation et l'économie des médias.",
+    },
+    did_you_know: {
+      text: "Le trèfle à quatre feuilles est un symbole de chance, mais il s'agit en fait d'une mutation rare du trèfle à trois feuilles commun (une chance sur 10 000).",
+    },
+  },
+  {
+    date: "2026-03-18",
+    general_question: {
+      question:
+        "Quel est le nom du volcan qui a enseveli Pompéi et Herculanum en l'an 79 après J.-C. ?",
+      answer: "Le Vésuve.",
+      explanation:
+        "Le Vésuve est le seul volcan actif d'Europe continentale. Pompéi et Herculanum ont été figées dans le temps par les cendres et les flux pyroclastiques.",
+    },
+    open_question: {
+      question:
+        "La démocratie est-elle le seul modèle politique légitime ou les régimes autoritaires peuvent-ils être plus efficaces pour la stabilité et le développement économique ?",
+      notes:
+        "Discussion sur les droits de l'homme, la corruption et la performance économique.",
+    },
+    did_you_know: {
+      text: "Le chocolat a été utilisé comme monnaie d'échange par les Mayas et les Aztèques en Amérique centrale avant l'arrivée des Européens.",
+    },
+  },
+  {
+    date: "2026-03-19",
+    general_question: {
+      question: "Qui a écrit la pièce de théâtre 'Le Cid' ?",
+      answer: "Pierre Corneille.",
+      explanation:
+        "C'est une tragi-comédie classique française, écrite en 1637, qui raconte les amours contrariées de Rodrigue et Chimène.",
+    },
+    open_question: {
+      question:
+        "L'utilisation d'armes autonomes létales (robots tueurs) est-elle moralement acceptable pour la guerre du futur ?",
+      notes:
+        "Débat sur la responsabilité éthique en cas de 'bavure', le contrôle humain et l'escalade des conflits.",
+    },
+    did_you_know: {
+      text: "Si tous les vaisseaux sanguins d'un humain étaient mis bout à bout, ils feraient plus de $96 000$ kilomètres, soit plus de deux fois le tour de la Terre.",
+    },
+  },
+  {
+    date: "2026-03-20",
+    general_question: {
+      question:
+        "Quel est l'événement astronomique qui marque le début du printemps dans l'hémisphère nord ?",
+      answer: "L'équinoxe de printemps (ou équinoxe vernal).",
+      explanation:
+        "C'est le moment où le Soleil se trouve directement au-dessus de l'équateur, et où la durée du jour est presque égale à celle de la nuit partout sur Terre.",
+    },
+    open_question: {
+      question:
+        "L'exploration spatiale (missions vers Mars, etc.) doit-elle être la priorité des budgets scientifiques ?",
+      notes:
+        "Débat sur la pertinence des dépenses spatiales face aux problèmes terrestres (climat, faim, maladies).",
+    },
+    did_you_know: {
+      text: "L'équinoxe de printemps tombe généralement le 20 ou le 21 mars, marquant le début d'un ensoleillement accru dans l'hémisphère nord.",
+    },
+  },
+  {
+    date: "2026-03-21",
+    general_question: {
+      question:
+        "Quel pays a pour devise le 'Chéquier Bleu' (ou 'Blue Cheque') en tant que symbole de l'État-providence ?",
+      answer: "Le Royaume-Uni (dans les années d'après-guerre).",
+      explanation:
+        "Ce terme fait référence aux mesures de sécurité sociale et de santé publique mises en place après la Seconde Guerre mondiale, notamment la création du National Health Service (NHS).",
+    },
+    open_question: {
+      question:
+        "Le droit à l'oubli numérique devrait-il être absolu ou limité par l'intérêt historique et la liberté d'expression ?",
+      notes:
+        "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
+    },
+    did_you_know: {
+      text: "Les chats domestiques partagent 95,6 % de leur ADN avec les tigres.",
+    },
+  },
+  {
+    date: "2026-03-22",
+    general_question: {
+      question:
+        "Quel est le nom de la zone de l'océan Atlantique sans courants dominants ni vents réguliers, souvent associée au mystère ?",
+      answer:
+        "Le triangle des Bermudes (mais surtout, la Mer des Sargasses est la zone calme).",
+      explanation:
+        "Le Triangle des Bermudes est une zone géographique où des disparitions inexpliquées ont eu lieu. La mer des Sargasses est connue pour son calme et son absence de courants, ce qui a longtemps été un problème pour la navigation à voile.",
+    },
+    open_question: {
+      question:
+        "Comment concilier le besoin de souveraineté alimentaire nationale avec les principes du libre-échange international ?",
+      notes:
+        "Débat sur les subventions agricoles, les barrières douanières et la sécurité alimentaire mondiale.",
+    },
+    did_you_know: {
+      text: "Le bois de balsa est le bois le plus léger du monde, pesant moins que le liège, et est souvent utilisé dans la construction de maquettes d'avions.",
+    },
+  },
+  {
+    date: "2026-03-23",
+    general_question: {
+      question: "Qui a fondé la société automobile Ford en 1903 ?",
+      answer: "Henry Ford.",
+      explanation:
+        "Il est célèbre pour l'introduction de la production à la chaîne (travail à la chaîne) dans la fabrication automobile, réduisant les coûts de manière significative.",
+    },
+    open_question: {
+      question:
+        "La transparence totale des salaires au sein des entreprises est-elle un facteur de motivation ou de conflit ?",
+      notes:
+        "Discussion sur l'égalité salariale, la jalousie et l'efficacité des négociations individuelles.",
+    },
+    did_you_know: {
+      text: "Les tornades les plus fortes du monde se produisent généralement aux États-Unis, dans une région surnommée 'Tornado Alley'.",
+    },
+  },
+  {
+    date: "2026-03-24",
+    general_question: {
+      question:
+        "Quelle est l'hormone surnommée 'l'hormone du stress' car elle est libérée en réponse à une situation de tension ou de danger ?",
+      answer: "Le cortisol.",
+      explanation:
+        "Produit par les glandes surrénales, le cortisol prépare le corps à la réaction de 'lutte ou de fuite' en augmentant le taux de sucre dans le sang.",
+    },
+    open_question: {
+      question:
+        "Le télétravail généralisé est-il bénéfique ou néfaste pour la cohésion d'équipe et l'innovation en entreprise ?",
+      notes:
+        "Débat sur l'équilibre entre flexibilité individuelle et dynamique collective au travail.",
+    },
+    did_you_know: {
+      text: "Le silence absolu est considéré comme impossible à atteindre. Dans une chambre anéchoïque (la plus silencieuse au monde), on peut entendre le bruit de son propre cœur ou le sang circuler.",
+    },
+  },
+  {
+    date: "2026-03-25",
+    general_question: {
+      question:
+        "Quel est le titre de l'opéra le plus connu de Mozart (en allemand) ?",
+      answer: "Die Zauberflöte (La Flûte enchantée).",
+      explanation:
+        "C'est un opéra en deux actes composé en 1791, qui mélange comédie et thèmes philosophiques.",
+    },
+    open_question: {
+      question:
+        "Les réseaux sociaux ont-ils un impact globalement positif ou négatif sur la santé mentale de leurs utilisateurs ?",
+      notes:
+        "Débat sur les effets de l'exposition constante, la comparaison sociale et la désinformation.",
+    },
+    did_you_know: {
+      text: "Les éléphants sont capables d'imiter les sons entendus dans leur environnement, y compris la parole humaine (bien que ce soit rare).",
+    },
+  },
+  {
+    date: "2026-03-26",
+    general_question: {
+      question:
+        "Quel explorateur portugais a été le premier à effectuer le tour du monde, bien qu'il soit mort aux Philippines en 1521 ?",
+      answer: "Fernand de Magellan.",
+      explanation:
+        "Son expédition a été la première à circumnaviguer la Terre, même si Magellan est mort avant d'atteindre l'Espagne ; c'est Juan Sebastián Elcano qui a terminé le voyage.",
+    },
+    open_question: {
+      question:
+        "Le droit d'auteur doit-il être révisé à l'ère des contenus générés par l'IA (texte, art, musique) ?",
+      notes:
+        "Discussion sur la paternité des œuvres, l'entraînement des modèles d'IA sur des données protégées et la rémunération des artistes.",
+    },
+    did_you_know: {
+      text: "L'inventeur de la première voiture à essence, Karl Benz, a breveté son 'véhicule automobile' le 29 janvier 1886.",
+    },
+  },
+  {
+    date: "2026-03-27",
+    general_question: {
+      question: "Combien de jours y a-t-il dans l'année 2026 ?",
+      answer: "365 jours.",
+      explanation:
+        "L'année 2026 n'est pas une année bissextile (elle n'est pas divisible par 4), elle compte donc 365 jours. La prochaine année bissextile sera 2028.",
+    },
+    open_question: {
+      question:
+        "Les technologies de surveillance de masse (caméras intelligentes, reconnaissance faciale) sont-elles un mal nécessaire pour la sécurité urbaine ?",
+      notes:
+        "Discussion sur la balance entre la sécurité publique et les libertés individuelles, ainsi que les risques de dérives autoritaires.",
+    },
+    did_you_know: {
+      text: "Le mot 'marsupial' vient du latin 'marsupium' qui signifie 'poche', en référence à la poche abdominale des femelles.",
+    },
+    // --- Mars 2026 (4 jours restants) ---
+
+    date: "2026-03-28",
+    general_question: {
+      question: "Quel est le nom du plus grand océan de la Terre ?",
+      answer: "L'océan Pacifique.",
+      explanation:
+        "Il couvre environ un tiers de la surface terrestre et est si grand qu'il pourrait contenir toutes les masses terrestres réunies.",
+    },
+    open_question: {
+      question:
+        "Le système éducatif doit-il privilégier les matières scientifiques (STEM) ou les humanités (littérature, philosophie) pour préparer les citoyens de demain ?",
+      notes:
+        "Débat sur l'importance de la pensée critique et de la créativité face à la demande de compétences techniques.",
+    },
+    did_you_know: {
+      text: "Le mot 'dollar' dérive de 'thaler', une ancienne monnaie d'argent utilisée dans le Saint-Empire romain germanique.",
+    },
+  },
+  {
+    date: "2026-03-29",
+    general_question: {
+      question:
+        "Qui est le peintre italien connu pour ses fresques de la chapelle Sixtine, notamment 'La Création d'Adam' ?",
+      answer: "Michel-Ange (Michelangelo Buonarroti).",
+      explanation:
+        "Il a travaillé sur le plafond de la chapelle Sixtine de 1508 à 1512, sur commande du Pape Jules II.",
+    },
+    open_question: {
+      question:
+        "L'utilisation d'assistants vocaux (Alexa, Google, Siri) dans les foyers représente-t-elle un risque acceptable pour la vie privée ?",
+      notes:
+        "Débat sur la collecte de données, l'écoute permanente et la transparence des politiques de confidentialité.",
+    },
+    did_you_know: {
+      text: "Contrairement à la croyance populaire, les lemmings ne se jettent pas volontairement dans la mer lors de migrations. Ce mythe a été popularisé par un documentaire de Disney.",
+    },
+  },
+  {
+    date: "2026-03-30",
+    general_question: {
+      question:
+        "Quel est le nom du traité signé en 1957 qui est considéré comme l'acte fondateur de la Communauté économique européenne (CEE) ?",
+      answer: "Le Traité de Rome.",
+      explanation:
+        "Il a été signé par six pays fondateurs (Allemagne, Belgique, France, Italie, Luxembourg, Pays-Bas) et a établi un marché commun.",
+    },
+    open_question: {
+      question:
+        "Le concept de 'neutralité carbone' d'ici 2050 est-il techniquement et économiquement réaliste à l'échelle mondiale ?",
+      notes:
+        "Débat sur la faisabilité des technologies de capture de carbone, les changements de mode de vie nécessaires et le coût de la transition énergétique.",
+    },
+    did_you_know: {
+      text: "L'étoile la plus proche du Soleil, Proxima Centauri, est une naine rouge située à environ 4,24 années-lumière.",
+    },
+  },
+  {
+    date: "2026-03-31",
+    general_question: {
+      question:
+        "Quelle est l'unité de mesure standard pour l'intensité du courant électrique ?",
+      answer: "L'Ampère (A).",
+      explanation:
+        "L'Ampère (du nom du physicien André-Marie Ampère) mesure la quantité de charge électrique qui passe par un point donné en une seconde.",
+    },
+    open_question: {
+      question:
+        "Faut-il imposer des limites aux multinationales en matière d'optimisation fiscale (évasion fiscale légale) ?",
+      notes:
+        "Débat sur les impôts minimums mondiaux, la concurrence fiscale et l'équité des contributions.",
+    },
+    did_you_know: {
+      text: "Le nez humain est capable de se souvenir d'environ 50 000 odeurs différentes.",
+    },
+  },
+
+  // --- Avril 2026 (30 jours) ---
+  {
+    date: "2026-04-01",
+    general_question: {
+      question:
+        "Quel est le nom du célèbre détroit qui relie la mer Méditerranée à l'océan Atlantique ?",
+      answer: "Le détroit de Gibraltar.",
+      explanation:
+        "Il sépare l'Europe (Espagne et Gibraltar) de l'Afrique (Maroc et Ceuta).",
+    },
+    open_question: {
+      question:
+        "Les 'influenceurs' numériques doivent-ils être soumis aux mêmes règles de transparence et de déontologie que les médias traditionnels ?",
+      notes:
+        "Débat sur la publicité déguisée, la crédibilité des sources et la responsabilité éditoriale.",
+    },
+    did_you_know: {
+      text: "La tradition du 'Poisson d'avril' remonterait à 1564, lorsque le roi Charles IX a décalé le début de l'année au 1er janvier, laissant le 1er avril aux farceurs.",
+    },
+  },
+  {
+    date: "2026-04-02",
+    general_question: {
+      question: "Qui est l'auteur du roman épique 'Guerre et Paix' ?",
+      answer: "Léon Tolstoï.",
+      explanation:
+        "Publié en 1869, ce roman monumental retrace l'histoire de la société russe pendant les guerres napoléoniennes.",
+    },
+    open_question: {
+      question:
+        "Faut-il légaliser et encadrer le marché des organes humains pour sauver des vies et combattre le trafic illégal ?",
+      notes:
+        "Débat éthique, social et économique sur la marchandisation du corps humain et l'altruisme.",
+    },
+    did_you_know: {
+      text: "Le cœur de la souris bat environ 450 fois par minute, tandis que celui de l'humain bat entre 60 et 100 fois par minute.",
+    },
+  },
+  {
+    date: "2026-04-03",
+    general_question: {
+      question:
+        "Quel type de rayonnement électromagnétique a la longueur d'onde la plus courte et la plus haute énergie ?",
+      answer: "Les rayons Gamma.",
+      explanation:
+        "Ils sont produits par les phénomènes les plus violents de l'univers, comme les explosions de supernovae et les désintégrations nucléaires.",
+    },
+    open_question: {
+      question:
+        "La transparence totale des salaires au sein des entreprises est-elle un facteur de motivation ou de conflit ?",
+      notes:
+        "Discussion sur l'égalité salariale, la jalousie et l'efficacité des négociations individuelles.",
+    },
+    did_you_know: {
+      text: "L'acronyme 'NASA' signifie National Aeronautics and Space Administration.",
+    },
+  },
+  {
+    date: "2026-04-04",
+    general_question: {
+      question:
+        "Dans quel pays se trouve la ville de La Mecque, lieu le plus sacré de l'Islam ?",
+      answer: "L'Arabie Saoudite.",
+      explanation:
+        "La Mecque abrite la Kaaba, vers laquelle se tournent les musulmans du monde entier pour prier, et est le lieu du pèlerinage (Hajj).",
+    },
+    open_question: {
+      question:
+        "Le droit à la santé est-il une responsabilité individuelle ou une obligation collective prise en charge par l'État ?",
+      notes:
+        "Débat sur les systèmes de santé universels, les assurances privées et la prévention.",
+    },
+    did_you_know: {
+      text: "Les fourmis sont parmi les rares créatures à 'cultiver' : certaines espèces élèvent des champignons pour se nourrir, de la même manière que les humains cultivent.",
+    },
+  },
+  {
+    date: "2026-04-05",
+    general_question: {
+      question:
+        "Quel est l'élément chimique symbolisé par 'Au' et connu pour sa résistance à la corrosion ?",
+      answer: "L'or (Aurum).",
+      explanation:
+        "L'or est un métal précieux et inaltérable. Son nom latin, *Aurum*, signifie 'brillant' ou 'lueur de l'aube'.",
+    },
+    open_question: {
+      question:
+        "Le tourisme spatial devrait-il être encouragé malgré son coût environnemental et social élevé ?",
+      notes:
+        "Débat sur la justification des dépenses et de l'empreinte carbone pour l'exploration privée de l'espace.",
+    },
+    did_you_know: {
+      text: "La cloche de la Liberté (Liberty Bell) à Philadelphie a été fondue pour la première fois en 1752, mais s'est fissurée dès le premier coup de marteau.",
+    },
+  },
+  {
+    date: "2026-04-06",
+    general_question: {
+      question:
+        "Dans quel sport professionnel le terme 'Home Run' (circuit) est-il utilisé ?",
+      answer: "Le baseball.",
+      explanation:
+        "C'est un coup sûr qui permet au frappeur de faire le tour complet des bases et de marquer un point (et potentiellement les coureurs déjà sur base).",
+    },
+    open_question: {
+      question:
+        "Faut-il interdire l'exploitation minière en haute mer pour protéger des écosystèmes encore largement inexplorés ?",
+      notes:
+        "Discussion sur le besoin de métaux rares, les conséquences environnementales irréversibles et la réglementation internationale.",
+    },
+    did_you_know: {
+      text: "Les humains sont les seuls animaux à avoir un menton prononcé. Sa fonction évolutive reste un sujet de débat scientifique.",
+    },
+  },
+  {
+    date: "2026-04-07",
+    general_question: {
+      question:
+        "Qui est le mathématicien connu pour avoir défini le théorème qui décrit la relation entre les côtés d'un triangle rectangle ($a^2 + b^2 = c^2$) ?",
+      answer: "Pythagore.",
+      explanation:
+        "Bien qu'il soit attribué à Pythagore, ce théorème était déjà connu dans d'autres civilisations (babylonienne, égyptienne) avant lui, mais il en aurait fourni la première preuve formelle.",
+    },
+    open_question: {
+      question:
+        "L'hyper-connectivité et la dépendance aux smartphones modifient-elles la structure cognitive du cerveau humain ?",
+      notes:
+        "Discussion sur la capacité d'attention, la mémorisation et l'impact sur le sommeil.",
+    },
+    did_you_know: {
+      text: "Le mot 'avril' vient du latin 'aperire', qui signifie 'ouvrir', en référence à l'ouverture des bourgeons au printemps.",
     },
   },
   {
     date: "2026-04-08",
     general_question: {
       question:
-        "Dans quel film la phrase culte 'Que la force soit avec toi' est-elle souvent prononcée ?",
-      answer: "Star Wars (La Guerre des Étoiles).",
+        "Quel était le nom de l'empire dirigé par Montezuma II et vaincu par Hernán Cortés ?",
+      answer: "L'Empire Aztèque.",
       explanation:
-        "Cette phrase est une bénédiction ou un souhait de chance souvent échangé par les Jedi. ",
+        "L'Empire Aztèque, dont la capitale était Tenochtitlan (l'actuelle Mexico), a été conquis par les Espagnols et leurs alliés locaux en 1521.",
     },
     open_question: {
       question:
-        "Faut-il limiter l'usage de la reconnaissance faciale dans les aéroports et les lieux publics pour protéger la vie privée ?",
+        "Les technologies de réalité virtuelle et augmentée sont-elles une source d'évasion enrichissante ou une menace pour l'interaction sociale réelle ?",
       notes:
-        "Débat sur l'équilibre entre la sécurité nationale et la surveillance de masse.",
+        "Discussion sur l'éducation, la formation professionnelle et l'isolement social.",
     },
     did_you_know: {
-      text: "Un séisme de magnitude 7 libère autant d'énergie qu'une bombe atomique de 32 millions de tonnes de TNT.",
+      text: "Il existe plus d'arbres sur Terre qu'il n'y a d'étoiles dans notre galaxie, la Voie Lactée (environ 3 000 milliards d'arbres contre 100 à 400 milliards d'étoiles).",
     },
   },
   {
     date: "2026-04-09",
     general_question: {
       question:
-        "Quel scientifique a découvert la structure en double hélice de l'ADN avec James Watson ?",
-      answer: "Francis Crick.",
+        "Quel pays européen est connu pour avoir les fjords les plus profonds et les plus longs ?",
+      answer: "La Norvège.",
       explanation:
-        "Watson et Crick ont publié leur modèle en 1953, se basant sur les travaux de Rosalind Franklin. Ils ont reçu le Prix Nobel en 1962.",
+        "Les fjords sont d'anciennes vallées glaciaires inondées par la mer. Le Sognefjord est l'un des plus célèbres de Norvège.",
     },
     open_question: {
       question:
-        "Le travail doit-il être considéré comme la principale source d'identité et de valeur sociale de l'individu ?",
+        "Faut-il interdire la publicité pour les produits considérés comme mauvais pour la santé (sucre, alcool, malbouffe) ?",
       notes:
-        "Débat sur la société post-travail, le revenu universel et la valeur des activités non rémunérées.",
+        "Débat sur la liberté de commerce versus la responsabilité de l'État dans la santé publique.",
     },
     did_you_know: {
-      text: "Les poulpes ont trois cœurs : deux pompent le sang à travers les branchies, et le troisième le fait circuler dans le reste du corps.",
+      text: "L'œil d'une autruche est plus grand que son cerveau. L'autruche a les plus grands yeux de tous les vertébrés terrestres.",
     },
   },
   {
     date: "2026-04-10",
     general_question: {
-      question: "Quelle est la plus grande lune de Saturne ?",
-      answer: "Titan.",
+      question:
+        "Quel est le nom du gaz noble qui compose la majeure partie de l'atmosphère terrestre ?",
+      answer: "L'Azote ($N_2$).",
       explanation:
-        "Titan est la deuxième plus grande lune du système solaire et la seule, à part la Terre, à posséder une atmosphère dense et des étendues de liquide (hydrocarbures) à sa surface.",
+        "L'atmosphère est composée d'environ 78 % d'azote, 21 % d'oxygène, et d'autres gaz (argon, $CO_2$) en plus petites quantités.",
     },
     open_question: {
       question:
-        "L'éducation doit-elle privilégier les matières scientifiques (STEM) au détriment des sciences humaines et des arts ?",
+        "Le droit de vote devrait-il être obligatoire pour assurer une représentation démocratique maximale ?",
       notes:
-        "Débat sur l'équilibre des programmes, les besoins du marché du travail et la formation d'un citoyen complet.",
+        "Discussion sur la légitimité du vote, l'apathie politique et les sanctions en cas d'abstention.",
     },
     did_you_know: {
-      text: "La majorité des diamants naturels ont été formés il y a entre 1 et 3 milliards d'années, sous une pression et une chaleur extrêmes.",
+      text: "La pomme de terre, la tomate et le piment sont tous originaires du continent américain, et non d'Europe ou d'Asie.",
     },
   },
   {
     date: "2026-04-11",
     general_question: {
-      question:
-        "Dans quel pays la civilisation Aztèque a-t-elle principalement prospéré ?",
-      answer: "Le Mexique.",
+      question: "Quel dramaturge britannique a écrit 'Hamlet' et 'Macbeth' ?",
+      answer: "William Shakespeare.",
       explanation:
-        "L'Empire aztèque, avec sa capitale Tenochtitlan (sur le site de l'actuelle Mexico), a dominé la Méso-Amérique du XIVe au XVIe siècle.",
+        "Ses tragédies sont parmi les œuvres les plus jouées au monde. 'Hamlet' contient la célèbre ligne 'Être ou ne pas être'.",
     },
     open_question: {
       question:
-        "L'utilisation de drones par les particuliers devrait-elle être strictement interdite ou fortement réglementée pour des raisons de sécurité et de vie privée ?",
+        "Le système de retraite par répartition est-il durable face au vieillissement démographique et à l'allongement de l'espérance de vie ?",
       notes:
-        "Débat sur le loisir, la photographie aérienne et les risques d'espionnage ou de terrorisme.",
+        "Discussion sur l'âge de départ, les cotisations et la nécessité de réformes structurelles.",
     },
     did_you_know: {
-      text: "Le cri du dodo était inconnu car il était une espèce insulaire, non habituée aux prédateurs, et donc silencieuse (éteinte au XVIIe siècle).",
+      text: "Le mot 'bibliothèque' en français est souvent dérivé du grec *bibliothēkē*, signifiant étymologiquement 'dépôt de livres'.",
     },
   },
   {
     date: "2026-04-12",
     general_question: {
       question:
-        "Quel est le plus grand État des États-Unis par sa superficie ?",
-      answer: "L'Alaska.",
+        "Quelle est la plus grande structure construite sur Terre par un organisme vivant ?",
+      answer: "La Grande Barrière de Corail (Australie).",
       explanation:
-        "L'Alaska est deux fois et demie plus grand que le Texas, le deuxième État. Il a été acheté à la Russie en 1867. ",
+        "Elle est composée de milliards de petits organismes appelés polypes coralliens et s'étend sur plus de 2 300 kilomètres.",
     },
     open_question: {
       question:
-        "Les super-riches (milliardaires) ont-ils une obligation morale de redistribuer une grande partie de leur fortune ?",
+        "Les technologies de surveillance des employés à distance (logiciels de suivi) sont-elles un abus ou une nécessité de gestion ?",
       notes:
-        "Débat sur la philanthropie, la taxation progressive et le rôle des fondations privées (Ex. : Bill Gates).",
+        "Débat sur la confiance, le droit à la déconnexion et la mesure de la productivité.",
     },
     did_you_know: {
-      text: "Le 12 avril est la 'Journée internationale du vol spatial habité', en commémoration du premier vol de Youri Gagarine en 1961.",
+      text: "Le 12 avril commémore le premier vol habité dans l'espace (Youri Gagarine en 1961) et le lancement de la première navette spatiale américaine (Columbia en 1981).",
     },
   },
   {
     date: "2026-04-13",
     general_question: {
       question:
-        "Quel écrivain français est l'auteur de 'Vingt mille lieues sous les mers' ?",
-      answer: "Jules Verne.",
+        "Quel est l'organe humain qui utilise le plus d'énergie et d'oxygène au repos ?",
+      answer: "Le cerveau.",
       explanation:
-        "Publié en 1870, ce roman de science-fiction met en scène le capitaine Nemo et son sous-marin, le Nautilus.",
+        "Malgré ne représentant que 2 % du poids corporel, le cerveau utilise environ 20 % de l'oxygène et des calories totales consommées par le corps.",
     },
     open_question: {
       question:
-        "Faut-il interdire l'exploitation minière en haute mer avant de connaître l'étendue des dégâts sur les écosystèmes sous-marins ?",
+        "Les monnaies numériques de banque centrale (MNBC) doivent-elles remplacer l'argent liquide traditionnel ?",
       notes:
-        "Débat sur l'accès aux minéraux rares (lithium, cobalt) et la conservation marine.",
+        "Discussion sur la surveillance financière, l'inclusion bancaire et la stabilité économique.",
     },
     did_you_know: {
-      text: "Le seul aliment qui ne se périme jamais (à condition qu'il soit bien stocké) est le riz blanc non cuit.",
+      text: "Les nuages ne sont pas légers. Un cumulus moyen peut peser plus de 500 tonnes, soit l'équivalent d'un avion gros porteur.",
     },
   },
   {
     date: "2026-04-14",
     general_question: {
       question:
-        "Dans le corps humain, quel acide est produit en grande quantité par l'estomac pour la digestion ?",
-      answer: "L'acide chlorhydrique ($\text{HCl}$).",
+        "Quelle est la capitale de l'Afrique du Sud (capitale administrative) ?",
+      answer: "Pretoria.",
       explanation:
-        "L'acide chlorhydrique a un $\text{pH}$ très bas (entre 1,5 et 3,5) et est essentiel pour décomposer les aliments et tuer les bactéries ingérées.",
+        "L'Afrique du Sud a trois capitales : Pretoria (administrative), Le Cap (législative) et Bloemfontein (judiciaire).",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être obligées d'offrir des congés payés pour la santé mentale, au même titre que la santé physique ?",
+        "L'exploration et la commercialisation des astéroïdes (exploitation minière spatiale) sont-elles le futur de l'humanité ?",
       notes:
-        "Débat sur la reconnaissance du stress et du burn-out, et la politique de bien-être au travail.",
+        "Discussion sur la faisabilité technique, les traités internationaux (espace), et le risque de pollution spatiale.",
     },
     did_you_know: {
-      text: "Les chameaux ont trois paupières pour se protéger du sable dans le désert.",
+      text: "Le verre n'est pas un solide au sens strict, mais un 'liquide amorphe surfondu'. Cependant, à température ambiante, il est tellement visqueux qu'il apparaît et se comporte comme un solide.",
     },
   },
   {
     date: "2026-04-15",
     general_question: {
-      question: "Quel est le nom du plus grand cratère d'impact sur Mars ?",
-      answer: "Le bassin d'Hellas (Hellas Planitia).",
+      question:
+        "Quel artiste de la Renaissance est célèbre pour son dessin de l'Homme de Vitruve ?",
+      answer: "Léonard de Vinci.",
       explanation:
-        "Avec un diamètre d'environ 2 300 km et une profondeur de plus de 7 km, c'est l'une des plus grandes structures d'impact connues du système solaire. ",
+        "Ce dessin, réalisé vers 1490, illustre les proportions idéales du corps humain selon les écrits de l'architecte romain Vitruve.",
     },
     open_question: {
       question:
-        "La liberté artistique (chanson, film, peinture) devrait-elle être limitée si elle heurte les sensibilités religieuses ou culturelles ?",
-      notes: "Débat sur la censure, l'offense et le rôle provocateur de l'art.",
+        "La censure des contenus extrêmes sur les plateformes numériques (discours de haine, terrorisme) menace-t-elle la liberté d'expression ?",
+      notes:
+        "Débat sur le rôle des modérateurs, les algorithmes de détection et la définition de l'abus.",
     },
     did_you_know: {
-      text: "L'Impôt sur le revenu moderne est né en Grande-Bretagne en 1799 pour financer la guerre contre la France napoléonienne.",
+      text: "L'œil humain est capable de distinguer environ 10 millions de couleurs différentes.",
     },
   },
   {
     date: "2026-04-16",
     general_question: {
       question:
-        "Quel groupe de rock anglais a créé l'album 'The Dark Side of the Moon' ?",
-      answer: "Pink Floyd.",
+        "Quel est le nom de la péninsule asiatique qui comprend les pays de la Malaisie, de la Thaïlande et de la Birmanie ?",
+      answer: "La péninsule Malaise (ou péninsule de Malacca).",
       explanation:
-        "Sorti en 1973, cet album conceptuel est l'un des plus vendus de tous les temps, célèbre pour ses thèmes de la folie et de l'avidité.",
+        "Elle est l'extrémité la plus méridionale du continent asiatique, jouant un rôle stratégique dans le commerce maritime.",
     },
     open_question: {
       question:
-        "Les réseaux sociaux sont-ils aujourd'hui un outil de démocratisation de l'information ou une chambre d'écho polarisante ?",
+        "Les pays développés devraient-ils annuler la dette des pays en développement en échange d'engagements environnementaux ?",
       notes:
-        "Débat sur les algorithmes, la désinformation et la création de bulles idéologiques.",
+        "Discussion sur le 'swap' dette-nature, la souveraineté économique et l'équité Nord-Sud.",
     },
     did_you_know: {
-      text: "Les rêves se produisent pendant la phase de sommeil $\text{REM}$ (Rapid Eye Movement), qui représente environ 20% du temps de sommeil total.",
+      text: "Les planètes du système solaire ne sont pas alignées, comme on le voit souvent dans les représentations. Elles sont toutes sur un plan, mais à des positions orbitales différentes.",
     },
   },
   {
     date: "2026-04-17",
     general_question: {
       question:
-        "Comment appelle-t-on la transformation chimique de l'eau en vapeur d'eau ?",
-      answer: "Vaporisation (ou évaporation).",
+        "Quel est le nom de l'effet optique qui donne l'impression que la lumière est plus bleue par temps clair que par temps nuageux ?",
+      answer: "La diffusion Rayleigh.",
       explanation:
-        "La vaporisation est le passage de l'état liquide à l'état gazeux. Elle nécessite l'apport d'énergie (chaleur).",
+        "Cet effet explique pourquoi le ciel est bleu : les molécules d'air diffusent la lumière bleue plus efficacement que les autres couleurs.",
     },
     open_question: {
       question:
-        "Faut-il légaliser et réglementer le marché des stupéfiants pour des raisons fiscales et de santé publique ?",
+        "Le concept de 'travail pour la vie' a-t-il disparu au profit de carrières plus courtes et variées ?",
       notes:
-        "Débat sur la criminalité, le contrôle qualité et les exemples de pays ayant opté pour la légalisation.",
+        "Débat sur la précarité, la reconversion professionnelle et la gestion de carrière par l'individu.",
     },
     did_you_know: {
-      text: "Le point de fusion de l'or est de $1 064,18^{circ}\text{C}$.",
+      text: "Il a plu des grenouilles à plusieurs reprises dans l'histoire, un phénomène rare souvent expliqué par des tornades ou des trombes marines qui aspirent de petits animaux et les déposent ailleurs.",
     },
   },
   {
     date: "2026-04-18",
     general_question: {
       question:
-        "Quel est le nom du célèbre détroit reliant l'océan Atlantique et la mer Méditerranée ?",
-      answer: "Le détroit de Gibraltar.",
+        "Qui est l'auteur des romans policiers mettant en scène le détective Hercule Poirot ?",
+      answer: "Agatha Christie.",
       explanation:
-        "Il sépare l'Europe (Espagne, Gibraltar) de l'Afrique (Maroc) et est une route maritime stratégique.",
+        "Christie est l'une des auteurs les plus vendues au monde, et Hercule Poirot, un détective belge, est l'un de ses personnages les plus célèbres.",
     },
     open_question: {
       question:
-        "La croissance de la population mondiale est-elle le problème écologique principal, devant la surconsommation des pays riches ?",
+        "La légalisation des drogues douces est-elle une solution pour réduire le crime organisé et améliorer la santé publique ?",
       notes:
-        "Débat sur la pression démographique versus l'empreinte carbone et l'inégalité de la consommation par habitant.",
+        "Débat sur la réglementation, les recettes fiscales et les risques d'abus et de dépendance.",
     },
     did_you_know: {
-      text: "La pomme de terre, introduite en Europe au $\text{XVI}^e$ siècle, a été longtemps considérée comme toxique et servait d'abord de nourriture pour le bétail.",
+      text: "Le tremblement de terre de San Francisco en 1906, qui a causé d'énormes dégâts, est survenu très tôt le matin du 18 avril.",
     },
   },
   {
     date: "2026-04-19",
     general_question: {
       question:
-        "Qui a formulé les lois du mouvement des planètes au début du $\text{XVII}^e$ siècle ?",
-      answer: "Johannes Kepler.",
+        "Quel est le nom du plus grand lac artificiel du monde (en volume) ?",
+      answer: "Le lac Kariba (Zambie/Zimbabwe).",
       explanation:
-        "Kepler a établi trois lois empiriques décrivant le mouvement des planètes autour du Soleil (orbites elliptiques, etc.). ",
+        "Formé par le barrage de Kariba sur le fleuve Zambèze, il est souvent considéré comme le plus grand lac artificiel en termes de volume d'eau stocké.",
     },
     open_question: {
       question:
-        "Le vote par Internet (électronique) est-il la solution pour augmenter la participation électorale ou un risque pour la sécurité des résultats ?",
+        "Les systèmes de notation et de classement des universités (type Shanghai) sont-ils une mesure fiable de la qualité académique ?",
       notes:
-        "Débat sur la fraude, la cryptographie et l'accessibilité du vote en ligne.",
+        "Débat sur les critères de recherche vs. d'enseignement, l'homogénéisation des modèles et la course au prestige.",
     },
     did_you_know: {
-      text: "La foudre frappe le sol environ 100 fois par seconde dans le monde.",
+      text: "Le jour de Pâques n'a pas de date fixe. Il tombe le premier dimanche après la première pleine lune suivant l'équinoxe de printemps.",
     },
   },
   {
     date: "2026-04-20",
     general_question: {
-      question: "Quel est le plus grand récif corallien du monde ?",
-      answer: "La Grande Barrière de Corail.",
+      question:
+        "Quel organe est responsable de la détoxification du sang et de la production de bile ?",
+      answer: "Le foie.",
       explanation:
-        "Située au large de l'Australie, elle s'étend sur plus de 2 300 kilomètres et est visible depuis l'espace. Elle est gravement menacée par le réchauffement climatique.",
+        "Le foie est l'organe interne le plus volumineux et accomplit plus de 500 fonctions vitales dans le corps humain.",
     },
     open_question: {
       question:
-        "L'utilisation d'assistants vocaux (Alexa, Google Home) est-elle un bénéfice pratique ou une intrusion dans la vie privée ?",
+        "Le sport professionnel moderne est-il un modèle d'excellence athlétique ou une machine de divertissement hyper-commercialisée ?",
       notes:
-        "Débat sur la collecte de données, l'écoute permanente et le consentement des utilisateurs.",
+        "Discussion sur les salaires, les droits de diffusion, le dopage et l'esprit olympique.",
     },
     did_you_know: {
-      text: "Le seul continent au monde qui ne contient pas d'espèces de serpents est l'Antarctique.",
+      text: "La pression artérielle d'un humain varie tout au long de la journée et est généralement plus basse pendant le sommeil.",
     },
   },
   {
     date: "2026-04-21",
     general_question: {
       question:
-        "Quelle ville est traditionnellement considérée comme la date de fondation de Rome (légende de Romulus et Remus) ?",
-      answer: "753 av. J.-C.",
+        "Selon la légende, quelle ville antique a été fondée par Romulus et Remus ?",
+      answer: "Rome.",
       explanation:
-        "Selon la tradition romaine, Rome fut fondée par Romulus le 21 avril 753 av. J.-C.",
+        "La légende veut que Romulus ait tué Remus avant de fonder la ville le 21 avril 753 av. J.-C.",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être légalement contraintes de s'assurer que leurs chaînes d'approvisionnement sont éthiques et sans exploitation du travail ?",
+        "Le revenu universel de base est-il une solution viable pour l'automatisation croissante des emplois ?",
       notes:
-        "Débat sur la responsabilité sociale des entreprises, le 'fast-fashion' et le travail des enfants.",
+        "Discussion sur son coût, son impact sur l'incitation au travail et la réduction de la pauvreté.",
     },
     did_you_know: {
-      text: "Le métal le plus cher est le rhodium, un métal du groupe du platine, principalement utilisé comme catalyseur.",
+      text: "Le mot 'virus' vient du latin signifiant 'toxine' ou 'poison'.",
     },
   },
   {
     date: "2026-04-22",
     general_question: {
-      question:
-        "Quel est le principal gaz libéré par les vaches lors de leur digestion ?",
-      answer: "Le méthane ($\text{CH}_4$).",
+      question: "Quel est le plus haut sommet de l'Amérique du Nord ?",
+      answer: "Le Denali (ou Mont McKinley) en Alaska.",
       explanation:
-        "Le méthane est un puissant gaz à effet de serre (plus puissant que le $\text{CO}_2$ à court terme) libéré par la fermentation entérique des ruminants.",
+        "Il culmine à 6 190 mètres au-dessus du niveau de la mer. Son nom autochtone (Denali) a été officiellement rétabli en 2015.",
     },
     open_question: {
       question:
-        "La Journée de la Terre (Earth Day) a-t-elle un impact réel ou est-ce une simple opération de 'greenwashing' ?",
+        "L'IA générative doit-elle être soumise à des lois éthiques plus strictes que les entreprises classiques ?",
       notes:
-        "Débat sur la sensibilisation, l'action concrète et le marketing environnemental des entreprises.",
+        "Débat sur la régulation de l'IA (transparence, biais, impact sociétal) vs. la liberté d'innovation.",
     },
     did_you_know: {
-      text: "La plus ancienne pyramide égyptienne n'est pas Gizeh, mais la Pyramide à degrés de Djoser, construite vers 2650 av. J.-C.",
+      text: "Le 22 avril est célébré dans de nombreux pays comme le 'Jour de la Terre' (Earth Day) depuis 1970.",
     },
   },
   {
     date: "2026-04-23",
     general_question: {
       question:
-        "Quel est le nom du détroit qui sépare la Sibérie (Russie) de l'Alaska (États-Unis) ?",
-      answer: "Le détroit de Béring.",
+        "Qui a écrit le poème épique 'L'Enéide', décrivant la fondation mythique de Rome ?",
+      answer: "Virgile (Publius Vergilius Maro).",
       explanation:
-        "Ce détroit est célèbre pour avoir été, pendant les périodes glaciaires, un pont terrestre (Béringie) qui a permis le peuplement des Amériques.",
+        "Ce poème du Ier siècle av. J.-C. est considéré comme l'épopée nationale de l'Empire romain.",
     },
     open_question: {
       question:
-        "Faut-il privilégier l'adoption internationale ou le placement familial pour les enfants sans parents ?",
+        "Les véhicules autonomes doivent-ils être programmés pour privilégier la vie du passager ou celle du piéton en cas d'accident inévitable ?",
       notes:
-        "Débat sur le respect de l'identité culturelle de l'enfant versus le besoin d'un foyer stable et aimant.",
+        "Problème du dilemme du 'Trolley' appliqué à l'IA et aux véhicules, débat éthique sur la programmation morale.",
     },
     did_you_know: {
-      text: "William Shakespeare et Miguel de Cervantes, deux des plus grands écrivains occidentaux, sont morts le même jour (23 avril 1616), mais en raison des calendriers différents (Julien et Grégorien), ce n'était pas le même jour civil.",
+      text: "Le 23 avril est traditionnellement la date de la mort de William Shakespeare et de Miguel de Cervantes (1616), d'où son statut de Journée Mondiale du Livre.",
     },
   },
   {
     date: "2026-04-24",
     general_question: {
       question:
-        "Quel est le nom du plus grand océan de l'Antiquité (l'océan qui entourait la Pangée) ?",
-      answer: "La Panthalassa.",
+        "Quelle est l'unité de mesure de la force dans le Système international d'unités (SI) ?",
+      answer: "Le Newton (N).",
       explanation:
-        "Il était l'océan unique et immense qui entourait le supercontinent de la Pangée, il y a environ 250 millions d'années.",
+        "Un Newton est défini comme la force nécessaire pour donner à une masse de 1 kilogramme une accélération de 1 mètre par seconde carrée ($1\text{ N} = 1\text{ kg}cdot\text{m/s}^2$).",
     },
     open_question: {
       question:
-        "L'anxiété croissante chez les jeunes est-elle un problème individuel ou un symptôme d'une société en crise (climat, avenir économique) ?",
+        "Le service militaire ou civil obligatoire pour les jeunes est-il un outil efficace d'intégration et de cohésion nationale ?",
       notes:
-        "Débat sur la santé mentale, le stress lié à l'avenir (éco-anxiété) et la pression sociale.",
+        "Discussion sur l'utilité, la contrainte individuelle et l'apprentissage de la citoyenneté.",
     },
     did_you_know: {
-      text: "L'huile de moteur est réutilisable, mais la majorité est recyclée pour faire des carburants marins ou d'autres produits pétroliers, et non de la nouvelle huile moteur.",
+      text: "Un 'jiffy' est une unité de temps informelle et extrêmement courte, utilisée en physique pour décrire le temps qu'il faut à la lumière pour parcourir un centimètre dans le vide (environ $3,33$ picosecondes).",
     },
   },
   {
     date: "2026-04-25",
     general_question: {
       question:
-        "Quel compositeur est l'auteur de 'La Marche Turque' et de la symphonie 'Jupiter' ?",
-      answer: "Wolfgang Amadeus Mozart.",
+        "Quel est le nom du célèbre musée abritant la Joconde et La Vénus de Milo ?",
+      answer: "Le Musée du Louvre (Paris).",
       explanation:
-        "La symphonie $\text{No.} 41$ de Mozart est surnommée 'Jupiter'. Il a écrit la Marche Turque (Rondo alla Turca) pour sa Sonate pour piano $\text{No.} 11$.",
+        "C'est le musée d'art le plus visité au monde. Il a été une forteresse médiévale avant d'être un palais royal.",
     },
     open_question: {
       question:
-        "Les banques centrales devraient-elles utiliser la 'monnaie numérique' pour améliorer la politique monétaire et l'inclusion financière ?",
+        "Le boycott des entreprises qui ne respectent pas certaines normes éthiques (environnement, travail) est-il un outil efficace de changement social ?",
       notes:
-        "Débat sur les CBDC (Central Bank Digital Currencies), le contrôle des transactions et la fin de l'argent liquide.",
+        "Discussion sur l'impact économique réel, le 'greenwashing' et le pouvoir du consommateur.",
     },
     did_you_know: {
-      text: "Le cœur humain bat environ 100 000 fois par jour.",
+      text: "Les koalas n'ont pas de poche marsupiale développée pour transporter leurs petits, contrairement aux kangourous ou aux wallabies.",
     },
   },
   {
     date: "2026-04-26",
     general_question: {
-      question: "Quelle était l'ancienne capitale de l'Empire Inca ?",
-      answer: "Cuzco (ou Cusco).",
+      question:
+        "Quel événement tragique s'est produit à Tchernobyl (Ukraine) en 1986 ?",
+      answer: "L'accident nucléaire (explosion du réacteur n°4).",
       explanation:
-        "Située dans les Andes péruviennes, Cuzco était le centre politique et religieux de l'Empire Inca avant la conquête espagnole. ",
+        "C'est la catastrophe nucléaire la plus grave de l'histoire civile en termes de rejets radioactifs, classée niveau 7 sur l'échelle INES.",
     },
     open_question: {
       question:
-        "Faut-il imposer des cours obligatoires sur les religions et la laïcité dès le plus jeune âge ?",
+        "Le droit à l'avortement est-il un droit fondamental absolu ou doit-il être soumis à certaines restrictions ?",
       notes:
-        "Débat sur la tolérance, la connaissance des cultures et le rôle de l'État dans l'éducation religieuse.",
+        "Débat éthique et légal sur la temporalité, la conscience médicale et les motifs d'interruption de grossesse.",
     },
     did_you_know: {
-      text: "L'accident nucléaire de Tchernobyl s'est produit le 26 avril 1986 en Ukraine. C'est l'une des pires catastrophes écologiques et humaines de l'histoire.",
+      text: "La Terre tourne autour du Soleil à une vitesse d'environ $107 000$ kilomètres par heure.",
     },
   },
   {
     date: "2026-04-27",
     general_question: {
       question:
-        "Quel gaz est le principal composant des ballons gonflables qui flottent (plus léger que l'air) ?",
-      answer: "L'Hélium (He).",
+        "Comment appelle-t-on le processus par lequel les étoiles massives arrivent à la fin de leur vie et explosent ?",
+      answer: "Supernova.",
       explanation:
-        "L'hélium est un gaz rare, inerte et non inflammable, ce qui le rend sûr pour les ballons. L'hydrogène, encore plus léger, est trop inflammable.",
+        "Une supernova est une explosion stellaire extrêmement lumineuse. Elle est responsable de la création et de la dispersion dans l'univers de nombreux éléments chimiques lourds.",
     },
     open_question: {
       question:
-        "Le système de notation 'étoiles' (restaurants, hôtels) est-il un bon indicateur de qualité ou favorise-t-il l'uniformité ?",
+        "La démocratie directe (référendums fréquents, initiatives citoyennes) est-elle supérieure à la démocratie représentative ?",
       notes:
-        "Débat sur la critique, l'innovation et la subjectivité de la qualité dans les services.",
+        "Débat sur l'efficacité des décisions, la complexité des lois et le risque de 'tyrannie de la majorité'.",
     },
     did_you_know: {
-      text: "Un mois sans l'occurrence de la pleine lune est possible. Cela s'est produit en février 1866 et se reproduira en février 2037.",
+      text: "Le mot 'alphabet' vient des deux premières lettres de l'alphabet grec : Alpha ($alpha$) et Beta ($\beta$).",
     },
   },
   {
     date: "2026-04-28",
     general_question: {
-      question: "Quelle est la science qui étudie les oiseaux ?",
-      answer: "L'Ornithologie.",
+      question: "Qui est l'auteur du célèbre roman 'Le Petit Prince' ?",
+      answer: "Antoine de Saint-Exupéry.",
       explanation:
-        "L'ornithologie est une branche de la zoologie dédiée aux oiseaux, y compris leur comportement, leur physiologie et leur classification.",
+        "Publié en 1943, c'est l'une des œuvres les plus traduites au monde, sous l'apparence d'un conte pour enfants.",
     },
     open_question: {
       question:
-        "L'agriculture urbaine (potagers sur les toits, fermes verticales) peut-elle jouer un rôle significatif dans l'alimentation des grandes villes ?",
+        "Les entreprises devraient-elles avoir une obligation légale de réparer leurs produits plutôt que d'encourager le renouvellement (obsolescence programmée) ?",
       notes:
-        "Débat sur la logistique, la productivité et la réduction de l'empreinte carbone des aliments.",
+        "Discussion sur le 'droit à la réparation', la durabilité des produits et l'économie circulaire.",
     },
     did_you_know: {
-      text: "Il y a plus de jours entre deux vendredis 13 consécutifs qu'entre deux samedis 13 consécutifs.",
+      text: "Une personne moyenne passe environ six mois de sa vie à attendre que les feux de circulation passent au vert.",
     },
   },
   {
     date: "2026-04-29",
     general_question: {
-      question: "Qui a fondé l'entreprise automobile Ford ?",
-      answer: "Henry Ford.",
+      question:
+        "Quel est le plus grand désert d'Asie, s'étendant sur la Chine et la Mongolie ?",
+      answer: "Le désert de Gobi.",
       explanation:
-        "Henry Ford a fondé la Ford Motor Company en 1903. Il est célèbre pour avoir introduit la production en série basée sur le travail à la chaîne (le fordisme).",
+        "C'est un désert froid. Son nom signifie 'lieu sans eau' ou 'semi-désert' en mongol.",
     },
     open_question: {
       question:
-        "Faut-il interdire l'utilisation des animaux sauvages dans les cirques et les spectacles itinérants ?",
+        "Les classes préparatoires et les grandes écoles sont-elles le meilleur modèle pour former l'élite d'une nation ?",
       notes:
-        "Débat sur le bien-être animal, la tradition culturelle et les alternatives éthiques au spectacle.",
+        "Débat sur l'égalité des chances, l'élitisme et la diversité des parcours éducatifs.",
     },
     did_you_know: {
-      text: "La statue de la Liberté à New York était à l'origine destinée à la ville de Port-Saïd, en Égypte, pour marquer l'entrée du canal de Suez.",
+      text: "L'émeu et le kangourou sont les seuls animaux représentés sur les armoiries de l'Australie, choisis car ils sont incapables de marcher en arrière, symbolisant le progrès.",
     },
   },
   {
     date: "2026-04-30",
     general_question: {
       question:
-        "Quel prix littéraire français est souvent considéré comme le plus prestigieux ?",
-      answer: "Le Prix Goncourt.",
+        "Comment appelle-t-on le phénomène selon lequel la chaleur est piégée par l'atmosphère terrestre ?",
+      answer: "L'effet de serre.",
       explanation:
-        "Créé en 1903, le Goncourt est décerné à l'auteur du meilleur ouvrage d'imagination en prose de l'année. ",
+        "Les gaz à effet de serre (vapeur d'eau, $CO_2$, méthane) agissent comme une couverture, réchauffant la planète.",
     },
     open_question: {
       question:
-        "Le concept de 'neutralité du net' (égalité de traitement des données) est-il essentiel pour la liberté d'Internet ?",
+        "Faut-il limiter le droit de manifester pour éviter les débordements (blocages, violences, dégradations) ?",
       notes:
-        "Débat sur le contrôle des flux de données par les fournisseurs d'accès (FAI) et l'accès équitable à l'information.",
+        "Discussion sur la liberté de réunion, l'ordre public et la légitimité de la contestation.",
     },
     did_you_know: {
-      text: "La langue la plus parlée dans le monde, en termes de locuteurs natifs, est le mandarin (chinois), devant l'espagnol et l'anglais.",
+      text: "En moyenne, 100 éclairs frappent la Terre chaque seconde.",
     },
   },
 
-  // Jours 128 à 158 : Mai 2026 (31 jours)
+  // --- Mai 2026 (31 jours) ---
   {
     date: "2026-05-01",
     general_question: {
       question:
-        "Quelle est la fleur traditionnellement offerte en France le 1er mai ?",
-      answer: "Le muguet (Clochette de mai).",
+        "Dans quel pays est né et a vécu la philosophe et féministe Simone de Beauvoir ?",
+      answer: "La France.",
       explanation:
-        "Offrir du muguet est un porte-bonheur pour le mois de mai. Le 1er mai est aussi la Fête du Travail dans de nombreux pays.",
+        "Auteure du 'Deuxième Sexe', elle est une figure majeure de l'existentialisme et du féminisme du XXe siècle.",
     },
     open_question: {
       question:
-        "Les syndicats ont-ils encore un rôle pertinent dans la défense des droits des travailleurs de l'économie numérique (freelance, plateformes) ?",
+        "Le droit des animaux devrait-il être réformé pour accorder une 'personnalité morale' aux animaux les plus évolués (grands singes, cétacés) ?",
       notes:
-        "Débat sur l'organisation des travailleurs indépendants, la précarité et les nouvelles formes d'emploi.",
+        "Débat sur le statut légal des animaux, l'éthique et les conséquences sur l'expérimentation et l'élevage.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas ; elles ont de courtes périodes de repos de quelques minutes, plusieurs fois par jour.",
+      text: "Le 1er mai est la Fête du Travail dans de nombreux pays, mais il est également connu en France pour la tradition d'offrir du muguet comme porte-bonheur.",
     },
   },
   {
     date: "2026-05-02",
     general_question: {
-      question: "Quel est le plus grand État d'Afrique par sa superficie ?",
-      answer: "L'Algérie.",
+      question:
+        "Quel est le nom de l'instrument à cordes le plus souvent utilisé pour diriger l'orchestre (par le premier violon) ?",
+      answer: "Le violon.",
       explanation:
-        "Depuis la partition du Soudan en 2011, l'Algérie est le plus vaste pays du continent africain.",
+        "Dans un orchestre symphonique, le 'premier violon' est souvent le leader de la section des cordes et interagit directement avec le chef d'orchestre.",
     },
     open_question: {
       question:
-        "Le cinéma devrait-il être davantage subventionné par l'État pour garantir la diversité culturelle face aux superproductions ?",
+        "Le salaire minimum est-il un outil efficace pour lutter contre la pauvreté ou un frein à l'emploi et à la compétitivité des entreprises ?",
       notes:
-        "Débat sur l'industrie culturelle, la qualité artistique et la concurrence des plateformes de streaming.",
+        "Débat sur l'inflation, le pouvoir d'achat et le marché du travail.",
     },
     did_you_know: {
-      text: "La plus vieille créature marine encore vivante est une éponge d'une espèce non identifiée, découverte à 2 134 mètres de profondeur et estimée à 10 000 ans.",
+      text: "L'eau est le seul composé qui existe naturellement sur Terre sous les trois états : solide (glace), liquide (eau) et gazeux (vapeur).",
     },
   },
   {
     date: "2026-05-03",
     general_question: {
       question:
-        "Quel pays a pour langue officielle le portugais en Amérique du Sud ?",
-      answer: "Le Brésil.",
+        "Quel est le nom du célèbre musée qui abrite 'La Cène' de Léonard de Vinci ?",
+      answer: "Le couvent de Santa Maria delle Grazie (Milan, Italie).",
       explanation:
-        "Le Brésil a été colonisé par le Portugal, tandis que la plupart des autres pays d'Amérique du Sud parlent l'espagnol.",
+        "Contrairement à une toile, 'La Cène' est une fresque murale peinte sur le mur du réfectoire du couvent.",
     },
     open_question: {
       question:
-        "Faut-il former des armées de 'soldats-robots' (entièrement autonomes) pour réduire les pertes humaines dans les conflits ?",
+        "Les technologies de surveillance de masse (caméras intelligentes, reconnaissance faciale) sont-elles un mal nécessaire pour la sécurité urbaine ?",
       notes:
-        "Débat sur l'éthique de la guerre automatisée, le droit international et le risque de déshumanisation des conflits.",
+        "Discussion sur la balance entre la sécurité publique et les libertés individuelles, ainsi que les risques de dérives autoritaires.",
     },
     did_you_know: {
-      text: "La plus petite quantité de matière observable est le quark, qui est un constituant des protons et des neutrons.",
+      text: "Les escargots ont des milliers de dents microscopiques (appelées radula) sur leur langue, qu'ils utilisent pour râper la nourriture.",
     },
   },
   {
     date: "2026-05-04",
     general_question: {
       question:
-        "Quel prix scientifique est souvent considéré comme l'équivalent du Prix Nobel en mathématiques ?",
-      answer: "La Médaille Fields.",
+        "Quel est le nom de la galaxie la plus proche de la Voie Lactée (notre galaxie) ?",
+      answer: "La galaxie d'Andromède (M31).",
       explanation:
-        "Elle est décernée tous les quatre ans à des mathématiciens de moins de 40 ans. (Il n'y a pas de Prix Nobel en mathématiques). ",
+        "Elle est située à environ 2,5 millions d'années-lumière et est en trajectoire de collision avec la Voie Lactée dans environ 4,5 milliards d'années.",
     },
     open_question: {
       question:
-        "La liberté des médias est-elle menacée par la pression des annonceurs et la recherche du 'clic' à tout prix ?",
+        "Le droit à l'oubli numérique devrait-il être absolu ou limité par l'intérêt historique et la liberté d'expression ?",
       notes:
-        "Débat sur le modèle économique des médias, la qualité de l'information et le journalisme d'investigation.",
+        "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
     },
     did_you_know: {
-      text: "Le 4 mai est souvent célébré comme le 'Star Wars Day' en raison du jeu de mots 'May the Fourth be with you' (May the Force be with you).",
+      text: "L'expression 'May the Fourth Be With You' est une référence au film *Star Wars*, faisant un jeu de mots avec la phrase 'May the Force Be With You'.",
     },
   },
   {
     date: "2026-05-05",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée du Vatican qui abrite le plafond de Michel-Ange ?",
-      answer: "La Chapelle Sixtine.",
+        "Quel dictateur européen a été vaincu lors de la bataille d'Austerlitz en 1805 ?",
+      answer:
+        "Napoléon Bonaparte (bien qu'il ait gagné à Austerlitz, c'est un point de confusion courante. La question porte peut-être sur sa défaite finale).",
       explanation:
-        "Bien que techniquement une chapelle du palais apostolique, elle fait partie du complexe des Musées du Vatican et est célèbre pour ses fresques.",
+        "Correction : Napoléon a **gagné** la bataille d'Austerlitz, une de ses plus grandes victoires. Sa défaite finale est Waterloo en 1815. *Niveau : Piège Expert.*",
     },
     open_question: {
       question:
-        "L'industrie du jeu vidéo devrait-elle être tenue responsable de la représentation stéréotypée et violente de certains groupes sociaux ?",
+        "Jusqu'où la technologie de modification génétique (CRISPR) doit-elle être autorisée chez l'homme ?",
       notes:
-        "Débat sur la liberté de création, l'impact sur les joueurs et les lois sur le contenu numérique.",
+        "Débat sur la thérapie des maladies génétiques vs. la modification des caractères héréditaires (bébés 'sur mesure').",
     },
     did_you_know: {
-      text: "Le chili est en fait un fruit (une baie), et ses graines ne sont pas ce qui rend la plante piquante, mais le tissu qui les entoure (le placenta).",
+      text: "Le mot 'mai' est nommé d'après Maia, la déesse grecque de la fertilité, honorée par les Romains.",
     },
   },
   {
     date: "2026-05-06",
     general_question: {
       question:
-        "Quel est le plus grand volcan du système solaire, situé sur Mars ?",
-      answer: "L'Olympus Mons.",
+        "Quel est le seul continent qui n'est traversé par aucun fleuve ?",
+      answer: "L'Antarctique.",
       explanation:
-        "Avec une hauteur de 21,9 km, l'Olympus Mons (Mont Olympe) est près de trois fois plus haut que l'Everest. ",
+        "L'eau y est presque entièrement sous forme de glace. Les rares flux d'eau sont saisonniers ou sous-glaciaires.",
     },
     open_question: {
       question:
-        "Faut-il imposer des cours obligatoires de cuisine et de nutrition pour lutter contre l'obésité et les maladies associées ?",
+        "Comment l'urbanisme peut-il être repensé pour améliorer la qualité de vie et réduire l'empreinte carbone des grandes métropoles ?",
       notes:
-        "Débat sur l'éducation à la santé, la responsabilité individuelle et le rôle de l'école dans l'alimentation.",
+        "Débat sur la 'ville du quart d'heure', les transports doux et la végétalisation urbaine.",
     },
     did_you_know: {
-      text: "La première monnaie métallique a été utilisée en Lydie (Turquie actuelle) vers 600 av. J.-C.",
+      text: "Les chauves-souris sont les seuls mammifères capables de voler activement (les écureuils volants ne font que planer).",
     },
   },
   {
     date: "2026-05-07",
     general_question: {
       question:
-        "Quel est le nom de la seule planète du système solaire qui tourne sur elle-même dans le sens des aiguilles d'une montre ?",
-      answer: "Vénus.",
+        "Quelle est la plus longue chaîne de montagnes sous-marine du monde ?",
+      answer: "La Dorsale médio-océanique.",
       explanation:
-        "La rotation rétrograde de Vénus, ainsi que celle d'Uranus (qui roule sur le côté), est une anomalie par rapport aux autres planètes. ",
+        "Elle s'étend sur plus de 65 000 kilomètres, couvrant environ 23 % de la surface terrestre. C'est là que se forme une nouvelle croûte terrestre.",
     },
     open_question: {
       question:
-        "Les lanceurs d'alerte (whistleblowers) devraient-ils bénéficier d'une immunité totale pour les informations qu'ils révèlent ?",
+        "Le secret bancaire est-il nécessaire pour la liberté économique ou favorise-t-il la criminalité financière et la fraude fiscale ?",
       notes:
-        "Débat sur la protection des sources, l'intérêt public et la sécurité nationale.",
+        "Discussion sur la transparence fiscale internationale, les paradis fiscaux et le droit à l'intimité financière.",
     },
     did_you_know: {
-      text: "La plus petite distance entre deux points dans l'espace-temps n'est pas une ligne droite, mais une géodésique (une courbe).",
+      text: "Le cri du hibou est appelé 'hululer' ou 'chouetter'.",
     },
   },
   {
     date: "2026-05-08",
     general_question: {
       question:
-        "Quel événement historique majeur est commémoré le 8 mai en France et dans d'autres pays alliés ?",
-      answer:
-        "La Victoire de 1945 (fin de la Seconde Guerre mondiale en Europe).",
+        "Qui était le premier président des États-Unis, entré en fonction en 1789 ?",
+      answer: "George Washington.",
       explanation:
-        "Le 8 mai 1945 marque la capitulation de l'Allemagne nazie face aux Alliés.",
+        "Il a dirigé l'Armée continentale lors de la Guerre d'indépendance et a présidé la Convention constitutionnelle de 1787.",
     },
     open_question: {
       question:
-        "Le service militaire ou civique obligatoire (mixte) est-il nécessaire pour renforcer l'unité nationale et le sens des responsabilités ?",
+        "L'armement par les pays occidentaux des pays menacés est-il un garant de la paix ou un facteur d'escalade des conflits ?",
       notes:
-        "Débat sur les coûts, la liberté individuelle et l'efficacité d'une formation civique et militaire.",
+        "Débat sur la légitime défense, les traités de non-prolifération et le rôle des marchands d'armes.",
     },
     did_you_know: {
-      text: "Le mot 'ambulance' vient du français 'hôpital ambulant', utilisé pour désigner les hôpitaux mobiles lors des guerres napoléoniennes.",
+      text: "Le 8 mai commémore la victoire des Alliés sur l'Allemagne nazie en 1945, marquant la fin de la Seconde Guerre mondiale en Europe (Jour de la Victoire).",
     },
   },
   {
     date: "2026-05-09",
     general_question: {
-      question:
-        "Quel animal est le symbole national de la Chine et est considéré comme une espèce menacée ?",
-      answer: "Le Panda géant.",
+      question: "Quelle est la capitale de la Nouvelle-Zélande ?",
+      answer: "Wellington.",
       explanation:
-        "Le panda est originaire des régions montagneuses du centre de la Chine et est un symbole mondial de la conservation de la faune.",
+        "Wellington est la capitale, et non Auckland (la plus grande ville) ou Christchurch.",
     },
     open_question: {
       question:
-        "La régulation de la taille et de la concentration des grandes entreprises technologiques (GAFA) est-elle suffisante pour empêcher les monopoles ?",
+        "Faut-il conditionner l'aide au développement des pays pauvres à des critères de bonne gouvernance et de respect des droits humains ?",
       notes:
-        "Débat sur le droit de la concurrence, la protection des données et le pouvoir politique des multinationales.",
+        "Débat sur la souveraineté, l'efficacité de l'aide et les risques d'ingérence.",
     },
     did_you_know: {
-      text: "Les astronautes qui travaillent à l'extérieur de l'ISS doivent porter des couches pour adultes, car il n'y a pas de toilettes dans leur combinaison spatiale.",
+      text: "Le kiwi, l'oiseau symbole de la Nouvelle-Zélande, est incapable de voler et est nocturne.",
     },
   },
   {
     date: "2026-05-10",
     general_question: {
       question:
-        "Quel artiste est l'auteur de la célèbre sculpture 'Le Penseur' ?",
-      answer: "Auguste Rodin.",
+        "Quel gaz est responsable de l'odeur caractéristique de l'ail et des oignons, contenant du soufre ?",
+      answer: "L'allicine (et autres composés organosoufrés).",
       explanation:
-        "Créée à l'origine en 1880, cette sculpture en bronze représente un homme en méditation profonde. ",
+        "L'allicine est produite lorsque l'ail est coupé ou écrasé, suite à la réaction enzymatique de l'alliine.",
     },
     open_question: {
       question:
-        "Les réseaux sociaux devraient-ils être contraints d'utiliser des algorithmes qui favorisent le contenu 'positif' ou 'éducatif' ?",
+        "Le concept de 'croissance infinie' dans une planète aux ressources finies est-il une contradiction fondamentale ?",
       notes:
-        "Débat sur l'impact sur le bien-être, la liberté algorithmique et le risque de censure du contenu critique.",
+        "Discussion sur la croissance verte, la décroissance et l'économie circulaire.",
     },
     did_you_know: {
-      text: "Le seul oiseau capable de voir la couleur bleue est le pigeon.",
+      text: "Les tornades les plus violentes ont des vents qui peuvent atteindre $480$ km/h et sont classées F5 ou EF5 sur l'échelle de Fujita améliorée.",
     },
   },
   {
     date: "2026-05-11",
     general_question: {
-      question: "Quelle est l'unité de mesure de la puissance électrique ?",
-      answer: "Le Watt (W).",
+      question:
+        "Qui a inventé l'ampoule électrique à filament de carbone durable, largement commercialisée à partir de 1879 ?",
+      answer: "Thomas Edison.",
       explanation:
-        "Le Watt est l'unité SI de la puissance, nommée d'après l'inventeur écossais James Watt. C'est le taux auquel l'énergie est transférée ou utilisée.",
+        "Bien que d'autres aient travaillé sur l'ampoule, Edison est crédité d'avoir créé le premier système d'éclairage électrique complet et commercialement viable.",
     },
     open_question: {
       question:
-        "Faut-il développer l'énergie de fusion nucléaire (qui promet une énergie quasi-illimitée et propre) au détriment de l'énergie de fission (nucléaire classique) ?",
+        "Le droit des auteurs et artistes doit-il être révisé à l'ère des contenus générés par l'IA (texte, art, musique) ?",
       notes:
-        "Débat sur l'horizon technologique (ITER), les coûts de recherche et la nécessité d'une production d'énergie immédiate.",
+        "Discussion sur la paternité des œuvres, l'entraînement des modèles d'IA sur des données protégées et la rémunération des créateurs.",
     },
     did_you_know: {
-      text: "Le cri d'une mouche est appelé le 'bourdonnement'.",
+      text: "La brosse à dents, dans sa forme moderne (avec poils), a été inventée en Chine au XVe siècle, bien que des bâtonnets à mâcher aient existé avant.",
     },
   },
   {
     date: "2026-05-12",
     general_question: {
-      question: "Quel est le nom du plus grand océan de la Terre ?",
-      answer: "L'océan Pacifique.",
+      question:
+        "Quel mathématicien et physicien grec est connu pour la célèbre exclamation 'Eurêka' (J'ai trouvé) ?",
+      answer: "Archimède.",
       explanation:
-        "Il est si vaste qu'il couvre près d'un tiers de la surface terrestre et contient plus de la moitié de l'eau libre de la planète.",
+        "L'histoire raconte qu'il a fait cette exclamation après avoir découvert la loi de la poussée hydrostatique, connue sous le nom de principe d'Archimède, en prenant son bain.",
     },
     open_question: {
       question:
-        "L'apprentissage des langues mortes (latin, grec ancien) est-il encore pertinent dans le système éducatif moderne ?",
+        "Les entreprises technologiques (GAFA) sont-elles devenues trop puissantes et doivent-elles être démantelées (lois antitrust) ?",
       notes:
-        "Débat sur l'importance des racines culturelles, l'étymologie et la nécessité de préparer aux métiers du futur.",
+        "Discussion sur le monopole, la concurrence, la protection des données et le lobbying politique.",
     },
     did_you_know: {
-      text: "Le pont de Londres que l'on voit souvent en photo n'est pas le 'London Bridge' historique, mais le 'Tower Bridge'. Le London Bridge a été vendu et déplacé en Arizona, États-Unis.",
+      text: "La Journée Internationale de l'Infirmière est célébrée le 12 mai, date de naissance de Florence Nightingale, pionnière des soins infirmiers modernes.",
     },
   },
   {
     date: "2026-05-13",
     general_question: {
-      question: "Quel pays a pour capitale La Havane ?",
-      answer: "Cuba.",
+      question: "Quel pays est le plus grand producteur mondial de café ?",
+      answer: "Le Brésil.",
       explanation:
-        "La Havane est la capitale et la plus grande ville de Cuba. Elle est célèbre pour son architecture coloniale et ses voitures anciennes.",
+        "Le Brésil domine la production mondiale de café depuis plus de 150 ans et fournit environ un tiers de l'approvisionnement mondial.",
     },
     open_question: {
       question:
-        "La surveillance biométrique (empreintes, iris) dans les lieux publics est-elle une atteinte intolérable à la liberté ?",
+        "La peine de prison est-elle avant tout punitive ou doit-elle être réhabilitatrice pour permettre la réinsertion sociale ?",
       notes:
-        "Débat sur le droit à l'anonymat, la sécurité et la traçabilité des individus par l'État.",
+        "Débat sur la surpopulation carcérale, les taux de récidive et les alternatives à l'incarcération.",
     },
     did_you_know: {
-      text: "Le mot 'alphabet' vient des deux premières lettres de l'alphabet grec : 'alpha' et 'bêta'.",
+      text: "Un gramme d'ADN peut stocker $215$ pétaoctets (environ $220$ millions de gigaoctets) de données, ce qui en fait le support de stockage le plus dense connu.",
     },
   },
   {
     date: "2026-05-14",
     general_question: {
       question:
-        "Quel est le nom de l'hormone du sommeil, souvent utilisée pour traiter les troubles du sommeil ?",
-      answer: "La Mélatonine.",
+        "Quelle est l'œuvre musicale du compositeur Johann Sebastian Bach considérée comme la 'Bible des pianistes' ?",
+      answer: "Le Clavier bien tempéré.",
       explanation:
-        "La mélatonine est sécrétée par la glande pinéale. Sa production est stimulée par l'obscurité, signalant au corps qu'il est temps de dormir.",
+        "C'est un recueil de préludes et de fugues dans les 24 tonalités majeures et mineures, démontrant la possibilité de jouer dans toutes les tonalités.",
     },
     open_question: {
       question:
-        "Les cryptomonnaies peuvent-elles réellement remplacer les monnaies fiduciaires traditionnelles (Euro, Dollar) ?",
+        "Le système du collège/lycée unique est-il le plus efficace pour l'épanouissement des élèves ou faut-il introduire une sélection plus précoce ?",
       notes:
-        "Débat sur la volatilité, la régulation, la confiance et le rôle des banques centrales.",
+        "Débat sur l'orientation, l'égalité des chances et les besoins éducatifs différenciés.",
     },
     did_you_know: {
-      text: "La plus petite cellule du corps humain est le spermatozoïde, et la plus grande est l'ovule.",
+      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée', et la plus grande 'apogée'.",
     },
   },
   {
     date: "2026-05-15",
     general_question: {
-      question: "Quelle était la capitale de l'Empire byzantin ?",
-      answer: "Constantinople (aujourd'hui Istanbul).",
+      question:
+        "Quel est le plus grand lac salé du monde, souvent qualifié de mer ?",
+      answer: "La Mer Caspienne.",
       explanation:
-        "Fondée par l'empereur Constantin Ier en 330 apr. J.-C., elle a été le centre de l'Empire romain d'Orient pendant plus de mille ans. ",
+        "Elle est en réalité le plus grand lac endoréique (sans exutoire vers l'océan) au monde, bordée par cinq pays (Russie, Kazakhstan, Turkménistan, Iran, Azerbaïdjan).",
     },
     open_question: {
       question:
-        "Faut-il limiter l'accès aux forêts et aux zones naturelles pour les protéger de la surfréquentation touristique ?",
+        "Le rôle des influenceurs est-il un phénomène de mode passager ou une nouvelle forme de pouvoir médiatique et économique durable ?",
       notes:
-        "Débat sur l'écotourisme, le droit d'accès à la nature et la conservation des écosystèmes.",
+        "Discussion sur l'évolution du marketing, la confiance du public et la réglementation des contenus.",
     },
     did_you_know: {
-      text: "Le Soleil est techniquement une étoile naine jaune de type G, mais elle est en fait blanche vue de l'espace.",
+      text: "Les pommes sont plus efficaces que le café pour vous réveiller le matin, grâce à leur teneur élevée en sucres naturels (fructose) et leur effet sur la glycémie.",
     },
   },
   {
     date: "2026-05-16",
     general_question: {
       question:
-        "Quel est le nom de la galaxie la plus proche de la Voie Lactée ?",
-      answer: "La galaxie d'Andromède (M31).",
+        "Quel est le nom de la zone de l'océan Pacifique où se produisent la majorité des tremblements de terre et des éruptions volcaniques ?",
+      answer: "La Ceinture de Feu du Pacifique.",
       explanation:
-        "Andromède est une galaxie spirale géante située à environ 2,5 millions d'années-lumière et est en trajectoire de collision avec la Voie Lactée (prévue dans 4,5 milliards d'années).",
+        "Elle entoure le bassin de l'océan Pacifique sur environ 40 000 km et contient 75 % des volcans actifs du monde.",
     },
     open_question: {
       question:
-        "Le système de notation 'âge légal de consommation' pour l'alcool et le tabac est-il efficace ou devrait-on privilégier l'éducation ?",
+        "Les réseaux sociaux ont-ils un impact globalement positif ou négatif sur la santé mentale de leurs utilisateurs ?",
       notes:
-        "Débat sur les lois restrictives, la responsabilité individuelle et la prévention des risques.",
+        "Débat sur les effets de l'exposition constante, la comparaison sociale et la désinformation.",
     },
     did_you_know: {
-      text: "La 'Zone de l'Océan Pacifique' est si lointaine qu'il y a plus de chance d'y rencontrer un astronaute que n'importe qui d'autre (c'est le cimetière des engins spatiaux).",
+      text: "L'expression 'célébrité instantanée' est souvent associée aux lauréats des Oscars, dont la première cérémonie a eu lieu le 16 mai 1929.",
     },
   },
   {
     date: "2026-05-17",
     general_question: {
-      question: "Quel est le nom du plus grand lac salé du monde ?",
-      answer: "La Mer Caspienne.",
+      question:
+        "Qui est le physicien célèbre pour son expérience de pensée du 'démon de Maxwell' en thermodynamique ?",
+      answer: "James Clerk Maxwell.",
       explanation:
-        "Bien qu'appelée 'mer', elle est techniquement le plus grand lac du monde en superficie (environ $371 000 \text{km}^2$).",
+        "Le démon de Maxwell est une expérience visant à illustrer une faille potentielle dans la deuxième loi de la thermodynamique (l'augmentation de l'entropie) à l'échelle microscopique.",
     },
     open_question: {
       question:
-        "L'éducation religieuse devrait-elle être laissée entièrement aux familles et aux institutions religieuses, ou faire partie de l'école publique ?",
+        "Faut-il privilégier l'apprentissage de plusieurs langues étrangères ou se concentrer sur la maîtrise parfaite de l'anglais ?",
       notes:
-        "Débat sur la neutralité de l'État, le pluralisme et la transmission des valeurs.",
+        "Débat sur la valeur de la polyglottie versus la spécialisation linguistique dans la mondialisation.",
     },
     did_you_know: {
-      text: "Le corps humain est constitué d'environ 60% d'eau.",
+      text: "Le mot 'téléréalité' est apparu pour la première fois dans les médias à la fin des années 1980.",
     },
   },
   {
     date: "2026-05-18",
     general_question: {
       question:
-        "Quel est le principal composant de la coquille d'un œuf de poule ?",
-      answer: "Le Carbonate de Calcium ($\text{CaCO}_3$).",
+        "Quelle est la plus grande structure jamais construite par l'homme, en termes de longueur (non continue) ?",
+      answer: "La Grande Muraille de Chine.",
       explanation:
-        "Le carbonate de calcium est une substance très solide qui protège l'œuf et est également présente dans le calcaire et le marbre.",
+        "Incluant toutes ses ramifications et barrières naturelles, sa longueur totale est estimée à plus de 21 000 kilomètres.",
     },
     open_question: {
       question:
-        "Faut-il taxer davantage les produits importés pour encourager la production locale et réduire l'empreinte carbone du transport ?",
+        "La démocratie est-elle le seul modèle politique légitime ou les régimes autoritaires peuvent-ils être plus efficaces pour la stabilité et le développement économique ?",
       notes:
-        "Débat sur le protectionnisme, les accords commerciaux internationaux et l'autonomie alimentaire.",
+        "Discussion sur les droits de l'homme, la corruption et la performance économique.",
     },
     did_you_know: {
-      text: "Le seul continent qui n'a pas de glaciers est l'Australie.",
+      text: "Les grenouilles ne boivent pas d'eau. Elles l'absorbent à travers leur peau perméable.",
     },
   },
   {
     date: "2026-05-19",
     general_question: {
       question:
-        "Qui est l'auteur des romans policiers 'Dix Petits Nègres' et 'Le Crime de l'Orient-Express' ?",
-      answer: "Agatha Christie.",
+        "Quel est l'organe qui produit la testostérone chez l'homme et les œstrogènes chez la femme ?",
+      answer: "Les gonades (testicules chez l'homme, ovaires chez la femme).",
       explanation:
-        "Agatha Christie est l'une des romancières les plus vendues de tous les temps. Ses personnages célèbres sont Hercule Poirot et Miss Marple.",
+        "Ces organes produisent les hormones sexuelles qui jouent un rôle crucial dans le développement et la reproduction.",
     },
     open_question: {
       question:
-        "L'accès à l'information sur Internet devrait-il être payant pour garantir la qualité et la pérennité du journalisme ?",
+        "Faut-il légaliser l'euthanasie et le suicide assisté pour garantir le droit à une 'bonne mort' ?",
       notes:
-        "Débat sur le 'paywall', le modèle économique des médias et l'accès gratuit à la connaissance.",
+        "Débat éthique, médical et légal sur la fin de vie, la souffrance et le rôle des médecins.",
     },
     did_you_know: {
-      text: "Le mot 'nerd' (intello) a été inventé par le Dr Seuss dans son livre 'If I Ran the Zoo' en 1950.",
+      text: "La première émission de télévision à avoir été diffusée en couleur était le 'Tournament of Roses Parade' le 1er janvier 1954, aux États-Unis.",
     },
   },
   {
     date: "2026-05-20",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée du Royaume-Uni, connu pour abriter la Pierre de Rosette ?",
-      answer: "Le British Museum.",
+        "Quel est le nom de la période géologique qui a vu l'apparition des dinosaures, il y a environ 252 à 66 millions d'années ?",
+      answer: "L'ère Mésozoïque.",
       explanation:
-        "Situé à Londres, le British Museum possède des collections couvrant l'histoire, l'art et la culture humaines, avec plus de 8 millions d'œuvres.",
+        "Elle est subdivisée en trois périodes : le Trias, le Jurassique et le Crétacé.",
     },
     open_question: {
       question:
-        "Faut-il encourager les 'biens partagés' (voitures, outils, logements) pour lutter contre la surconsommation et l'individualisme ?",
+        "Le télétravail généralisé est-il bénéfique ou néfaste pour la cohésion d'équipe et l'innovation en entreprise ?",
       notes:
-        "Débat sur l'économie collaborative, la propriété privée et l'efficacité des ressources.",
+        "Débat sur l'équilibre entre flexibilité individuelle et dynamique collective au travail.",
     },
     did_you_know: {
-      text: "Les nuages ne sont pas composés de vapeur d'eau (qui est un gaz invisible), mais de minuscules gouttelettes d'eau liquide ou de cristaux de glace en suspension.",
+      text: "Les papillons goûtent avec leurs pieds. Ils possèdent des chémorécepteurs situés sur leurs pattes qui leur permettent de trouver des plantes hôtes.",
     },
   },
   {
     date: "2026-05-21",
     general_question: {
-      question: "Quel est le plus haut sommet d'Afrique ?",
-      answer: "Le Mont Kilimandjaro.",
+      question:
+        "Qui est l'auteur des célèbres fables sur le Loup et l'Agneau et la Cigale et la Fourmi ?",
+      answer: "Jean de La Fontaine.",
       explanation:
-        "Situé en Tanzanie, il est le plus haut sommet isolé du monde (qui n'appartient pas à une chaîne de montagnes). ",
+        "Ses fables, inspirées d'Ésope et de Phèdre, sont des classiques de la littérature française, souvent utilisées pour l'enseignement de la morale.",
     },
     open_question: {
       question:
-        "Le droit au suicide assisté devrait-il être étendu aux personnes qui ne sont pas en phase terminale, mais dont la souffrance psychologique est jugée insupportable ?",
+        "Le mécénat privé (fondations d'entreprises) est-il un substitut bienvenu ou une menace à l'art et à la culture financés par l'État ?",
       notes:
-        "Débat sur l'autonomie, l'évaluation de la souffrance et la définition de la dignité de la fin de vie.",
+        "Discussion sur l'indépendance artistique, les priorités de financement et l'influence privée.",
     },
     did_you_know: {
-      text: "Le plus long règne d'un monarque britannique est celui de la Reine Élisabeth II, qui a régné pendant plus de 70 ans.",
+      text: "Le mot 'taxi' est l'abréviation de 'taximètre', l'appareil qui calcule le prix de la course.",
     },
   },
   {
     date: "2026-05-22",
     general_question: {
       question:
-        "Quel est le nom du traité qui a mis fin à la Première Guerre mondiale ?",
-      answer: "Le Traité de Versailles.",
+        "Quel est le nom de la danse espagnole caractérisée par le claquement de mains, le chant et la guitare ?",
+      answer: "Le Flamenco.",
       explanation:
-        "Signé le 28 juin 1919 dans la Galerie des Glaces du Château de Versailles, il a officiellement mis fin au conflit entre les Alliés et l'Allemagne.",
+        "Le Flamenco est un genre musical et une danse typique d'Andalousie (sud de l'Espagne).",
     },
     open_question: {
       question:
-        "L'humanité devrait-elle se concentrer sur la conservation des espèces menacées ou sur la restauration des écosystèmes entiers ?",
+        "Faut-il interdire l'élevage intensif des animaux pour des raisons éthiques, sanitaires et environnementales ?",
       notes:
-        "Débat sur les priorités de la biodiversité : protéger l'emblématique ou le fonctionnel.",
+        "Discussion sur le bien-être animal, les coûts de la viande et la sécurité alimentaire.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas, elles ont de courtes périodes de repos de quelques minutes, plusieurs fois par jour.",
+      text: "Les empreintes digitales des koalas sont si similaires à celles des humains qu'elles pourraient potentiellement causer des erreurs dans les enquêtes criminelles.",
     },
   },
   {
     date: "2026-05-23",
     general_question: {
       question:
-        "Quel est le nom de la force qui s'oppose au mouvement dans l'air ou dans un liquide ?",
-      answer: "La Traînée (ou Résistance de l'air/fluide).",
+        "Quel est le nom de la structure géologique en forme de champignon qui se forme dans les déserts par l'érosion éolienne ?",
+      answer: "Une cheminée de fée (ou roche champignon).",
       explanation:
-        "La traînée est la force de friction qui agit parallèlement à la vitesse du fluide et s'oppose au mouvement. ",
+        "Elle se forme lorsque le vent (érosion éolienne) érode plus rapidement la base de la roche, laissant un chapeau rocheux plus résistant au sommet.",
     },
     open_question: {
       question:
-        "Faut-il introduire le droit à l'erreur fiscale pour les citoyens de bonne foi, sans pénalité lourde ?",
+        "Le sport électronique ('esports') est-il un sport légitime nécessitant la même reconnaissance que le sport traditionnel ?",
       notes:
-        "Débat sur la complexité de l'administration, la confiance de l'État envers le citoyen et les sanctions.",
+        "Débat sur la reconnaissance athlétique, l'entraînement, la discipline et les compétitions internationales.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "Le jour le plus long de l'année (solstice d'été) dans l'hémisphère nord tombe généralement autour du 21 juin.",
     },
   },
   {
     date: "2026-05-24",
     general_question: {
-      question: "Quelle est la capitale de l'Inde ?",
-      answer: "New Delhi.",
+      question:
+        "Quel est le nom de la maladie causée par un manque de vitamine C, autrefois courante chez les marins ?",
+      answer: "Le scorbut.",
       explanation:
-        "New Delhi est la capitale de l'Inde, bien que Mumbai (Bombay) soit souvent la plus grande ville en termes de population.",
+        "Elle provoque une faiblesse générale, des saignements des gencives et une mauvaise cicatrisation, et a été évitée par l'introduction d'agrumes dans l'alimentation des marins.",
     },
     open_question: {
       question:
-        "L'enseignement doit-il se faire uniquement en présentiel pour garantir la qualité ou doit-on généraliser l'enseignement en ligne ?",
+        "Le concept de 'nation' et d'identité nationale est-il obsolète à l'ère de la mondialisation et des identités multiples ?",
       notes:
-        "Débat sur l'interactivité sociale, l'accès à distance et l'efficacité des plateformes numériques.",
+        "Discussion sur le nationalisme, le cosmopolitisme et le multiculturalisme.",
     },
     did_you_know: {
-      text: "Les étoiles filantes ne sont pas des étoiles, mais de petites particules de débris (météoroïdes) qui se désintègrent en entrant dans l'atmosphère terrestre.",
+      text: "La Russie, en tant que pays, s'étend sur 11 fuseaux horaires différents.",
     },
   },
   {
     date: "2026-05-25",
     general_question: {
-      question: "Qui a peint 'Le Serment des Horaces' ?",
-      answer: "Jacques-Louis David.",
+      question:
+        "Qui a inventé le premier vaccin contre la variole, ouvrant la voie à l'immunologie moderne ?",
+      answer: "Edward Jenner.",
       explanation:
-        "Ce tableau néoclassique (1784) est considéré comme un chef-d'œuvre qui illustre les vertus civiques et le devoir envers la patrie.",
+        "En 1796, il a démontré que l'inoculation avec le virus bénin de la variole bovine (vaccine) protégeait de la variole humaine.",
     },
     open_question: {
       question:
-        "Le droit de vote devrait-il être conditionné à la réussite d'un test de connaissances civiques de base ?",
+        "Faut-il interdire la chasse de loisir pour préserver la biodiversité et l'équilibre des écosystèmes ?",
       notes:
-        "Débat sur la compétence de l'électeur, l'élitisme et l'universalité du suffrage.",
+        "Débat sur la régulation des populations animales, les traditions locales et l'éthique animale.",
     },
     did_you_know: {
-      text: "La première personne à faire le tour du monde en solitaire et sans escale a été l'Australien Jon Sanders en 1988.",
+      text: "L'eau boue à $100^circ\text{C}$ au niveau de la mer, mais à plus basse température en altitude, car la pression atmosphérique est plus faible.",
     },
   },
   {
     date: "2026-05-26",
     general_question: {
       question:
-        "Quel est le nom de la plus grande baie du monde (par sa ligne côtière) ?",
-      answer: "La baie d'Hudson.",
+        "Quel est le nom de la pierre précieuse, variante du corindon, de couleur bleue ou d'une autre couleur que le rouge ?",
+      answer: "Le saphir.",
       explanation:
-        "Située dans le nord-est du Canada, la baie d'Hudson est la deuxième plus grande baie du monde après le golfe du Mexique.",
+        "Le saphir et le rubis sont tous deux des corindons. Le rubis est corindon rouge. Toutes les autres couleurs de corindon sont appelées saphir (bleu, rose, jaune, etc.).",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être obligées de partager leurs profits avec leurs employés (intéressement) ?",
+        "Les entreprises peuvent-elles être moralement neutres ou ont-elles une responsabilité éthique et sociale (RSE) au-delà du profit ?",
       notes:
-        "Débat sur le capitalisme, la participation des salariés et la redistribution des richesses.",
+        "Débat sur le 'capitalisme de partie prenante' (stakeholder capitalism) vs. le 'capitalisme actionnarial' (shareholder capitalism).",
     },
     did_you_know: {
-      text: "Le seul chiffre dont l'orthographe contient la lettre 'a' est 'quatre'.",
+      text: "La ville de Venise, en Italie, est construite sur un archipel de 118 petites îles reliées par des ponts.",
     },
   },
   {
     date: "2026-05-27",
     general_question: {
-      question: "Qui est l'auteur du roman 'Le Petit Prince' ?",
-      answer: "Antoine de Saint-Exupéry.",
+      question: "Quel est le nom du plus grand organe du corps humain ?",
+      answer: "La peau.",
       explanation:
-        "Publié en 1943, ce conte philosophique est l'un des livres les plus traduits et vendus au monde. ",
+        "Chez un adulte, elle représente entre 1,5 et 2 mètres carrés et jusqu'à 15 % du poids corporel total.",
     },
     open_question: {
       question:
-        "Le système de santé occidental (traitement des maladies) est-il trop dépendant des grandes entreprises pharmaceutiques ?",
-      notes: "Débat sur le lobbying, les brevets et la recherche indépendante.",
+        "Le droit à l'oubli numérique devrait-il être absolu ou limité par l'intérêt historique et la liberté d'expression ?",
+      notes:
+        "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
     },
     did_you_know: {
-      text: "Le mot 'chèque' vient du mot persan 'sak' qui signifie 'mandat ou document légal'.",
+      text: "La girafe ne dort en moyenne que 30 minutes par jour, souvent par courtes périodes de 1 à 2 minutes.",
     },
   },
   {
     date: "2026-05-28",
     general_question: {
-      question:
-        "Quel était le nom de l'explorateur vénitien qui a parcouru la Route de la soie au $\text{XIII}^e$ siècle ?",
-      answer: "Marco Polo.",
+      question: "Quelle est la capitale de l'Irlande ?",
+      answer: "Dublin.",
       explanation:
-        "Son livre, Le Livre des merveilles, a documenté ses voyages en Asie, y compris en Chine à la cour de Kubilai Khan.",
+        "Dublin est la capitale et la plus grande ville de la République d'Irlande, située sur la côte est.",
     },
     open_question: {
       question:
-        "Faut-il encourager les 'monnaies locales' (complémentaires) pour favoriser l'économie circulaire et le commerce de proximité ?",
+        "Le droit de manifester est-il absolu ou doit-il être encadré pour éviter les débordements (blocages, violences, dégradations) ?",
       notes:
-        "Débat sur l'impact sur l'économie nationale, la fraude et la confiance dans les monnaies alternatives.",
+        "Discussion sur la liberté de réunion, l'ordre public et la légitimité de la contestation.",
     },
     did_you_know: {
-      text: "La plus ancienne université du monde toujours en activité est l'Université Al Quaraouiyine, fondée à Fès, Maroc, en 859.",
+      text: "L'expression 'se rouler les pouces' est une déformation de l'ancienne expression 'se rouler la poule', qui signifiait ne rien faire.",
     },
   },
   {
     date: "2026-05-29",
     general_question: {
       question:
-        "Quel est le nom du gaz noble utilisé pour éclairer les panneaux publicitaires et les tubes néon (couleur rouge-orange) ?",
-      answer: "Le Néon (Ne).",
+        "Quel est le nom de l'explorateur italien qui est souvent crédité (à tort ou à raison) de la découverte de l'Amérique en 1492 ?",
+      answer: "Christophe Colomb.",
       explanation:
-        "Le néon émet une lumière rouge-orange vif lorsqu'il est sous tension électrique dans un tube à basse pression.",
+        "Il a atteint les Amériques en 1492, mais les Vikings l'avaient précédé. Il est souvent considéré comme celui qui a initié la colonisation européenne des Amériques.",
     },
     open_question: {
       question:
-        "Le recours au tir de barrage pour la protection des cultures contre les animaux (loups, sangliers) est-il éthiquement acceptable ?",
+        "Le système de permis de conduire devrait-il être réévalué plus fréquemment pour les personnes âgées pour garantir la sécurité routière ?",
       notes:
-        "Débat sur la coexistence homme-faune, la protection des espèces et l'économie agricole.",
+        "Débat sur l'autonomie, la capacité physique et les discriminations liées à l'âge.",
     },
     did_you_know: {
-      text: "Le mot 'samouraï' vient du mot japonais 'saburau', qui signifie 'servir'.",
+      text: "Les dauphins dorment avec un seul hémisphère cérébral à la fois (sommeil unihémisphérique), gardant l'autre éveillé pour respirer et surveiller les prédateurs.",
     },
   },
   {
     date: "2026-05-30",
     general_question: {
-      question: "Quel fleuve est considéré comme le plus sacré de l'Inde ?",
-      answer: "Le Gange (Ganga).",
+      question:
+        "Quel est le nom du mouvement artistique qui a émergé après la Première Guerre mondiale, caractérisé par l'irrationnel et le rêve ?",
+      answer: "Le Surréalisme.",
       explanation:
-        "Le Gange est vénéré par les hindous comme la déesse Ganga. Il est un lieu de pèlerinage et de purification rituelle.",
+        "Officiellement lancé en 1924 avec André Breton, il a eu des artistes majeurs comme Dalí et Magritte.",
     },
     open_question: {
       question:
-        "La surveillance des frontières par des drones et des capteurs est-elle une solution technologique viable et humaine à la crise migratoire ?",
+        "Le 'revenu de citoyenneté' (ou RSA) favorise-t-il la paresse ou offre-t-il la sécurité nécessaire pour l'entrepreneuriat et la formation ?",
       notes:
-        "Débat sur la sécurité, le droit d'asile et la déshumanisation des contrôles.",
+        "Discussion sur l'effet de seuil, l'incitation à l'activité et le rôle social de l'aide publique.",
     },
     did_you_know: {
-      text: "Le drapeau olympique, avec ses cinq anneaux, a été conçu en 1913. Chaque anneau représente un continent et leurs couleurs combinées apparaissent dans tous les drapeaux nationaux.",
+      text: "Le mot 'mai' en anglais ('May') est souvent associé au mois de la floraison et de la jeunesse.",
     },
   },
   {
     date: "2026-05-31",
     general_question: {
-      question:
-        "Quelle est la principale source de Vitamine $\text{D}$ pour le corps humain ?",
-      answer: "Le Soleil (exposition aux rayons UV).",
+      question: "Quelle est la principale source d'énergie du Soleil ?",
+      answer: "L'Hydrogène (qui fusionne en Hélium).",
       explanation:
-        "L'exposition au soleil permet à la peau de synthétiser la Vitamine $\text{D}$, essentielle à l'absorption du calcium et à la santé osseuse. ",
+        "C'est la fusion nucléaire au cœur du Soleil qui libère l'énergie colossale qui nous parvient. $4$ atomes d'hydrogène se transforment en $1$ atome d'hélium.",
     },
     open_question: {
       question:
-        "Le tabac (ou la nicotine) devrait-il être totalement interdit pour les générations nées après 2010 ?",
+        "Les systèmes de notation et de classement des universités (type Shanghai) sont-ils une mesure fiable de la qualité académique ?",
       notes:
-        "Débat sur la santé publique, l'interdiction générationnelle et le droit individuel de fumer.",
+        "Débat sur les critères de recherche vs. d'enseignement, l'homogénéisation des modèles et la course au prestige.",
     },
     did_you_know: {
-      text: "Une année sur Mars dure 687 jours terrestres (soit presque deux fois plus qu'une année terrestre).",
+      text: "Le mot 'mai' en français est associé à la 'Fête des Mères' dans de nombreux pays, bien que les dates varient.",
     },
   },
 
-  // Jours 159 à 188 : Juin 2026 (30 jours)
+  // --- Juin 2026 (28 jours, jusqu'au 2026-06-28) ---
   {
     date: "2026-06-01",
     general_question: {
       question:
-        "Quel est le nom de la force qui maintient l'eau à la surface d'un verre, malgré la gravité ?",
-      answer: "La Tension de surface.",
+        "Quel pays est le plus grand producteur mondial de pétrole (en volume, pas en réserves) ?",
+      answer: "Les États-Unis.",
       explanation:
-        "La tension de surface est le phénomène par lequel la surface d'un liquide se comporte comme une membrane élastique, due aux forces de cohésion entre les molécules d'eau.",
+        "Grâce à l'exploitation du pétrole de schiste, les États-Unis sont, depuis quelques années, devant l'Arabie Saoudite et la Russie en termes de production quotidienne de pétrole brut.",
     },
     open_question: {
       question:
-        "La 'Fast Fashion' (mode rapide) devrait-elle être limitée par des lois pour réduire son impact environnemental et social ?",
+        "La peine de mort est-elle un châtiment justifiable dans un système de justice moderne ?",
       notes:
-        "Débat sur la production de vêtements jetables, la pollution et les conditions de travail dans l'industrie textile.",
+        "Débat éthique sur la dissuasion, l'erreur judiciaire et le principe de la dignité humaine.",
     },
     did_you_know: {
-      text: "L'œil d'autruche est plus grand que son cerveau.",
+      text: "Le mot 'juin' vient du latin 'Junius', possiblement en l'honneur de la déesse romaine Junon, protectrice des femmes et du mariage.",
     },
   },
   {
     date: "2026-06-02",
     general_question: {
-      question: "Quel est le nom de la déesse grecque de la victoire ?",
-      answer: "Nikè.",
+      question:
+        "Comment appelle-t-on le phénomène où les rayons lumineux sont déviés lorsqu'ils passent d'un milieu à un autre (air/eau) ?",
+      answer: "La réfraction.",
       explanation:
-        "Nikè (ou Nike) est souvent représentée ailée. La célèbre marque de sport porte son nom. ",
+        "C'est ce qui explique pourquoi un bâton plongé dans l'eau semble cassé ou courbé, car la vitesse de la lumière change dans l'eau.",
     },
     open_question: {
       question:
-        "Faut-il imposer des limites de vitesse globales sur Internet (débit) pour réduire la consommation d'énergie des centres de données ?",
+        "Le service militaire ou civil obligatoire pour les jeunes est-il un outil efficace d'intégration et de cohésion nationale ?",
       notes:
-        "Débat sur l'écologie numérique, la performance et l'accès à la haute vitesse.",
+        "Discussion sur l'utilité, la contrainte individuelle et l'apprentissage de la citoyenneté.",
     },
     did_you_know: {
-      text: "La Terre est la planète la plus dense du système solaire.",
+      text: "Le cerveau humain génère suffisamment d'énergie pour allumer une petite ampoule.",
     },
   },
   {
     date: "2026-06-03",
     general_question: {
       question:
-        "Quel est le seul pays d'Europe qui partage une frontière terrestre avec le Danemark ?",
-      answer: "L'Allemagne.",
+        "Quel est le nom de la ligne imaginaire qui passe par le Palais de Greenwich (Angleterre) et sert de référence pour la longitude ?",
+      answer: "Le Méridien de Greenwich (ou Méridien zéro).",
       explanation:
-        "Le Danemark est en grande partie entouré d'eau, mais partage une courte frontière terrestre avec l'Allemagne au sud (Jutland).",
+        "Il définit l'heure universelle coordonnée (UTC) et la séparation entre l'Est et l'Ouest.",
     },
     open_question: {
       question:
-        "La vaccination contre les maladies infantiles (Rougeole, etc.) devrait-elle être strictement obligatoire pour l'inscription à l'école ?",
+        "Le concept de 'ville du quart d'heure' (accessibilité rapide aux services) est-il réalisable dans toutes les métropoles ?",
       notes:
-        "Débat sur l'immunité collective, la liberté de choix des parents et la santé publique.",
+        "Débat sur la densité urbaine, les transports et l'égalité d'accès aux services en banlieue.",
     },
     did_you_know: {
-      text: "Un 'joli' (unité de mesure) est utilisé pour définir le travail effectué par une force, équivalent à un newton agissant sur un mètre.",
+      text: "Les escargots sont des hermaphrodites : ils possèdent à la fois des organes reproducteurs mâles et femelles.",
     },
   },
   {
     date: "2026-06-04",
     general_question: {
-      question:
-        "Qui est l'auteur des essais philosophiques 'L'Étranger' et 'La Peste' ?",
-      answer: "Albert Camus.",
+      question: "Qui est le compositeur de l'opéra 'La Flûte enchantée' ?",
+      answer: "Wolfgang Amadeus Mozart.",
       explanation:
-        "Camus était un philosophe, écrivain et lauréat du prix Nobel de littérature (1957), souvent associé à la philosophie de l'absurde.",
+        "Cet opéra en allemand (Singspiel) est le dernier opéra de Mozart et l'un des plus mystérieux et philosophiques.",
     },
     open_question: {
       question:
-        "Les banques devraient-elles cesser de financer les projets d'énergies fossiles pour accélérer la transition écologique ?",
+        "Les technologies de surveillance des employés à distance (logiciels de suivi) sont-elles un abus ou une nécessité de gestion ?",
       notes:
-        "Débat sur la finance verte, la responsabilité des institutions financières et l'approvisionnement énergétique.",
+        "Débat sur la confiance, le droit à la déconnexion et la mesure de la productivité.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "La baleine bleue est non seulement le plus grand animal vivant, mais aussi le plus grand animal connu ayant jamais existé sur Terre.",
     },
   },
   {
     date: "2026-06-05",
     general_question: {
-      question: "Quelle est la capitale de l'Islande ?",
-      answer: "Reykjavik.",
+      question:
+        "Quelle est la principale cause de l'acidification des océans ?",
+      answer: "L'absorption du dioxyde de carbone ($CO_2$) atmosphérique.",
       explanation:
-        "Reykjavik est la capitale la plus septentrionale du monde, célèbre pour ses sources chaudes et son utilisation des énergies géothermiques.",
+        "Environ un quart du $CO_2$ émis par l'homme est absorbé par les océans, entraînant une baisse de leur pH (acidification).",
     },
     open_question: {
       question:
-        "Les écoles devraient-elles interdire l'utilisation des écrans (smartphones, tablettes) en classe, même à des fins pédagogiques ?",
+        "La pêche industrielle est-elle compatible avec la préservation des écosystèmes marins et des stocks de poissons ?",
       notes:
-        "Débat sur la distraction, les outils numériques éducatifs et l'impact sur la concentration des élèves.",
+        "Discussion sur la surpêche, les quotas, et les méthodes de pêche destructrices (chalutage de fond).",
     },
     did_you_know: {
-      text: "La 'Journée mondiale de l'environnement' est célébrée chaque 5 juin, établie par l'ONU en 1972.",
+      text: "Le 5 juin est la Journée Mondiale de l'Environnement, proclamée par l'ONU en 1972.",
     },
   },
   {
     date: "2026-06-06",
     general_question: {
       question:
-        "Quel événement majeur de la Seconde Guerre mondiale est commémoré le 6 juin ?",
-      answer: "Le débarquement de Normandie (D-Day).",
+        "Quel événement majeur de la Seconde Guerre mondiale s'est déroulé le 6 juin 1944 sur les plages de Normandie ?",
+      answer: "Le Débarquement allié (Opération Overlord).",
       explanation:
-        "Le 6 juin 1944, les forces alliées ont lancé l'assaut amphibie le plus important de l'histoire pour libérer l'Europe de l'occupation nazie. ",
+        "C'est la plus grande opération amphibie et aéroportée de l'histoire, marquant le début de la libération de l'Europe occidentale.",
     },
     open_question: {
       question:
-        "Faut-il imposer une 'taxe sur la malbouffe' pour financer la prévention des maladies liées à l'alimentation ?",
+        "Le droit des animaux devrait-il être réformé pour accorder une 'personnalité morale' aux animaux les plus évolués (grands singes, cétacés) ?",
       notes:
-        "Débat sur la fiscalité comportementale, la liberté de consommation et l'impact sur les revenus modestes.",
+        "Débat sur le statut légal des animaux, l'éthique et les conséquences sur l'expérimentation et l'élevage.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas ; elles ont de courtes périodes de repos de quelques minutes, plusieurs fois par jour.",
+      text: "Le parachutisme n'est devenu une pratique militaire courante qu'après la Première Guerre mondiale.",
     },
   },
   {
     date: "2026-06-07",
     general_question: {
-      question:
-        "Quel est le nom de la couche de l'atmosphère terrestre qui absorbe la majeure partie du rayonnement ultraviolet du Soleil ?",
-      answer: "La couche d'Ozone.",
+      question: "Quel écrivain français a écrit 'Les Misérables' ?",
+      answer: "Victor Hugo.",
       explanation:
-        "Située principalement dans la stratosphère, la couche d'ozone ($\text{O}_3$) est essentielle pour protéger la vie sur Terre des $\text{UV}$ nocifs.",
+        "Publié en 1862, c'est un roman qui décrit la misère du peuple et l'injustice sociale en France au XIXe siècle.",
     },
     open_question: {
       question:
-        "Les robots devraient-ils payer des impôts ou des cotisations sociales pour compenser les emplois qu'ils suppriment ?",
+        "La peine d'amende est-elle juste si elle n'est pas proportionnelle aux revenus de la personne (amendes forfaitaires) ?",
       notes:
-        "Débat sur la 'taxe robot', le financement de la protection sociale et la définition du travail à l'ère de l'automatisation.",
+        "Débat sur l'égalité devant la loi, la justice sociale et les 'amendes au jour' (proportionnelles au salaire).",
     },
     did_you_know: {
-      text: "Le mot 'radar' est un acronyme signifiant 'Radio Detection And Ranging'.",
+      text: "Il existe une ville au Pays de Galles avec un nom de 58 lettres : Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch.",
     },
   },
   {
     date: "2026-06-08",
     general_question: {
       question:
-        "Quel animal marin est le plus grand invertébré (sans colonne vertébrale) connu ?",
-      answer: "Le calmar colossal (Mesonychoteuthis hamiltoni).",
+        "Quel est le nom du plus grand réseau de rivières et de cours d'eau souterrains au monde, situé au Mexique ?",
+      answer: "Le système Sac Actun (Mexique/Yucatan).",
       explanation:
-        "Bien que le calmar géant soit plus connu, le calmar colossal est généralement plus lourd et détient le record du plus grand œil du monde animal.",
+        "C'est le plus grand réseau de grottes et de rivières souterraines inondées au monde, essentiel pour l'eau douce de la région.",
     },
     open_question: {
       question:
-        "Le système de notation 'âge légal de consommation' pour l'alcool et le tabac est-il efficace ou devrait-on privilégier l'éducation ?",
+        "La démocratie directe (référendums fréquents, initiatives citoyennes) est-elle supérieure à la démocratie représentative ?",
       notes:
-        "Débat sur les lois restrictives, la responsabilité individuelle et la prévention des risques.",
+        "Débat sur l'efficacité des décisions, la complexité des lois et le risque de 'tyrannie de la majorité'.",
     },
     did_you_know: {
-      text: "La 'Journée mondiale des océans' est célébrée chaque 8 juin, visant à sensibiliser à la protection des écosystèmes marins.",
+      text: "L'huile de coco a une durée de conservation très longue et est très résistante à l'oxydation par rapport à d'autres huiles de cuisson.",
     },
   },
   {
     date: "2026-06-09",
     general_question: {
       question:
-        "Qui a peint 'Les Noces de Cana', la plus grande toile du musée du Louvre ?",
-      answer: "Paul Véronèse.",
+        "Quelle est l'unité de mesure standard de l'énergie thermique (chaleur) dans le SI ?",
+      answer: "Le Joule (J).",
       explanation:
-        "Cette œuvre massive (6,77 m par 9,94 m) représente le premier miracle de Jésus-Christ et fait face à la Joconde dans la salle des États du Louvre.",
+        "Le Joule est l'unité de travail ou d'énergie. $1\text{ Joule}$ est égal à $1\text{ Newton}$ appliqué sur $1\text{ mètre}$.",
     },
     open_question: {
       question:
-        "La censure de contenu sur Internet par les plateformes privées est-elle une protection nécessaire ou une atteinte à la liberté d'expression ?",
+        "Le journalisme d'investigation peut-il survivre économiquement à l'ère de l'information gratuite et des clics rapides ?",
       notes:
-        "Débat sur la modération du contenu, la responsabilité des grandes entreprises technologiques et les abus potentiels.",
+        "Discussion sur les modèles d'abonnement, le financement public et le rôle des fondations.",
     },
     did_you_know: {
-      text: "La Russie possède la plus longue frontière terrestre du monde, s'étendant sur plus de 22 400 km à travers 14 pays.",
+      text: "Le mot 'robot' a été introduit par l'écrivain tchèque Karel Čapek, venant du mot tchèque 'robota' signifiant travail pénible.",
     },
   },
   {
     date: "2026-06-10",
     general_question: {
       question:
-        "Quel est le plus grand désert de sable au monde (hors régions polaires) ?",
-      answer: "Le Sahara.",
+        "Quel est le nom de la petite glande située à la base du cerveau, souvent surnommée la 'glande maîtresse' ?",
+      answer: "L'hypophyse (ou glande pituitaire).",
       explanation:
-        "Le Sahara, qui couvre une grande partie de l'Afrique du Nord, est le plus grand désert chaud. ",
+        "Elle produit et régule la plupart des hormones du corps, influençant la croissance, le métabolisme et la reproduction.",
     },
     open_question: {
       question:
-        "Le tourisme de masse est-il compatible avec la préservation des sites historiques et naturels ?",
+        "La légalisation des drogues douces est-elle une solution pour réduire le crime organisé et améliorer la santé publique ?",
       notes:
-        "Débat sur les quotas d'accès, la dégradation des sites (ex: Venise, Machu Picchu) et l'économie locale.",
+        "Débat sur la réglementation, les recettes fiscales et les risques d'abus et de dépendance.",
     },
     did_you_know: {
-      text: "Les escargots ont environ 14 000 dents, situées sur leur langue appelée radula.",
+      text: "La seule lettre de l'alphabet que l'on ne trouve dans aucun nom de pays est la lettre 'Q'.",
     },
   },
   {
     date: "2026-06-11",
     general_question: {
-      question: "Quelle est l'unité de mesure de la force ?",
-      answer: "Le Newton (N).",
+      question:
+        "Quel pays est le plus grand producteur mondial de charbon, utilisé principalement pour la production d'électricité ?",
+      answer: "La Chine.",
       explanation:
-        "Nommé d'après Isaac Newton, $1 \text{Newton}$ est la force nécessaire pour accélérer une masse de $1 \text{kg}$ à raison de $1 \text{m/s}^2$ ($F = ma$).",
+        "La Chine est à la fois le premier producteur et le premier consommateur mondial de charbon.",
     },
     open_question: {
       question:
-        "Les gouvernements devraient-ils imposer un temps de 'déconnexion' numérique obligatoire pour les citoyens ?",
+        "Les critères de beauté (mode, chirurgie esthétique) sont-ils une forme de pression sociale genrée ou une libre expression individuelle ?",
       notes:
-        "Débat sur le droit à la tranquillité, l'hyperconnexion et la santé mentale collective.",
+        "Discussion sur l'impact des médias, le patriarcat et l'autonomie corporelle.",
     },
     did_you_know: {
-      text: "Le seul État des États-Unis à produire du café est Hawaï.",
+      text: "Le mot 'juin' est également le mois où se produisent les plus longues journées de l'année dans l'hémisphère nord (solstice d'été).",
     },
   },
   {
     date: "2026-06-12",
     general_question: {
       question:
-        "Quel pays a remporté la première Coupe du Monde de football organisée en Afrique (2010) ?",
-      answer: "L'Espagne.",
+        "Quel est le seul État américain à avoir pour capitale une ville nommée 'City' ?",
+      answer: "L'État de l'Utah (Salt Lake City).",
       explanation:
-        "L'Espagne a battu les Pays-Bas en finale à Johannesburg (Afrique du Sud), sur un but d'Andrés Iniesta.",
+        "La capitale est Salt Lake City. Il n'y a pas d'autre État dont la capitale se termine par 'City'.",
     },
     open_question: {
       question:
-        "Faut-il mettre fin au secret bancaire dans tous les pays pour lutter contre l'évasion fiscale et le blanchiment d'argent ?",
+        "Le droit à la santé est-il une responsabilité individuelle ou une obligation collective prise en charge par l'État ?",
       notes:
-        "Débat sur la souveraineté fiscale, la protection des données et la justice économique mondiale.",
+        "Débat sur les systèmes de santé universels, les assurances privées et la prévention.",
     },
     did_you_know: {
-      text: "La température la plus chaude jamais enregistrée sur Terre est de $56,7^{circ}\text{C}$ dans la Vallée de la Mort, en Californie, en 1913.",
+      text: "Le premier enregistrement sonore connu est la chanson 'Au Clair de la Lune' par Édouard-Léon Scott de Martinville en 1860, sur un phonautographe.",
     },
   },
   {
     date: "2026-06-13",
     general_question: {
-      question:
-        "Qui a inventé l'imprimerie à caractères mobiles en Europe au $\text{XV}^e$ siècle ?",
-      answer: "Johannes Gutenberg.",
+      question: "Qui est le physicien à l'origine de l'équation $E=mc^2$ ?",
+      answer: "Albert Einstein.",
       explanation:
-        "Son invention (vers 1440) a permis la diffusion rapide du savoir et est considérée comme l'une des inventions les plus importantes de l'histoire.",
+        "Cette équation clé de la relativité restreinte décrit la relation entre l'énergie (E) et la masse (m), avec $c$ étant la vitesse de la lumière.",
     },
     open_question: {
       question:
-        "Les écoles devraient-elles imposer le port d'un uniforme pour réduire les inégalités sociales et la pression de la mode ?",
+        "Le secret bancaire est-il nécessaire pour la liberté économique ou favorise-t-il la criminalité financière et la fraude fiscale ?",
       notes:
-        "Débat sur l'égalité, l'expression individuelle et le coût d'un uniforme scolaire.",
+        "Discussion sur la transparence fiscale internationale, les paradis fiscaux et le droit à l'intimité financière.",
     },
     did_you_know: {
-      text: "La foudre frappe les hommes beaucoup plus souvent que les femmes (environ 5 fois plus), bien que la raison exacte soit encore débattue (exposition professionnelle, comportement).",
+      text: "Les éléphants ne peuvent pas sauter, mais ils sont de très bons nageurs.",
     },
   },
   {
     date: "2026-06-14",
     general_question: {
       question:
-        "Quel est le nom de l'instrument de musique composé de 88 touches ?",
-      answer: "Le Piano.",
+        "Quel est le nom du célèbre musée espagnol qui abrite 'Guernica' de Picasso ?",
+      answer: "Le Musée Reina Sofía (Madrid).",
       explanation:
-        "Un piano moderne standard possède 52 touches blanches et 36 touches noires, soit un total de 88 touches.",
+        "Ce musée national espagnol d'art moderne et contemporain abrite l'œuvre majeure de Picasso, qui dénonce le bombardement de la ville basque de Guernica.",
     },
     open_question: {
       question:
-        "Faut-il réglementer la durée maximale de travail par semaine (32 heures, 4 jours) pour améliorer le bien-être général ?",
+        "La démocratie est-elle le seul modèle politique légitime ou les régimes autoritaires peuvent-ils être plus efficaces pour la stabilité et le développement économique ?",
       notes:
-        "Débat sur la productivité, le stress professionnel et l'équilibre vie privée/vie professionnelle.",
+        "Discussion sur les droits de l'homme, la corruption et la performance économique.",
     },
     did_you_know: {
-      text: "Le 14 juin est la 'Journée mondiale du donneur de sang', visant à sensibiliser au besoin de dons sûrs.",
+      text: "Le drapeau américain compte 13 bandes (représentant les 13 colonies originales) et 50 étoiles (représentant les 50 États).",
     },
   },
   {
     date: "2026-06-15",
     general_question: {
-      question: "Quel est l'élément chimique avec le symbole 'Au' ?",
-      answer: "L'Or.",
+      question:
+        "Quel pays européen est la patrie des Jeux Olympiques antiques et modernes ?",
+      answer: "La Grèce.",
       explanation:
-        "Le symbole Au vient du mot latin aurum. L'or est un métal de transition, précieux et inaltérable.",
+        "Les Jeux antiques se tenaient à Olympie dès 776 av. J.-C. Les premiers Jeux modernes ont eu lieu à Athènes en 1896.",
     },
     open_question: {
       question:
-        "L'exploration des fonds marins est-elle plus importante pour l'humanité que l'exploration spatiale ?",
+        "Faut-il imposer des limites aux multinationales en matière d'optimisation fiscale (évasion fiscale légale) ?",
       notes:
-        "Débat sur la biodiversité marine (encore largement inexplorée) vs. les avancées technologiques spatiales.",
+        "Débat sur les impôts minimums mondiaux, la concurrence fiscale et l'équité des contributions.",
     },
     did_you_know: {
-      text: "Un 'parsec' est une unité de mesure de distance utilisée en astronomie, équivalant à environ 3,26 années-lumière.",
+      text: "Le mot 'atmosphère' vient du grec *atmós* (vapeur) et *sphaira* (sphère).",
     },
   },
   {
     date: "2026-06-16",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée à Saint-Pétersbourg, Russie ?",
-      answer: "Le Musée de l'Ermitage.",
+        "Quel est le nom de la péninsule qui est le cœur historique de la Grèce antique ?",
+      answer: "Le Péloponnèse.",
       explanation:
-        "Situé dans le Palais d'Hiver, l'Ermitage est l'un des plus grands et des plus anciens musées du monde.",
+        "Elle est reliée au continent par l'isthme de Corinthe et est connue pour ses sites antiques, notamment Olympie et Mycènes.",
     },
     open_question: {
       question:
-        "Le concept de 'neutralité carbone' (compenser les émissions) est-il une solution écologique viable ou un permis de polluer pour les entreprises ?",
+        "Les technologies de réalité virtuelle et augmentée sont-elles une source d'évasion enrichissante ou une menace pour l'interaction sociale réelle ?",
       notes:
-        "Débat sur l'efficacité de la compensation (plantation d'arbres) face à la nécessité de la réduction absolue.",
+        "Discussion sur l'éducation, la formation professionnelle et l'isolement social.",
     },
     did_you_know: {
-      text: "Les nuages portent des noms latins pour décrire leur apparence (cumulus, cirrus, stratus) inventés par Luke Howard en 1803.",
+      text: "L'électricité statique est une accumulation de charge électrique à la surface d'un objet. Elle n'est pas produite par le frottement, mais par la séparation des matériaux.",
     },
   },
   {
     date: "2026-06-17",
     general_question: {
       question:
-        "Quel est le nom de la péninsule partagée par l'Espagne et le Portugal ?",
-      answer: "La péninsule Ibérique.",
+        "Qui a écrit le roman d'anticipation 'Vingt mille lieues sous les mers' ?",
+      answer: "Jules Verne.",
       explanation:
-        "La péninsule est située à l'extrémité sud-ouest de l'Europe et est bordée par la mer Méditerranée et l'océan Atlantique.",
+        "Publié en 1870, ce roman raconte l'aventure du professeur Aronnax à bord du sous-marin *Nautilus*, commandé par le Capitaine Nemo.",
     },
     open_question: {
       question:
-        "Faut-il limiter le droit de propriété pour des raisons écologiques (ex: interdiction de construire sur certaines terres naturelles) ?",
+        "Les pays développés devraient-ils annuler la dette des pays en développement en échange d'engagements environnementaux ?",
       notes:
-        "Débat sur le droit individuel versus l'intérêt général de la préservation de l'environnement.",
+        "Discussion sur le 'swap' dette-nature, la souveraineté économique et l'équité Nord-Sud.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "Le son voyage près de cinq fois plus vite dans l'eau que dans l'air.",
     },
   },
   {
     date: "2026-06-18",
     general_question: {
       question:
-        "Quel scientifique a découvert la loi de la gravitation universelle ?",
-      answer: "Isaac Newton.",
+        "Quel est le nom de l'instrument qui mesure les tremblements de terre ?",
+      answer: "Le sismographe (ou sismomètre).",
       explanation:
-        "Newton a formulé cette loi dans son ouvrage 'Philosophiae Naturalis Principia Mathematica' (1687), décrivant la force d'attraction entre deux masses.",
+        "Il enregistre l'amplitude et la durée des ondes sismiques et permet de localiser l'épicentre d'un séisme.",
     },
     open_question: {
       question:
-        "L'éducation civique devrait-elle inclure des cours obligatoires sur la vérification des sources (fact-checking) et la pensée critique ?",
+        "Le sport professionnel moderne est-il un modèle d'excellence athlétique ou une machine de divertissement hyper-commercialisée ?",
       notes:
-        "Débat sur la lutte contre la désinformation (fake news) et le rôle de l'école dans la formation d'un citoyen éclairé.",
+        "Discussion sur les salaires, les droits de diffusion, le dopage et l'esprit olympique.",
     },
     did_you_know: {
-      text: "Le mont Everest s'agrandit d'environ 4 millimètres par an en raison du mouvement des plaques tectoniques, un phénomène appelé l'orogenèse.",
+      text: "La bataille de Waterloo, qui a scellé la défaite finale de Napoléon, a eu lieu le 18 juin 1815 en Belgique.",
     },
   },
   {
     date: "2026-06-19",
     general_question: {
-      question:
-        "Quel est le nom de l'explorateur portugais crédité du premier tour du monde (bien qu'il soit mort en cours de route) ?",
-      answer: "Fernand de Magellan.",
+      question: "Quel pays est le plus peuplé du monde ?",
+      answer: "L'Inde.",
       explanation:
-        "Magellan a initié l'expédition en 1519. Il est mort aux Philippines en 1521, mais son navire, le Victoria, a complété le voyage en 1522.",
+        "L'Inde a dépassé la Chine en 2023 pour devenir le pays le plus peuplé du monde, selon les projections de l'ONU.",
     },
     open_question: {
       question:
-        "L'abolition de la peine de mort est-elle un signe de civilisation avancée ou une menace pour la justice et la sécurité ?",
+        "Les technologies de surveillance de masse (caméras intelligentes, reconnaissance faciale) sont-elles un mal nécessaire pour la sécurité urbaine ?",
       notes:
-        "Débat sur les droits humains, la dissuasion criminelle et le risque d'erreur judiciaire.",
+        "Discussion sur la balance entre la sécurité publique et les libertés individuelles, ainsi que les risques de dérives autoritaires.",
     },
     did_you_know: {
-      text: "Les papillons goûtent avec leurs pieds (ils possèdent des chimiorécepteurs sur les pattes).",
+      text: "Le mot 'pandémie' vient du grec *pan* (tout) et *démos* (peuple).",
     },
   },
   {
     date: "2026-06-20",
     general_question: {
       question:
-        "Quelle est la science qui étudie le comportement des animaux dans leur environnement naturel ?",
-      answer: "L'Éthologie.",
+        "Comment appelle-t-on le phénomène où l'eau passe directement de l'état solide (glace) à l'état gazeux (vapeur) sans passer par l'état liquide ?",
+      answer: "La sublimation.",
       explanation:
-        "L'éthologie est l'étude scientifique et objective du comportement animal, souvent par observation de terrain.",
+        "C'est ce qui se produit avec la glace sèche ($CO_2$ solide) à température ambiante.",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être obligées de divulguer les algorithmes utilisés pour prendre des décisions importantes (recrutement, prêts) ?",
+        "Le revenu universel de base est-il une solution viable pour l'automatisation croissante des emplois ?",
       notes:
-        "Débat sur la transparence des algorithmes et le risque de biais dans les systèmes automatisés.",
+        "Discussion sur son coût, son impact sur l'incitation au travail et la réduction de la pauvreté.",
     },
     did_you_know: {
-      text: "Le 20 juin est le jour le plus long de l'année dans l'hémisphère nord (solstice d'été), le moment où la durée du jour est maximale.",
+      text: "Le point le plus sec sur Terre est la région du désert d'Atacama au Chili, où certaines stations n'ont jamais enregistré de précipitations.",
     },
   },
   {
     date: "2026-06-21",
     general_question: {
       question:
-        "Quel est l'élément chimique essentiel aux plantes pour la photosynthèse, qui leur donne leur couleur verte ?",
-      answer: "Le Magnésium (Mg).",
+        "Quel est le nom du célèbre détroit qui sépare la Turquie européenne de la Turquie asiatique ?",
+      answer: "Le détroit du Bosphore.",
       explanation:
-        "Le Magnésium est un constituant central de la molécule de chlorophylle, qui capte la lumière.",
+        "Il relie la mer Noire à la mer de Marmara et passe par Istanbul, ce qui en fait une voie maritime stratégique.",
     },
     open_question: {
       question:
-        "L'art doit-il être financé principalement par des fonds publics ou par des mécènes privés ?",
+        "L'exploration et la commercialisation des astéroïdes (exploitation minière spatiale) sont-elles le futur de l'humanité ?",
       notes:
-        "Débat sur l'indépendance artistique, l'accès à la culture et la politique budgétaire.",
+        "Discussion sur la faisabilité technique, les traités internationaux (espace), et le risque de pollution spatiale.",
     },
     did_you_know: {
-      text: "Le jour le plus long de l'année est le solstice d'été, qui tombe généralement le 20 ou le 21 juin.",
+      text: "Le 21 juin est le Solstice d'été (jour le plus long) dans l'hémisphère nord et le Solstice d'hiver (jour le plus court) dans l'hémisphère sud.",
     },
   },
   {
     date: "2026-06-22",
     general_question: {
-      question: "Quel est le nom du gaz noble le plus léger ?",
-      answer: "L'Hélium (He).",
+      question: "Qui est le compositeur de l'opéra 'Carmen', créé en 1875 ?",
+      answer: "Georges Bizet.",
       explanation:
-        "L'hélium est le deuxième élément le plus abondant dans l'univers après l'hydrogène. C'est un gaz inerte utilisé pour gonfler les ballons et dans l'IRM.",
+        "Cet opéra-comique, basé sur une nouvelle de Prosper Mérimée, est célèbre pour son rôle principal tragique et sa musique entraînante.",
     },
     open_question: {
       question:
-        "Faut-il taxer les transactions financières spéculatives pour financer les services sociaux ?",
+        "L'utilisation d'armes autonomes létales (robots tueurs) est-elle moralement acceptable pour la guerre du futur ?",
       notes:
-        "Débat sur la 'taxe Tobin', la stabilité financière et la redistribution des richesses.",
+        "Débat sur la responsabilité éthique en cas de 'bavure', le contrôle humain et l'escalade des conflits.",
     },
     did_you_know: {
-      text: "La plus ancienne loi toujours en vigueur au monde est celle sur les feux de circulation au Royaume-Uni (datant de 1865).",
+      text: "Il faut environ 100 000 battements de cœur pour pomper le sang dans un corps humain chaque jour.",
     },
   },
   {
     date: "2026-06-23",
     general_question: {
       question:
-        "Quel est l'organe qui consomme le plus d'oxygène dans le corps humain ?",
-      answer: "Le cerveau.",
+        "Quel est le nom de la maladie auto-immune qui affecte principalement les articulations, causant douleur et inflammation ?",
+      answer: "La polyarthrite rhumatoïde.",
       explanation:
-        "Bien qu'il ne représente qu'environ 2% du poids corporel, le cerveau consomme près de 20% de l'oxygène total du corps au repos.",
+        "C'est une maladie chronique qui attaque le revêtement des articulations, pouvant entraîner des déformations.",
     },
     open_question: {
       question:
-        "Les voyages internationaux devraient-ils être limités pour les particuliers, et réservés aux nécessités professionnelles ou humanitaires ?",
+        "Les entreprises devraient-elles avoir une obligation légale de réparer leurs produits plutôt que d'encourager le renouvellement (obsolescence programmée) ?",
       notes:
-        "Débat sur la réduction de l'empreinte carbone personnelle et l'impact sur le tourisme et les échanges culturels.",
+        "Discussion sur le 'droit à la réparation', la durabilité des produits et l'économie circulaire.",
     },
     did_you_know: {
-      text: "Le mot 'alphabet' vient des deux premières lettres de l'alphabet grec : 'alpha' et 'bêta'.",
+      text: "Le drapeau olympique est composé de cinq anneaux (représentant les cinq continents) dont les couleurs (avec le fond blanc) contiennent au moins une couleur de tous les drapeaux nationaux du monde.",
     },
   },
   {
     date: "2026-06-24",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée à Saint-Pétersbourg, Russie ?",
-      answer: "Le Musée de l'Ermitage.",
+        "Quel est le nom de la zone de l'océan Atlantique où les courants chauds et froids se rencontrent, favorisant la brume ?",
+      answer: "Le Grand Banc de Terre-Neuve (Canada).",
       explanation:
-        "Situé dans le Palais d'Hiver, l'Ermitage est l'un des plus grands et des plus anciens musées du monde.",
+        "C'est une zone de hauts-fonds sous-marins où le courant froid du Labrador rencontre le courant chaud du Gulf Stream, créant un brouillard fréquent et de riches zones de pêche.",
     },
     open_question: {
       question:
-        "L'agriculture biologique est-elle la seule voie possible pour une alimentation saine et durable ?",
+        "Faut-il imposer une taxe carbone aux frontières pour protéger l'industrie nationale et inciter les autres pays à réduire leurs émissions ?",
       notes:
-        "Débat sur la productivité, l'utilisation des pesticides et le coût pour le consommateur.",
+        "Débat sur la protectionnisme, les règles de l'OMC et l'efficacité climatique.",
     },
     did_you_know: {
-      text: "La baleine bleue, le plus grand animal de la planète, a un cœur de la taille d'une petite voiture, et son bruit peut être entendu à des kilomètres.",
+      text: "L'ancien nom de la ville de New York était 'New Amsterdam', fondé par les Néerlandais en 1624.",
     },
   },
   {
     date: "2026-06-25",
     general_question: {
-      question: "Qui a fondé l'entreprise automobile Ford ?",
-      answer: "Henry Ford.",
+      question: "Qui a écrit la pièce de théâtre 'Le Misanthrope' ?",
+      answer: "Molière (Jean-Baptiste Poquelin).",
       explanation:
-        "Henry Ford a fondé la Ford Motor Company en 1903. Il est célèbre pour avoir introduit la production en série basée sur le travail à la chaîne (le fordisme).",
+        "Créée en 1666, cette comédie classique met en scène Alceste, qui déteste la société et l'hypocrisie de son époque.",
     },
     open_question: {
       question:
-        "Faut-il interdire l'utilisation des animaux sauvages dans les cirques et les spectacles itinérants ?",
+        "Le droit à l'oubli numérique devrait-il être absolu ou limité par l'intérêt historique et la liberté d'expression ?",
       notes:
-        "Débat sur le bien-être animal, la tradition culturelle et les alternatives éthiques au spectacle.",
+        "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
     },
     did_you_know: {
-      text: "La statue de la Liberté à New York était à l'origine destinée à la ville de Port-Saïd, en Égypte, pour marquer l'entrée du canal de Suez.",
+      text: "Le mot 'quatorze' est le plus grand nombre en français qui peut être écrit avec seulement deux lettres ('onze' étant le plus petit, suivi de 'douze', 'treize').",
     },
   },
   {
     date: "2026-06-26",
     general_question: {
       question:
-        "Quel prix littéraire français est souvent considéré comme le plus prestigieux ?",
-      answer: "Le Prix Goncourt.",
+        "Quel est l'élément chimique le plus léger après l'hydrogène, utilisé pour gonfler les ballons dirigeables et les ballons-sondes ?",
+      answer: "L'hélium (He).",
       explanation:
-        "Créé en 1903, le Goncourt est décerné à l'auteur du meilleur ouvrage d'imagination en prose de l'année.",
+        "Bien qu'il soit moins liftant que l'hydrogène, l'hélium est privilégié car il n'est pas inflammable.",
     },
     open_question: {
       question:
-        "Le concept de 'neutralité du net' (égalité de traitement des données) est-il essentiel pour la liberté d'Internet ?",
+        "Faut-il légaliser et encadrer le marché des organes humains pour sauver des vies et combattre le trafic illégal ?",
       notes:
-        "Débat sur le contrôle des flux de données par les fournisseurs d'accès (FAI) et l'accès équitable à l'information.",
+        "Débat éthique, social et économique sur la marchandisation du corps humain et l'altruisme.",
     },
     did_you_know: {
-      text: "La langue la plus parlée dans le monde, en termes de locuteurs natifs, est le mandarin (chinois), devant l'espagnol et l'anglais.",
+      text: "Les anneaux olympiques ont été conçus à l'origine par Pierre de Coubertin en 1913, et ils symbolisent l'union des cinq continents.",
     },
   },
   {
     date: "2026-06-27",
     general_question: {
-      question:
-        "Quelle est la fleur traditionnellement offerte en France le 1er mai ?",
-      answer: "Le muguet (Clochette de mai).",
+      question: "Quel est le plus grand lac d'Afrique, en superficie ?",
+      answer: "Le lac Victoria.",
       explanation:
-        "Offrir du muguet est un porte-bonheur pour le mois de mai. Le 1er mai est aussi la Fête du Travail dans de nombreux pays.",
+        "Il est bordé par la Tanzanie, l'Ouganda et le Kenya. C'est le plus grand lac tropical du monde et le deuxième plus grand lac d'eau douce après le lac Supérieur.",
     },
     open_question: {
       question:
-        "Les syndicats ont-ils encore un rôle pertinent dans la défense des droits des travailleurs de l'économie numérique (freelance, plateformes) ?",
+        "Le télétravail généralisé est-il bénéfique ou néfaste pour la cohésion d'équipe et l'innovation en entreprise ?",
       notes:
-        "Débat sur l'organisation des travailleurs indépendants, la précarité et les nouvelles formes d'emploi.",
+        "Débat sur l'équilibre entre flexibilité individuelle et dynamique collective au travail.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas ; elles ont de courtes périodes de repos de quelques minutes, plusieurs fois par jour.",
+      text: "La saison des ouragans dans l'océan Atlantique commence officiellement le 1er juin et se termine le 30 novembre.",
     },
   },
   {
     date: "2026-06-28",
     general_question: {
-      question: "Quel est le plus grand État d'Afrique par sa superficie ?",
-      answer: "L'Algérie.",
+      question:
+        "Qui a été assassiné à Sarajevo en 1914, déclenchant la Première Guerre mondiale ?",
+      answer:
+        "L'Archiduc François-Ferdinand d'Autriche (et son épouse Sophie).",
       explanation:
-        "Depuis la partition du Soudan en 2011, l'Algérie est le plus vaste pays du continent africain.",
+        "Son assassinat par le nationaliste serbe Gavrilo Princip est l'événement qui a servi de détonateur aux alliances européennes, conduisant à la guerre.",
     },
     open_question: {
       question:
-        "Le cinéma devrait-il être davantage subventionné par l'État pour garantir la diversité culturelle face aux superproductions ?",
+        "Les 'influenceurs' numériques doivent-ils être soumis aux mêmes règles de transparence et de déontologie que les médias traditionnels ?",
       notes:
-        "Débat sur l'industrie culturelle, la qualité artistique et la concurrence des plateformes de streaming.",
+        "Débat sur la publicité déguisée, la crédibilité des sources et la responsabilité éditoriale.",
     },
     did_you_know: {
-      text: "La plus vieille créature marine encore vivante est une éponge d'une espèce non identifiée, découverte à 2 134 mètres de profondeur et estimée à 10 000 ans.",
+      text: "Le drapeau olympique ne contenait à l'origine aucune inscription, seule l'image des cinq anneaux entrelacés sur fond blanc était présente.",
     },
-  },
-  {
+    // --- Juin 2026 (2 jours restants) ---
+
     date: "2026-06-29",
     general_question: {
       question:
-        "Quel pays a pour langue officielle le portugais en Amérique du Sud ?",
-      answer: "Le Brésil.",
+        "Quel est le nom de l'hormone de la 'lutte ou de la fuite' sécrétée par les glandes surrénales en cas de stress ?",
+      answer: "L'adrénaline (ou épinéphrine).",
       explanation:
-        "Le Brésil a été colonisé par le Portugal, tandis que la plupart des autres pays d'Amérique du Sud parlent l'espagnol.",
+        "Elle augmente le rythme cardiaque, la pression artérielle et mobilise l'énergie en préparant le corps à une action rapide.",
     },
     open_question: {
       question:
-        "Faut-il former des armées de 'soldats-robots' (entièrement autonomes) pour réduire les pertes humaines dans les conflits ?",
+        "Le concept de 'neutralité carbone' d'ici 2050 est-il techniquement et économiquement réaliste à l'échelle mondiale ?",
       notes:
-        "Débat sur l'éthique de la guerre automatisée, le droit international et le risque de déshumanisation des conflits.",
+        "Débat sur la faisabilité des technologies de capture de carbone, les changements de mode de vie nécessaires et le coût de la transition énergétique.",
     },
     did_you_know: {
-      text: "La plus petite quantité de matière observable est le quark, qui est un constituant des protons et des neutrons.",
+      text: "La Grande Pyramide de Gizeh, construite il y a plus de 4 500 ans, était la plus haute structure artificielle du monde pendant plus de 3 800 ans, jusqu'au XIXe siècle.",
     },
   },
   {
     date: "2026-06-30",
     general_question: {
       question:
-        "Quel prix scientifique est souvent considéré comme l'équivalent du Prix Nobel en mathématiques ?",
-      answer: "La Médaille Fields.",
+        "Quel est le plus long fleuve d'Europe, qui se jette dans la mer Caspienne ?",
+      answer: "La Volga.",
       explanation:
-        "Elle est décernée tous les quatre ans à des mathématiciens de moins de 40 ans. (Il n'y a pas de Prix Nobel en mathématiques).",
+        "Elle coule entièrement en Russie et est d'une importance cruciale pour l'irrigation, la production hydroélectrique et le transport.",
     },
     open_question: {
       question:
-        "La liberté des médias est-elle menacée par la pression des annonceurs et la recherche du 'clic' à tout prix ?",
+        "Faut-il interdire la publicité pour les produits considérés comme mauvais pour la santé (sucre, alcool, malbouffe) ?",
       notes:
-        "Débat sur le modèle économique des médias, la qualité de l'information et le journalisme d'investigation.",
+        "Débat sur la liberté de commerce versus la responsabilité de l'État dans la santé publique.",
     },
     did_you_know: {
-      text: "Le 4 mai est souvent célébré comme le 'Star Wars Day' en raison du jeu de mots 'May the Fourth be with you' (May the Force be with you).",
+      text: "Un jour sur Vénus est plus long qu'une année sur Vénus. Il faut 243 jours terrestres pour qu'elle tourne sur elle-même, et 225 jours pour faire le tour du Soleil.",
     },
   },
 
-  // Jours 189 à 200 : Juillet 2026 (12 jours)
+  // --- Juillet 2026 (31 jours) ---
   {
     date: "2026-07-01",
     general_question: {
-      question: "Quelle ville est la capitale de l'Australie ?",
-      answer: "Canberra.",
+      question:
+        "Quel est l'élément chimique qui a le numéro atomique 1 et le poids atomique le plus faible ?",
+      answer: "L'Hydrogène (H).",
       explanation:
-        "Contrairement à la croyance populaire, Sydney et Melbourne ne sont pas la capitale. Canberra a été choisie comme compromis entre les deux villes rivales en 1908.",
+        "L'hydrogène est le constituant le plus abondant de l'univers et le gaz le plus léger.",
     },
     open_question: {
       question:
-        "Faut-il interdire l'utilisation des animaux sauvages dans les cirques et les spectacles itinérants ?",
+        "L'hyper-connectivité et la dépendance aux smartphones modifient-elles la structure cognitive du cerveau humain ?",
       notes:
-        "Débat sur le bien-être animal, la tradition culturelle et les alternatives éthiques au spectacle.",
+        "Discussion sur la capacité d'attention, la mémorisation et l'impact sur le sommeil.",
     },
     did_you_know: {
-      text: "Le seul animal domestique qui ne figure pas sur l'Arche de Noé est le chat (selon certaines interprétations du récit biblique).",
+      text: "Le 1er juillet est célébré comme le 'Canada Day', commémorant la fusion des colonies de l'Amérique du Nord britannique en une seule entité, le Canada, en 1867.",
     },
   },
   {
     date: "2026-07-02",
     general_question: {
-      question: "Quel est le nom de la science qui étudie les champignons ?",
-      answer: "La mycologie.",
+      question:
+        "Quel est le nom de l'architecte qui a conçu la Sagrada Familia de Barcelone (toujours inachevée) ?",
+      answer: "Antoni Gaudí.",
       explanation:
-        "La mycologie est une branche de la biologie qui se concentre sur les champignons, leurs propriétés, leur classification et leurs usages.",
+        "Gaudí a consacré les dernières années de sa vie à ce chef-d'œuvre du modernisme catalan, qui a débuté en 1882.",
     },
     open_question: {
       question:
-        "Les pays riches ont-ils une obligation morale de compenser les pays pauvres pour les dommages causés par le changement climatique ?",
+        "Le droit des auteurs et artistes doit-il être révisé à l'ère des contenus générés par l'IA (texte, art, musique) ?",
       notes:
-        "Débat sur la justice climatique, la dette historique et les fonds de 'pertes et dommages'.",
+        "Discussion sur la paternité des œuvres, l'entraînement des modèles d'IA sur des données protégées et la rémunération des créateurs.",
     },
     did_you_know: {
-      text: "La Station Spatiale Internationale (ISS) orbite autour de la Terre à environ 28 000 km/h, effectuant 16 révolutions complètes par jour.",
+      text: "Le mot 'juillet' est nommé en l'honneur de Jules César (Julius Caesar) qui est né ce mois-là.",
     },
   },
   {
     date: "2026-07-03",
     general_question: {
-      question:
-        "Quel écrivain français est l'auteur des 'Trois Mousquetaires' ?",
-      answer: "Alexandre Dumas.",
+      question: "Quelle est la capitale de l'Australie ?",
+      answer: "Canberra.",
       explanation:
-        "Ce roman historique d'aventure (1844) raconte les exploits de d'Artagnan et de ses amis Athos, Porthos et Aramis, avec la célèbre devise : 'Un pour tous, tous pour un'.",
+        "Canberra est la capitale politique, tandis que Sydney est la ville la plus peuplée et la plus connue internationalement.",
     },
     open_question: {
       question:
-        "L'abolition de la peine de mort est-elle un signe de civilisation avancée ou une menace pour la justice et la sécurité ?",
+        "Faut-il interdire l'exploitation minière en haute mer pour protéger des écosystèmes encore largement inexplorés ?",
       notes:
-        "Débat sur les droits humains, la dissuasion et le risque d'erreur judiciaire.",
+        "Discussion sur le besoin de métaux rares, les conséquences environnementales irréversibles et la réglementation internationale.",
     },
     did_you_know: {
-      text: "Un chameau peut boire jusqu'à 150 litres d'eau en moins de 15 minutes.",
+      text: "L'empreinte carbone d'une personne moyenne voyageant en avion est souvent supérieure à celle de tous ses déplacements en voiture et en transports en commun combinés sur une année.",
     },
   },
   {
     date: "2026-07-04",
     general_question: {
       question:
-        "Quel événement historique majeur est commémoré le 4 juillet aux États-Unis ?",
+        "Quel est le nom du célèbre document adopté le 4 juillet 1776, proclamant l'indépendance des États-Unis ?",
       answer: "La Déclaration d'Indépendance.",
       explanation:
-        "Le 4 juillet 1776, le Congrès a adopté la Déclaration d'Indépendance, séparant les treize colonies britanniques.",
+        "Elle a été principalement rédigée par Thomas Jefferson et déclare que les 13 colonies sont des États libres et indépendants de la Grande-Bretagne.",
     },
     open_question: {
       question:
-        "L'individualisme croissant dans les sociétés occidentales est-il une libération ou une cause de l'isolement social ?",
+        "Faut-il conditionner l'aide au développement des pays pauvres à des critères de bonne gouvernance et de respect des droits humains ?",
       notes:
-        "Débat sur la liberté personnelle, la cohésion communautaire et l'impact sur les liens interpersonnels.",
+        "Débat sur la souveraineté, l'efficacité de l'aide et les risques d'ingérence.",
     },
     did_you_know: {
-      text: "Les feux d'artifice ont été inventés en Chine au $\text{VII}^e$ siècle de notre ère.",
+      text: "La fête de l'Indépendance du 4 juillet n'est pas la date de la signature du document (qui a eu lieu en août), mais la date de l'adoption du texte par le Congrès continental.",
     },
   },
   {
     date: "2026-07-05",
     general_question: {
-      question: "Quel est le nom de la péninsule où se trouve la Mecque ?",
-      answer: "La péninsule Arabique.",
+      question:
+        "Quel est le nom du processus par lequel les plantes transforment la lumière en énergie ?",
+      answer: "La Photosynthèse.",
       explanation:
-        "La Mecque, ville sainte de l'Islam, est située dans la région du Hedjaz, dans l'actuelle Arabie saoudite.",
+        "Elle utilise l'énergie lumineuse pour convertir le dioxyde de carbone et l'eau en glucose (sucre) et en oxygène.",
     },
     open_question: {
       question:
-        "L'accès à la culture (musées, concerts, livres) devrait-il être gratuit pour tous les citoyens ?",
+        "Le système de retraite par répartition est-il durable face au vieillissement démographique et à l'allongement de l'espérance de vie ?",
       notes:
-        "Débat sur le financement de la culture, la démocratisation de l'accès et le rôle de l'État.",
+        "Discussion sur l'âge de départ, les cotisations et la nécessité de réformes structurelles.",
     },
     did_you_know: {
-      text: "Les dauphins dorment avec un seul œil fermé. Ils alternent les hémisphères de leur cerveau pour pouvoir rester à la fois vigilants et en repos.",
+      text: "Le mot 'américain' est un gentilé qui fait référence aux habitants des États-Unis. En géographie, le terme 'américain' désigne les habitants du continent (Nord, Centrale, Sud).",
     },
   },
   {
     date: "2026-07-06",
     general_question: {
-      question: "Quel est le nom donné au phénomène de la queue d'une comète ?",
-      answer: "La chevelure (ou la queue).",
+      question:
+        "Dans quel pays a été découvert le premier cas documenté du VIH (Virus de l'Immunodéficience Humaine) chez l'homme ?",
+      answer: "La République démocratique du Congo (RDC).",
       explanation:
-        "La queue, ou coma, est formée par les gaz et les poussières sublimés sous l'effet du vent solaire, et pointe toujours à l'opposé du Soleil.",
+        "Les études génétiques suggèrent que le virus s'est propagé à partir de singes et s'est transmis à l'homme au début du XXe siècle, probablement dans cette région.",
     },
     open_question: {
       question:
-        "Faut-il interdire l'usage des téléphones portables aux enfants de moins de 13 ans, y compris à l'école ?",
+        "Le droit de vote devrait-il être obligatoire pour assurer une représentation démocratique maximale ?",
       notes:
-        "Débat sur la sécurité en ligne, l'impact sur la concentration et le développement social des enfants.",
+        "Discussion sur la légitimité du vote, l'apathie politique et les sanctions en cas d'abstention.",
     },
     did_you_know: {
-      text: "Le son produit par le craquement des doigts est dû à l'éclatement de bulles de gaz dans le liquide synovial des articulations.",
+      text: "Il y a plus de six fois plus de plastique dans les océans que de plancton, en termes de poids, dans certaines zones du Pacifique.",
     },
   },
   {
     date: "2026-07-07",
     general_question: {
       question:
-        "Quel est le plus grand désert chaud du monde (le plus grand désert tout court) ?",
-      answer: "Le Sahara.",
+        "Qui est le compositeur allemand de la 'Neuvième Symphonie', incluant l' 'Ode à la joie' ?",
+      answer: "Ludwig van Beethoven.",
       explanation:
-        "Un désert est défini par ses faibles précipitations annuelles. Le Sahara, bien que chaud, est le plus grand désert subtropical.",
+        "Créée en 1824, c'est l'une des œuvres les plus célèbres de la musique classique. L' 'Ode à la joie' est l'hymne de l'Union européenne.",
     },
     open_question: {
       question:
-        "L'utilisation d'assistants vocaux (Alexa, Google Home) est-elle un bénéfice pratique ou une intrusion dans la vie privée ?",
+        "Le sport électronique ('esports') est-il un sport légitime nécessitant la même reconnaissance que le sport traditionnel ?",
       notes:
-        "Débat sur la collecte de données, l'écoute permanente et le consentement des utilisateurs.",
+        "Débat sur la reconnaissance athlétique, l'entraînement, la discipline et les compétitions internationales.",
     },
     did_you_know: {
-      text: "Le mot 'buffet' a été emprunté de la langue française par l'anglais, mais la prononciation est souvent différente (le 't' est souvent silencieux en français).",
+      text: "L'astronomie est la plus ancienne des sciences naturelles, avec des preuves d'observations humaines remontant à la préhistoire.",
     },
   },
   {
     date: "2026-07-08",
     general_question: {
-      question: "Quel est le nom du plus long fleuve du monde ?",
-      answer: "L'Amazone.",
+      question: "Quelle est la plus grande île de la mer Méditerranée ?",
+      answer: "La Sicile (Italie).",
       explanation:
-        "Bien que le Nil ait longtemps été considéré comme le plus long, des études récentes (2007) confirment que l'Amazone le dépasse légèrement, atteignant environ 7 062 km.",
+        "Située au large de la 'botte' italienne, elle est célèbre pour l'Etna, l'un des volcans les plus actifs d'Europe.",
     },
     open_question: {
       question:
-        "Devrait-on autoriser la création de réserves naturelles entièrement gérées par l'intelligence artificielle pour la protection de la faune ?",
+        "Le système du collège/lycée unique est-il le plus efficace pour l'épanouissement des élèves ou faut-il introduire une sélection plus précoce ?",
       notes:
-        "Débat sur l'efficacité des systèmes automatisés face à l'expertise humaine et l'éthique de la gestion des écosystèmes.",
+        "Débat sur l'orientation, l'égalité des chances et les besoins éducatifs différenciés.",
     },
     did_you_know: {
-      text: "Le drapeau de la Californie, 'Bear Flag', porte un ours grizzly, mais aucun ours grizzly sauvage n'a été vu en Californie depuis 1922.",
+      text: "Le mot 'juillet' en français a longtemps été orthographié 'juillet', puis 'juillet', et l'orthographe actuelle a été fixée par l'Académie française.",
     },
   },
   {
     date: "2026-07-09",
     general_question: {
-      question: "Quel est l'élément chimique avec le symbole 'Fe' ?",
-      answer: "Le Fer.",
+      question:
+        "Quel est le nom de l'instrument utilisé pour mesurer la pression atmosphérique ?",
+      answer: "Le baromètre.",
       explanation:
-        "Le symbole Fe vient du mot latin 'ferrum'. Le fer est un métal essentiel à la vie, notamment dans l'hémoglobine du sang.",
+        "Inventé par Evangelista Torricelli, il est essentiel pour les prévisions météorologiques, car la pression est un indicateur clé des changements de temps.",
     },
     open_question: {
       question:
-        "Le droit à l'oubli numérique devrait-il être étendu à toutes les informations personnelles en ligne ?",
+        "Les monnaies numériques de banque centrale (MNBC) doivent-elles remplacer l'argent liquide traditionnel ?",
       notes:
-        "Débat sur l'effacement des données, la mémoire d'Internet et la liberté d'information.",
+        "Discussion sur la surveillance financière, l'inclusion bancaire et la stabilité économique.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est d'environ 356 400 kilomètres.",
+      text: "Les chats peuvent produire une centaine de sons différents, tandis que les chiens n'en produisent qu'une dizaine.",
     },
   },
   {
     date: "2026-07-10",
     general_question: {
       question:
-        "Quel peintre espagnol est associé au mouvement du Surréalisme et à l'œuvre 'La Persistance de la mémoire' ?",
-      answer: "Salvador Dalí.",
+        "Quel est l'élément chimique qui, combiné à l'hydrogène, forme l'eau ($H_2O$) ?",
+      answer: "L'Oxygène (O).",
       explanation:
-        "Ce tableau, souvent appelé 'Les montres molles', est l'une des images les plus célèbres du Surréalisme.",
+        "L'oxygène est le troisième élément le plus abondant dans l'univers et est essentiel à la vie sur Terre.",
     },
     open_question: {
       question:
-        "Le salaire universel de base (revenu de base) est-il une solution économique viable pour l'avenir ?",
+        "Les critères de beauté (mode, chirurgie esthétique) sont-ils une forme de pression sociale genrée ou une libre expression individuelle ?",
       notes:
-        "Débat sur l'impact sur le travail, l'égalité sociale et le financement d'un revenu inconditionnel.",
+        "Discussion sur l'impact des médias, le patriarcat et l'autonomie corporelle.",
     },
     did_you_know: {
-      text: "Il y a plus d'arbres sur Terre qu'il n'y a d'étoiles dans la Voie Lactée (environ 3 000 milliards d'arbres contre 100 à 400 milliards d'étoiles).",
+      text: "Le plus long règne d'un monarque britannique est celui de la Reine Élisabeth II, qui a régné pendant 70 ans et 214 jours.",
     },
   },
   {
     date: "2026-07-11",
     general_question: {
-      question: "Quel pays a remporté la Coupe du Monde de football en 2010 ?",
-      answer: "L'Espagne.",
+      question:
+        "Quel est le nom du célèbre musée qui abrite la 'Nuit étoilée' de Vincent van Gogh ?",
+      answer: "Le Museum of Modern Art (MoMA) à New York.",
       explanation:
-        "L'Espagne a battu les Pays-Bas en finale en Afrique du Sud. ",
+        "Ce tableau iconique, peint en 1889 pendant le séjour de Van Gogh à l'asile de Saint-Rémy-de-Provence, est l'une des œuvres les plus reconnaissables de l'histoire de l'art.",
     },
     open_question: {
       question:
-        "L'exploration des fonds marins est-elle plus importante pour l'humanité que l'exploration spatiale ?",
+        "Le concept de 'travail pour la vie' a-t-il disparu au profit de carrières plus courtes et variées ?",
       notes:
-        "Débat sur l'allocation des ressources entre la connaissance de la Terre (océans) et la quête de l'extérieur (espace).",
+        "Débat sur la précarité, la reconversion professionnelle et la gestion de carrière par l'individu.",
     },
     did_you_know: {
-      text: "L'odeur de la pluie est appelée 'pétrichor'. Elle est due à un mélange d'huiles végétales et d'une substance chimique produite par des bactéries, la géosmine.",
+      text: "La lune s'éloigne de la Terre d'environ 3,8 centimètres par an.",
     },
   },
   {
     date: "2026-07-12",
     general_question: {
       question:
-        "Quelle loi de la physique stipule que 'l'énergie ne peut être ni créée ni détruite, seulement transformée' ?",
-      answer: "Le premier principe de la thermodynamique.",
+        "Quel est le nom du plus grand désert de sable au monde (hors déserts de glace) ?",
+      answer: "Le Sahara.",
       explanation:
-        "Ce principe est également connu sous le nom de loi de la conservation de l'énergie.",
+        "Il couvre une grande partie de l'Afrique du Nord et est le plus grand désert chaud. Le désert de l'Antarctique est le plus grand désert au monde en général.",
     },
     open_question: {
       question:
-        "L'accès gratuit et illimité à l'information en ligne est-il un droit fondamental dans la société moderne ?",
+        "Les technologies de réalité virtuelle et augmentée sont-elles une source d'évasion enrichissante ou une menace pour l'interaction sociale réelle ?",
       notes:
-        "Débat sur la neutralité du net, le financement de l'information et les barrières économiques ou géographiques.",
+        "Discussion sur l'éducation, la formation professionnelle et l'isolement social.",
     },
     did_you_know: {
-      text: "Le Mont Everest, mesuré à 8 848,86 mètres, continue de grandir d'environ 4 millimètres par an en raison du mouvement des plaques tectoniques.",
+      text: "Les requins existent depuis plus de 400 millions d'années, ce qui signifie qu'ils sont plus anciens que les arbres (apparue il y a environ 370 millions d'années).",
     },
-
-    // Jours 201 à 231 : Juillet (19 jours restants) & Août 2026 (12 premiers jours)
-
+  },
+  {
     date: "2026-07-13",
     general_question: {
       question:
-        "Quel empereur romain a légalisé le christianisme avec l'Édit de Milan en 313 apr. J.-C. ?",
-      answer: "Constantin Ier.",
+        "Quel est le nom du célèbre volcan japonais considéré comme sacré et souvent enneigé ?",
+      answer: "Le Mont Fuji.",
       explanation:
-        "Constantin a mis fin à la persécution des chrétiens dans l'Empire romain, ce qui a été un tournant majeur pour la religion.",
+        "Culminant à 3 776 mètres, c'est le plus haut sommet du Japon. C'est un volcan toujours actif, bien que sa dernière éruption remonte à 1707.",
     },
     open_question: {
       question:
-        "L'abolition de la peine de mort est-elle un signe de civilisation avancée ou une menace pour la justice et la sécurité ?",
+        "Comment l'urbanisme peut-il être repensé pour améliorer la qualité de vie et réduire l'empreinte carbone des grandes métropoles ?",
       notes:
-        "Débat sur les droits humains, la dissuasion criminelle et le risque d'erreur judiciaire.",
+        "Débat sur la 'ville du quart d'heure', les transports doux et la végétalisation urbaine.",
     },
     did_you_know: {
-      text: "L'Électricité statique (celle qui fait coller un ballon à un pull) est due à un déséquilibre de charges électriques (électrons) entre deux surfaces.",
+      text: "Le mot 'robot' a été introduit par l'écrivain tchèque Karel Čapek, venant du mot tchèque 'robota' signifiant travail pénible.",
     },
   },
   {
     date: "2026-07-14",
     general_question: {
       question:
-        "Quel événement historique majeur est commémoré le 14 juillet en France ?",
-      answer:
-        "La Fête de la Fédération (1790), qui commémorait la Prise de la Bastille (1789).",
+        "Quel événement majeur s'est produit à Paris le 14 juillet 1789, marquant le début de la Révolution française ?",
+      answer: "La prise de la Bastille.",
       explanation:
-        "Bien que souvent associée à la prise de la Bastille, le 14 juillet célèbre officiellement la Fête de la Fédération, symbole de l'unité nationale.",
+        "Bien que symbolique (la Bastille était une prison presque vide), cet événement est considéré comme le point de départ de la Révolution et est la fête nationale française.",
     },
     open_question: {
       question:
-        "La croissance de la population mondiale est-elle le problème écologique principal, devant la surconsommation des pays riches ?",
+        "Le boycott des entreprises qui ne respectent pas certaines normes éthiques (environnement, travail) est-il un outil efficace de changement social ?",
       notes:
-        "Débat sur la pression démographique versus l'empreinte carbone et l'inégalité de la consommation par habitant.",
+        "Discussion sur l'impact économique réel, le 'greenwashing' et le pouvoir du consommateur.",
     },
     did_you_know: {
-      text: "L'Hymne national français 'La Marseillaise' a été composé par Claude Joseph Rouget de Lisle en 1792.",
+      text: "L'odeur de l'herbe fraîchement coupée est en fait un signal de détresse chimique émis par la plante pour prévenir les insectes qu'elle est attaquée.",
     },
   },
   {
     date: "2026-07-15",
     general_question: {
-      question: "Quel est le plus grand récif corallien du monde ?",
-      answer: "La Grande Barrière de Corail.",
+      question:
+        "Quel est le nom de la membrane qui recouvre et protège le cerveau et la moelle épinière ?",
+      answer: "Les méninges.",
       explanation:
-        "Située au large de l'Australie, elle s'étend sur plus de 2 300 kilomètres et est visible depuis l'espace.",
+        "Les méninges sont composées de trois couches : la dure-mère, l'arachnoïde et la pie-mère.",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être légalement contraintes de s'assurer que leurs chaînes d'approvisionnement sont éthiques et sans exploitation du travail ?",
+        "Le salaire minimum est-il un outil efficace pour lutter contre la pauvreté ou un frein à l'emploi et à la compétitivité des entreprises ?",
       notes:
-        "Débat sur la responsabilité sociale des entreprises, le 'fast-fashion' et le travail des enfants.",
+        "Débat sur l'inflation, le pouvoir d'achat et le marché du travail.",
     },
     did_you_know: {
-      text: "La plus ancienne pyramide égyptienne n'est pas Gizeh, mais la Pyramide à degrés de Djoser, construite vers 2650 av. J.-C.",
+      text: "La lumière du Soleil met environ 8 minutes et 20 secondes pour atteindre la Terre.",
     },
   },
   {
     date: "2026-07-16",
     general_question: {
       question:
-        "Quel est le nom de l'instrument de musique composé de 88 touches ?",
-      answer: "Le Piano.",
+        "Qui est le mathématicien connu pour avoir défini le concept de 'nombre imaginaire' (la racine carrée de -1) ?",
+      answer:
+        "René Descartes (bien que popularisé par d'autres, il a introduit le terme 'imaginaire').",
       explanation:
-        "Un piano moderne standard possède 52 touches blanches et 36 touches noires, soit un total de 88 touches.",
+        "Le concept fut exploré par Cardano, mais le terme 'nombre imaginaire' fut inventé par Descartes en 1637. L'unité imaginaire est désignée par $i$ ($i^2 = -1$).",
     },
     open_question: {
       question:
-        "Faut-il réglementer la durée maximale de travail par semaine (32 heures, 4 jours) pour améliorer le bien-être général ?",
+        "Les multinationales ont-elles trop de pouvoir sur les gouvernements et les décisions politiques (lobbying, évasion fiscale) ?",
       notes:
-        "Débat sur la productivité, le stress professionnel et l'équilibre vie privée/vie professionnelle.",
+        "Débat sur la corruption légale, la souveraineté nationale et la régulation internationale.",
     },
     did_you_know: {
-      text: "Le 14 juin est la 'Journée mondiale du donneur de sang', visant à sensibiliser au besoin de dons sûrs.",
+      text: "Le point d'ébullition de l'eau n'est pas toujours $100^circ\text{C}$. Il dépend de la pression atmosphérique.",
     },
   },
   {
     date: "2026-07-17",
     general_question: {
-      question: "Quel est l'élément chimique avec le symbole 'Au' ?",
-      answer: "L'Or.",
+      question:
+        "Quel pays est le berceau de la philosophie stoïcienne (Zénon de Citium) ?",
+      answer: "La Grèce antique.",
       explanation:
-        "Le symbole Au vient du mot latin aurum. L'or est un métal de transition, précieux et inaltérable.",
+        "Le stoïcisme est une école de philosophie hellénistique fondée à Athènes par Zénon de Citium au IIIe siècle av. J.-C.",
     },
     open_question: {
       question:
-        "L'exploration des fonds marins est-elle plus importante pour l'humanité que l'exploration spatiale ?",
+        "La transparence totale des salaires au sein des entreprises est-elle un facteur de motivation ou de conflit ?",
       notes:
-        "Débat sur la biodiversité marine (encore largement inexplorée) vs. les avancées technologiques spatiales.",
+        "Discussion sur l'égalité salariale, la jalousie et l'efficacité des négociations individuelles.",
     },
     did_you_know: {
-      text: "Un 'parsec' est une unité de mesure de distance utilisée en astronomie, équivalant à environ 3,26 années-lumière.",
+      text: "Le mot 'juillet' vient du latin *Julius*, en hommage à Jules César. En Europe, le mois de juillet marque souvent le début de la période de vacances estivales.",
     },
   },
   {
     date: "2026-07-18",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée à Saint-Pétersbourg, Russie ?",
-      answer: "Le Musée de l'Ermitage.",
+        "Quel est l'élément chimique qui possède six protons et est essentiel à toute vie organique sur Terre ?",
+      answer: "Le Carbone (C).",
       explanation:
-        "Situé dans le Palais d'Hiver, l'Ermitage est l'un des plus grands et des plus anciens musées du monde.",
+        "Le carbone forme la base des molécules organiques (protéines, ADN, lipides) grâce à sa capacité à former quatre liaisons chimiques stables.",
     },
     open_question: {
       question:
-        "Le concept de 'neutralité carbone' (compenser les émissions) est-il une solution écologique viable ou un permis de polluer pour les entreprises ?",
+        "La censure des contenus extrêmes sur les plateformes numériques (discours de haine, terrorisme) menace-t-elle la liberté d'expression ?",
       notes:
-        "Débat sur l'efficacité de la compensation (plantation d'arbres) face à la nécessité de la réduction absolue.",
+        "Débat sur le rôle des modérateurs, les algorithmes de détection et la définition de l'abus.",
     },
     did_you_know: {
-      text: "Les nuages portent des noms latins pour décrire leur apparence (cumulus, cirrus, stratus) inventés par Luke Howard en 1803.",
+      text: "Le 18 juillet est la Journée Internationale Nelson Mandela, célébrée chaque année en son honneur, jour de sa naissance.",
     },
   },
   {
     date: "2026-07-19",
     general_question: {
       question:
-        "Quel est le nom de la péninsule partagée par l'Espagne et le Portugal ?",
-      answer: "La péninsule Ibérique.",
+        "Dans quel sport est attribué le trophée appelé 'La Coupe Stanley' ?",
+      answer: "Le hockey sur glace.",
       explanation:
-        "La péninsule est située à l'extrémité sud-ouest de l'Europe et est bordée par la mer Méditerranée et l'océan Atlantique.",
+        "C'est le trophée remis chaque année à l'équipe championne des séries éliminatoires de la Ligue nationale de hockey (NHL).",
     },
     open_question: {
       question:
-        "Faut-il limiter le droit de propriété pour des raisons écologiques (ex: interdiction de construire sur certaines terres naturelles) ?",
+        "Faut-il imposer des limites à la quantité d'eau douce qu'une entreprise ou une personne peut utiliser dans les zones de stress hydrique ?",
       notes:
-        "Débat sur le droit individuel versus l'intérêt général de la préservation de l'environnement.",
+        "Discussion sur la gestion des ressources, l'agriculture intensive et la priorité de l'eau potable.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "Le Canada a plus de lacs que le reste du monde réuni, contenant une grande partie de l'eau douce de surface de la planète.",
     },
   },
   {
     date: "2026-07-20",
     general_question: {
       question:
-        "Quel scientifique a découvert la loi de la gravitation universelle ?",
-      answer: "Isaac Newton.",
+        "Quel est le nom de la mission Apollo qui a marqué le premier pas de l'homme sur la Lune en 1969 ?",
+      answer: "Apollo 11.",
       explanation:
-        "Newton a formulé cette loi dans son ouvrage 'Philosophiae Naturalis Principia Mathematica' (1687), décrivant la force d'attraction entre deux masses.",
+        "Neil Armstrong fut le premier homme à marcher sur la Lune le 20 juillet 1969, suivi par Buzz Aldrin.",
     },
     open_question: {
       question:
-        "L'éducation civique devrait-elle inclure des cours obligatoires sur la vérification des sources (fact-checking) et la pensée critique ?",
+        "L'IA générative doit-elle être soumise à des lois éthiques plus strictes que les entreprises classiques ?",
       notes:
-        "Débat sur la lutte contre la désinformation (fake news) et le rôle de l'école dans la formation d'un citoyen éclairé.",
+        "Débat sur la régulation de l'IA (transparence, biais, impact sociétal) vs. la liberté d'innovation.",
     },
     did_you_know: {
-      text: "Le mont Everest s'agrandit d'environ 4 millimètres par an en raison du mouvement des plaques tectoniques, un phénomène appelé l'orogenèse.",
+      text: "L'atterrissage sur la Lune d'Apollo 11 a été suivi par environ 600 millions de personnes, soit un cinquième de la population mondiale de l'époque.",
     },
   },
   {
     date: "2026-07-21",
     general_question: {
-      question:
-        "Quel est le nom de l'explorateur portugais crédité du premier tour du monde (bien qu'il soit mort en cours de route) ?",
-      answer: "Fernand de Magellan.",
+      question: "Quel est le plus haut sommet des Alpes ?",
+      answer: "Le Mont Blanc.",
       explanation:
-        "Magellan a initié l'expédition en 1519. Il est mort aux Philippines en 1521, mais son navire, le Victoria, a complété le voyage en 1522.",
+        "Situé entre la France et l'Italie, il culmine à environ 4 809 mètres d'altitude. Sa hauteur varie selon les dépôts de glace au sommet.",
     },
     open_question: {
       question:
-        "L'abolition de la peine de mort est-elle un signe de civilisation avancée ou une menace pour la justice et la sécurité ?",
+        "Les systèmes de notation et de classement des universités (type Shanghai) sont-ils une mesure fiable de la qualité académique ?",
       notes:
-        "Débat sur les droits humains, la dissuasion criminelle et le risque d'erreur judiciaire.",
+        "Débat sur les critères de recherche vs. d'enseignement, l'homogénéisation des modèles et la course au prestige.",
     },
     did_you_know: {
-      text: "Les papillons goûtent avec leurs pieds (ils possèdent des chimiorécepteurs sur les pattes).",
+      text: "Le mot 'juillet' vient du latin *Julius*, en l'honneur de Jules César, né ce mois-là.",
     },
   },
   {
     date: "2026-07-22",
     general_question: {
       question:
-        "Quel est le nom de la science qui étudie le comportement des animaux dans leur environnement naturel ?",
-      answer: "L'Éthologie.",
+        "Quel pays a été divisé par un mur célèbre (le Mur de Berlin) de 1961 à 1989 ?",
+      answer: "L'Allemagne (entre la RFA et la RDA).",
       explanation:
-        "L'éthologie est l'étude scientifique et objective du comportement animal, souvent par observation de terrain.",
+        "Le Mur de Berlin séparait Berlin-Ouest (contrôlé par l'Ouest) de Berlin-Est (capitale de la RDA et contrôlé par l'Est).",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être obligées de divulguer les algorithmes utilisés pour prendre des décisions importantes (recrutement, prêts) ?",
+        "Les véhicules autonomes doivent-ils être programmés pour privilégier la vie du passager ou celle du piéton en cas d'accident inévitable ?",
       notes:
-        "Débat sur la transparence des algorithmes et le risque de biais dans les systèmes automatisés.",
+        "Problème du dilemme du 'Trolley' appliqué à l'IA et aux véhicules, débat éthique sur la programmation morale.",
     },
     did_you_know: {
-      text: "Le 20 juin est le jour le plus long de l'année dans l'hémisphère nord (solstice d'été), le moment où la durée du jour est maximale.",
+      text: "Le Mur de Berlin n'était pas un simple mur, mais une frontière fortifiée complexe s'étendant sur plus de 155 km, avec des barbelés, des miradors et des fossés.",
     },
   },
   {
     date: "2026-07-23",
     general_question: {
       question:
-        "Quel est l'élément chimique essentiel aux plantes pour la photosynthèse, qui leur donne leur couleur verte ?",
-      answer: "Le Magnésium (Mg).",
+        "Qui est le mathématicien grec connu pour avoir inventé le principe du levier et de la vis sans fin ?",
+      answer: "Archimède.",
       explanation:
-        "Le Magnésium est un constituant central de la molécule de chlorophylle, qui capte la lumière.",
+        "Ses travaux en mécanique et en hydrostatique sont fondamentaux, et il est crédité de la célèbre phrase : 'Donnez-moi un point d'appui, et je soulèverai le monde'.",
     },
     open_question: {
       question:
-        "L'art doit-il être financé principalement par des fonds publics ou par des mécènes privés ?",
+        "Le concept de 'croissance infinie' dans une planète aux ressources finies est-il une contradiction fondamentale ?",
       notes:
-        "Débat sur l'indépendance artistique, l'accès à la culture et la politique budgétaire.",
+        "Discussion sur la croissance verte, la décroissance et l'économie circulaire.",
     },
     did_you_know: {
-      text: "Le jour le plus long de l'année est le solstice d'été, qui tombe généralement le 20 ou le 21 juin.",
+      text: "La Grande Barrière de Corail est visible de l'espace, mais seulement de près (orbite basse) et non à l'œil nu depuis la Station spatiale internationale.",
     },
   },
   {
     date: "2026-07-24",
     general_question: {
-      question: "Quel est le nom du gaz noble le plus léger ?",
-      answer: "L'Hélium (He).",
+      question:
+        "Quel est l'élément chimique symbolisé par 'Fe', essentiel à la production de l'hémoglobine dans le sang ?",
+      answer: "Le Fer (Ferrum).",
       explanation:
-        "L'hélium est le deuxième élément le plus abondant dans l'univers après l'hydrogène. C'est un gaz inerte utilisé pour gonfler les ballons et dans l'IRM.",
+        "Le fer est crucial pour le transport de l'oxygène des poumons vers le reste du corps.",
     },
     open_question: {
       question:
-        "Faut-il taxer les transactions financières spéculatives pour financer les services sociaux ?",
+        "Faut-il limiter le droit de manifester pour éviter les débordements (blocages, violences, dégradations) ?",
       notes:
-        "Débat sur la 'taxe Tobin', la stabilité financière et la redistribution des richesses.",
+        "Discussion sur la liberté de réunion, l'ordre public et la légitimité de la contestation.",
     },
     did_you_know: {
-      text: "La plus ancienne loi toujours en vigueur au monde est celle sur les feux de circulation au Royaume-Uni (datant de 1865).",
+      text: "L'écorce de l'arbre est la partie qui protège le tronc contre les insectes, la sécheresse, le feu et le froid.",
     },
   },
   {
     date: "2026-07-25",
     general_question: {
       question:
-        "Quel est l'organe qui consomme le plus d'oxygène dans le corps humain ?",
-      answer: "Le cerveau.",
+        "Quel est le nom de la ville italienne où se trouve le célèbre Colisée ?",
+      answer: "Rome.",
       explanation:
-        "Bien qu'il ne représente qu'environ 2% du poids corporel, le cerveau consomme près de 20% de l'oxygène total du corps au repos.",
+        "Le Colisée, ou Amphithéâtre Flavien, est le plus grand amphithéâtre jamais construit et est devenu un symbole de la Rome impériale.",
     },
     open_question: {
       question:
-        "Les voyages internationaux devraient-ils être limités pour les particuliers, et réservés aux nécessités professionnelles ou humanitaires ?",
+        "Le système de permis de conduire devrait-il être réévalué plus fréquemment pour les personnes âgées pour garantir la sécurité routière ?",
       notes:
-        "Débat sur la réduction de l'empreinte carbone personnelle et l'impact sur le tourisme et les échanges culturels.",
+        "Débat sur l'autonomie, la capacité physique et les discriminations liées à l'âge.",
     },
     did_you_know: {
-      text: "Le mot 'alphabet' vient des deux premières lettres de l'alphabet grec : 'alpha' et 'bêta'.",
+      text: "Le Colisée pouvait accueillir entre 50 000 et 80 000 spectateurs et était utilisé pour les combats de gladiateurs, les chasses d'animaux sauvages et les exécutions publiques.",
     },
   },
   {
     date: "2026-07-26",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée à Saint-Pétersbourg, Russie ?",
-      answer: "Le Musée de l'Ermitage.",
+        "Qui est le peintre néerlandais célèbre pour 'La Ronde de nuit' (1642) ?",
+      answer: "Rembrandt van Rijn.",
       explanation:
-        "Situé dans le Palais d'Hiver, l'Ermitage est l'un des plus grands et des plus anciens musées du monde.",
+        "Ce tableau est l'un des chefs-d'œuvre de l'âge d'or néerlandais, marquant une rupture avec les portraits de groupe traditionnels par son dynamisme.",
     },
     open_question: {
       question:
-        "L'agriculture biologique est-elle la seule voie possible pour une alimentation saine et durable ?",
+        "Le droit à l'avortement est-il un droit fondamental absolu ou doit-il être soumis à certaines restrictions ?",
       notes:
-        "Débat sur la productivité, l'utilisation des pesticides et le coût pour le consommateur.",
+        "Débat éthique et légal sur la temporalité, la conscience médicale et les motifs d'interruption de grossesse.",
     },
     did_you_know: {
-      text: "La baleine bleue, le plus grand animal de la planète, a un cœur de la taille d'une petite voiture, et son bruit peut être entendu à des kilomètres.",
+      text: "Les fourmis sont parmi les rares créatures à 'cultiver' : certaines espèces élèvent des champignons pour se nourrir, de la même manière que les humains cultivent.",
     },
   },
   {
     date: "2026-07-27",
     general_question: {
-      question: "Qui a fondé l'entreprise automobile Ford ?",
-      answer: "Henry Ford.",
+      question:
+        "Quel est le nom de la galaxie où se situe notre Système Solaire ?",
+      answer: "La Voie Lactée.",
       explanation:
-        "Henry Ford a fondé la Ford Motor Company en 1903. Il est célèbre pour avoir introduit la production en série basée sur le travail à la chaîne (le fordisme).",
+        "C'est une galaxie spirale barrée, contenant entre 100 et 400 milliards d'étoiles. Notre Soleil se trouve dans l'un de ses bras spiraux, le bras d'Orion.",
     },
     open_question: {
       question:
-        "Faut-il interdire l'utilisation des animaux sauvages dans les cirques et les spectacles itinérants ?",
+        "Le rôle des influenceurs est-il un phénomène de mode passager ou une nouvelle forme de pouvoir médiatique et économique durable ?",
       notes:
-        "Débat sur le bien-être animal, la tradition culturelle et les alternatives éthiques au spectacle.",
+        "Discussion sur l'évolution du marketing, la confiance du public et la réglementation des contenus.",
     },
     did_you_know: {
-      text: "La statue de la Liberté à New York était à l'origine destinée à la ville de Port-Saïd, en Égypte, pour marquer l'entrée du canal de Suez.",
+      text: "La température la plus chaude jamais enregistrée sur Terre est de $56,7^circ\text{C}$ dans la Vallée de la Mort, en Californie, en 1913.",
     },
   },
   {
     date: "2026-07-28",
     general_question: {
       question:
-        "Quel prix littéraire français est souvent considéré comme le plus prestigieux ?",
-      answer: "Le Prix Goncourt.",
+        "Quel est le nom de l'événement volcanique survenu en 79 après J.-C. qui a détruit les villes de Pompéi et Herculanum ?",
+      answer: "L'éruption du Vésuve.",
       explanation:
-        "Créé en 1903, le Goncourt est décerné à l'auteur du meilleur ouvrage d'imagination en prose de l'année.",
+        "Cette éruption a enseveli les deux cités sous une épaisse couche de cendres et de roches, les préservant dans leur état d'origine.",
     },
     open_question: {
       question:
-        "Le concept de 'neutralité du net' (égalité de traitement des données) est-il essentiel pour la liberté d'Internet ?",
+        "Faut-il légaliser l'euthanasie et le suicide assisté pour garantir le droit à une 'bonne mort' ?",
       notes:
-        "Débat sur le contrôle des flux de données par les fournisseurs d'accès (FAI) et l'accès équitable à l'information.",
+        "Débat éthique, médical et légal sur la fin de vie, la souffrance et le rôle des médecins.",
     },
     did_you_know: {
-      text: "La langue la plus parlée dans le monde, en termes de locuteurs natifs, est le mandarin (chinois), devant l'espagnol et l'anglais.",
+      text: "Les flamants roses ne naissent pas roses. Leur couleur vient des pigments caroténoïdes présents dans les algues et les crustacés qu'ils mangent.",
     },
   },
   {
     date: "2026-07-29",
     general_question: {
       question:
-        "Quelle est la fleur traditionnellement offerte en France le 1er mai ?",
-      answer: "Le muguet (Clochette de mai).",
+        "Quel est le nom du traité de 1919 qui a officiellement mis fin à la Première Guerre mondiale ?",
+      answer: "Le Traité de Versailles.",
       explanation:
-        "Offrir du muguet est un porte-bonheur pour le mois de mai. Le 1er mai est aussi la Fête du Travail dans de nombreux pays.",
+        "Signé entre les puissances alliées et l'Allemagne, il est souvent critiqué pour avoir imposé des conditions très dures à l'Allemagne, contribuant aux tensions futures.",
     },
     open_question: {
       question:
-        "Les syndicats ont-ils encore un rôle pertinent dans la défense des droits des travailleurs de l'économie numérique (freelance, plateformes) ?",
+        "Le secret bancaire est-il nécessaire pour la liberté économique ou favorise-t-il la criminalité financière et la fraude fiscale ?",
       notes:
-        "Débat sur l'organisation des travailleurs indépendants, la précarité et les nouvelles formes d'emploi.",
+        "Discussion sur la transparence fiscale internationale, les paradis fiscaux et le droit à l'intimité financière.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas ; elles ont de courtes périodes de repos de quelques minutes, plusieurs fois par jour.",
+      text: "Le mot 'canicule' vient du latin *canicula*, qui signifie 'petite chienne', en référence à Sirius, l'étoile la plus brillante de la constellation du Grand Chien, dont la levée héliaque coïncidait autrefois avec les jours les plus chauds de l'été.",
     },
   },
   {
     date: "2026-07-30",
     general_question: {
-      question: "Quel est le plus grand État d'Afrique par sa superficie ?",
-      answer: "L'Algérie.",
+      question: "Quelle est la capitale de l'Égypte ?",
+      answer: "Le Caire.",
       explanation:
-        "Depuis la partition du Soudan en 2011, l'Algérie est le plus vaste pays du continent africain.",
+        "Le Caire est la plus grande ville d'Afrique et du monde arabe, située près de la base du delta du Nil.",
     },
     open_question: {
       question:
-        "Le cinéma devrait-il être davantage subventionné par l'État pour garantir la diversité culturelle face aux superproductions ?",
+        "Le sport professionnel moderne est-il un modèle d'excellence athlétique ou une machine de divertissement hyper-commercialisée ?",
       notes:
-        "Débat sur l'industrie culturelle, la qualité artistique et la concurrence des plateformes de streaming.",
+        "Discussion sur les salaires, les droits de diffusion, le dopage et l'esprit olympique.",
     },
     did_you_know: {
-      text: "La plus vieille créature marine encore vivante est une éponge d'une espèce non identifiée, découverte à 2 134 mètres de profondeur et estimée à 10 000 ans.",
+      text: "La première ville à atteindre une population d'un million d'habitants fut Rome, il y a plus de 2 000 ans.",
     },
   },
   {
     date: "2026-07-31",
     general_question: {
       question:
-        "Quel pays a pour langue officielle le portugais en Amérique du Sud ?",
-      answer: "Le Brésil.",
+        "Comment appelle-t-on la maladie où le corps ne produit pas assez d'insuline (type 1) ou n'y répond pas correctement (type 2) ?",
+      answer: "Le diabète.",
       explanation:
-        "Le Brésil a été colonisé par le Portugal, tandis que la plupart des autres pays d'Amérique du Sud parlent l'espagnol.",
+        "L'insuline est essentielle pour permettre au glucose d'entrer dans les cellules et fournir de l'énergie. Sans elle, le taux de sucre dans le sang augmente.",
     },
     open_question: {
       question:
-        "Faut-il former des armées de 'soldats-robots' (entièrement autonomes) pour réduire les pertes humaines dans les conflits ?",
+        "Le rôle des influenceurs est-il un phénomène de mode passager ou une nouvelle forme de pouvoir médiatique et économique durable ?",
       notes:
-        "Débat sur l'éthique de la guerre automatisée, le droit international et le risque de déshumanisation des conflits.",
+        "Discussion sur l'évolution du marketing, la confiance du public et la réglementation des contenus.",
     },
     did_you_know: {
-      text: "La plus petite quantité de matière observable est le quark, qui est un constituant des protons et des neutrons.",
+      text: "Un 'nanomètre' ($10^{-9}\text{ m}$) est un million de fois plus petit qu'un millimètre.",
     },
   },
+
+  // --- Août 2026 (31 jours) ---
   {
     date: "2026-08-01",
     general_question: {
       question:
-        "Quel prix scientifique est souvent considéré comme l'équivalent du Prix Nobel en mathématiques ?",
-      answer: "La Médaille Fields.",
+        "Quel est le nom de l'instrument qui utilise le son (ondes sonores) pour détecter les objets sous-marins ?",
+      answer: "Le Sonar (Sound Navigation and Ranging).",
       explanation:
-        "Elle est décernée tous les quatre ans à des mathématiciens de moins de 40 ans. (Il n'y a pas de Prix Nobel en mathématiques).",
+        "Le sonar est crucial pour la marine, la détection de sous-marins, et la cartographie des fonds marins.",
     },
     open_question: {
       question:
-        "La liberté des médias est-elle menacée par la pression des annonceurs et la recherche du 'clic' à tout prix ?",
+        "Les classes préparatoires et les grandes écoles sont-elles le meilleur modèle pour former l'élite d'une nation ?",
       notes:
-        "Débat sur le modèle économique des médias, la qualité de l'information et le journalisme d'investigation.",
+        "Débat sur l'égalité des chances, l'élitisme et la diversité des parcours éducatifs.",
     },
     did_you_know: {
-      text: "Le 4 mai est souvent célébré comme le 'Star Wars Day' en raison du jeu de mots 'May the Fourth be with you' (May the Force be with you).",
+      text: "Le mot 'août' a été nommé en l'honneur du premier empereur romain, Auguste (Augustus Caesar), qui a achevé le calendrier de son grand-oncle Jules César.",
     },
   },
   {
     date: "2026-08-02",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée du Vatican qui abrite le plafond de Michel-Ange ?",
-      answer: "La Chapelle Sixtine.",
+        "Qui est le peintre espagnol célèbre pour ses 'montres molles' dans le tableau 'La Persistance de la mémoire' ?",
+      answer: "Salvador Dalí.",
       explanation:
-        "Bien que techniquement une chapelle du palais apostolique, elle fait partie du complexe des Musées du Vatican et est célèbre pour ses fresques.",
+        "Figure majeure du Surréalisme, Dalí est connu pour ses images frappantes et bizarres inspirées des rêves et de l'inconscient.",
     },
     open_question: {
       question:
-        "L'industrie du jeu vidéo devrait-elle être tenue responsable de la représentation stéréotypée et violente de certains groupes sociaux ?",
+        "La transparence totale des salaires au sein des entreprises est-elle un facteur de motivation ou de conflit ?",
       notes:
-        "Débat sur la liberté de création, l'impact sur les joueurs et les lois sur le contenu numérique.",
+        "Discussion sur l'égalité salariale, la jalousie et l'efficacité des négociations individuelles.",
     },
     did_you_know: {
-      text: "Le chili est en fait un fruit (une baie), et ses graines ne sont pas ce qui rend la plante piquante, mais le tissu qui les entoure (le placenta).",
+      text: "Il faut plus de 200 000 tonnes de feuilles de thé par an pour satisfaire la demande mondiale de thé vert.",
     },
   },
   {
     date: "2026-08-03",
     general_question: {
       question:
-        "Quel est le plus grand volcan du système solaire, situé sur Mars ?",
-      answer: "L'Olympus Mons.",
+        "Quel est le nom du plus grand lac d'eau douce d'Amérique du Nord, partagé par les États-Unis et le Canada ?",
+      answer: "Le lac Supérieur.",
       explanation:
-        "Avec une hauteur de 21,9 km, l'Olympus Mons (Mont Olympe) est près de trois fois plus haut que l'Everest.",
+        "Il est le plus grand en superficie et le troisième plus grand en volume au monde. Son nom vient de sa position supérieure par rapport aux autres Grands Lacs.",
     },
     open_question: {
       question:
-        "Faut-il imposer des cours obligatoires de cuisine et de nutrition pour lutter contre l'obésité et les maladies associées ?",
+        "La peine de prison est-elle avant tout punitive ou doit-elle être réhabilitatrice pour permettre la réinsertion sociale ?",
       notes:
-        "Débat sur l'éducation à la santé, la responsabilité individuelle et le rôle de l'école dans l'alimentation.",
+        "Débat sur la surpopulation carcérale, les taux de récidive et les alternatives à l'incarcération.",
     },
     did_you_know: {
-      text: "La première monnaie métallique a été utilisée en Lydie (Turquie actuelle) vers 600 av. J.-C.",
+      text: "L'eau salée gèle à une température plus basse que l'eau douce, car le sel empêche les molécules d'eau de former une structure cristalline solide aussi facilement.",
     },
   },
   {
     date: "2026-08-04",
     general_question: {
-      question:
-        "Quel est le nom de la seule planète du système solaire qui tourne sur elle-même dans le sens des aiguilles d'une montre ?",
-      answer: "Vénus.",
+      question: "Quelle est l'unité de mesure de la puissance électrique ?",
+      answer: "Le Watt (W).",
       explanation:
-        "La rotation rétrograde de Vénus est une anomalie par rapport aux autres planètes.",
+        "Le Watt (nommé d'après James Watt) mesure la quantité d'énergie (en Joules) consommée ou produite par unité de temps (en secondes).",
     },
     open_question: {
       question:
-        "Les lanceurs d'alerte (whistleblowers) devraient-ils bénéficier d'une immunité totale pour les informations qu'ils révèlent ?",
+        "Les entreprises technologiques (GAFA) sont-elles devenues trop puissantes et doivent-elles être démantelées (lois antitrust) ?",
       notes:
-        "Débat sur la protection des sources, l'intérêt public et la sécurité nationale.",
+        "Discussion sur le monopole, la concurrence, la protection des données et le lobbying politique.",
     },
     did_you_know: {
-      text: "La plus petite distance entre deux points dans l'espace-temps n'est pas une ligne droite, mais une géodésique (une courbe).",
+      text: "Le bruit d'un coup de foudre est créé par l'expansion très rapide et explosive de l'air surchauffé autour du canal de l'éclair.",
     },
   },
   {
     date: "2026-08-05",
     general_question: {
       question:
-        "Quel événement historique majeur est commémoré le 8 mai en France et dans d'autres pays alliés ?",
-      answer:
-        "La Victoire de 1945 (fin de la Seconde Guerre mondiale en Europe).",
+        "Quel empereur romain est célèbre pour avoir fait construire un mur défensif à travers le nord de la Grande-Bretagne au IIe siècle ?",
+      answer: "Hadrien.",
       explanation:
-        "Le 8 mai 1945 marque la capitulation de l'Allemagne nazie face aux Alliés.",
+        "Le Mur d'Hadrien, long de 117 kilomètres, marquait la frontière septentrionale de l'Empire romain en Grande-Bretagne.",
     },
     open_question: {
       question:
-        "Le service militaire ou civique obligatoire (mixte) est-il nécessaire pour renforcer l'unité nationale et le sens des responsabilités ?",
+        "Le droit à l'oubli numérique devrait-il être absolu ou limité par l'intérêt historique et la liberté d'expression ?",
       notes:
-        "Débat sur les coûts, la liberté individuelle et l'efficacité d'une formation civique et militaire.",
+        "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
     },
     did_you_know: {
-      text: "Le mot 'ambulance' vient du français 'hôpital ambulant', utilisé pour désigner les hôpitaux mobiles lors des guerres napoléoniennes.",
+      text: "La langue la plus ancienne encore parlée est le tamoul, avec des écrits datant de plus de 2 000 ans.",
     },
   },
   {
     date: "2026-08-06",
     general_question: {
       question:
-        "Quel animal est le symbole national de la Chine et est considéré comme une espèce menacée ?",
-      answer: "Le Panda géant.",
+        "Quelle ville japonaise a été touchée par la première bombe atomique larguée en temps de guerre, le 6 août 1945 ?",
+      answer: "Hiroshima.",
       explanation:
-        "Le panda est originaire des régions montagneuses du centre de la Chine et est un symbole mondial de la conservation de la faune.",
+        "La bombe 'Little Boy' a été larguée par l'avion américain Enola Gay, causant des dizaines de milliers de morts immédiates.",
     },
     open_question: {
       question:
-        "La régulation de la taille et de la concentration des grandes entreprises technologiques (GAFA) est-elle suffisante pour empêcher les monopoles ?",
+        "L'armement par les pays occidentaux des pays menacés est-il un garant de la paix ou un facteur d'escalade des conflits ?",
       notes:
-        "Débat sur le droit de la concurrence, la protection des données et le pouvoir politique des multinationales.",
+        "Débat sur la légitime défense, les traités de non-prolifération et le rôle des marchands d'armes.",
     },
     did_you_know: {
-      text: "Les astronautes qui travaillent à l'extérieur de l'ISS doivent porter des couches pour adultes, car il n'y a pas de toilettes dans leur combinaison spatiale.",
+      text: "Le nom de l'avion B-29 qui a largué la bombe atomique sur Hiroshima, *Enola Gay*, était le nom de la mère du pilote, Paul Tibbets.",
     },
   },
   {
     date: "2026-08-07",
     general_question: {
       question:
-        "Quel artiste est l'auteur de la célèbre sculpture 'Le Penseur' ?",
-      answer: "Auguste Rodin.",
+        "Comment appelle-t-on la couche la plus externe et la plus chaude de l'atmosphère terrestre ?",
+      answer: "La Thermosphère.",
       explanation:
-        "Créée à l'origine en 1880, cette sculpture en bronze représente un homme en méditation profonde.",
+        "Elle s'étend jusqu'à environ 600 km d'altitude. La température y augmente avec l'altitude à cause de l'absorption des rayonnements UV et X solaires.",
     },
     open_question: {
       question:
-        "Les réseaux sociaux devraient-ils être contraints d'utiliser des algorithmes qui favorisent le contenu 'positif' ou 'éducatif' ?",
+        "Le concept de 'ville du quart d'heure' (accessibilité rapide aux services) est-il réalisable dans toutes les métropoles ?",
       notes:
-        "Débat sur l'impact sur le bien-être, la liberté algorithmique et le risque de censure du contenu critique.",
+        "Débat sur la densité urbaine, les transports et l'égalité d'accès aux services en banlieue.",
     },
     did_you_know: {
-      text: "Le seul oiseau capable de voir la couleur bleue est le pigeon.",
+      text: "Le mot 'astéroïde' signifie littéralement 'ayant la forme d'une étoile' en grec.",
     },
   },
   {
     date: "2026-08-08",
     general_question: {
-      question: "Quelle est l'unité de mesure de la puissance électrique ?",
-      answer: "Le Watt (W).",
+      question:
+        "Quel est l'élément chimique symbolisé par 'K' et essentiel au bon fonctionnement des nerfs et des muscles ?",
+      answer: "Le Potassium (Kalium).",
       explanation:
-        "Le Watt est l'unité SI de la puissance, nommée d'après l'inventeur écossais James Watt.",
+        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique *Kalium*.",
     },
     open_question: {
       question:
-        "Faut-il développer l'énergie de fusion nucléaire (qui promet une énergie quasi-illimitée et propre) au détriment de l'énergie de fission (nucléaire classique) ?",
+        "Les technologies de surveillance des employés à distance (logiciels de suivi) sont-elles un abus ou une nécessité de gestion ?",
       notes:
-        "Débat sur l'horizon technologique (ITER), les coûts de recherche et la nécessité d'une production d'énergie immédiate.",
+        "Débat sur la confiance, le droit à la déconnexion et la mesure de la productivité.",
     },
     did_you_know: {
-      text: "Le cri d'une mouche est appelé le 'bourdonnement'.",
+      text: "Le mot 'himalaya' signifie 'demeure des neiges' en sanskrit.",
     },
   },
   {
     date: "2026-08-09",
     general_question: {
-      question: "Quel est le nom du plus grand océan de la Terre ?",
-      answer: "L'océan Pacifique.",
+      question:
+        "Quelle ville japonaise a été frappée par la deuxième bombe atomique ('Fat Man') le 9 août 1945 ?",
+      answer: "Nagasaki.",
       explanation:
-        "Il est si vaste qu'il couvre près d'un tiers de la surface terrestre.",
+        "Le bombardement de Nagasaki, trois jours après Hiroshima, a conduit à la capitulation du Japon le 15 août 1945.",
     },
     open_question: {
       question:
-        "L'apprentissage des langues mortes (latin, grec ancien) est-il encore pertinent dans le système éducatif moderne ?",
+        "Le droit des animaux devrait-il être réformé pour accorder une 'personnalité morale' aux animaux les plus évolués (grands singes, cétacés) ?",
       notes:
-        "Débat sur l'importance des racines culturelles, l'étymologie et la nécessité de préparer aux métiers du futur.",
+        "Débat sur le statut légal des animaux, l'éthique et les conséquences sur l'expérimentation et l'élevage.",
     },
     did_you_know: {
-      text: "Le pont de Londres que l'on voit souvent en photo n'est pas le 'London Bridge' historique, mais le 'Tower Bridge'.",
+      text: "L'éléphant africain est le plus grand mammifère terrestre. Les mâles peuvent peser jusqu'à 6 tonnes.",
     },
   },
   {
     date: "2026-08-10",
     general_question: {
-      question: "Quel pays a pour capitale La Havane ?",
-      answer: "Cuba.",
+      question:
+        "Qui est le physicien italien qui a inventé la première pile électrique moderne au début du XIXe siècle ?",
+      answer: "Alessandro Volta.",
       explanation:
-        "La Havane est la capitale et la plus grande ville de Cuba. Elle est célèbre pour son architecture coloniale et ses voitures anciennes.",
+        "La 'pile voltaïque' a été la première source continue d'électricité, marquant le début de l'électrochimie. L'unité de tension électrique, le Volt, porte son nom.",
     },
     open_question: {
       question:
-        "La surveillance biométrique (empreintes, iris) dans les lieux publics est-elle une atteinte intolérable à la liberté ?",
+        "Faut-il interdire l'élevage intensif des animaux pour des raisons éthiques, sanitaires et environnementales ?",
       notes:
-        "Débat sur le droit à l'anonymat, la sécurité et la traçabilité des individus par l'État.",
+        "Discussion sur le bien-être animal, les coûts de la viande et la sécurité alimentaire.",
     },
     did_you_know: {
-      text: "Le mot 'alphabet' vient des deux premières lettres de l'alphabet grec : 'alpha' et 'bêta'.",
+      text: "Le terme 'Volt' a été choisi en 1881 lors du Congrès international des électriciens à Paris, en hommage à Alessandro Volta.",
     },
   },
   {
     date: "2026-08-11",
     general_question: {
       question:
-        "Quel est le nom de l'hormone du sommeil, souvent utilisée pour traiter les troubles du sommeil ?",
-      answer: "La Mélatonine.",
+        "Quel est le nom de l'explorateur vénitien célèbre pour avoir documenté ses voyages en Asie, notamment en Chine, au XIIIe siècle ?",
+      answer: "Marco Polo.",
       explanation:
-        "La mélatonine est sécrétée par la glande pinéale. Sa production est stimulée par l'obscurité, signalant au corps qu'il est temps de dormir.",
+        "Son livre, *Le Livre des Merveilles du Monde* (ou *Il Milione*), a servi de source d'inspiration pour de nombreux explorateurs ultérieurs.",
     },
     open_question: {
       question:
-        "Les cryptomonnaies peuvent-elles réellement remplacer les monnaies fiduciaires traditionnelles (Euro, Dollar) ?",
+        "Le concept de 'travail pour la vie' a-t-il disparu au profit de carrières plus courtes et variées ?",
       notes:
-        "Débat sur la volatilité, la régulation, la confiance et le rôle des banques centrales.",
+        "Débat sur la précarité, la reconversion professionnelle et la gestion de carrière par l'individu.",
     },
     did_you_know: {
-      text: "La plus petite cellule du corps humain est le spermatozoïde, et la plus grande est l'ovule.",
+      text: "La statue de la Liberté a été donnée aux États-Unis par la France en 1886 pour commémorer l'alliance entre les deux pays pendant la Révolution américaine.",
     },
   },
   {
     date: "2026-08-12",
     general_question: {
-      question: "Quelle était la capitale de l'Empire byzantin ?",
-      answer: "Constantinople (aujourd'hui Istanbul).",
+      question: "Quel est le plus grand désert de glace du monde ?",
+      answer: "L'Antarctique.",
       explanation:
-        "Fondée par l'empereur Constantin Ier en 330 apr. J.-C., elle a été le centre de l'Empire romain d'Orient pendant plus de mille ans.",
+        "L'Antarctique est considéré comme le plus grand désert au monde (le plus grand désert de sable est le Sahara), car les précipitations y sont extrêmement faibles.",
     },
     open_question: {
       question:
-        "Faut-il limiter l'accès aux forêts et aux zones naturelles pour les protéger de la surfréquentation touristique ?",
+        "Le tourisme spatial devrait-il être encouragé malgré son coût environnemental et social élevé ?",
       notes:
-        "Débat sur l'écotourisme, le droit d'accès à la nature et la conservation des écosystèmes.",
+        "Débat sur la justification des dépenses et de l'empreinte carbone pour l'exploration privée de l'espace.",
     },
     did_you_know: {
-      text: "Le Soleil est techniquement une étoile naine jaune de type G, mais elle est en fait blanche vue de l'espace.",
+      text: "L'Antarctique est le seul continent qui n'a pas de reptiles. Il est aussi le continent le plus froid, le plus sec et le plus venteux.",
     },
   },
-
-  // Jours 232 à 262 : Août (19 jours restants) & Septembre 2026 (12 premiers jours)
   {
     date: "2026-08-13",
     general_question: {
       question:
-        "Quel est le nom de la galaxie la plus proche de la Voie Lactée ?",
-      answer: "La galaxie d'Andromède (M31).",
+        "Quel est le nom du célèbre chimiste français qui est souvent crédité d'avoir fondé la chimie moderne, notamment par la loi de conservation de la masse ?",
+      answer: "Antoine Lavoisier.",
       explanation:
-        "Andromède est une galaxie spirale géante située à environ 2,5 millions d'années-lumière et est en trajectoire de collision avec la Voie Lactée.",
+        "Lavoisier a également établi l'importance de l'oxygène dans la combustion. Il a été exécuté pendant la Révolution française en 1794.",
     },
     open_question: {
       question:
-        "Le système de notation 'âge légal de consommation' pour l'alcool et le tabac est-il efficace ou devrait-on privilégier l'éducation ?",
+        "Le concept de 'nation' et d'identité nationale est-il obsolète à l'ère de la mondialisation et des identités multiples ?",
       notes:
-        "Débat sur les lois restrictives, la responsabilité individuelle et la prévention des risques.",
+        "Discussion sur le nationalisme, le cosmopolitisme et le multiculturalisme.",
     },
     did_you_know: {
-      text: "La 'Zone de l'Océan Pacifique' est si lointaine qu'il y a plus de chance d'y rencontrer un astronaute que n'importe qui d'autre (c'est le cimetière des engins spatiaux).",
+      text: "La Tour Eiffel, construite pour l'Exposition Universelle de 1889, devait être démantelée après 20 ans, mais son utilité comme antenne radio l'a sauvée.",
     },
   },
   {
     date: "2026-08-14",
     general_question: {
-      question: "Quel est le nom du plus grand lac salé du monde ?",
-      answer: "La Mer Caspienne.",
+      question:
+        "Quel est le nom de la péninsule asiatique qui comprend les pays de l'Inde, du Pakistan et du Bangladesh ?",
+      answer: "Le sous-continent indien.",
       explanation:
-        "Bien qu'appelée 'mer', elle est techniquement le plus grand lac du monde en superficie (environ $371 000 \text{km}^2$).",
+        "Il est bordé au nord par l'Himalaya et est géographiquement distinct du reste de l'Asie.",
     },
     open_question: {
       question:
-        "L'éducation religieuse devrait-elle être laissée entièrement aux familles et aux institutions religieuses, ou faire partie de l'école publique ?",
+        "Le sport professionnel moderne est-il un modèle d'excellence athlétique ou une machine de divertissement hyper-commercialisée ?",
       notes:
-        "Débat sur la neutralité de l'État, le pluralisme et la transmission des valeurs.",
+        "Discussion sur les salaires, les droits de diffusion, le dopage et l'esprit olympique.",
     },
     did_you_know: {
-      text: "Le corps humain est constitué d'environ 60% d'eau.",
+      text: "L'Inde abrite environ 18 % de la population mondiale, mais seulement 2,4 % de la superficie terrestre du monde.",
     },
   },
   {
     date: "2026-08-15",
     general_question: {
       question:
-        "Quel est le principal composant de la coquille d'un œuf de poule ?",
-      answer: "Le Carbonate de Calcium ($\text{CaCO}_3$).",
+        "Quelle fête religieuse et nationale française est célébrée le 15 août ?",
+      answer: "L'Assomption de Marie.",
       explanation:
-        "Le carbonate de calcium est une substance très solide qui protège l'œuf et est également présente dans le calcaire et le marbre.",
+        "C'est une fête chrétienne qui commémore la montée au ciel de la Vierge Marie, mère de Jésus. C'est un jour férié en France et dans de nombreux pays catholiques.",
     },
     open_question: {
       question:
-        "Faut-il taxer davantage les produits importés pour encourager la production locale et réduire l'empreinte carbone du transport ?",
+        "Le salaire minimum est-il un outil efficace pour lutter contre la pauvreté ou un frein à l'emploi et à la compétitivité des entreprises ?",
       notes:
-        "Débat sur le protectionnisme, les accords commerciaux internationaux et l'autonomie alimentaire.",
+        "Débat sur l'inflation, le pouvoir d'achat et le marché du travail.",
     },
     did_you_know: {
-      text: "Le seul continent qui n'a pas de glaciers est l'Australie.",
+      text: "L'Inde célèbre son Jour de l'Indépendance le 15 août, commémorant la fin du Raj britannique en 1947.",
     },
   },
   {
     date: "2026-08-16",
     general_question: {
       question:
-        "Qui est l'auteur des romans policiers 'Dix Petits Nègres' et 'Le Crime de l'Orient-Express' ?",
-      answer: "Agatha Christie.",
+        "Quel est le nom de l'instrument qui mesure l'humidité de l'air ?",
+      answer: "L'hygromètre.",
       explanation:
-        "Agatha Christie est l'une des romancières les plus vendues de tous les temps.",
+        "L'humidité de l'air est un facteur clé des prévisions météorologiques, jouant un rôle important dans la formation des nuages et des précipitations.",
     },
     open_question: {
       question:
-        "L'accès à l'information sur Internet devrait-il être payant pour garantir la qualité et la pérennité du journalisme ?",
+        "Faut-il légaliser l'euthanasie et le suicide assisté pour garantir le droit à une 'bonne mort' ?",
       notes:
-        "Débat sur le 'paywall', le modèle économique des médias et l'accès gratuit à la connaissance.",
+        "Débat éthique, médical et légal sur la fin de vie, la souffrance et le rôle des médecins.",
     },
     did_you_know: {
-      text: "Le mot 'nerd' (intello) a été inventé par le Dr Seuss dans son livre 'If I Ran the Zoo' en 1950.",
+      text: "Le mot 'hygromètre' vient du grec *hygros* (humide) et *métron* (mesure).",
     },
   },
   {
     date: "2026-08-17",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée du Royaume-Uni, connu pour abriter la Pierre de Rosette ?",
-      answer: "Le British Museum.",
+        "Qui est le sculpteur italien connu pour le 'David' et 'La Pietà' ?",
+      answer: "Michel-Ange (Michelangelo Buonarroti).",
       explanation:
-        "Situé à Londres, le British Museum possède des collections couvrant l'histoire, l'art et la culture humaines.",
+        "Le 'David' (sculpté entre 1501 et 1504) est une sculpture de marbre de la Renaissance, considérée comme l'un des chefs-d'œuvre de l'art occidental.",
     },
     open_question: {
       question:
-        "Faut-il encourager les 'biens partagés' (voitures, outils, logements) pour lutter contre la surconsommation et l'individualisme ?",
+        "Le droit à la santé est-il une responsabilité individuelle ou une obligation collective prise en charge par l'État ?",
       notes:
-        "Débat sur l'économie collaborative, la propriété privée et l'efficacité des ressources.",
+        "Débat sur les systèmes de santé universels, les assurances privées et la prévention.",
     },
     did_you_know: {
-      text: "Les nuages ne sont pas composés de vapeur d'eau (qui est un gaz invisible), mais de minuscules gouttelettes d'eau liquide ou de cristaux de glace en suspension.",
+      text: "La sculpture de 'La Pietà' est la seule œuvre signée par Michel-Ange. Il l'a sculptée à l'âge de 24 ans.",
     },
   },
   {
     date: "2026-08-18",
     general_question: {
-      question: "Quel est le plus haut sommet d'Afrique ?",
-      answer: "Le Mont Kilimandjaro.",
+      question:
+        "Quel est le nom du plus grand océan du système solaire (couvrant une lune de Saturne) ?",
+      answer: "L'océan de Titan.",
       explanation:
-        "Situé en Tanzanie, il est le plus haut sommet isolé du monde.",
+        "Bien qu'il soit composé de méthane et d'éthane liquides, et non d'eau, Titan possède le plus grand corps liquide connu sur une lune ou une planète autre que la Terre.",
     },
     open_question: {
       question:
-        "Le droit au suicide assisté devrait-il être étendu aux personnes qui ne sont pas en phase terminale, mais dont la souffrance psychologique est jugée insupportable ?",
+        "Le service militaire ou civil obligatoire pour les jeunes est-il un outil efficace d'intégration et de cohésion nationale ?",
       notes:
-        "Débat sur l'autonomie, l'évaluation de la souffrance et la définition de la dignité de la fin de vie.",
+        "Discussion sur l'utilité, la contrainte individuelle et l'apprentissage de la citoyenneté.",
     },
     did_you_know: {
-      text: "Le plus long règne d'un monarque britannique est celui de la Reine Élisabeth II, qui a régné pendant plus de 70 ans.",
+      text: "Une année sur Mars dure environ 687 jours terrestres (presque deux ans terrestres).",
     },
   },
   {
     date: "2026-08-19",
     general_question: {
       question:
-        "Quel est le nom du traité qui a mis fin à la Première Guerre mondiale ?",
-      answer: "Le Traité de Versailles.",
+        "Quel pays européen est connu pour ses moulins à vent, ses tulipes et ses polders ?",
+      answer: "Les Pays-Bas.",
       explanation:
-        "Signé le 28 juin 1919, il a officiellement mis fin au conflit entre les Alliés et l'Allemagne.",
+        "Les polders sont des terres gagnées sur la mer ou sur des étendues d'eau et protégées par des digues.",
     },
     open_question: {
       question:
-        "L'humanité devrait-elle se concentrer sur la conservation des espèces menacées ou sur la restauration des écosystèmes entiers ?",
+        "Faut-il interdire la chasse de loisir pour préserver la biodiversité et l'équilibre des écosystèmes ?",
       notes:
-        "Débat sur les priorités de la biodiversité : protéger l'emblématique ou le fonctionnel.",
+        "Débat sur la régulation des populations animales, les traditions locales et l'éthique animale.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas, elles ont de courtes périodes de repos de quelques minutes, plusieurs fois par jour.",
+      text: "Le vélo est le mode de transport le plus populaire aux Pays-Bas, où il y a plus de vélos que d'habitants.",
     },
   },
   {
     date: "2026-08-20",
     general_question: {
       question:
-        "Quel est le nom de la force qui s'oppose au mouvement dans l'air ou dans un liquide ?",
-      answer: "La Traînée (ou Résistance de l'air/fluide).",
+        "Quel est l'organe qui produit la bile, essentielle à la digestion des graisses ?",
+      answer: "Le foie.",
       explanation:
-        "La traînée est la force de friction qui agit parallèlement à la vitesse du fluide et s'oppose au mouvement.",
+        "La bile est ensuite stockée dans la vésicule biliaire avant d'être libérée dans l'intestin grêle.",
     },
     open_question: {
       question:
-        "Faut-il introduire le droit à l'erreur fiscale pour les citoyens de bonne foi, sans pénalité lourde ?",
+        "La démocratie est-elle le seul modèle politique légitime ou les régimes autoritaires peuvent-ils être plus efficaces pour la stabilité et le développement économique ?",
       notes:
-        "Débat sur la complexité de l'administration, la confiance de l'État envers le citoyen et les sanctions.",
+        "Discussion sur les droits de l'homme, la corruption et la performance économique.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "La langue la plus parlée au monde en nombre de locuteurs natifs est le mandarin (chinois).",
     },
   },
   {
     date: "2026-08-21",
     general_question: {
-      question: "Quelle est la capitale de l'Inde ?",
-      answer: "New Delhi.",
-      explanation: "New Delhi est la capitale de l'Inde.",
+      question:
+        "Quel est le nom de la doctrine selon laquelle la colonisation européenne était une mission 'civilisatrice' ?",
+      answer: "Le Fardeau de l'homme blanc (White Man's Burden).",
+      explanation:
+        "Ce terme, popularisé par un poème de Rudyard Kipling, est souvent utilisé pour décrire l'idéologie justifiant l'impérialisme occidental.",
     },
     open_question: {
       question:
-        "L'enseignement doit-il se faire uniquement en présentiel pour garantir la qualité ou doit-on généraliser l'enseignement en ligne ?",
+        "Les technologies de surveillance de masse (caméras intelligentes, reconnaissance faciale) sont-elles un mal nécessaire pour la sécurité urbaine ?",
       notes:
-        "Débat sur l'interactivité sociale, l'accès à distance et l'efficacité des plateformes numériques.",
+        "Discussion sur la balance entre la sécurité publique et les libertés individuelles, ainsi que les risques de dérives autoritaires.",
     },
     did_you_know: {
-      text: "Les étoiles filantes ne sont pas des étoiles, mais de petites particules de débris (météoroïdes) qui se désintègrent en entrant dans l'atmosphère terrestre.",
+      text: "Le mot 'impérialisme' vient du latin *imperium*, signifiant 'pouvoir de commander'.",
     },
   },
   {
     date: "2026-08-22",
     general_question: {
-      question: "Qui a peint 'Le Serment des Horaces' ?",
-      answer: "Jacques-Louis David.",
+      question: "Quel est le seul métal liquide à température ambiante ?",
+      answer: "Le Mercure (Hg).",
       explanation:
-        "Ce tableau néoclassique (1784) est considéré comme un chef-d'œuvre qui illustre les vertus civiques et le devoir envers la patrie.",
+        "Le mercure a un point de fusion de $-38,83^circ\text{C}$ et a été utilisé dans les thermomètres et les baromètres (aujourd'hui souvent remplacé par des alternatives moins toxiques).",
     },
     open_question: {
       question:
-        "Le droit de vote devrait-il être conditionné à la réussite d'un test de connaissances civiques de base ?",
+        "Le mécénat privé (fondations d'entreprises) est-il un substitut bienvenu ou une menace à l'art et à la culture financés par l'État ?",
       notes:
-        "Débat sur la compétence de l'électeur, l'élitisme et l'universalité du suffrage.",
+        "Discussion sur l'indépendance artistique, les priorités de financement et l'influence privée.",
     },
     did_you_know: {
-      text: "La première personne à faire le tour du monde en solitaire et sans escale a été l'Australien Jon Sanders en 1988.",
+      text: "La Grande Pyramide de Gizeh était à l'origine recouverte de calcaire blanc poli, ce qui la faisait briller au soleil.",
     },
   },
   {
     date: "2026-08-23",
     general_question: {
       question:
-        "Quel est le nom de la plus grande baie du monde (par sa ligne côtière) ?",
-      answer: "La baie d'Hudson.",
+        "Quel est le nom de la galaxie la plus proche de la Voie Lactée (notre galaxie) ?",
+      answer: "La galaxie d'Andromède (M31).",
       explanation:
-        "Située dans le nord-est du Canada, la baie d'Hudson est la deuxième plus grande baie du monde après le golfe du Mexique.",
+        "Elle est située à environ 2,5 millions d'années-lumière et est en trajectoire de collision avec la Voie Lactée dans environ 4,5 milliards d'années.",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être obligées de partager leurs profits avec leurs employés (intéressement) ?",
+        "Les entreprises devraient-elles avoir une obligation légale de réparer leurs produits plutôt que d'encourager le renouvellement (obsolescence programmée) ?",
       notes:
-        "Débat sur le capitalisme, la participation des salariés et la redistribution des richesses.",
+        "Discussion sur le 'droit à la réparation', la durabilité des produits et l'économie circulaire.",
     },
     did_you_know: {
-      text: "Le seul chiffre dont l'orthographe contient la lettre 'a' est 'quatre'.",
+      text: "Si le Soleil était de la taille d'une balle de golf, la Terre serait de la taille d'un grain de sable à environ un mètre de distance.",
     },
   },
   {
     date: "2026-08-24",
     general_question: {
-      question: "Qui est l'auteur du roman 'Le Petit Prince' ?",
-      answer: "Antoine de Saint-Exupéry.",
+      question:
+        "Quel est le nom de l'ancienne capitale de l'Empire Inca, située dans les Andes péruviennes ?",
+      answer: "Cuzco (ou Cusco).",
       explanation:
-        "Publié en 1943, ce conte philosophique est l'un des livres les plus traduits et vendus au monde.",
+        "Cuzco était le centre politique et religieux de l'Empire Inca avant la conquête espagnole. Son nom signifie 'nombril' ou 'centre' en Quechua.",
     },
     open_question: {
       question:
-        "Le système de santé occidental (traitement des maladies) est-il trop dépendant des grandes entreprises pharmaceutiques ?",
-      notes: "Débat sur le lobbying, les brevets et la recherche indépendante.",
+        "L'exploration et la commercialisation des astéroïdes (exploitation minière spatiale) sont-elles le futur de l'humanité ?",
+      notes:
+        "Discussion sur la faisabilité technique, les traités internationaux (espace), et le risque de pollution spatiale.",
     },
     did_you_know: {
-      text: "Le mot 'chèque' vient du mot persan 'sak' qui signifie 'mandat ou document légal'.",
+      text: "Il a fallu près de 20 ans pour construire le Machu Picchu, la célèbre citadelle inca, au milieu du XVe siècle.",
     },
   },
   {
     date: "2026-08-25",
     general_question: {
       question:
-        "Quel était le nom de l'explorateur vénitien qui a parcouru la Route de la soie au $\text{XIII}^e$ siècle ?",
-      answer: "Marco Polo.",
+        "Quel est le nom de la force qui attire les objets dotés de masse les uns vers les autres ?",
+      answer: "La Gravité (ou gravitation).",
       explanation:
-        "Son livre, Le Livre des merveilles, a documenté ses voyages en Asie, y compris en Chine à la cour de Kubilai Khan.",
+        "La gravité est l'une des quatre forces fondamentales de la nature et est responsable du mouvement des planètes et des étoiles.",
     },
     open_question: {
       question:
-        "Faut-il encourager les 'monnaies locales' (complémentaires) pour favoriser l'économie circulaire et le commerce de proximité ?",
+        "La légalisation des drogues douces est-elle une solution pour réduire le crime organisé et améliorer la santé publique ?",
       notes:
-        "Débat sur l'impact sur l'économie nationale, la fraude et la confiance dans les monnaies alternatives.",
+        "Débat sur la réglementation, les recettes fiscales et les risques d'abus et de dépendance.",
     },
     did_you_know: {
-      text: "La plus ancienne université du monde toujours en activité est l'Université Al Quaraouiyine, fondée à Fès, Maroc, en 859.",
+      text: "Si vous creusiez un tunnel droit à travers la Terre et que vous sautiez dedans (sans prendre en compte l'air ou la chaleur), il vous faudrait environ 42 minutes pour atteindre l'autre côté.",
     },
   },
   {
     date: "2026-08-26",
     general_question: {
       question:
-        "Quel est le nom du gaz noble utilisé pour éclairer les panneaux publicitaires et les tubes néon (couleur rouge-orange) ?",
-      answer: "Le Néon (Ne).",
+        "Qui est le mathématicien connu pour avoir développé le calcul infinitésimal de manière indépendante de Newton ?",
+      answer: "Gottfried Wilhelm Leibniz.",
       explanation:
-        "Le néon émet une lumière rouge-orange vif lorsqu'il est sous tension électrique dans un tube à basse pression.",
+        "Leibniz a également développé la notation encore utilisée aujourd'hui, notamment le symbole de l'intégrale ($int$).",
     },
     open_question: {
       question:
-        "Le recours au tir de barrage pour la protection des cultures contre les animaux (loups, sangliers) est-il éthiquement acceptable ?",
+        "Les pays développés devraient-ils annuler la dette des pays en développement en échange d'engagements environnementaux ?",
       notes:
-        "Débat sur la coexistence homme-faune, la protection des espèces et l'économie agricole.",
+        "Discussion sur le 'swap' dette-nature, la souveraineté économique et l'équité Nord-Sud.",
     },
     did_you_know: {
-      text: "Le mot 'samouraï' vient du mot japonais 'saburau', qui signifie 'servir'.",
+      text: "Le symbole $pi$ (Pi) est la 16e lettre de l'alphabet grec, représentant le rapport entre la circonférence d'un cercle et son diamètre.",
     },
   },
   {
     date: "2026-08-27",
     general_question: {
-      question: "Quel fleuve est considéré comme le plus sacré de l'Inde ?",
-      answer: "Le Gange (Ganga).",
-      explanation: "Le Gange est vénéré par les hindous comme la déesse Ganga.",
+      question:
+        "Quel est le nom du célèbre musée qui abrite 'La Cène' de Léonard de Vinci ?",
+      answer: "Le couvent de Santa Maria delle Grazie (Milan, Italie).",
+      explanation:
+        "Contrairement à une toile, 'La Cène' est une fresque murale peinte sur le mur du réfectoire du couvent.",
     },
     open_question: {
       question:
-        "La surveillance des frontières par des drones et des capteurs est-elle une solution technologique viable et humaine à la crise migratoire ?",
+        "Le télétravail généralisé est-il bénéfique ou néfaste pour la cohésion d'équipe et l'innovation en entreprise ?",
       notes:
-        "Débat sur la sécurité, le droit d'asile et la déshumanisation des contrôles.",
+        "Débat sur l'équilibre entre flexibilité individuelle et dynamique collective au travail.",
     },
     did_you_know: {
-      text: "Le drapeau olympique, avec ses cinq anneaux, a été conçu en 1913. Leurs couleurs combinées apparaissent dans tous les drapeaux nationaux.",
+      text: "Le mot 'dollar' dérive de 'thaler', une ancienne monnaie d'argent utilisée dans le Saint-Empire romain germanique.",
     },
   },
   {
     date: "2026-08-28",
     general_question: {
       question:
-        "Quelle est la principale source de Vitamine $\text{D}$ pour le corps humain ?",
-      answer: "Le Soleil (exposition aux rayons UV).",
+        "Quel est le nom de l'effet optique qui donne l'impression que la lumière est plus bleue par temps clair que par temps nuageux ?",
+      answer: "La diffusion Rayleigh.",
       explanation:
-        "L'exposition au soleil permet à la peau de synthétiser la Vitamine $\text{D}$, essentielle à l'absorption du calcium et à la santé osseuse.",
+        "Cet effet explique pourquoi le ciel est bleu : les molécules d'air diffusent la lumière bleue plus efficacement que les autres couleurs.",
     },
     open_question: {
       question:
-        "Le tabac (ou la nicotine) devrait-il être totalement interdit pour les générations nées après 2010 ?",
+        "Faut-il imposer des limites aux multinationales en matière d'optimisation fiscale (évasion fiscale légale) ?",
       notes:
-        "Débat sur la santé publique, l'interdiction générationnelle et le droit individuel de fumer.",
+        "Débat sur les impôts minimums mondiaux, la concurrence fiscale et l'équité des contributions.",
     },
     did_you_know: {
-      text: "Une année sur Mars dure 687 jours terrestres (soit presque deux fois plus qu'une année terrestre).",
+      text: "Le premier télescope a été inventé aux Pays-Bas au début des années 1600. Galilée fut l'un des premiers à l'utiliser pour l'astronomie.",
     },
   },
   {
     date: "2026-08-29",
     general_question: {
       question:
-        "Quel est le nom de la force qui maintient l'eau à la surface d'un verre, malgré la gravité ?",
-      answer: "La Tension de surface.",
+        "Qui est le célèbre poète romain auteur de l'épopée 'L'Énéide', décrivant la fondation mythique de Rome ?",
+      answer: "Virgile (Publius Vergilius Maro).",
       explanation:
-        "La tension de surface est le phénomène par lequel la surface d'un liquide se comporte comme une membrane élastique.",
+        "Ce poème du Ier siècle av. J.-C. est considéré comme l'épopée nationale de l'Empire romain.",
     },
     open_question: {
       question:
-        "La 'Fast Fashion' (mode rapide) devrait-elle être limitée par des lois pour réduire son impact environnemental et social ?",
+        "La censure des contenus extrêmes sur les plateformes numériques (discours de haine, terrorisme) menace-t-elle la liberté d'expression ?",
       notes:
-        "Débat sur la production de vêtements jetables, la pollution et les conditions de travail dans l'industrie textile.",
+        "Débat sur le rôle des modérateurs, les algorithmes de détection et la définition de l'abus.",
     },
     did_you_know: {
-      text: "L'œil d'autruche est plus grand que son cerveau.",
+      text: "Le mot 'poésie' vient du grec *poiesis*, qui signifie 'faire' ou 'créer'.",
     },
   },
   {
     date: "2026-08-30",
     general_question: {
-      question: "Quel est le nom de la déesse grecque de la victoire ?",
-      answer: "Nikè.",
-      explanation: "Nikè (ou Nike) est souvent représentée ailée.",
+      question:
+        "Quel est le nom de la ville qui abrite la célèbre statue du 'Christ Rédempteur', au Brésil ?",
+      answer: "Rio de Janeiro.",
+      explanation:
+        "La statue, construite dans les années 1920 et 1930, est située au sommet du mont Corcovado et est un symbole majeur de la ville et du Brésil.",
     },
     open_question: {
       question:
-        "Faut-il imposer des limites de vitesse globales sur Internet (débit) pour réduire la consommation d'énergie des centres de données ?",
+        "Le droit à l'avortement est-il un droit fondamental absolu ou doit-il être soumis à certaines restrictions ?",
       notes:
-        "Débat sur l'écologie numérique, la performance et l'accès à la haute vitesse.",
+        "Débat éthique et légal sur la temporalité, la conscience médicale et les motifs d'interruption de grossesse.",
     },
     did_you_know: {
-      text: "La Terre est la planète la plus dense du système solaire.",
+      text: "Le mot 'août' a été nommé en l'honneur du premier empereur romain, Auguste (Augustus Caesar).",
     },
   },
   {
     date: "2026-08-31",
     general_question: {
       question:
-        "Quel est le seul pays d'Europe qui partage une frontière terrestre avec le Danemark ?",
-      answer: "L'Allemagne.",
+        "Quel est l'élément chimique symbolisé par 'Na', essentiel pour l'équilibre hydrique et la fonction nerveuse ?",
+      answer: "Le Sodium (Natrium).",
       explanation:
-        "Le Danemark est en grande partie entouré d'eau, mais partage une courte frontière terrestre avec l'Allemagne au sud (Jutland).",
+        "Le sodium est un métal alcalin. Son nom latin, *Natrium*, lui a donné son symbole chimique 'Na'.",
     },
     open_question: {
       question:
-        "La vaccination contre les maladies infantiles (Rougeole, etc.) devrait-elle être strictement obligatoire pour l'inscription à l'école ?",
+        "Le revenu universel de base est-il une solution viable pour l'automatisation croissante des emplois ?",
       notes:
-        "Débat sur l'immunité collective, la liberté de choix des parents et la santé publique.",
+        "Discussion sur son coût, son impact sur l'incitation au travail et la réduction de la pauvreté.",
     },
     did_you_know: {
-      text: "Un 'joli' (unité de mesure) est utilisé pour définir le travail effectué par une force, équivalent à un newton agissant sur un mètre.",
+      text: "L'eau salée, y compris l'eau de mer, conduit mieux l'électricité que l'eau pure.",
     },
   },
+
+  // --- Septembre 2026 (29 jours, jusqu'au 2026-09-29) ---
   {
     date: "2026-09-01",
     general_question: {
       question:
-        "Quel écrivain français est l'auteur des essais philosophiques 'L'Étranger' et 'La Peste' ?",
-      answer: "Albert Camus.",
+        "Quel événement majeur s'est produit le 1er septembre 1939 en Europe, déclenchant la Seconde Guerre mondiale ?",
+      answer: "L'invasion de la Pologne par l'Allemagne.",
       explanation:
-        "Camus était un philosophe, écrivain et lauréat du prix Nobel de littérature (1957), souvent associé à la philosophie de l'absurde.",
+        "Cette invasion a provoqué la déclaration de guerre de la France et du Royaume-Uni à l'Allemagne, marquant le début du conflit mondial.",
     },
     open_question: {
       question:
-        "Les banques devraient-elles cesser de financer les projets d'énergies fossiles pour accélérer la transition écologique ?",
+        "Faut-il imposer une taxe carbone aux frontières pour protéger l'industrie nationale et inciter les autres pays à réduire leurs émissions ?",
       notes:
-        "Débat sur la finance verte, la responsabilité des institutions financières et l'approvisionnement énergétique.",
+        "Débat sur la protectionnisme, les règles de l'OMC et l'efficacité climatique.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "Le mot 'septembre' vient du latin *septem*, signifiant 'septième', car il était le septième mois du calendrier romain antique.",
     },
   },
   {
     date: "2026-09-02",
     general_question: {
-      question: "Quelle est la capitale de l'Islande ?",
-      answer: "Reykjavik.",
+      question:
+        "Quel est le nom du célèbre musée qui abrite la 'Nuit étoilée' de Vincent van Gogh ?",
+      answer: "Le Museum of Modern Art (MoMA) à New York.",
       explanation:
-        "Reykjavik est la capitale la plus septentrionale du monde, célèbre pour ses sources chaudes et son utilisation des énergies géothermiques.",
+        "Ce tableau iconique, peint en 1889 pendant le séjour de Van Gogh à l'asile de Saint-Rémy-de-Provence, est l'une des œuvres les plus reconnaissables de l'histoire de l'art.",
     },
     open_question: {
       question:
-        "Les écoles devraient-elles interdire l'utilisation des écrans (smartphones, tablettes) en classe, même à des fins pédagogiques ?",
+        "Le système du collège/lycée unique est-il le plus efficace pour l'épanouissement des élèves ou faut-il introduire une sélection plus précoce ?",
       notes:
-        "Débat sur la distraction, les outils numériques éducatifs et l'impact sur la concentration des élèves.",
+        "Débat sur l'orientation, l'égalité des chances et les besoins éducatifs différenciés.",
     },
     did_you_know: {
-      text: "La 'Journée mondiale de l'environnement' est célébrée chaque 5 juin, établie par l'ONU en 1972.",
+      text: "Le soleil est si grand qu'environ 1,3 million de Terres pourraient tenir à l'intérieur.",
     },
   },
   {
     date: "2026-09-03",
     general_question: {
       question:
-        "Quel événement majeur de la Seconde Guerre mondiale est commémoré le 6 juin ?",
-      answer: "Le débarquement de Normandie (D-Day).",
+        "Quel est l'élément chimique qui, combiné à l'hydrogène, forme l'eau ($H_2O$) ?",
+      answer: "L'Oxygène (O).",
       explanation:
-        "Le 6 juin 1944, les forces alliées ont lancé l'assaut amphibie le plus important de l'histoire pour libérer l'Europe de l'occupation nazie.",
+        "L'oxygène est le troisième élément le plus abondant dans l'univers et est essentiel à la vie sur Terre.",
     },
     open_question: {
       question:
-        "Faut-il imposer une 'taxe sur la malbouffe' pour financer la prévention des maladies liées à l'alimentation ?",
+        "Le droit de vote devrait-il être obligatoire pour assurer une représentation démocratique maximale ?",
       notes:
-        "Débat sur la fiscalité comportementale, la liberté de consommation et l'impact sur les revenus modestes.",
+        "Discussion sur la légitimité du vote, l'apathie politique et les sanctions en cas d'abstention.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas ; elles ont de courtes périodes de repos de quelques minutes, plusieurs fois par jour.",
+      text: "Les pingouins sont incapables de voler, mais peuvent nager à des vitesses allant jusqu'à 35 km/h.",
     },
   },
   {
     date: "2026-09-04",
     general_question: {
       question:
-        "Quel est le nom de la couche de l'atmosphère terrestre qui absorbe la majeure partie du rayonnement ultraviolet du Soleil ?",
-      answer: "La couche d'Ozone.",
+        "Quel est le nom de la péninsule asiatique qui comprend les pays de la Malaisie, de la Thaïlande et de la Birmanie ?",
+      answer: "La péninsule Malaise (ou péninsule de Malacca).",
       explanation:
-        "Située principalement dans la stratosphère, la couche d'ozone ($\text{O}_3$) est essentielle pour protéger la vie sur Terre des $\text{UV}$ nocifs.",
+        "Elle est l'extrémité la plus méridionale du continent asiatique, jouant un rôle stratégique dans le commerce maritime.",
     },
     open_question: {
       question:
-        "Les robots devraient-ils payer des impôts ou des cotisations sociales pour compenser les emplois qu'ils suppriment ?",
+        "Le concept de 'neutralité carbone' d'ici 2050 est-il techniquement et économiquement réaliste à l'échelle mondiale ?",
       notes:
-        "Débat sur la 'taxe robot', le financement de la protection sociale et la définition du travail à l'ère de l'automatisation.",
+        "Débat sur la faisabilité des technologies de capture de carbone, les changements de mode de vie nécessaires et le coût de la transition énergétique.",
     },
     did_you_know: {
-      text: "Le mot 'radar' est un acronyme signifiant 'Radio Detection And Ranging'.",
+      text: "Le mot 'septembre' vient du latin *septem*, signifiant 'septième', car il était le septième mois du calendrier romain.",
     },
   },
   {
     date: "2026-09-05",
     general_question: {
       question:
-        "Quel animal marin est le plus grand invertébré (sans colonne vertébrale) connu ?",
-      answer: "Le calmar colossal (Mesonychoteuthis hamiltoni).",
+        "Quel est le nom de la structure géologique en forme de champignon qui se forme dans les déserts par l'érosion éolienne ?",
+      answer: "Une cheminée de fée (ou roche champignon).",
       explanation:
-        "Le calmar colossal est généralement plus lourd et détient le record du plus grand œil du monde animal.",
+        "Elle se forme lorsque le vent (érosion éolienne) érode plus rapidement la base de la roche, laissant un chapeau rocheux plus résistant au sommet.",
     },
     open_question: {
       question:
-        "Le système de notation 'âge légal de consommation' pour l'alcool et le tabac est-il efficace ou devrait-on privilégier l'éducation ?",
+        "Le sport électronique ('esports') est-il un sport légitime nécessitant la même reconnaissance que le sport traditionnel ?",
       notes:
-        "Débat sur les lois restrictives, la responsabilité individuelle et la prévention des risques.",
+        "Débat sur la reconnaissance athlétique, l'entraînement, la discipline et les compétitions internationales.",
     },
     did_you_know: {
-      text: "La 'Journée mondiale des océans' est célébrée chaque 8 juin, visant à sensibiliser à la protection des écosystèmes marins.",
+      text: "La vitesse du son dans l'air est d'environ 343 mètres par seconde, soit environ 1 235 km/h.",
     },
   },
   {
     date: "2026-09-06",
     general_question: {
       question:
-        "Qui a peint 'Les Noces de Cana', la plus grande toile du musée du Louvre ?",
-      answer: "Paul Véronèse.",
+        "Quel est le nom du plus grand lac artificiel du monde (en volume) ?",
+      answer: "Le lac Kariba (Zambie/Zimbabwe).",
       explanation:
-        "Cette œuvre massive (6,77 m par 9,94 m) représente le premier miracle de Jésus-Christ et fait face à la Joconde.",
+        "Formé par le barrage de Kariba sur le fleuve Zambèze, il est souvent considéré comme le plus grand lac artificiel en termes de volume d'eau stocké.",
     },
     open_question: {
       question:
-        "La censure de contenu sur Internet par les plateformes privées est-elle une protection nécessaire ou une atteinte à la liberté d'expression ?",
+        "Le rôle des influenceurs est-il un phénomène de mode passager ou une nouvelle forme de pouvoir médiatique et économique durable ?",
       notes:
-        "Débat sur la modération du contenu, la responsabilité des grandes entreprises technologiques et les abus potentiels.",
+        "Discussion sur l'évolution du marketing, la confiance du public et la réglementation des contenus.",
     },
     did_you_know: {
-      text: "La Russie possède la plus longue frontière terrestre du monde, s'étendant sur plus de 22 400 km à travers 14 pays.",
+      text: "Le mot 'barrage' vient du vieux français *barra* (barre, clôture).",
     },
   },
   {
     date: "2026-09-07",
     general_question: {
       question:
-        "Quel est le plus grand désert de sable au monde (hors régions polaires) ?",
-      answer: "Le Sahara.",
+        "Quel est le nom du processus par lequel les rayons lumineux sont déviés lorsqu'ils passent d'un milieu à un autre (air/eau) ?",
+      answer: "La réfraction.",
       explanation:
-        "Le Sahara, qui couvre une grande partie de l'Afrique du Nord, est le plus grand désert chaud.",
+        "C'est ce qui explique pourquoi un bâton plongé dans l'eau semble cassé ou courbé, car la vitesse de la lumière change dans l'eau.",
     },
     open_question: {
       question:
-        "Le tourisme de masse est-il compatible avec la préservation des sites historiques et naturels ?",
+        "Les technologies de réalité virtuelle et augmentée sont-elles une source d'évasion enrichissante ou une menace pour l'interaction sociale réelle ?",
       notes:
-        "Débat sur les quotas d'accès, la dégradation des sites (ex: Venise, Machu Picchu) et l'économie locale.",
+        "Discussion sur l'éducation, la formation professionnelle et l'isolement social.",
     },
     did_you_know: {
-      text: "Les escargots ont environ 14 000 dents, situées sur leur langue appelée radula.",
+      text: "La vitesse de la lumière est d'environ 299 792 458 mètres par seconde dans le vide.",
     },
   },
   {
     date: "2026-09-08",
     general_question: {
-      question: "Quelle est l'unité de mesure de la force ?",
-      answer: "Le Newton (N).",
+      question:
+        "Quel est le nom de l'instrument qui utilise le son (ondes sonores) pour détecter les objets sous-marins ?",
+      answer: "Le Sonar (Sound Navigation and Ranging).",
       explanation:
-        "Nommé d'après Isaac Newton, $1 \text{Newton}$ est la force nécessaire pour accélérer une masse de $1 \text{kg}$ à raison de $1 \text{m/s}^2$ ($F = ma$).",
+        "Le sonar est crucial pour la marine, la détection de sous-marins, et la cartographie des fonds marins.",
     },
     open_question: {
       question:
-        "Les gouvernements devraient-ils imposer un temps de 'déconnexion' numérique obligatoire pour les citoyens ?",
+        "Le secret bancaire est-il nécessaire pour la liberté économique ou favorise-t-il la criminalité financière et la fraude fiscale ?",
       notes:
-        "Débat sur le droit à la tranquillité, l'hyperconnexion et la santé mentale collective.",
+        "Discussion sur la transparence fiscale internationale, les paradis fiscaux et le droit à l'intimité financière.",
     },
     did_you_know: {
-      text: "Le seul État des États-Unis à produire du café est Hawaï.",
+      text: "Le mot 'sonar' est un acronyme de l'anglais *Sound Navigation and Ranging*.",
     },
   },
   {
     date: "2026-09-09",
     general_question: {
       question:
-        "Quel pays a remporté la première Coupe du Monde de football organisée en Afrique (2010) ?",
-      answer: "L'Espagne.",
+        "Qui est le peintre italien connu pour ses fresques de la chapelle Sixtine, notamment 'La Création d'Adam' ?",
+      answer: "Michel-Ange (Michelangelo Buonarroti).",
       explanation:
-        "L'Espagne a battu les Pays-Bas en finale à Johannesburg (Afrique du Sud).",
+        "Il a travaillé sur le plafond de la chapelle Sixtine de 1508 à 1512, sur commande du Pape Jules II.",
     },
     open_question: {
       question:
-        "Faut-il mettre fin au secret bancaire dans tous les pays pour lutter contre l'évasion fiscale et le blanchiment d'argent ?",
+        "Le droit à l'oubli numérique devrait-il être absolu ou limité par l'intérêt historique et la liberté d'expression ?",
       notes:
-        "Débat sur la souveraineté fiscale, la protection des données et la justice économique mondiale.",
+        "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
     },
     did_you_know: {
-      text: "La température la plus chaude jamais enregistrée sur Terre est de $56,7^{circ}\text{C}$ dans la Vallée de la Mort, en Californie, en 1913.",
+      text: "Les humains partagent environ 50 % de leur ADN avec la banane.",
     },
   },
   {
     date: "2026-09-10",
     general_question: {
       question:
-        "Qui a inventé l'imprimerie à caractères mobiles en Europe au $\text{XV}^e$ siècle ?",
-      answer: "Johannes Gutenberg.",
+        "Quel est l'élément chimique symbolisé par 'Au' et connu pour sa résistance à la corrosion ?",
+      answer: "L'or (Aurum).",
       explanation:
-        "Son invention (vers 1440) a permis la diffusion rapide du savoir.",
+        "L'or est un métal précieux et inaltérable. Son nom latin, *Aurum*, signifie 'brillant' ou 'lueur de l'aube'.",
     },
     open_question: {
       question:
-        "Les écoles devraient-elles imposer le port d'un uniforme pour réduire les inégalités sociales et la pression de la mode ?",
+        "Faut-il limiter le droit de manifester pour éviter les débordements (blocages, violences, dégradations) ?",
       notes:
-        "Débat sur l'égalité, l'expression individuelle et le coût d'un uniforme scolaire.",
+        "Discussion sur la liberté de réunion, l'ordre public et la légitimité de la contestation.",
     },
     did_you_know: {
-      text: "La foudre frappe les hommes beaucoup plus souvent que les femmes (environ 5 fois plus), bien que la raison exacte soit encore débattue.",
+      text: "Le mot 'chimie' vient du grec *chemeia*, désignant l'art de la transformation des substances.",
     },
   },
   {
     date: "2026-09-11",
     general_question: {
       question:
-        "Quel est le nom de l'instrument de musique composé de 88 touches ?",
-      answer: "Le Piano.",
+        "Quel est le nom du plus grand volcan actif en Europe, situé en Sicile ?",
+      answer: "L'Etna.",
       explanation:
-        "Un piano moderne standard possède 52 touches blanches et 36 touches noires, soit un total de 88 touches.",
+        "Il culmine à plus de 3 300 mètres et est l'un des volcans les plus actifs et des plus hauts d'Europe.",
     },
     open_question: {
       question:
-        "Faut-il réglementer la durée maximale de travail par semaine (32 heures, 4 jours) pour améliorer le bien-être général ?",
+        "L'IA générative doit-elle être soumise à des lois éthiques plus strictes que les entreprises classiques ?",
       notes:
-        "Débat sur la productivité, le stress professionnel et l'équilibre vie privée/vie professionnelle.",
+        "Débat sur la régulation de l'IA (transparence, biais, impact sociétal) vs. la liberté d'innovation.",
     },
     did_you_know: {
-      text: "Le 14 juin est la 'Journée mondiale du donneur de sang', visant à sensibiliser au besoin de dons sûrs.",
+      text: "Le 11 septembre 2001, les attentats terroristes aux États-Unis ont marqué un tournant dans la géopolitique mondiale et la lutte contre le terrorisme.",
     },
   },
   {
     date: "2026-09-12",
     general_question: {
-      question: "Quel est l'élément chimique avec le symbole 'Au' ?",
-      answer: "L'Or.",
+      question:
+        "Quel est le nom du plus grand lac salé du monde, souvent qualifié de mer ?",
+      answer: "La Mer Caspienne.",
       explanation:
-        "Le symbole Au vient du mot latin aurum. L'or est un métal de transition, précieux et inaltérable.",
+        "Elle est en réalité le plus grand lac endoréique (sans exutoire vers l'océan) au monde, bordée par cinq pays.",
     },
     open_question: {
       question:
-        "L'exploration des fonds marins est-elle plus importante pour l'humanité que l'exploration spatiale ?",
+        "Le sport professionnel moderne est-il un modèle d'excellence athlétique ou une machine de divertissement hyper-commercialisée ?",
       notes:
-        "Débat sur la biodiversité marine (encore largement inexplorée) vs. les avancées technologiques spatiales.",
+        "Discussion sur les salaires, les droits de diffusion, le dopage et l'esprit olympique.",
     },
     did_you_know: {
-      text: "Un 'parsec' est une unité de mesure de distance utilisée en astronomie, équivalant à environ 3,26 années-lumière.",
+      text: "Le mot 'lac' vient du latin *lacus* (bassin, étang).",
     },
   },
-
-  // Jours 263 à 293 : Septembre (18 jours restants) & Octobre 2026 (13 premiers jours)
   {
     date: "2026-09-13",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée à Saint-Pétersbourg, Russie ?",
-      answer: "Le Musée de l'Ermitage.",
+        "Quel pays européen est la patrie des Jeux Olympiques antiques et modernes ?",
+      answer: "La Grèce.",
       explanation:
-        "Situé dans le Palais d'Hiver, l'Ermitage est l'un des plus grands et des plus anciens musées du monde.",
+        "Les Jeux antiques se tenaient à Olympie dès 776 av. J.-C. Les premiers Jeux modernes ont eu lieu à Athènes en 1896.",
     },
     open_question: {
       question:
-        "Le concept de 'neutralité carbone' (compenser les émissions) est-il une solution écologique viable ou un permis de polluer pour les entreprises ?",
+        "Faut-il interdire la publicité pour les produits considérés comme mauvais pour la santé (sucre, alcool, malbouffe) ?",
       notes:
-        "Débat sur l'efficacité de la compensation (plantation d'arbres) face à la nécessité de la réduction absolue.",
+        "Débat sur la liberté de commerce versus la responsabilité de l'État dans la santé publique.",
     },
     did_you_know: {
-      text: "Les nuages portent des noms latins pour décrire leur apparence (cumulus, cirrus, stratus) inventés par Luke Howard en 1803.",
+      text: "Le mot 'sport' vient du vieux français *desport*, signifiant 'divertissement, loisir'.",
     },
   },
   {
     date: "2026-09-14",
     general_question: {
       question:
-        "Quel est le nom de la péninsule partagée par l'Espagne et le Portugal ?",
-      answer: "La péninsule Ibérique.",
+        "Quel est le nom de la péninsule asiatique qui comprend les pays de l'Inde, du Pakistan et du Bangladesh ?",
+      answer: "Le sous-continent indien.",
       explanation:
-        "La péninsule est située à l'extrémité sud-ouest de l'Europe.",
+        "Il est bordé au nord par l'Himalaya et est géographiquement distinct du reste de l'Asie.",
     },
     open_question: {
       question:
-        "Faut-il limiter le droit de propriété pour des raisons écologiques (ex: interdiction de construire sur certaines terres naturelles) ?",
+        "Le droit des animaux devrait-il être réformé pour accorder une 'personnalité morale' aux animaux les plus évolués (grands singes, cétacés) ?",
       notes:
-        "Débat sur le droit individuel versus l'intérêt général de la préservation de l'environnement.",
+        "Débat sur le statut légal des animaux, l'éthique et les conséquences sur l'expérimentation et l'élevage.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "L'Inde est le pays le plus peuplé du monde depuis 2023, dépassant la Chine.",
     },
   },
   {
     date: "2026-09-15",
     general_question: {
       question:
-        "Quel scientifique a découvert la loi de la gravitation universelle ?",
-      answer: "Isaac Newton.",
+        "Quel est le nom de l'instrument qui mesure l'humidité de l'air ?",
+      answer: "L'hygromètre.",
       explanation:
-        "Newton a formulé cette loi dans son ouvrage 'Philosophiae Naturalis Principia Mathematica' (1687).",
+        "L'humidité de l'air est un facteur clé des prévisions météorologiques, jouant un rôle important dans la formation des nuages et des précipitations.",
     },
     open_question: {
       question:
-        "L'éducation civique devrait-elle inclure des cours obligatoires sur la vérification des sources (fact-checking) et la pensée critique ?",
+        "La transparence totale des salaires au sein des entreprises est-elle un facteur de motivation ou de conflit ?",
       notes:
-        "Débat sur la lutte contre la désinformation (fake news) et le rôle de l'école dans la formation d'un citoyen éclairé.",
+        "Discussion sur l'égalité salariale, la jalousie et l'efficacité des négociations individuelles.",
     },
     did_you_know: {
-      text: "Le mont Everest s'agrandit d'environ 4 millimètres par an en raison du mouvement des plaques tectoniques.",
+      text: "Le mot 'hygromètre' vient du grec *hygros* (humide) et *métron* (mesure).",
     },
   },
   {
     date: "2026-09-16",
     general_question: {
       question:
-        "Quel est le nom de l'explorateur portugais crédité du premier tour du monde (bien qu'il soit mort en cours de route) ?",
-      answer: "Fernand de Magellan.",
+        "Quel est l'élément chimique symbolisé par 'K' et essentiel au bon fonctionnement des nerfs et des muscles ?",
+      answer: "Le Potassium (Kalium).",
       explanation:
-        "Magellan a initié l'expédition en 1519. Il est mort aux Philippines en 1521, mais son navire, le Victoria, a complété le voyage en 1522.",
+        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique *Kalium*.",
     },
     open_question: {
       question:
-        "L'abolition de la peine de mort est-elle un signe de civilisation avancée ou une menace pour la justice et la sécurité ?",
+        "Les technologies de surveillance des employés à distance (logiciels de suivi) sont-elles un abus ou une nécessité de gestion ?",
       notes:
-        "Débat sur les droits humains, la dissuasion criminelle et le risque d'erreur judiciaire.",
+        "Débat sur la confiance, le droit à la déconnexion et la mesure de la productivité.",
     },
     did_you_know: {
-      text: "Les papillons goûtent avec leurs pieds (ils possèdent des chimiorécepteurs sur les pattes).",
+      text: "Il existe plus de 10 000 espèces d'oiseaux dans le monde.",
     },
   },
   {
     date: "2026-09-17",
     general_question: {
       question:
-        "Quel est le nom de la science qui étudie le comportement des animaux dans leur environnement naturel ?",
-      answer: "L'Éthologie.",
+        "Quel est le nom de l'hormone de la 'lutte ou de la fuite' sécrétée par les glandes surrénales en cas de stress ?",
+      answer: "L'adrénaline (ou épinéphrine).",
       explanation:
-        "L'éthologie est l'étude scientifique et objective du comportement animal.",
+        "Elle augmente le rythme cardiaque, la pression artérielle et mobilise l'énergie en préparant le corps à une action rapide.",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être obligées de divulguer les algorithmes utilisés pour prendre des décisions importantes (recrutement, prêts) ?",
+        "Comment l'urbanisme peut-il être repensé pour améliorer la qualité de vie et réduire l'empreinte carbone des grandes métropoles ?",
       notes:
-        "Débat sur la transparence des algorithmes et le risque de biais dans les systèmes automatisés.",
+        "Débat sur la 'ville du quart d'heure', les transports doux et la végétalisation urbaine.",
     },
     did_you_know: {
-      text: "Le 20 juin est le jour le plus long de l'année dans l'hémisphère nord (solstice d'été).",
+      text: "Le mot 'adrénaline' vient du latin *ad* (à, vers) et *renes* (reins, car elle est sécrétée par les glandes surrénales).",
     },
   },
   {
     date: "2026-09-18",
     general_question: {
       question:
-        "Quel est l'élément chimique essentiel aux plantes pour la photosynthèse, qui leur donne leur couleur verte ?",
-      answer: "Le Magnésium (Mg).",
+        "Quel est le seul continent qui n'est traversé par aucun fleuve ?",
+      answer: "L'Antarctique.",
       explanation:
-        "Le Magnésium est un constituant central de la molécule de chlorophylle, qui capte la lumière.",
+        "L'eau y est presque entièrement sous forme de glace. Les rares flux d'eau sont saisonniers ou sous-glaciaires.",
     },
     open_question: {
       question:
-        "L'art doit-il être financé principalement par des fonds publics ou par des mécènes privés ?",
+        "Le système de retraite par répartition est-il durable face au vieillissement démographique et à l'allongement de l'espérance de vie ?",
       notes:
-        "Débat sur l'indépendance artistique, l'accès à la culture et la politique budgétaire.",
+        "Discussion sur l'âge de départ, les cotisations et la nécessité de réformes structurelles.",
     },
     did_you_know: {
-      text: "Le jour le plus long de l'année est le solstice d'été, qui tombe généralement le 20 ou le 21 juin.",
+      text: "L'Antarctique détient environ 90 % de la glace terrestre et 70 % de l'eau douce de la planète.",
     },
   },
   {
     date: "2026-09-19",
     general_question: {
-      question: "Quel est le nom du gaz noble le plus léger ?",
-      answer: "L'Hélium (He).",
+      question:
+        "Quel est le nom de l'effet optique qui donne l'impression que la lumière est plus bleue par temps clair que par temps nuageux ?",
+      answer: "La diffusion Rayleigh.",
       explanation:
-        "L'hélium est le deuxième élément le plus abondant dans l'univers après l'hydrogène.",
+        "Cet effet explique pourquoi le ciel est bleu : les molécules d'air diffusent la lumière bleue plus efficacement que les autres couleurs.",
     },
     open_question: {
       question:
-        "Faut-il taxer les transactions financières spéculatives pour financer les services sociaux ?",
+        "Faut-il imposer des limites à la quantité d'eau douce qu'une entreprise ou une personne peut utiliser dans les zones de stress hydrique ?",
       notes:
-        "Débat sur la 'taxe Tobin', la stabilité financière et la redistribution des richesses.",
+        "Discussion sur la gestion des ressources, l'agriculture intensive et la priorité de l'eau potable.",
     },
     did_you_know: {
-      text: "La plus ancienne loi toujours en vigueur au monde est celle sur les feux de circulation au Royaume-Uni (datant de 1865).",
+      text: "Le mot 'optique' vient du grec *optikē* (relatif à la vue).",
     },
   },
   {
     date: "2026-09-20",
     general_question: {
       question:
-        "Quel est l'organe qui consomme le plus d'oxygène dans le corps humain ?",
-      answer: "Le cerveau.",
+        "Quel est le nom de la galaxie la plus proche de la Voie Lactée (notre galaxie) ?",
+      answer: "La galaxie d'Andromède (M31).",
       explanation:
-        "Bien qu'il ne représente qu'environ 2% du poids corporel, le cerveau consomme près de 20% de l'oxygène total du corps au repos.",
+        "Elle est située à environ 2,5 millions d'années-lumière et est en trajectoire de collision avec la Voie Lactée dans environ 4,5 milliards d'années.",
     },
     open_question: {
       question:
-        "Les voyages internationaux devraient-ils être limités pour les particuliers, et réservés aux nécessités professionnelles ou humanitaires ?",
+        "Les entreprises technologiques (GAFA) sont-elles devenues trop puissantes et doivent-elles être démantelées (lois antitrust) ?",
       notes:
-        "Débat sur la réduction de l'empreinte carbone personnelle et l'impact sur le tourisme et les échanges culturels.",
+        "Discussion sur le monopole, la concurrence, la protection des données et le lobbying politique.",
     },
     did_you_know: {
-      text: "Le mot 'alphabet' vient des deux premières lettres de l'alphabet grec : 'alpha' et 'bêta'.",
+      text: "La Voie Lactée et Andromède sont les deux galaxies les plus massives du Groupe Local de galaxies.",
     },
   },
   {
     date: "2026-09-21",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée à Saint-Pétersbourg, Russie ?",
-      answer: "Le Musée de l'Ermitage.",
+        "Quel est le nom de l'explorateur vénitien célèbre pour avoir documenté ses voyages en Asie, notamment en Chine, au XIIIe siècle ?",
+      answer: "Marco Polo.",
       explanation:
-        "Situé dans le Palais d'Hiver, l'Ermitage est l'un des plus grands et des plus anciens musées du monde.",
+        "Son livre, *Le Livre des Merveilles du Monde* (ou *Il Milione*), a servi de source d'inspiration pour de nombreux explorateurs ultérieurs.",
     },
     open_question: {
       question:
-        "L'agriculture biologique est-elle la seule voie possible pour une alimentation saine et durable ?",
+        "Le droit à la santé est-il une responsabilité individuelle ou une obligation collective prise en charge par l'État ?",
       notes:
-        "Débat sur la productivité, l'utilisation des pesticides et le coût pour le consommateur.",
+        "Débat sur les systèmes de santé universels, les assurances privées et la prévention.",
     },
     did_you_know: {
-      text: "La baleine bleue, le plus grand animal de la planète, a un cœur de la taille d'une petite voiture.",
+      text: "Le mot 'septembre' vient du latin *septem*, signifiant 'septième', car il était le septième mois du calendrier romain.",
     },
   },
   {
     date: "2026-09-22",
     general_question: {
-      question: "Qui a fondé l'entreprise automobile Ford ?",
-      answer: "Henry Ford.",
-      explanation: "Henry Ford a fondé la Ford Motor Company en 1903.",
+      question:
+        "Quel est le nom du plus grand désert de sable au monde (hors déserts de glace) ?",
+      answer: "Le Sahara.",
+      explanation:
+        "Il couvre une grande partie de l'Afrique du Nord et est le plus grand désert chaud. Le désert de l'Antarctique est le plus grand désert au monde en général.",
     },
     open_question: {
       question:
-        "Faut-il interdire l'utilisation des animaux sauvages dans les cirques et les spectacles itinérants ?",
+        "Le concept de 'croissance infinie' dans une planète aux ressources finies est-il une contradiction fondamentale ?",
       notes:
-        "Débat sur le bien-être animal, la tradition culturelle et les alternatives éthiques au spectacle.",
+        "Discussion sur la croissance verte, la décroissance et l'économie circulaire.",
     },
     did_you_know: {
-      text: "La statue de la Liberté à New York était à l'origine destinée à la ville de Port-Saïd, en Égypte.",
+      text: "Le Sahara est le désert qui s'étend le plus rapidement au monde en raison du changement climatique et de la désertification.",
     },
   },
   {
     date: "2026-09-23",
     general_question: {
       question:
-        "Quel prix littéraire français est souvent considéré comme le plus prestigieux ?",
-      answer: "Le Prix Goncourt.",
+        "Quel est l'élément chimique qui a le numéro atomique 1 et le poids atomique le plus faible ?",
+      answer: "L'Hydrogène (H).",
       explanation:
-        "Créé en 1903, le Goncourt est décerné à l'auteur du meilleur ouvrage d'imagination en prose de l'année.",
+        "L'hydrogène est le constituant le plus abondant de l'univers et le gaz le plus léger.",
     },
     open_question: {
       question:
-        "Le concept de 'neutralité du net' (égalité de traitement des données) est-il essentiel pour la liberté d'Internet ?",
+        "Les critères de beauté (mode, chirurgie esthétique) sont-ils une forme de pression sociale genrée ou une libre expression individuelle ?",
       notes:
-        "Débat sur le contrôle des flux de données par les fournisseurs d'accès (FAI) et l'accès équitable à l'information.",
+        "Discussion sur l'impact des médias, le patriarcat et l'autonomie corporelle.",
     },
     did_you_know: {
-      text: "La langue la plus parlée dans le monde, en termes de locuteurs natifs, est le mandarin (chinois).",
+      text: "Le 23 septembre est souvent la date de l'équinoxe d'automne (dans l'hémisphère nord), marquant la fin de l'été et le début de l'automne.",
     },
   },
   {
     date: "2026-09-24",
     general_question: {
       question:
-        "Quelle est la fleur traditionnellement offerte en France le 1er mai ?",
-      answer: "Le muguet (Clochette de mai).",
+        "Quel pays européen est la patrie des Jeux Olympiques antiques et modernes ?",
+      answer: "La Grèce.",
       explanation:
-        "Offrir du muguet est un porte-bonheur pour le mois de mai. Le 1er mai est aussi la Fête du Travail.",
+        "Les Jeux antiques se tenaient à Olympie dès 776 av. J.-C. Les premiers Jeux modernes ont eu lieu à Athènes en 1896.",
     },
     open_question: {
       question:
-        "Les syndicats ont-ils encore un rôle pertinent dans la défense des droits des travailleurs de l'économie numérique (freelance, plateformes) ?",
+        "Le salaire minimum est-il un outil efficace pour lutter contre la pauvreté ou un frein à l'emploi et à la compétitivité des entreprises ?",
       notes:
-        "Débat sur l'organisation des travailleurs indépendants, la précarité et les nouvelles formes d'emploi.",
+        "Débat sur l'inflation, le pouvoir d'achat et le marché du travail.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas ; elles ont de courtes périodes de repos de quelques minutes, plusieurs fois par jour.",
+      text: "Le mot 'sport' vient du vieux français *desport*, signifiant 'divertissement, loisir'.",
     },
   },
   {
     date: "2026-09-25",
     general_question: {
-      question: "Quel est le plus grand État d'Afrique par sa superficie ?",
-      answer: "L'Algérie.",
+      question:
+        "Quel est le nom de l'instrument qui utilise le son (ondes sonores) pour détecter les objets sous-marins ?",
+      answer: "Le Sonar (Sound Navigation and Ranging).",
       explanation:
-        "Depuis la partition du Soudan en 2011, l'Algérie est le plus vaste pays du continent africain.",
+        "Le sonar est crucial pour la marine, la détection de sous-marins, et la cartographie des fonds marins.",
     },
     open_question: {
       question:
-        "Le cinéma devrait-il être davantage subventionné par l'État pour garantir la diversité culturelle face aux superproductions ?",
+        "Le sport électronique ('esports') est-il un sport légitime nécessitant la même reconnaissance que le sport traditionnel ?",
       notes:
-        "Débat sur l'industrie culturelle, la qualité artistique et la concurrence des plateformes de streaming.",
+        "Débat sur la reconnaissance athlétique, l'entraînement, la discipline et les compétitions internationales.",
     },
     did_you_know: {
-      text: "La plus vieille créature marine encore vivante est une éponge d'une espèce non identifiée, découverte à 2 134 mètres de profondeur.",
+      text: "La vitesse du son dans l'air est d'environ 343 mètres par seconde, soit environ 1 235 km/h.",
     },
   },
   {
     date: "2026-09-26",
     general_question: {
       question:
-        "Quel pays a pour langue officielle le portugais en Amérique du Sud ?",
-      answer: "Le Brésil.",
-      explanation: "Le Brésil a été colonisé par le Portugal.",
+        "Quel est l'élément chimique symbolisé par 'Fe', essentiel à la production de l'hémoglobine dans le sang ?",
+      answer: "Le Fer (Ferrum).",
+      explanation:
+        "Le fer est crucial pour le transport de l'oxygène des poumons vers le reste du corps.",
     },
     open_question: {
       question:
-        "Faut-il former des armées de 'soldats-robots' (entièrement autonomes) pour réduire les pertes humaines dans les conflits ?",
+        "Le droit des auteurs et artistes doit-il être révisé à l'ère des contenus générés par l'IA (texte, art, musique) ?",
       notes:
-        "Débat sur l'éthique de la guerre automatisée, le droit international et le risque de déshumanisation des conflits.",
+        "Discussion sur la paternité des œuvres, l'entraînement des modèles d'IA sur des données protégées et la rémunération des créateurs.",
     },
     did_you_know: {
-      text: "La plus petite quantité de matière observable est le quark, qui est un constituant des protons et des neutrons.",
+      text: "Le corps humain contient suffisamment de fer pour fabriquer un petit clou d'environ trois centimètres de long.",
     },
   },
   {
     date: "2026-09-27",
     general_question: {
       question:
-        "Quel prix scientifique est souvent considéré comme l'équivalent du Prix Nobel en mathématiques ?",
-      answer: "La Médaille Fields.",
+        "Quel est le nom de la ville qui abrite la célèbre statue du 'Christ Rédempteur', au Brésil ?",
+      answer: "Rio de Janeiro.",
       explanation:
-        "Elle est décernée tous les quatre ans à des mathématiciens de moins de 40 ans.",
+        "La statue, construite dans les années 1920 et 1930, est située au sommet du mont Corcovado et est un symbole majeur de la ville et du Brésil.",
     },
     open_question: {
       question:
-        "La liberté des médias est-elle menacée par la pression des annonceurs et la recherche du 'clic' à tout prix ?",
+        "Le concept de 'ville du quart d'heure' (accessibilité rapide aux services) est-il réalisable dans toutes les métropoles ?",
       notes:
-        "Débat sur le modèle économique des médias, la qualité de l'information et le journalisme d'investigation.",
+        "Débat sur la densité urbaine, les transports et l'égalité d'accès aux services en banlieue.",
     },
     did_you_know: {
-      text: "Le 4 mai est souvent célébré comme le 'Star Wars Day'.",
+      text: "Le mot 'septembre' vient du latin *septem*, signifiant 'septième', car il était le septième mois du calendrier romain.",
     },
   },
   {
     date: "2026-09-28",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée du Vatican qui abrite le plafond de Michel-Ange ?",
-      answer: "La Chapelle Sixtine.",
+        "Quel est le nom de l'instrument qui mesure les tremblements de terre ?",
+      answer: "Le sismographe (ou sismomètre).",
       explanation:
-        "Elle fait partie du complexe des Musées du Vatican et est célèbre pour ses fresques.",
+        "Il enregistre l'amplitude et la durée des ondes sismiques et permet de localiser l'épicentre d'un séisme.",
     },
     open_question: {
       question:
-        "L'industrie du jeu vidéo devrait-elle être tenue responsable de la représentation stéréotypée et violente de certains groupes sociaux ?",
+        "La démocratie est-elle le seul modèle politique légitime ou les régimes autoritaires peuvent-ils être plus efficaces pour la stabilité et le développement économique ?",
       notes:
-        "Débat sur la liberté de création, l'impact sur les joueurs et les lois sur le contenu numérique.",
+        "Discussion sur les droits de l'homme, la corruption et la performance économique.",
     },
     did_you_know: {
-      text: "Le chili est en fait un fruit (une baie).",
+      text: "Le mot 'sismographe' vient du grec *seismos* (tremblement de terre) et *graphein* (écrire).",
     },
   },
   {
     date: "2026-09-29",
     general_question: {
       question:
-        "Quel est le plus grand volcan du système solaire, situé sur Mars ?",
-      answer: "L'Olympus Mons.",
+        "Quel est le nom de l'effet optique qui donne l'impression que la lumière est plus bleue par temps clair que par temps nuageux ?",
+      answer: "La diffusion Rayleigh.",
       explanation:
-        "Avec une hauteur de 21,9 km, l'Olympus Mons est près de trois fois plus haut que l'Everest.",
+        "Cet effet explique pourquoi le ciel est bleu : les molécules d'air diffusent la lumière bleue plus efficacement que les autres couleurs.",
     },
     open_question: {
       question:
-        "Faut-il imposer des cours obligatoires de cuisine et de nutrition pour lutter contre l'obésité et les maladies associées ?",
+        "Les entreprises devraient-elles avoir une obligation légale de réparer leurs produits plutôt que d'encourager le renouvellement (obsolescence programmée) ?",
       notes:
-        "Débat sur l'éducation à la santé, la responsabilité individuelle et le rôle de l'école dans l'alimentation.",
+        "Discussion sur le 'droit à la réparation', la durabilité des produits et l'économie circulaire.",
     },
     did_you_know: {
-      text: "La première monnaie métallique a été utilisée en Lydie (Turquie actuelle) vers 600 av. J.-C.",
+      text: "Les nuages ne sont pas légers. Un cumulus moyen peut peser plus de 500 tonnes, soit l'équivalent d'un avion gros porteur.",
     },
-  },
-  {
+    // --- Septembre 2026 (1 jour restant) ---
     date: "2026-09-30",
     general_question: {
       question:
-        "Quel est le nom de la seule planète du système solaire qui tourne sur elle-même dans le sens des aiguilles d'une montre ?",
-      answer: "Vénus.",
+        "Quel est le nom de la planète qui a été déclassée de son statut de planète en 2006, la reléguant au statut de 'planète naine' ?",
+      answer: "Pluton.",
       explanation:
-        "La rotation rétrograde de Vénus est une anomalie par rapport aux autres planètes.",
+        "L'Union Astronomique Internationale (UAI) a révisé la définition d'une planète, et Pluton ne remplissait pas le critère d'avoir 'nettoyé' son orbite des autres débris spatiaux.",
     },
     open_question: {
       question:
-        "Les lanceurs d'alerte (whistleblowers) devraient-ils bénéficier d'une immunité totale pour les informations qu'ils révèlent ?",
+        "Le concept de 'neutralité carbone' d'ici 2050 est-il techniquement et économiquement réaliste à l'échelle mondiale ?",
       notes:
-        "Débat sur la protection des sources, l'intérêt public et la sécurité nationale.",
+        "Débat sur la faisabilité des technologies de capture de carbone, les changements de mode de vie nécessaires et le coût de la transition énergétique.",
     },
     did_you_know: {
-      text: "La plus petite distance entre deux points dans l'espace-temps n'est pas une ligne droite, mais une géodésique (une courbe).",
+      text: "Le mot 'septembre' vient du latin *septem*, signifiant 'septième', car il était le septième mois du calendrier romain antique avant l'ajout de janvier et février.",
     },
   },
+
+  // --- Octobre 2026 (31 jours) ---
   {
     date: "2026-10-01",
     general_question: {
       question:
-        "Quel événement historique majeur est commémoré le 8 mai en France et dans d'autres pays alliés ?",
-      answer:
-        "La Victoire de 1945 (fin de la Seconde Guerre mondiale en Europe).",
-      explanation: "Le 8 mai 1945 marque la capitulation de l'Allemagne nazie.",
+        "Quel est le nom de l'élément chimique symbolisé par 'Hg', connu pour être le seul métal liquide à température ambiante ?",
+      answer: "Le Mercure.",
+      explanation:
+        "Le mercure a un point de fusion très bas et a été utilisé dans les thermomètres et les baromètres. Il est très toxique.",
     },
     open_question: {
       question:
-        "Le service militaire ou civique obligatoire (mixte) est-il nécessaire pour renforcer l'unité nationale et le sens des responsabilités ?",
+        "La transparence totale des salaires au sein des entreprises est-elle un facteur de motivation ou de conflit ?",
       notes:
-        "Débat sur les coûts, la liberté individuelle et l'efficacité d'une formation civique et militaire.",
+        "Discussion sur l'égalité salariale, la jalousie et l'efficacité des négociations individuelles.",
     },
     did_you_know: {
-      text: "Le mot 'ambulance' vient du français 'hôpital ambulant', utilisé pour désigner les hôpitaux mobiles lors des guerres napoléoniennes.",
+      text: "Le mot 'octobre' vient du latin *octo*, signifiant 'huit', car il était le huitième mois du calendrier romain avant que Jules César ne le réforme.",
     },
   },
   {
     date: "2026-10-02",
     general_question: {
       question:
-        "Quel animal est le symbole national de la Chine et est considéré comme une espèce menacée ?",
-      answer: "Le Panda géant.",
+        "Qui est le compositeur allemand de la 'Neuvième Symphonie', incluant l' 'Ode à la joie' ?",
+      answer: "Ludwig van Beethoven.",
       explanation:
-        "Le panda est originaire des régions montagneuses du centre de la Chine.",
+        "Créée en 1824, c'est l'une des œuvres les plus célèbres de la musique classique. L' 'Ode à la joie' est l'hymne de l'Union européenne.",
     },
     open_question: {
       question:
-        "La régulation de la taille et de la concentration des grandes entreprises technologiques (GAFA) est-elle suffisante pour empêcher les monopoles ?",
+        "Faut-il légaliser l'euthanasie et le suicide assisté pour garantir le droit à une 'bonne mort' ?",
       notes:
-        "Débat sur le droit de la concurrence, la protection des données et le pouvoir politique des multinationales.",
+        "Débat éthique, médical et légal sur la fin de vie, la souffrance et le rôle des médecins.",
     },
     did_you_know: {
-      text: "Les astronautes qui travaillent à l'extérieur de l'ISS doivent porter des couches pour adultes.",
+      text: "Beethoven était presque entièrement sourd lorsqu'il a composé sa Neuvième Symphonie.",
     },
   },
   {
     date: "2026-10-03",
     general_question: {
       question:
-        "Quel artiste est l'auteur de la célèbre sculpture 'Le Penseur' ?",
-      answer: "Auguste Rodin.",
+        "Quel est le nom de l'événement qui a marqué la réunification de l'Allemagne en 1990 ?",
+      answer: "Le Jour de l'Unité Allemande (Tag der Deutschen Einheit).",
       explanation:
-        "Créée à l'origine en 1880, cette sculpture en bronze représente un homme en méditation profonde.",
+        "Il commémore l'unification officielle de la République fédérale d'Allemagne (RFA) et de la République démocratique allemande (RDA).",
     },
     open_question: {
       question:
-        "Les réseaux sociaux devraient-ils être contraints d'utiliser des algorithmes qui favorisent le contenu 'positif' ou 'éducatif' ?",
+        "Les technologies de surveillance de masse (caméras intelligentes, reconnaissance faciale) sont-elles un mal nécessaire pour la sécurité urbaine ?",
       notes:
-        "Débat sur l'impact sur le bien-être, la liberté algorithmique et le risque de censure du contenu critique.",
+        "Discussion sur la balance entre la sécurité publique et les libertés individuelles, ainsi que les risques de dérives autoritaires.",
     },
     did_you_know: {
-      text: "Le seul oiseau capable de voir la couleur bleue est le pigeon.",
+      text: "Le Mur de Berlin est tombé en novembre 1989, mais la réunification officielle a eu lieu près d'un an plus tard, le 3 octobre 1990.",
     },
   },
   {
     date: "2026-10-04",
     general_question: {
-      question: "Quelle est l'unité de mesure de la puissance électrique ?",
-      answer: "Le Watt (W).",
+      question:
+        "Quel est le nom du processus par lequel les rayons lumineux sont déviés lorsqu'ils passent d'un milieu à un autre (air/eau) ?",
+      answer: "La réfraction.",
       explanation:
-        "Le Watt est l'unité SI de la puissance, nommée d'après l'inventeur écossais James Watt.",
+        "C'est ce qui explique pourquoi un bâton plongé dans l'eau semble cassé ou courbé, car la vitesse de la lumière change dans l'eau.",
     },
     open_question: {
       question:
-        "Faut-il développer l'énergie de fusion nucléaire (qui promet une énergie quasi-illimitée et propre) au détriment de l'énergie de fission (nucléaire classique) ?",
+        "Le mécénat privé (fondations d'entreprises) est-il un substitut bienvenu ou une menace à l'art et à la culture financés par l'État ?",
       notes:
-        "Débat sur l'horizon technologique (ITER), les coûts de recherche et la nécessité d'une production d'énergie immédiate.",
+        "Discussion sur l'indépendance artistique, les priorités de financement et l'influence privée.",
     },
     did_you_know: {
-      text: "Le cri d'une mouche est appelé le 'bourdonnement'.",
+      text: "La lumière du Soleil met environ 8 minutes et 20 secondes pour atteindre la Terre.",
     },
   },
   {
     date: "2026-10-05",
     general_question: {
-      question: "Quel est le nom du plus grand océan de la Terre ?",
-      answer: "L'océan Pacifique.",
+      question:
+        "Quel pays est le berceau de la philosophie stoïcienne (Zénon de Citium) ?",
+      answer: "La Grèce antique.",
       explanation:
-        "Il est si vaste qu'il couvre près d'un tiers de la surface terrestre.",
+        "Le stoïcisme est une école de philosophie hellénistique fondée à Athènes par Zénon de Citium au IIIe siècle av. J.-C.",
     },
     open_question: {
       question:
-        "L'apprentissage des langues mortes (latin, grec ancien) est-il encore pertinent dans le système éducatif moderne ?",
+        "Le droit à la santé est-il une responsabilité individuelle ou une obligation collective prise en charge par l'État ?",
       notes:
-        "Débat sur l'importance des racines culturelles, l'étymologie et la nécessité de préparer aux métiers du futur.",
+        "Débat sur les systèmes de santé universels, les assurances privées et la prévention.",
     },
     did_you_know: {
-      text: "Le pont de Londres que l'on voit souvent en photo n'est pas le 'London Bridge' historique, mais le 'Tower Bridge'.",
+      text: "Le mot 'philosophie' signifie 'amour de la sagesse' en grec ancien (*philosophia*).",
     },
   },
   {
     date: "2026-10-06",
     general_question: {
-      question: "Quel pays a pour capitale La Havane ?",
-      answer: "Cuba.",
-      explanation: "La Havane est la capitale et la plus grande ville de Cuba.",
+      question:
+        "Quel est le nom de la galaxie où se situe notre Système Solaire ?",
+      answer: "La Voie Lactée.",
+      explanation:
+        "C'est une galaxie spirale barrée, contenant entre 100 et 400 milliards d'étoiles. Notre Soleil se trouve dans l'un de ses bras spiraux, le bras d'Orion.",
     },
     open_question: {
       question:
-        "La surveillance biométrique (empreintes, iris) dans les lieux publics est-elle une atteinte intolérable à la liberté ?",
+        "Le sport électronique ('esports') est-il un sport légitime nécessitant la même reconnaissance que le sport traditionnel ?",
       notes:
-        "Débat sur le droit à l'anonymat, la sécurité et la traçabilité des individus par l'État.",
+        "Débat sur la reconnaissance athlétique, l'entraînement, la discipline et les compétitions internationales.",
     },
     did_you_know: {
-      text: "Le mot 'alphabet' vient des deux premières lettres de l'alphabet grec : 'alpha' et 'bêta'.",
+      text: "Le centre de la Voie Lactée est obscurci par d'épaisses couches de poussière et de gaz, ce qui rend l'observation difficile en lumière visible.",
     },
   },
   {
     date: "2026-10-07",
     general_question: {
       question:
-        "Quel est le nom de l'hormone du sommeil, souvent utilisée pour traiter les troubles du sommeil ?",
-      answer: "La Mélatonine.",
+        "Quel est le nom du célèbre musée qui abrite la 'Nuit étoilée' de Vincent van Gogh ?",
+      answer: "Le Museum of Modern Art (MoMA) à New York.",
       explanation:
-        "La mélatonine est sécrétée par la glande pinéale. Sa production est stimulée par l'obscurité.",
+        "Ce tableau iconique, peint en 1889 pendant le séjour de Van Gogh à l'asile de Saint-Rémy-de-Provence, est l'une des œuvres les plus reconnaissables de l'histoire de l'art.",
     },
     open_question: {
       question:
-        "Les cryptomonnaies peuvent-elles réellement remplacer les monnaies fiduciaires traditionnelles (Euro, Dollar) ?",
+        "Le droit de vote devrait-il être obligatoire pour assurer une représentation démocratique maximale ?",
       notes:
-        "Débat sur la volatilité, la régulation, la confiance et le rôle des banques centrales.",
+        "Discussion sur la légitimité du vote, l'apathie politique et les sanctions en cas d'abstention.",
     },
     did_you_know: {
-      text: "La plus petite cellule du corps humain est le spermatozoïde, et la plus grande est l'ovule.",
+      text: "Van Gogh n'a vendu qu'un seul tableau de son vivant : *La Vigne Rouge*.",
     },
   },
   {
     date: "2026-10-08",
     general_question: {
-      question: "Quelle était la capitale de l'Empire byzantin ?",
-      answer: "Constantinople (aujourd'hui Istanbul).",
+      question: "Quelle est la capitale de l'Australie ?",
+      answer: "Canberra.",
       explanation:
-        "Fondée par l'empereur Constantin Ier en 330 apr. J.-C., elle a été le centre de l'Empire romain d'Orient.",
+        "Canberra est la capitale politique, tandis que Sydney est la ville la plus peuplée et la plus connue internationalement.",
     },
     open_question: {
       question:
-        "Faut-il limiter l'accès aux forêts et aux zones naturelles pour les protéger de la surfréquentation touristique ?",
+        "Les véhicules autonomes doivent-ils être programmés pour privilégier la vie du passager ou celle du piéton en cas d'accident inévitable ?",
       notes:
-        "Débat sur l'écotourisme, le droit d'accès à la nature et la conservation des écosystèmes.",
+        "Problème du dilemme du 'Trolley' appliqué à l'IA et aux véhicules, débat éthique sur la programmation morale.",
     },
     did_you_know: {
-      text: "Le Soleil est techniquement une étoile naine jaune de type G, mais elle est en fait blanche vue de l'espace.",
+      text: "Canberra est une ville planifiée, choisie comme capitale de compromis entre Sydney et Melbourne en 1908.",
     },
   },
   {
     date: "2026-10-09",
     general_question: {
       question:
-        "Quel est le nom de la galaxie la plus proche de la Voie Lactée ?",
-      answer: "La galaxie d'Andromède (M31).",
+        "Quel est l'élément chimique qui possède six protons et est essentiel à toute vie organique sur Terre ?",
+      answer: "Le Carbone (C).",
       explanation:
-        "Andromède est une galaxie spirale géante située à environ 2,5 millions d'années-lumière et est en trajectoire de collision avec la Voie Lactée.",
+        "Le carbone forme la base des molécules organiques (protéines, ADN, lipides) grâce à sa capacité à former quatre liaisons chimiques stables.",
     },
     open_question: {
       question:
-        "Le système de notation 'âge légal de consommation' pour l'alcool et le tabac est-il efficace ou devrait-on privilégier l'éducation ?",
+        "Le rôle des influenceurs est-il un phénomène de mode passager ou une nouvelle forme de pouvoir médiatique et économique durable ?",
       notes:
-        "Débat sur les lois restrictives, la responsabilité individuelle et la prévention des risques.",
+        "Discussion sur l'évolution du marketing, la confiance du public et la réglementation des contenus.",
     },
     did_you_know: {
-      text: "La 'Zone de l'Océan Pacifique' est si lointaine qu'il y a plus de chance d'y rencontrer un astronaute que n'importe qui d'autre (c'est le cimetière des engins spatiaux).",
+      text: "Tous les diamants et le graphite sont constitués uniquement d'atomes de carbone, arrangés différemment.",
     },
   },
   {
     date: "2026-10-10",
     general_question: {
-      question: "Quel est le nom du plus grand lac salé du monde ?",
-      answer: "La Mer Caspienne.",
+      question:
+        "Quel est le plus long fleuve d'Europe, qui se jette dans la mer Caspienne ?",
+      answer: "La Volga.",
       explanation:
-        "Bien qu'appelée 'mer', elle est techniquement le plus grand lac du monde en superficie (environ $371 000 \text{km}^2$).",
+        "Elle coule entièrement en Russie et est d'une importance cruciale pour l'irrigation, la production hydroélectrique et le transport.",
     },
     open_question: {
       question:
-        "L'éducation religieuse devrait-elle être laissée entièrement aux familles et aux institutions religieuses, ou faire partie de l'école publique ?",
+        "Faut-il interdire l'élevage intensif des animaux pour des raisons éthiques, sanitaires et environnementales ?",
       notes:
-        "Débat sur la neutralité de l'État, le pluralisme et la transmission des valeurs.",
+        "Discussion sur le bien-être animal, les coûts de la viande et la sécurité alimentaire.",
     },
     did_you_know: {
-      text: "Le corps humain est constitué d'environ 60% d'eau.",
+      text: "La Volga est si large à certains endroits qu'il est impossible de voir l'autre rive.",
     },
   },
   {
     date: "2026-10-11",
     general_question: {
       question:
-        "Quel est le principal composant de la coquille d'un œuf de poule ?",
-      answer: "Le Carbonate de Calcium ($\text{CaCO}_3$).",
+        "Quel est l'élément chimique symbolisé par 'Au' et connu pour sa résistance à la corrosion ?",
+      answer: "L'or (Aurum).",
       explanation:
-        "Le carbonate de calcium est une substance très solide qui protège l'œuf.",
+        "L'or est un métal précieux et inaltérable. Son nom latin, *Aurum*, signifie 'brillant' ou 'lueur de l'aube'.",
     },
     open_question: {
       question:
-        "Faut-il taxer davantage les produits importés pour encourager la production locale et réduire l'empreinte carbone du transport ?",
+        "Les classes préparatoires et les grandes écoles sont-elles le meilleur modèle pour former l'élite d'une nation ?",
       notes:
-        "Débat sur le protectionnisme, les accords commerciaux internationaux et l'autonomie alimentaire.",
+        "Débat sur l'égalité des chances, l'élitisme et la diversité des parcours éducatifs.",
     },
     did_you_know: {
-      text: "Le seul continent qui n'a pas de glaciers est l'Australie.",
+      text: "L'océan contient environ 20 millions de tonnes d'or en suspension, mais il est trop dilué pour être extrait de manière rentable.",
     },
   },
   {
     date: "2026-10-12",
     general_question: {
       question:
-        "Qui est l'auteur des romans policiers 'Dix Petits Nègres' et 'Le Crime de l'Orient-Express' ?",
-      answer: "Agatha Christie.",
+        "Dans quel sport est attribué le trophée appelé 'La Coupe Stanley' ?",
+      answer: "Le hockey sur glace.",
       explanation:
-        "Agatha Christie est l'une des romancières les plus vendues de tous les temps.",
+        "C'est le trophée remis chaque année à l'équipe championne des séries éliminatoires de la Ligue nationale de hockey (NHL).",
     },
     open_question: {
       question:
-        "L'accès à l'information sur Internet devrait-il être payant pour garantir la qualité et la pérennité du journalisme ?",
+        "Le système du collège/lycée unique est-il le plus efficace pour l'épanouissement des élèves ou faut-il introduire une sélection plus précoce ?",
       notes:
-        "Débat sur le 'paywall', le modèle économique des médias et l'accès gratuit à la connaissance.",
+        "Débat sur l'orientation, l'égalité des chances et les besoins éducatifs différenciés.",
     },
     did_you_know: {
-      text: "Le mot 'nerd' (intello) a été inventé par le Dr Seuss dans son livre 'If I Ran the Zoo' en 1950.",
+      text: "Le mot 'hockey' pourrait venir du vieux français *hoquet*, signifiant 'bâton courbé'.",
     },
   },
   {
     date: "2026-10-13",
     general_question: {
-      question:
-        "Quel est le nom du célèbre musée du Royaume-Uni, connu pour abriter la Pierre de Rosette ?",
-      answer: "Le British Museum.",
+      question: "Quel est le nom du plus grand désert de glace du monde ?",
+      answer: "L'Antarctique.",
       explanation:
-        "Situé à Londres, le British Museum possède des collections couvrant l'histoire, l'art et la culture humaines.",
+        "L'Antarctique est considéré comme le plus grand désert au monde (le plus grand désert de sable est le Sahara), car les précipitations y sont extrêmement faibles.",
     },
     open_question: {
       question:
-        "Faut-il encourager les 'biens partagés' (voitures, outils, logements) pour lutter contre la surconsommation et l'individualisme ?",
+        "Le tourisme spatial devrait-il être encouragé malgré son coût environnemental et social élevé ?",
       notes:
-        "Débat sur l'économie collaborative, la propriété privée et l'efficacité des ressources.",
+        "Débat sur la justification des dépenses et de l'empreinte carbone pour l'exploration privée de l'espace.",
     },
     did_you_know: {
-      text: "Les nuages ne sont pas composés de vapeur d'eau (qui est un gaz invisible), mais de minuscules gouttelettes d'eau liquide ou de cristaux de glace en suspension.",
+      text: "Le traité de l'Antarctique de 1959 réserve le continent exclusivement à la recherche scientifique, interdisant toute activité militaire ou minière.",
     },
   },
-
-  // Jours 294 à 324 : Octobre (18 jours restants) & Novembre 2026 (13 premiers jours)
   {
     date: "2026-10-14",
     general_question: {
-      question: "Quel est le plus haut sommet d'Afrique ?",
-      answer: "Le Mont Kilimandjaro.",
+      question:
+        "Quel est le nom de l'explorateur vénitien célèbre pour avoir documenté ses voyages en Asie, notamment en Chine, au XIIIe siècle ?",
+      answer: "Marco Polo.",
       explanation:
-        "Situé en Tanzanie, il est le plus haut sommet isolé du monde.",
+        "Son livre, *Le Livre des Merveilles du Monde* (ou *Il Milione*), a servi de source d'inspiration pour de nombreux explorateurs ultérieurs.",
     },
     open_question: {
       question:
-        "Le droit au suicide assisté devrait-il être étendu aux personnes qui ne sont pas en phase terminale, mais dont la souffrance psychologique est jugée insupportable ?",
+        "Le droit des animaux devrait-il être réformé pour accorder une 'personnalité morale' aux animaux les plus évolués (grands singes, cétacés) ?",
       notes:
-        "Débat sur l'autonomie, l'évaluation de la souffrance et la définition de la dignité de la fin de vie.",
+        "Débat sur le statut légal des animaux, l'éthique et les conséquences sur l'expérimentation et l'élevage.",
     },
     did_you_know: {
-      text: "Le plus long règne d'un monarque britannique est celui de la Reine Élisabeth II, qui a régné pendant plus de 70 ans.",
+      text: "Marco Polo aurait passé 17 ans au service de Kubilai Khan, petit-fils de Gengis Khan.",
     },
   },
   {
     date: "2026-10-15",
     general_question: {
       question:
-        "Quel est le nom du traité qui a mis fin à la Première Guerre mondiale ?",
-      answer: "Le Traité de Versailles.",
+        "Quel est l'organe qui produit la bile, essentielle à la digestion des graisses ?",
+      answer: "Le foie.",
       explanation:
-        "Signé le 28 juin 1919, il a officiellement mis fin au conflit entre les Alliés et l'Allemagne.",
+        "La bile est ensuite stockée dans la vésicule biliaire avant d'être libérée dans l'intestin grêle.",
     },
     open_question: {
       question:
-        "L'humanité devrait-elle se concentrer sur la conservation des espèces menacées ou sur la restauration des écosystèmes entiers ?",
+        "Le service militaire ou civil obligatoire pour les jeunes est-il un outil efficace d'intégration et de cohésion nationale ?",
       notes:
-        "Débat sur les priorités de la biodiversité : protéger l'emblématique ou le fonctionnel.",
+        "Discussion sur l'utilité, la contrainte individuelle et l'apprentissage de la citoyenneté.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas, elles ont de courtes périodes de repos de quelques minutes, plusieurs fois par jour.",
+      text: "Le foie est l'organe interne le plus lourd du corps humain, représentant environ 1,5 kg chez un adulte.",
     },
   },
   {
     date: "2026-10-16",
     general_question: {
       question:
-        "Quel est le nom de la force qui s'oppose au mouvement dans l'air ou dans un liquide ?",
-      answer: "La Traînée (ou Résistance de l'air/fluide).",
+        "Quel est le nom du célèbre musée qui abrite 'La Cène' de Léonard de Vinci ?",
+      answer: "Le couvent de Santa Maria delle Grazie (Milan, Italie).",
       explanation:
-        "La traînée est la force de friction qui agit parallèlement à la vitesse du fluide et s'oppose au mouvement.",
+        "Contrairement à une toile, 'La Cène' est une fresque murale peinte sur le mur du réfectoire du couvent.",
     },
     open_question: {
       question:
-        "Faut-il introduire le droit à l'erreur fiscale pour les citoyens de bonne foi, sans pénalité lourde ?",
+        "Le concept de 'travail pour la vie' a-t-il disparu au profit de carrières plus courtes et variées ?",
       notes:
-        "Débat sur la complexité de l'administration, la confiance de l'État envers le citoyen et les sanctions.",
+        "Débat sur la précarité, la reconversion professionnelle et la gestion de carrière par l'individu.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "Léonard de Vinci a utilisé une technique expérimentale pour peindre *La Cène*, ce qui a malheureusement conduit à sa détérioration rapide au fil des siècles.",
     },
   },
   {
     date: "2026-10-17",
     general_question: {
-      question: "Quelle est la capitale de l'Inde ?",
-      answer: "New Delhi.",
-      explanation: "New Delhi est la capitale de l'Inde.",
+      question:
+        "Quel est le nom de la maladie où le corps ne produit pas assez d'insuline (type 1) ou n'y répond pas correctement (type 2) ?",
+      answer: "Le diabète.",
+      explanation:
+        "L'insuline est essentielle pour permettre au glucose d'entrer dans les cellules et fournir de l'énergie. Sans elle, le taux de sucre dans le sang augmente.",
     },
     open_question: {
       question:
-        "L'enseignement doit-il se faire uniquement en présentiel pour garantir la qualité ou doit-on généraliser l'enseignement en ligne ?",
+        "Le télétravail généralisé est-il bénéfique ou néfaste pour la cohésion d'équipe et l'innovation en entreprise ?",
       notes:
-        "Débat sur l'interactivité sociale, l'accès à distance et l'efficacité des plateformes numériques.",
+        "Débat sur l'équilibre entre flexibilité individuelle et dynamique collective au travail.",
     },
     did_you_know: {
-      text: "Les étoiles filantes ne sont pas des étoiles, mais de petites particules de débris (météoroïdes) qui se désintègrent en entrant dans l'atmosphère terrestre.",
+      text: "Le mot 'diabète' vient du grec *diabētes*, signifiant 'qui passe à travers', faisant référence à l'élimination rapide de l'urine sucrée.",
     },
   },
   {
     date: "2026-10-18",
     general_question: {
-      question: "Qui a peint 'Le Serment des Horaces' ?",
-      answer: "Jacques-Louis David.",
+      question:
+        "Quel est le nom du plus grand volcan actif en Europe, situé en Sicile ?",
+      answer: "L'Etna.",
       explanation:
-        "Ce tableau néoclassique (1784) est considéré comme un chef-d'œuvre qui illustre les vertus civiques et le devoir envers la patrie.",
+        "Il culmine à plus de 3 300 mètres et est l'un des volcans les plus actifs et des plus hauts d'Europe.",
     },
     open_question: {
       question:
-        "Le droit de vote devrait-il être conditionné à la réussite d'un test de connaissances civiques de base ?",
+        "Faut-il imposer des limites aux multinationales en matière d'optimisation fiscale (évasion fiscale légale) ?",
       notes:
-        "Débat sur la compétence de l'électeur, l'élitisme et l'universalité du suffrage.",
+        "Débat sur les impôts minimums mondiaux, la concurrence fiscale et l'équité des contributions.",
     },
     did_you_know: {
-      text: "La première personne à faire le tour du monde en solitaire et sans escale a été l'Australien Jon Sanders en 1988.",
+      text: "L'Etna est un volcan de type 'effusif', ce qui signifie que ses éruptions sont souvent caractérisées par des coulées de lave lentes plutôt que des explosions violentes.",
     },
   },
   {
     date: "2026-10-19",
     general_question: {
       question:
-        "Quel est le nom de la plus grande baie du monde (par sa ligne côtière) ?",
-      answer: "La baie d'Hudson.",
+        "Quel est le nom de l'instrument qui utilise le son (ondes sonores) pour détecter les objets sous-marins ?",
+      answer: "Le Sonar (Sound Navigation and Ranging).",
       explanation:
-        "Située dans le nord-est du Canada, la baie d'Hudson est la deuxième plus grande baie du monde après le golfe du Mexique.",
+        "Le sonar est crucial pour la marine, la détection de sous-marins, et la cartographie des fonds marins.",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être obligées de partager leurs profits avec leurs employés (intéressement) ?",
+        "Faut-il interdire la chasse de loisir pour préserver la biodiversité et l'équilibre des écosystèmes ?",
       notes:
-        "Débat sur le capitalisme, la participation des salariés et la redistribution des richesses.",
+        "Débat sur la régulation des populations animales, les traditions locales et l'éthique animale.",
     },
     did_you_know: {
-      text: "Le seul chiffre dont l'orthographe contient la lettre 'a' est 'quatre'.",
+      text: "Le mot 'sonar' est un acronyme de l'anglais *Sound Navigation and Ranging*.",
     },
   },
   {
     date: "2026-10-20",
     general_question: {
-      question: "Qui est l'auteur du roman 'Le Petit Prince' ?",
-      answer: "Antoine de Saint-Exupéry.",
+      question:
+        "Quel est le nom du plus grand lac salé du monde, souvent qualifié de mer ?",
+      answer: "La Mer Caspienne.",
       explanation:
-        "Publié en 1943, ce conte philosophique est l'un des livres les plus traduits et vendus au monde.",
+        "Elle est en réalité le plus grand lac endoréique (sans exutoire vers l'océan) au monde, bordée par cinq pays.",
     },
     open_question: {
       question:
-        "Le système de santé occidental (traitement des maladies) est-il trop dépendant des grandes entreprises pharmaceutiques ?",
-      notes: "Débat sur le lobbying, les brevets et la recherche indépendante.",
+        "Faut-il imposer une taxe carbone aux frontières pour protéger l'industrie nationale et inciter les autres pays à réduire leurs émissions ?",
+      notes:
+        "Débat sur la protectionnisme, les règles de l'OMC et l'efficacité climatique.",
     },
     did_you_know: {
-      text: "Le mot 'chèque' vient du mot persan 'sak' qui signifie 'mandat ou document légal'.",
+      text: "La Mer Caspienne a perdu environ 40 % de sa superficie depuis 1970 en raison de la diminution des apports des fleuves (notamment la Volga) et du changement climatique.",
     },
   },
   {
     date: "2026-10-21",
     general_question: {
       question:
-        "Quel était le nom de l'explorateur vénitien qui a parcouru la Route de la soie au $\text{XIII}^e$ siècle ?",
-      answer: "Marco Polo.",
+        "Quel est le nom de l'empereur romain célèbre pour avoir fait construire un mur défensif à travers le nord de la Grande-Bretagne au IIe siècle ?",
+      answer: "Hadrien.",
       explanation:
-        "Son livre, Le Livre des merveilles, a documenté ses voyages en Asie.",
+        "Le Mur d'Hadrien, long de 117 kilomètres, marquait la frontière septentrionale de l'Empire romain en Grande-Bretagne.",
     },
     open_question: {
       question:
-        "Faut-il encourager les 'monnaies locales' (complémentaires) pour favoriser l'économie circulaire et le commerce de proximité ?",
+        "Le droit à l'avortement est-il un droit fondamental absolu ou doit-il être soumis à certaines restrictions ?",
       notes:
-        "Débat sur l'impact sur l'économie nationale, la fraude et la confiance dans les monnaies alternatives.",
+        "Débat éthique et légal sur la temporalité, la conscience médicale et les motifs d'interruption de grossesse.",
     },
     did_you_know: {
-      text: "La plus ancienne université du monde toujours en activité est l'Université Al Quaraouiyine, fondée à Fès, Maroc, en 859.",
+      text: "Le Mur d'Hadrien était gardé par environ 15 000 soldats romains et non pas par un petit nombre comme on le pense souvent.",
     },
   },
   {
     date: "2026-10-22",
     general_question: {
-      question:
-        "Quel est le nom du gaz noble utilisé pour éclairer les panneaux publicitaires et les tubes néon (couleur rouge-orange) ?",
-      answer: "Le Néon (Ne).",
+      question: "Quelle est la capitale de l'Égypte ?",
+      answer: "Le Caire.",
       explanation:
-        "Le néon émet une lumière rouge-orange vif lorsqu'il est sous tension électrique.",
+        "Le Caire est la plus grande ville d'Afrique et du monde arabe, située près de la base du delta du Nil.",
     },
     open_question: {
       question:
-        "Le recours au tir de barrage pour la protection des cultures contre les animaux (loups, sangliers) est-il éthiquement acceptable ?",
+        "Le revenu universel de base est-il une solution viable pour l'automatisation croissante des emplois ?",
       notes:
-        "Débat sur la coexistence homme-faune, la protection des espèces et l'économie agricole.",
+        "Discussion sur son coût, son impact sur l'incitation au travail et la réduction de la pauvreté.",
     },
     did_you_know: {
-      text: "Le mot 'samouraï' vient du mot japonais 'saburau', qui signifie 'servir'.",
+      text: "Le Caire est l'une des villes les plus polluées au monde, en grande partie à cause de la circulation automobile intense.",
     },
   },
   {
     date: "2026-10-23",
     general_question: {
-      question: "Quel fleuve est considéré comme le plus sacré de l'Inde ?",
-      answer: "Le Gange (Ganga).",
-      explanation: "Le Gange est vénéré par les hindous comme la déesse Ganga.",
+      question:
+        "Quel est le nom de l'effet optique qui donne l'impression que la lumière est plus bleue par temps clair que par temps nuageux ?",
+      answer: "La diffusion Rayleigh.",
+      explanation:
+        "Cet effet explique pourquoi le ciel est bleu : les molécules d'air diffusent la lumière bleue plus efficacement que les autres couleurs.",
     },
     open_question: {
       question:
-        "La surveillance des frontières par des drones et des capteurs est-elle une solution technologique viable et humaine à la crise migratoire ?",
+        "Les monnaies numériques de banque centrale (MNBC) doivent-elles remplacer l'argent liquide traditionnel ?",
       notes:
-        "Débat sur la sécurité, le droit d'asile et la déshumanisation des contrôles.",
+        "Discussion sur la surveillance financière, l'inclusion bancaire et la stabilité économique.",
     },
     did_you_know: {
-      text: "Le drapeau olympique, avec ses cinq anneaux, a été conçu en 1913.",
+      text: "Les couchers de soleil sont rouges et oranges parce que la lumière traverse une plus grande épaisseur d'atmosphère, filtrant la lumière bleue et ne laissant passer que le rouge et l'orange.",
     },
   },
   {
     date: "2026-10-24",
     general_question: {
       question:
-        "Quelle est la principale source de Vitamine $\text{D}$ pour le corps humain ?",
-      answer: "Le Soleil (exposition aux rayons UV).",
+        "Quel est l'élément chimique symbolisé par 'K' et essentiel au bon fonctionnement des nerfs et des muscles ?",
+      answer: "Le Potassium (Kalium).",
       explanation:
-        "L'exposition au soleil permet à la peau de synthétiser la Vitamine $\text{D}$.",
+        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique *Kalium*.",
     },
     open_question: {
       question:
-        "Le tabac (ou la nicotine) devrait-il être totalement interdit pour les générations nées après 2010 ?",
+        "L'exploration et la commercialisation des astéroïdes (exploitation minière spatiale) sont-elles le futur de l'humanité ?",
       notes:
-        "Débat sur la santé publique, l'interdiction générationnelle et le droit individuel de fumer.",
+        "Discussion sur la faisabilité technique, les traités internationaux (espace), et le risque de pollution spatiale.",
     },
     did_you_know: {
-      text: "Une année sur Mars dure 687 jours terrestres (soit presque deux fois plus qu'une année terrestre).",
+      text: "Une carence en potassium peut provoquer des crampes musculaires et des problèmes cardiaques.",
     },
   },
   {
     date: "2026-10-25",
     general_question: {
       question:
-        "Quel est le nom de la force qui maintient l'eau à la surface d'un verre, malgré la gravité ?",
-      answer: "La Tension de surface.",
+        "Quel est le nom de la péninsule asiatique qui comprend les pays de l'Inde, du Pakistan et du Bangladesh ?",
+      answer: "Le sous-continent indien.",
       explanation:
-        "La tension de surface est le phénomène par lequel la surface d'un liquide se comporte comme une membrane élastique.",
+        "Il est bordé au nord par l'Himalaya et est géographiquement distinct du reste de l'Asie.",
     },
     open_question: {
       question:
-        "La 'Fast Fashion' (mode rapide) devrait-elle être limitée par des lois pour réduire son impact environnemental et social ?",
+        "Les multinationales ont-elles trop de pouvoir sur les gouvernements et les décisions politiques (lobbying, évasion fiscale) ?",
       notes:
-        "Débat sur la production de vêtements jetables, la pollution et les conditions de travail dans l'industrie textile.",
+        "Débat sur la corruption légale, la souveraineté nationale et la régulation internationale.",
     },
     did_you_know: {
-      text: "L'œil d'autruche est plus grand que son cerveau.",
+      text: "Le sous-continent indien abrite les trois quarts des tigres sauvages du monde.",
     },
   },
   {
     date: "2026-10-26",
     general_question: {
-      question: "Quel est le nom de la déesse grecque de la victoire ?",
-      answer: "Nikè.",
-      explanation: "Nikè (ou Nike) est souvent représentée ailée.",
+      question:
+        "Qui est le physicien italien qui a inventé la première pile électrique moderne au début du XIXe siècle ?",
+      answer: "Alessandro Volta.",
+      explanation:
+        "La 'pile voltaïque' a été la première source continue d'électricité, marquant le début de l'électrochimie. L'unité de tension électrique, le Volt, porte son nom.",
     },
     open_question: {
       question:
-        "Faut-il imposer des limites de vitesse globales sur Internet (débit) pour réduire la consommation d'énergie des centres de données ?",
+        "Le sport professionnel moderne est-il un modèle d'excellence athlétique ou une machine de divertissement hyper-commercialisée ?",
       notes:
-        "Débat sur l'écologie numérique, la performance et l'accès à la haute vitesse.",
+        "Discussion sur les salaires, les droits de diffusion, le dopage et l'esprit olympique.",
     },
     did_you_know: {
-      text: "La Terre est la planète la plus dense du système solaire.",
+      text: "Le terme 'Volt' a été choisi en 1881 lors du Congrès international des électriciens à Paris, en hommage à Alessandro Volta.",
     },
   },
   {
     date: "2026-10-27",
     general_question: {
       question:
-        "Quel est le seul pays d'Europe qui partage une frontière terrestre avec le Danemark ?",
-      answer: "L'Allemagne.",
+        "Quel est l'organe qui produit la bile, essentielle à la digestion des graisses ?",
+      answer: "Le foie.",
       explanation:
-        "Le Danemark est en grande partie entouré d'eau, mais partage une courte frontière terrestre avec l'Allemagne au sud (Jutland).",
+        "La bile est ensuite stockée dans la vésicule biliaire avant d'être libérée dans l'intestin grêle.",
     },
     open_question: {
       question:
-        "La vaccination contre les maladies infantiles (Rougeole, etc.) devrait-elle être strictement obligatoire pour l'inscription à l'école ?",
+        "Le concept de 'nation' et d'identité nationale est-il obsolète à l'ère de la mondialisation et des identités multiples ?",
       notes:
-        "Débat sur l'immunité collective, la liberté de choix des parents et la santé publique.",
+        "Discussion sur le nationalisme, le cosmopolitisme et le multiculturalisme.",
     },
     did_you_know: {
-      text: "Un 'joli' (unité de mesure) est utilisé pour définir le travail effectué par une force.",
+      text: "Le foie peut se régénérer : il peut reprendre sa taille normale même si 75 % de sa masse a été enlevée chirurgicalement.",
     },
   },
   {
     date: "2026-10-28",
     general_question: {
       question:
-        "Quel écrivain français est l'auteur des essais philosophiques 'L'Étranger' et 'La Peste' ?",
-      answer: "Albert Camus.",
+        "Quel est le nom de la membrane qui recouvre et protège le cerveau et la moelle épinière ?",
+      answer: "Les méninges.",
       explanation:
-        "Camus était un philosophe, écrivain et lauréat du prix Nobel de littérature (1957).",
+        "Les méninges sont composées de trois couches : la dure-mère, l'arachnoïde et la pie-mère.",
     },
     open_question: {
       question:
-        "Les banques devraient-elles cesser de financer les projets d'énergies fossiles pour accélérer la transition écologique ?",
+        "Le boycott des entreprises qui ne respectent pas certaines normes éthiques (environnement, travail) est-il un outil efficace de changement social ?",
       notes:
-        "Débat sur la finance verte, la responsabilité des institutions financières et l'approvisionnement énergétique.",
+        "Discussion sur l'impact économique réel, le 'greenwashing' et le pouvoir du consommateur.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "L'inflammation des méninges est appelée méningite.",
     },
   },
   {
     date: "2026-10-29",
     general_question: {
-      question: "Quelle est la capitale de l'Islande ?",
-      answer: "Reykjavik.",
-      explanation: "Reykjavik est la capitale la plus septentrionale du monde.",
+      question:
+        "Quel est le nom de la mission Apollo qui a marqué le premier pas de l'homme sur la Lune en 1969 ?",
+      answer: "Apollo 11.",
+      explanation:
+        "Neil Armstrong fut le premier homme à marcher sur la Lune le 20 juillet 1969, suivi par Buzz Aldrin.",
     },
     open_question: {
       question:
-        "Les écoles devraient-elles interdire l'utilisation des écrans (smartphones, tablettes) en classe, même à des fins pédagogiques ?",
+        "Le système de permis de conduire devrait-il être réévalué plus fréquemment pour les personnes âgées pour garantir la sécurité routière ?",
       notes:
-        "Débat sur la distraction, les outils numériques éducatifs et l'impact sur la concentration des élèves.",
+        "Débat sur l'autonomie, la capacité physique et les discriminations liées à l'âge.",
     },
     did_you_know: {
-      text: "La 'Journée mondiale de l'environnement' est célébrée chaque 5 juin.",
+      text: "La Lune est le seul corps céleste (hors la Terre) sur lequel des humains ont marché.",
     },
   },
   {
     date: "2026-10-30",
     general_question: {
       question:
-        "Quel événement majeur de la Seconde Guerre mondiale est commémoré le 6 juin ?",
-      answer: "Le débarquement de Normandie (D-Day).",
+        "Qui est le mathématicien connu pour avoir défini le concept de 'nombre imaginaire' (la racine carrée de -1) ?",
+      answer:
+        "René Descartes (bien que popularisé par d'autres, il a introduit le terme 'imaginaire').",
       explanation:
-        "Le 6 juin 1944, les forces alliées ont lancé l'assaut amphibie le plus important de l'histoire.",
+        "Le concept fut exploré par Cardano, mais le terme 'nombre imaginaire' fut inventé par Descartes en 1637. L'unité imaginaire est désignée par $i$ ($i^2 = -1$).",
     },
     open_question: {
       question:
-        "Faut-il imposer une 'taxe sur la malbouffe' pour financer la prévention des maladies liées à l'alimentation ?",
+        "Le droit des auteurs et artistes doit-il être révisé à l'ère des contenus générés par l'IA (texte, art, musique) ?",
       notes:
-        "Débat sur la fiscalité comportementale, la liberté de consommation et l'impact sur les revenus modestes.",
+        "Discussion sur la paternité des œuvres, l'entraînement des modèles d'IA sur des données protégées et la rémunération des créateurs.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas ; elles ont de courtes périodes de repos de quelques minutes.",
+      text: "Descartes est également célèbre pour sa formule philosophique 'Cogito ergo sum' ('Je pense, donc je suis').",
     },
   },
   {
     date: "2026-10-31",
     general_question: {
       question:
-        "Quel est le nom de la couche de l'atmosphère terrestre qui absorbe la majeure partie du rayonnement ultraviolet du Soleil ?",
-      answer: "La couche d'Ozone.",
+        "Quelle fête est célébrée dans de nombreux pays occidentaux le 31 octobre, principalement associée aux costumes et aux citrouilles sculptées ?",
+      answer: "Halloween.",
       explanation:
-        "Située principalement dans la stratosphère, la couche d'ozone ($\text{O}_3$) est essentielle pour protéger la vie sur Terre.",
+        "Elle trouve ses origines dans la fête celtique de Samain, marquant la fin de l'été et le début de l'année celtique.",
     },
     open_question: {
       question:
-        "Les robots devraient-ils payer des impôts ou des cotisations sociales pour compenser les emplois qu'ils suppriment ?",
+        "Le droit à l'oubli numérique devrait-il être absolu ou limité par l'intérêt historique et la liberté d'expression ?",
       notes:
-        "Débat sur la 'taxe robot', le financement de la protection sociale et la définition du travail à l'ère de l'automatisation.",
+        "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
     },
     did_you_know: {
-      text: "Le mot 'radar' est un acronyme signifiant 'Radio Detection And Ranging'.",
+      text: "Le mot 'Halloween' est une contraction de l'anglais *All Hallows' Eve*, signifiant la veille de la Toussaint.",
     },
   },
+
+  // --- Novembre 2026 (30 jours) ---
   {
     date: "2026-11-01",
     general_question: {
       question:
-        "Quel animal marin est le plus grand invertébré (sans colonne vertébrale) connu ?",
-      answer: "Le calmar colossal (Mesonychoteuthis hamiltoni).",
+        "Quel est le nom de la galaxie la plus proche de la Voie Lactée (notre galaxie) ?",
+      answer: "La galaxie d'Andromède (M31).",
       explanation:
-        "Le calmar colossal est généralement plus lourd et détient le record du plus grand œil du monde animal.",
+        "Elle est située à environ 2,5 millions d'années-lumière et est en trajectoire de collision avec la Voie Lactée dans environ 4,5 milliards d'années.",
     },
     open_question: {
       question:
-        "Le système de notation 'âge légal de consommation' pour l'alcool et le tabac est-il efficace ou devrait-on privilégier l'éducation ?",
+        "La peine de prison est-elle avant tout punitive ou doit-elle être réhabilitatrice pour permettre la réinsertion sociale ?",
       notes:
-        "Débat sur les lois restrictives, la responsabilité individuelle et la prévention des risques.",
+        "Débat sur la surpopulation carcérale, les taux de récidive et les alternatives à l'incarcération.",
     },
     did_you_know: {
-      text: "La 'Journée mondiale des océans' est célébrée chaque 8 juin.",
+      text: "Le 1er novembre est la Toussaint, une fête chrétienne dédiée à tous les saints.",
     },
   },
   {
     date: "2026-11-02",
     general_question: {
       question:
-        "Qui a peint 'Les Noces de Cana', la plus grande toile du musée du Louvre ?",
-      answer: "Paul Véronèse.",
+        "Quel est l'élément chimique symbolisé par 'Na', essentiel pour l'équilibre hydrique et la fonction nerveuse ?",
+      answer: "Le Sodium (Natrium).",
       explanation:
-        "Cette œuvre massive (6,77 m par 9,94 m) représente le premier miracle de Jésus-Christ.",
+        "Le sodium est un métal alcalin. Son nom latin, *Natrium*, lui a donné son symbole chimique 'Na'.",
     },
     open_question: {
       question:
-        "La censure de contenu sur Internet par les plateformes privées est-elle une protection nécessaire ou une atteinte à la liberté d'expression ?",
+        "Le concept de 'croissance infinie' dans une planète aux ressources finies est-il une contradiction fondamentale ?",
       notes:
-        "Débat sur la modération du contenu, la responsabilité des grandes entreprises technologiques et les abus potentiels.",
+        "Discussion sur la croissance verte, la décroissance et l'économie circulaire.",
     },
     did_you_know: {
-      text: "La Russie possède la plus longue frontière terrestre du monde, s'étendant sur plus de 22 400 km à travers 14 pays.",
+      text: "Le sel de table commun est composé de chlorure de sodium (NaCl).",
     },
   },
   {
     date: "2026-11-03",
     general_question: {
       question:
-        "Quel est le plus grand désert de sable au monde (hors régions polaires) ?",
-      answer: "Le Sahara.",
+        "Quel est le nom de la ville italienne où se trouve le célèbre Colisée ?",
+      answer: "Rome.",
       explanation:
-        "Le Sahara, qui couvre une grande partie de l'Afrique du Nord, est le plus grand désert chaud.",
+        "Le Colisée, ou Amphithéâtre Flavien, est le plus grand amphithéâtre jamais construit et est devenu un symbole de la Rome impériale.",
     },
     open_question: {
       question:
-        "Le tourisme de masse est-il compatible avec la préservation des sites historiques et naturels ?",
+        "Les entreprises technologiques (GAFA) sont-elles devenues trop puissantes et doivent-elles être démantelées (lois antitrust) ?",
       notes:
-        "Débat sur les quotas d'accès, la dégradation des sites (ex: Venise, Machu Picchu) et l'économie locale.",
+        "Discussion sur le monopole, la concurrence, la protection des données et le lobbying politique.",
     },
     did_you_know: {
-      text: "Les escargots ont environ 14 000 dents, situées sur leur langue appelée radula.",
+      text: "Le Colisée pouvait être rempli d'eau pour des simulations de batailles navales (Naumachies), bien que ce point soit toujours débattu par les historiens.",
     },
   },
   {
     date: "2026-11-04",
     general_question: {
-      question: "Quelle est l'unité de mesure de la force ?",
-      answer: "Le Newton (N).",
+      question:
+        "Quel est le nom de la force qui attire les objets dotés de masse les uns vers les autres ?",
+      answer: "La Gravité (ou gravitation).",
       explanation:
-        "Nommé d'après Isaac Newton, $1 \text{Newton}$ est la force nécessaire pour accélérer une masse de $1 \text{kg}$ à raison de $1 \text{m/s}^2$ ($F = ma$).",
+        "La gravité est l'une des quatre forces fondamentales de la nature et est responsable du mouvement des planètes et des étoiles.",
     },
     open_question: {
       question:
-        "Les gouvernements devraient-ils imposer un temps de 'déconnexion' numérique obligatoire pour les citoyens ?",
+        "Le droit des auteurs et artistes doit-il être révisé à l'ère des contenus générés par l'IA (texte, art, musique) ?",
       notes:
-        "Débat sur le droit à la tranquillité, l'hyperconnexion et la santé mentale collective.",
+        "Discussion sur la paternité des œuvres, l'entraînement des modèles d'IA sur des données protégées et la rémunération des créateurs.",
     },
     did_you_know: {
-      text: "Le seul État des États-Unis à produire du café est Hawaï.",
+      text: "La Terre n'est pas parfaitement ronde. Elle est légèrement renflée à l'équateur à cause de la force centrifuge créée par sa rotation.",
     },
   },
   {
     date: "2026-11-05",
     general_question: {
       question:
-        "Quel pays a remporté la première Coupe du Monde de football organisée en Afrique (2010) ?",
-      answer: "L'Espagne.",
-      explanation: "L'Espagne a battu les Pays-Bas en finale à Johannesburg.",
+        "Quel est le nom du célèbre document adopté le 4 juillet 1776, proclamant l'indépendance des États-Unis ?",
+      answer: "La Déclaration d'Indépendance.",
+      explanation:
+        "Elle a été principalement rédigée par Thomas Jefferson et déclare que les 13 colonies sont des États libres et indépendants de la Grande-Bretagne.",
     },
     open_question: {
       question:
-        "Faut-il mettre fin au secret bancaire dans tous les pays pour lutter contre l'évasion fiscale et le blanchiment d'argent ?",
+        "Le boycott des entreprises qui ne respectent pas certaines normes éthiques (environnement, travail) est-il un outil efficace de changement social ?",
       notes:
-        "Débat sur la souveraineté fiscale, la protection des données et la justice économique mondiale.",
+        "Discussion sur l'impact économique réel, le 'greenwashing' et le pouvoir du consommateur.",
     },
     did_you_know: {
-      text: "La température la plus chaude jamais enregistrée sur Terre est de $56,7^{circ}\text{C}$ dans la Vallée de la Mort, en Californie, en 1913.",
+      text: "Au Royaume-Uni, le 5 novembre est la 'Guy Fawkes Night' (Nuit des Feux de Joie), commémorant l'échec de la Conspiration des Poudres en 1605.",
     },
   },
   {
     date: "2026-11-06",
     general_question: {
       question:
-        "Qui a inventé l'imprimerie à caractères mobiles en Europe au $\text{XV}^e$ siècle ?",
-      answer: "Johannes Gutenberg.",
+        "Quel est le nom de l'instrument qui mesure les tremblements de terre ?",
+      answer: "Le sismographe (ou sismomètre).",
       explanation:
-        "Son invention (vers 1440) a permis la diffusion rapide du savoir.",
+        "Il enregistre l'amplitude et la durée des ondes sismiques et permet de localiser l'épicentre d'un séisme.",
     },
     open_question: {
       question:
-        "Les écoles devraient-elles imposer le port d'un uniforme pour réduire les inégalités sociales et la pression de la mode ?",
+        "Faut-il interdire la publicité pour les produits considérés comme mauvais pour la santé (sucre, alcool, malbouffe) ?",
       notes:
-        "Débat sur l'égalité, l'expression individuelle et le coût d'un uniforme scolaire.",
+        "Débat sur la liberté de commerce versus la responsabilité de l'État dans la santé publique.",
     },
     did_you_know: {
-      text: "La foudre frappe les hommes beaucoup plus souvent que les femmes (environ 5 fois plus).",
+      text: "L'échelle de Richter est une échelle logarithmique, ce qui signifie qu'un séisme de magnitude 6 est 10 fois plus puissant qu'un séisme de magnitude 5.",
     },
   },
   {
     date: "2026-11-07",
     general_question: {
       question:
-        "Quel est le nom de l'instrument de musique composé de 88 touches ?",
-      answer: "Le Piano.",
+        "Quel est le nom de l'événement volcanique survenu en 79 après J.-C. qui a détruit les villes de Pompéi et Herculanum ?",
+      answer: "L'éruption du Vésuve.",
       explanation:
-        "Un piano moderne standard possède 52 touches blanches et 36 touches noires, soit un total de 88 touches.",
+        "Cette éruption a enseveli les deux cités sous une épaisse couche de cendres et de roches, les préservant dans leur état d'origine.",
     },
     open_question: {
       question:
-        "Faut-il réglementer la durée maximale de travail par semaine (32 heures, 4 jours) pour améliorer le bien-être général ?",
+        "Le télétravail généralisé est-il bénéfique ou néfaste pour la cohésion d'équipe et l'innovation en entreprise ?",
       notes:
-        "Débat sur la productivité, le stress professionnel et l'équilibre vie privée/vie professionnelle.",
+        "Débat sur l'équilibre entre flexibilité individuelle et dynamique collective au travail.",
     },
     did_you_know: {
-      text: "Le 14 juin est la 'Journée mondiale du donneur de sang'.",
+      text: "Le Vésuve est le seul volcan actif sur le continent européen depuis plus de cent ans.",
     },
   },
   {
     date: "2026-11-08",
     general_question: {
-      question: "Quel est l'élément chimique avec le symbole 'Au' ?",
-      answer: "L'Or.",
-      explanation: "Le symbole Au vient du mot latin aurum.",
+      question:
+        "Quel est le seul continent qui n'est traversé par aucun fleuve ?",
+      answer: "L'Antarctique.",
+      explanation:
+        "L'eau y est presque entièrement sous forme de glace. Les rares flux d'eau sont saisonniers ou sous-glaciaires.",
     },
     open_question: {
       question:
-        "L'exploration des fonds marins est-elle plus importante pour l'humanité que l'exploration spatiale ?",
+        "Le droit à l'avortement est-il un droit fondamental absolu ou doit-il être soumis à certaines restrictions ?",
       notes:
-        "Débat sur la biodiversité marine vs. les avancées technologiques spatiales.",
+        "Débat éthique et légal sur la temporalité, la conscience médicale et les motifs d'interruption de grossesse.",
     },
     did_you_know: {
-      text: "Un 'parsec' est une unité de mesure de distance utilisée en astronomie.",
+      text: "L'Antarctique a des 'rivières de sang' : de l'eau riche en fer qui s'écoule du glacier Taylor, colorant la glace en rouge.",
     },
   },
   {
     date: "2026-11-09",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée à Saint-Pétersbourg, Russie ?",
-      answer: "Le Musée de l'Ermitage.",
+        "Quel pays a été divisé par un mur célèbre (le Mur de Berlin) de 1961 à 1989 ?",
+      answer: "L'Allemagne (entre la RFA et la RDA).",
       explanation:
-        "Situé dans le Palais d'Hiver, l'Ermitage est l'un des plus grands et des plus anciens musées du monde.",
+        "Le Mur de Berlin séparait Berlin-Ouest (contrôlé par l'Ouest) de Berlin-Est (capitale de la RDA et contrôlé par l'Est).",
     },
     open_question: {
       question:
-        "Le concept de 'neutralité carbone' (compenser les émissions) est-il une solution écologique viable ou un permis de polluer pour les entreprises ?",
+        "La démocratie est-elle le seul modèle politique légitime ou les régimes autoritaires peuvent-ils être plus efficaces pour la stabilité et le développement économique ?",
       notes:
-        "Débat sur l'efficacité de la compensation (plantation d'arbres) face à la nécessité de la réduction absolue.",
+        "Discussion sur les droits de l'homme, la corruption et la performance économique.",
     },
     did_you_know: {
-      text: "Les nuages portent des noms latins pour décrire leur apparence.",
+      text: "La chute du Mur de Berlin a eu lieu le 9 novembre 1989, principalement due à une erreur de communication d'un porte-parole est-allemand, qui a annoncé l'ouverture immédiate des frontières.",
     },
   },
   {
     date: "2026-11-10",
     general_question: {
       question:
-        "Quel est le nom de la péninsule partagée par l'Espagne et le Portugal ?",
-      answer: "La péninsule Ibérique.",
+        "Quel est le nom du célèbre musée qui abrite la 'Nuit étoilée' de Vincent van Gogh ?",
+      answer: "Le Museum of Modern Art (MoMA) à New York.",
       explanation:
-        "La péninsule est située à l'extrémité sud-ouest de l'Europe.",
+        "Ce tableau iconique, peint en 1889 pendant le séjour de Van Gogh à l'asile de Saint-Rémy-de-Provence, est l'une des œuvres les plus reconnaissables de l'histoire de l'art.",
     },
     open_question: {
       question:
-        "Faut-il limiter le droit de propriété pour des raisons écologiques (ex: interdiction de construire sur certaines terres naturelles) ?",
+        "Les technologies de réalité virtuelle et augmentée sont-elles une source d'évasion enrichissante ou une menace pour l'interaction sociale réelle ?",
       notes:
-        "Débat sur le droit individuel versus l'intérêt général de la préservation de l'environnement.",
+        "Discussion sur l'éducation, la formation professionnelle et l'isolement social.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "Van Gogh a été interné volontairement à l'asile de Saint-Paul-de-Mausole lorsqu'il a peint *La Nuit étoilée*.",
     },
   },
   {
     date: "2026-11-11",
     general_question: {
       question:
-        "Quel scientifique a découvert la loi de la gravitation universelle ?",
-      answer: "Isaac Newton.",
+        "Quel événement majeur s'est produit le 11 novembre 1918, mettant fin à la Première Guerre mondiale ?",
+      answer: "L'Armistice de Rethondes.",
       explanation:
-        "Newton a formulé cette loi dans son ouvrage 'Philosophiae Naturalis Principia Mathematica' (1687).",
+        "Signé dans un wagon à Rethondes, il marque la cessation des combats entre les Alliés et l'Allemagne, menant au Traité de Versailles l'année suivante.",
     },
     open_question: {
       question:
-        "L'éducation civique devrait-elle inclure des cours obligatoires sur la vérification des sources (fact-checking) et la pensée critique ?",
+        "Le concept de 'travail pour la vie' a-t-il disparu au profit de carrières plus courtes et variées ?",
       notes:
-        "Débat sur la lutte contre la désinformation (fake news) et le rôle de l'école dans la formation d'un citoyen éclairé.",
+        "Débat sur la précarité, la reconversion professionnelle et la gestion de carrière par l'individu.",
     },
     did_you_know: {
-      text: "Le mont Everest s'agrandit d'environ 4 millimètres par an.",
+      text: "Le 11 novembre est célébré dans de nombreux pays comme le Jour du Souvenir (ou *Veterans Day* aux États-Unis), en hommage aux soldats morts au combat.",
     },
   },
   {
     date: "2026-11-12",
     general_question: {
       question:
-        "Quel est le nom de l'explorateur portugais crédité du premier tour du monde (bien qu'il soit mort en cours de route) ?",
-      answer: "Fernand de Magellan.",
+        "Quel est l'élément chimique qui a le numéro atomique 1 et le poids atomique le plus faible ?",
+      answer: "L'Hydrogène (H).",
       explanation:
-        "Magellan a initié l'expédition en 1519. Il est mort aux Philippines en 1521.",
+        "L'hydrogène est le constituant le plus abondant de l'univers et le gaz le plus léger.",
     },
     open_question: {
       question:
-        "L'abolition de la peine de mort est-elle un signe de civilisation avancée ou une menace pour la justice et la sécurité ?",
+        "Le droit des animaux devrait-il être réformé pour accorder une 'personnalité morale' aux animaux les plus évolués (grands singes, cétacés) ?",
       notes:
-        "Débat sur les droits humains, la dissuasion criminelle et le risque d'erreur judiciaire.",
+        "Débat sur le statut légal des animaux, l'éthique et les conséquences sur l'expérimentation et l'élevage.",
     },
     did_you_know: {
-      text: "Les papillons goûtent avec leurs pieds.",
+      text: "L'hydrogène est un élément clé dans la recherche sur l'énergie propre, notamment pour les piles à combustible.",
     },
   },
   {
     date: "2026-11-13",
     general_question: {
       question:
-        "Quel est le nom de la science qui étudie le comportement des animaux dans leur environnement naturel ?",
-      answer: "L'Éthologie.",
+        "Quel est le nom de l'instrument qui mesure l'humidité de l'air ?",
+      answer: "L'hygromètre.",
       explanation:
-        "L'éthologie est l'étude scientifique et objective du comportement animal.",
+        "L'humidité de l'air est un facteur clé des prévisions météorologiques, jouant un rôle important dans la formation des nuages et des précipitations.",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être obligées de divulguer les algorithmes utilisés pour prendre des décisions importantes (recrutement, prêts) ?",
+        "Faut-il imposer des limites à la quantité d'eau douce qu'une entreprise ou une personne peut utiliser dans les zones de stress hydrique ?",
       notes:
-        "Débat sur la transparence des algorithmes et le risque de biais dans les systèmes automatisés.",
+        "Discussion sur la gestion des ressources, l'agriculture intensive et la priorité de l'eau potable.",
     },
     did_you_know: {
-      text: "Le 20 juin est le jour le plus long de l'année dans l'hémisphère nord.",
+      text: "Le mot 'novembre' vient du latin *novem*, signifiant 'neuf', car il était le neuvième mois du calendrier romain.",
     },
   },
-
-  // Jours 325 à 355 : Novembre (17 jours restants) & Décembre 2026 (14 premiers jours)
   {
     date: "2026-11-14",
     general_question: {
-      question:
-        "Quel est l'élément chimique essentiel aux plantes pour la photosynthèse, qui leur donne leur couleur verte ?",
-      answer: "Le Magnésium (Mg).",
+      question: "Quel est le nom du plus haut sommet des Alpes ?",
+      answer: "Le Mont Blanc.",
       explanation:
-        "Le Magnésium est un constituant central de la molécule de chlorophylle.",
+        "Situé entre la France et l'Italie, il culmine à environ 4 809 mètres d'altitude. Sa hauteur varie selon les dépôts de glace au sommet.",
     },
     open_question: {
       question:
-        "L'art doit-il être financé principalement par des fonds publics ou par des mécènes privés ?",
+        "L'IA générative doit-elle être soumise à des lois éthiques plus strictes que les entreprises classiques ?",
       notes:
-        "Débat sur l'indépendance artistique, l'accès à la culture et la politique budgétaire.",
+        "Débat sur la régulation de l'IA (transparence, biais, impact sociétal) vs. la liberté d'innovation.",
     },
     did_you_know: {
-      text: "Le jour le plus long de l'année est le solstice d'été.",
+      text: "La première ascension du Mont Blanc a eu lieu en 1786 par Jacques Balmat et Michel Paccard, marquant la naissance de l'alpinisme moderne.",
     },
   },
   {
     date: "2026-11-15",
     general_question: {
-      question: "Quel est le nom du gaz noble le plus léger ?",
-      answer: "L'Hélium (He).",
+      question:
+        "Quel est le nom du célèbre volcan japonais considéré comme sacré et souvent enneigé ?",
+      answer: "Le Mont Fuji.",
       explanation:
-        "L'hélium est le deuxième élément le plus abondant dans l'univers après l'hydrogène.",
+        "Culminant à 3 776 mètres, c'est le plus haut sommet du Japon. C'est un volcan toujours actif, bien que sa dernière éruption remonte à 1707.",
     },
     open_question: {
       question:
-        "Faut-il taxer les transactions financières spéculatives pour financer les services sociaux ?",
+        "Le salaire minimum est-il un outil efficace pour lutter contre la pauvreté ou un frein à l'emploi et à la compétitivité des entreprises ?",
       notes:
-        "Débat sur la 'taxe Tobin', la stabilité financière et la redistribution des richesses.",
+        "Débat sur l'inflation, le pouvoir d'achat et le marché du travail.",
     },
     did_you_know: {
-      text: "La plus ancienne loi toujours en vigueur au monde est celle sur les feux de circulation au Royaume-Uni.",
+      text: "Le Mont Fuji est un lieu de pèlerinage pour les bouddhistes et les shintoïstes depuis des siècles.",
     },
   },
   {
     date: "2026-11-16",
     general_question: {
       question:
-        "Quel est l'organe qui consomme le plus d'oxygène dans le corps humain ?",
-      answer: "Le cerveau.",
+        "Quel est le nom du processus par lequel les plantes transforment la lumière en énergie ?",
+      answer: "La Photosynthèse.",
       explanation:
-        "Bien qu'il ne représente qu'environ 2% du poids corporel, le cerveau consomme près de 20% de l'oxygène total du corps au repos.",
+        "Elle utilise l'énergie lumineuse pour convertir le dioxyde de carbone et l'eau en glucose (sucre) et en oxygène.",
     },
     open_question: {
       question:
-        "Les voyages internationaux devraient-ils être limités pour les particuliers, et réservés aux nécessités professionnelles ou humanitaires ?",
+        "Le secret bancaire est-il nécessaire pour la liberté économique ou favorise-t-il la criminalité financière et la fraude fiscale ?",
       notes:
-        "Débat sur la réduction de l'empreinte carbone personnelle et l'impact sur le tourisme et les échanges culturels.",
+        "Discussion sur la transparence fiscale internationale, les paradis fiscaux et le droit à l'intimité financière.",
     },
     did_you_know: {
-      text: "Le mot 'alphabet' vient des deux premières lettres de l'alphabet grec : 'alpha' et 'bêta'.",
+      text: "Les plantes absorbent plus de 100 milliards de tonnes de carbone par an grâce à la photosynthèse.",
     },
   },
   {
     date: "2026-11-17",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée à Saint-Pétersbourg, Russie ?",
-      answer: "Le Musée de l'Ermitage.",
+        "Qui est le peintre espagnol célèbre pour ses 'montres molles' dans le tableau 'La Persistance de la mémoire' ?",
+      answer: "Salvador Dalí.",
       explanation:
-        "Situé dans le Palais d'Hiver, l'Ermitage est l'un des plus grands et des plus anciens musées du monde.",
+        "Figure majeure du Surréalisme, Dalí est connu pour ses images frappantes et bizarres inspirées des rêves et de l'inconscient.",
     },
     open_question: {
       question:
-        "L'agriculture biologique est-elle la seule voie possible pour une alimentation saine et durable ?",
+        "Comment l'urbanisme peut-il être repensé pour améliorer la qualité de vie et réduire l'empreinte carbone des grandes métropoles ?",
       notes:
-        "Débat sur la productivité, l'utilisation des pesticides et le coût pour le consommateur.",
+        "Débat sur la 'ville du quart d'heure', les transports doux et la végétalisation urbaine.",
     },
     did_you_know: {
-      text: "La baleine bleue, le plus grand animal de la planète, a un cœur de la taille d'une petite voiture.",
+      text: "Dalí se faisait souvent appeler 'l'Enfant Terrible' du Surréalisme en raison de son comportement excentrique et de son autoportrait permanent.",
     },
   },
   {
     date: "2026-11-18",
     general_question: {
-      question: "Qui a fondé l'entreprise automobile Ford ?",
-      answer: "Henry Ford.",
-      explanation: "Henry Ford a fondé la Ford Motor Company en 1903.",
+      question:
+        "Quel est le nom du plus grand désert de sable au monde (hors déserts de glace) ?",
+      answer: "Le Sahara.",
+      explanation:
+        "Il couvre une grande partie de l'Afrique du Nord et est le plus grand désert chaud. Le désert de l'Antarctique est le plus grand désert au monde en général.",
     },
     open_question: {
       question:
-        "Faut-il interdire l'utilisation des animaux sauvages dans les cirques et les spectacles itinérants ?",
+        "Les technologies de surveillance des employés à distance (logiciels de suivi) sont-elles un abus ou une nécessité de gestion ?",
       notes:
-        "Débat sur le bien-être animal, la tradition culturelle et les alternatives éthiques au spectacle.",
+        "Débat sur la confiance, le droit à la déconnexion et la mesure de la productivité.",
     },
     did_you_know: {
-      text: "La statue de la Liberté à New York était à l'origine destinée à la ville de Port-Saïd, en Égypte.",
+      text: "Le Sahara n'a pas toujours été un désert. Il y a environ 10 000 ans, il était une savane fertile avec de nombreux lacs et rivières.",
     },
   },
   {
     date: "2026-11-19",
     general_question: {
       question:
-        "Quel prix littéraire français est souvent considéré comme le plus prestigieux ?",
-      answer: "Le Prix Goncourt.",
+        "Quel est le nom du traité de 1919 qui a officiellement mis fin à la Première Guerre mondiale ?",
+      answer: "Le Traité de Versailles.",
       explanation:
-        "Créé en 1903, le Goncourt est décerné à l'auteur du meilleur ouvrage d'imagination en prose de l'année.",
+        "Signé entre les puissances alliées et l'Allemagne, il est souvent critiqué pour avoir imposé des conditions très dures à l'Allemagne, contribuant aux tensions futures.",
     },
     open_question: {
       question:
-        "Le concept de 'neutralité du net' (égalité de traitement des données) est-il essentiel pour la liberté d'Internet ?",
+        "Faut-il limiter le droit de manifester pour éviter les débordements (blocages, violences, dégradations) ?",
       notes:
-        "Débat sur le contrôle des flux de données par les fournisseurs d'accès (FAI) et l'accès équitable à l'information.",
+        "Discussion sur la liberté de réunion, l'ordre public et la légitimité de la contestation.",
     },
     did_you_know: {
-      text: "La langue la plus parlée dans le monde, en termes de locuteurs natifs, est le mandarin (chinois).",
+      text: "Le Traité de Versailles a été signé dans la Galerie des Glaces du Château de Versailles, le même lieu où l'Empire allemand avait été proclamé en 1871.",
     },
   },
   {
     date: "2026-11-20",
     general_question: {
       question:
-        "Quelle est la fleur traditionnellement offerte en France le 1er mai ?",
-      answer: "Le muguet (Clochette de mai).",
-      explanation: "Offrir du muguet est un porte-bonheur pour le mois de mai.",
+        "Quel est le nom de la péninsule asiatique qui comprend les pays de l'Inde, du Pakistan et du Bangladesh ?",
+      answer: "Le sous-continent indien.",
+      explanation:
+        "Il est bordé au nord par l'Himalaya et est géographiquement distinct du reste de l'Asie.",
     },
     open_question: {
       question:
-        "Les syndicats ont-ils encore un rôle pertinent dans la défense des droits des travailleurs de l'économie numérique (freelance, plateformes) ?",
+        "Les pays développés devraient-ils annuler la dette des pays en développement en échange d'engagements environnementaux ?",
       notes:
-        "Débat sur l'organisation des travailleurs indépendants, la précarité et les nouvelles formes d'emploi.",
+        "Discussion sur le 'swap' dette-nature, la souveraineté économique et l'équité Nord-Sud.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas.",
+      text: "La collision des plaques tectoniques indienne et eurasienne a créé l'Himalaya, qui continue de croître d'environ 1 cm par an.",
     },
   },
   {
     date: "2026-11-21",
     general_question: {
-      question: "Quel est le plus grand État d'Afrique par sa superficie ?",
-      answer: "L'Algérie.",
+      question:
+        "Quel est le nom du plus grand lac d'eau douce d'Amérique du Nord, partagé par les États-Unis et le Canada ?",
+      answer: "Le lac Supérieur.",
       explanation:
-        "Depuis la partition du Soudan en 2011, l'Algérie est le plus vaste pays du continent africain.",
+        "Il est le plus grand en superficie et le troisième plus grand en volume au monde. Son nom vient de sa position supérieure par rapport aux autres Grands Lacs.",
     },
     open_question: {
       question:
-        "Le cinéma devrait-il être davantage subventionné par l'État pour garantir la diversité culturelle face aux superproductions ?",
+        "Le droit des animaux devrait-il être réformé pour accorder une 'personnalité morale' aux animaux les plus évolués (grands singes, cétacés) ?",
       notes:
-        "Débat sur l'industrie culturelle, la qualité artistique et la concurrence des plateformes de streaming.",
+        "Débat sur le statut légal des animaux, l'éthique et les conséquences sur l'expérimentation et l'élevage.",
     },
     did_you_know: {
-      text: "La plus vieille créature marine encore vivante est une éponge d'une espèce non identifiée.",
+      text: "Le lac Supérieur contient suffisamment d'eau pour recouvrir toutes les Amériques sous une couche de 30 cm d'eau.",
     },
   },
   {
     date: "2026-11-22",
     general_question: {
-      question:
-        "Quel pays a pour langue officielle le portugais en Amérique du Sud ?",
-      answer: "Le Brésil.",
-      explanation: "Le Brésil a été colonisé par le Portugal.",
+      question: "Quel est le seul métal liquide à température ambiante ?",
+      answer: "Le Mercure (Hg).",
+      explanation:
+        "Le mercure a un point de fusion de $-38,83^circ\text{C}$ et a été utilisé dans les thermomètres et les baromètres (aujourd'hui souvent remplacé par des alternatives moins toxiques).",
     },
     open_question: {
       question:
-        "Faut-il former des armées de 'soldats-robots' (entièrement autonomes) pour réduire les pertes humaines dans les conflits ?",
+        "Le système de retraite par répartition est-il durable face au vieillissement démographique et à l'allongement de l'espérance de vie ?",
       notes:
-        "Débat sur l'éthique de la guerre automatisée, le droit international et le risque de déshumanisation des conflits.",
+        "Discussion sur l'âge de départ, les cotisations et la nécessité de réformes structurelles.",
     },
     did_you_know: {
-      text: "La plus petite quantité de matière observable est le quark.",
+      text: "Le mot 'novembre' vient du latin *novem*, signifiant 'neuf'.",
     },
   },
   {
     date: "2026-11-23",
     general_question: {
       question:
-        "Quel prix scientifique est souvent considéré comme l'équivalent du Prix Nobel en mathématiques ?",
-      answer: "La Médaille Fields.",
+        "Quel est le nom de la doctrine selon laquelle la colonisation européenne était une mission 'civilisatrice' ?",
+      answer: "Le Fardeau de l'homme blanc (White Man's Burden).",
       explanation:
-        "Elle est décernée tous les quatre ans à des mathématiciens de moins de 40 ans.",
+        "Ce terme, popularisé par un poème de Rudyard Kipling, est souvent utilisé pour décrire l'idéologie justifiant l'impérialisme occidental.",
     },
     open_question: {
       question:
-        "La liberté des médias est-elle menacée par la pression des annonceurs et la recherche du 'clic' à tout prix ?",
+        "Le sport électronique ('esports') est-il un sport légitime nécessitant la même reconnaissance que le sport traditionnel ?",
       notes:
-        "Débat sur le modèle économique des médias, la qualité de l'information et le journalisme d'investigation.",
+        "Débat sur la reconnaissance athlétique, l'entraînement, la discipline et les compétitions internationales.",
     },
     did_you_know: {
-      text: "Le 4 mai est souvent célébré comme le 'Star Wars Day'.",
+      text: "L'Inde abrite environ 18 % de la population mondiale, mais seulement 2,4 % de la superficie terrestre du monde.",
     },
   },
   {
     date: "2026-11-24",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée du Vatican qui abrite le plafond de Michel-Ange ?",
-      answer: "La Chapelle Sixtine.",
+        "Quel est l'élément chimique qui, combiné à l'hydrogène, forme l'eau ($H_2O$) ?",
+      answer: "L'Oxygène (O).",
       explanation:
-        "Elle fait partie du complexe des Musées du Vatican et est célèbre pour ses fresques.",
+        "L'oxygène est le troisième élément le plus abondant dans l'univers et est essentiel à la vie sur Terre.",
     },
     open_question: {
       question:
-        "L'industrie du jeu vidéo devrait-elle être tenue responsable de la représentation stéréotypée et violente de certains groupes sociaux ?",
+        "Comment l'urbanisme peut-il être repensé pour améliorer la qualité de vie et réduire l'empreinte carbone des grandes métropoles ?",
       notes:
-        "Débat sur la liberté de création, l'impact sur les joueurs et les lois sur le contenu numérique.",
+        "Débat sur la 'ville du quart d'heure', les transports doux et la végétalisation urbaine.",
     },
     did_you_know: {
-      text: "Le chili est en fait un fruit (une baie).",
+      text: "L'eau bouillante gèle plus rapidement que l'eau froide dans certaines conditions, un phénomène appelé l'effet Mpemba.",
     },
   },
   {
     date: "2026-11-25",
     general_question: {
       question:
-        "Quel est le plus grand volcan du système solaire, situé sur Mars ?",
-      answer: "L'Olympus Mons.",
+        "Qui est le mathématicien connu pour avoir développé le calcul infinitésimal de manière indépendante de Newton ?",
+      answer: "Gottfried Wilhelm Leibniz.",
       explanation:
-        "Avec une hauteur de 21,9 km, l'Olympus Mons est près de trois fois plus haut que l'Everest.",
+        "Leibniz a également développé la notation encore utilisée aujourd'hui, notamment le symbole de l'intégrale ($int$).",
     },
     open_question: {
       question:
-        "Faut-il imposer des cours obligatoires de cuisine et de nutrition pour lutter contre l'obésité et les maladies associées ?",
+        "Le système de permis de conduire devrait-il être réévalué plus fréquemment pour les personnes âgées pour garantir la sécurité routière ?",
       notes:
-        "Débat sur l'éducation à la santé, la responsabilité individuelle et le rôle de l'école dans l'alimentation.",
+        "Débat sur l'autonomie, la capacité physique et les discriminations liées à l'âge.",
     },
     did_you_know: {
-      text: "La première monnaie métallique a été utilisée en Lydie (Turquie actuelle) vers 600 av. J.-C.",
+      text: "Leibniz a également inventé un type d'ordinateur mécanique capable d'effectuer les quatre opérations arithmétiques de base.",
     },
   },
   {
     date: "2026-11-26",
     general_question: {
       question:
-        "Quel est le nom de la seule planète du système solaire qui tourne sur elle-même dans le sens des aiguilles d'une montre ?",
-      answer: "Vénus.",
+        "Quelle fête américaine est célébrée le quatrième jeudi de novembre, marquée par un repas de dinde ?",
+      answer: "Thanksgiving (Action de grâce).",
       explanation:
-        "La rotation rétrograde de Vénus est une anomalie par rapport aux autres planètes.",
+        "Elle commémore traditionnellement la récolte et le repas partagé entre les pèlerins et les Amérindiens en 1621.",
     },
     open_question: {
       question:
-        "Les lanceurs d'alerte (whistleblowers) devraient-ils bénéficier d'une immunité totale pour les informations qu'ils révèlent ?",
+        "Faut-il légaliser l'euthanasie et le suicide assisté pour garantir le droit à une 'bonne mort' ?",
       notes:
-        "Débat sur la protection des sources, l'intérêt public et la sécurité nationale.",
+        "Débat éthique, médical et légal sur la fin de vie, la souffrance et le rôle des médecins.",
     },
     did_you_know: {
-      text: "La plus petite distance entre deux points dans l'espace-temps n'est pas une ligne droite, mais une géodésique (une courbe).",
+      text: "Le jour après Thanksgiving est connu sous le nom de *Black Friday*, marquant le début officieux de la saison des achats de Noël.",
     },
   },
   {
     date: "2026-11-27",
     general_question: {
       question:
-        "Quel événement historique majeur est commémoré le 8 mai en France et dans d'autres pays alliés ?",
-      answer:
-        "La Victoire de 1945 (fin de la Seconde Guerre mondiale en Europe).",
-      explanation: "Le 8 mai 1945 marque la capitulation de l'Allemagne nazie.",
+        "Quel pays européen est la patrie des Jeux Olympiques antiques et modernes ?",
+      answer: "La Grèce.",
+      explanation:
+        "Les Jeux antiques se tenaient à Olympie dès 776 av. J.-C. Les premiers Jeux modernes ont eu lieu à Athènes en 1896.",
     },
     open_question: {
       question:
-        "Le service militaire ou civique obligatoire (mixte) est-il nécessaire pour renforcer l'unité nationale et le sens des responsabilités ?",
+        "Le mécénat privé (fondations d'entreprises) est-il un substitut bienvenu ou une menace à l'art et à la culture financés par l'État ?",
       notes:
-        "Débat sur les coûts, la liberté individuelle et l'efficacité d'une formation civique et militaire.",
+        "Discussion sur l'indépendance artistique, les priorités de financement et l'influence privée.",
     },
     did_you_know: {
-      text: "Le mot 'ambulance' vient du français 'hôpital ambulant'.",
+      text: "La flamme olympique est toujours allumée à Olympie, en Grèce, selon une cérémonie rituelle utilisant le Soleil et un miroir parabolique.",
     },
   },
   {
     date: "2026-11-28",
     general_question: {
       question:
-        "Quel animal est le symbole national de la Chine et est considéré comme une espèce menacée ?",
-      answer: "Le Panda géant.",
+        "Quel est le nom de l'ancienne capitale de l'Empire Inca, située dans les Andes péruviennes ?",
+      answer: "Cuzco (ou Cusco).",
       explanation:
-        "Le panda est originaire des régions montagneuses du centre de la Chine.",
+        "Cuzco était le centre politique et religieux de l'Empire Inca avant la conquête espagnole. Son nom signifie 'nombril' ou 'centre' en Quechua.",
     },
     open_question: {
       question:
-        "La régulation de la taille et de la concentration des grandes entreprises technologiques (GAFA) est-elle suffisante pour empêcher les monopoles ?",
+        "Les critères de beauté (mode, chirurgie esthétique) sont-ils une forme de pression sociale genrée ou une libre expression individuelle ?",
       notes:
-        "Débat sur le droit de la concurrence, la protection des données et le pouvoir politique des multinationales.",
+        "Discussion sur l'impact des médias, le patriarcat et l'autonomie corporelle.",
     },
     did_you_know: {
-      text: "Les astronautes qui travaillent à l'extérieur de l'ISS doivent porter des couches pour adultes.",
+      text: "La ville de Cuzco était conçue pour avoir la forme d'un puma, un animal sacré dans la culture Inca.",
     },
   },
   {
     date: "2026-11-29",
     general_question: {
       question:
-        "Quel artiste est l'auteur de la célèbre sculpture 'Le Penseur' ?",
-      answer: "Auguste Rodin.",
+        "Quel est l'élément chimique symbolisé par 'Fe', essentiel à la production de l'hémoglobine dans le sang ?",
+      answer: "Le Fer (Ferrum).",
       explanation:
-        "Créée à l'origine en 1880, cette sculpture en bronze représente un homme en méditation profonde.",
+        "Le fer est crucial pour le transport de l'oxygène des poumons vers le reste du corps.",
     },
     open_question: {
       question:
-        "Les réseaux sociaux devraient-ils être contraints d'utiliser des algorithmes qui favorisent le contenu 'positif' ou 'éducatif' ?",
+        "Le droit à l'oubli numérique devrait-il être absolu ou limité par l'intérêt historique et la liberté d'expression ?",
       notes:
-        "Débat sur l'impact sur le bien-être, la liberté algorithmique et le risque de censure du contenu critique.",
+        "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
     },
     did_you_know: {
-      text: "Le seul oiseau capable de voir la couleur bleue est le pigeon.",
+      text: "L'étoile la plus brillante de la nuit est Sirius, située dans la constellation du Grand Chien.",
     },
   },
   {
     date: "2026-11-30",
     general_question: {
-      question: "Quelle est l'unité de mesure de la puissance électrique ?",
-      answer: "Le Watt (W).",
+      question:
+        "Quel est le nom de l'instrument utilisé pour mesurer la pression atmosphérique ?",
+      answer: "Le baromètre.",
       explanation:
-        "Le Watt est l'unité SI de la puissance, nommée d'après l'inventeur écossais James Watt.",
+        "Inventé par Evangelista Torricelli, il est essentiel pour les prévisions météorologiques, car la pression est un indicateur clé des changements de temps.",
     },
     open_question: {
       question:
-        "Faut-il développer l'énergie de fusion nucléaire (qui promet une énergie quasi-illimitée et propre) au détriment de l'énergie de fission (nucléaire classique) ?",
+        "Les technologies de surveillance de masse (caméras intelligentes, reconnaissance faciale) sont-elles un mal nécessaire pour la sécurité urbaine ?",
       notes:
-        "Débat sur l'horizon technologique (ITER), les coûts de recherche et la nécessité d'une production d'énergie immédiate.",
+        "Discussion sur la balance entre la sécurité publique et les libertés individuelles, ainsi que les risques de dérives autoritaires.",
     },
     did_you_know: {
-      text: "Le cri d'une mouche est appelé le 'bourdonnement'.",
+      text: "Torricelli, l'inventeur du baromètre, était un élève de Galilée.",
     },
   },
+
+  // --- Décembre 2026 (31 jours) ---
   {
     date: "2026-12-01",
     general_question: {
-      question: "Quel est le nom du plus grand océan de la Terre ?",
-      answer: "L'océan Pacifique.",
+      question:
+        "Quel est le nom de la ville qui abrite la célèbre statue du 'Christ Rédempteur', au Brésil ?",
+      answer: "Rio de Janeiro.",
       explanation:
-        "Il est si vaste qu'il couvre près d'un tiers de la surface terrestre.",
+        "La statue, construite dans les années 1920 et 1930, est située au sommet du mont Corcovado et est un symbole majeur de la ville et du Brésil.",
     },
     open_question: {
       question:
-        "L'apprentissage des langues mortes (latin, grec ancien) est-il encore pertinent dans le système éducatif moderne ?",
+        "Le revenu universel de base est-il une solution viable pour l'automatisation croissante des emplois ?",
       notes:
-        "Débat sur l'importance des racines culturelles, l'étymologie et la nécessité de préparer aux métiers du futur.",
+        "Discussion sur son coût, son impact sur l'incitation au travail et la réduction de la pauvreté.",
     },
     did_you_know: {
-      text: "Le pont de Londres que l'on voit souvent en photo n'est pas le 'London Bridge' historique, mais le 'Tower Bridge'.",
+      text: "Le 1er décembre est la Journée Mondiale de lutte contre le SIDA.",
     },
   },
   {
     date: "2026-12-02",
     general_question: {
-      question: "Quel pays a pour capitale La Havane ?",
-      answer: "Cuba.",
-      explanation: "La Havane est la capitale et la plus grande ville de Cuba.",
+      question:
+        "Quel est le nom de la membrane qui recouvre et protège le cerveau et la moelle épinière ?",
+      answer: "Les méninges.",
+      explanation:
+        "Les méninges sont composées de trois couches : la dure-mère, l'arachnoïde et la pie-mère.",
     },
     open_question: {
       question:
-        "La surveillance biométrique (empreintes, iris) dans les lieux publics est-elle une atteinte intolérable à la liberté ?",
+        "Le sport professionnel moderne est-il un modèle d'excellence athlétique ou une machine de divertissement hyper-commercialisée ?",
       notes:
-        "Débat sur le droit à l'anonymat, la sécurité et la traçabilité des individus par l'État.",
+        "Discussion sur les salaires, les droits de diffusion, le dopage et l'esprit olympique.",
     },
     did_you_know: {
-      text: "Le mot 'alphabet' vient des deux premières lettres de l'alphabet grec : 'alpha' et 'bêta'.",
+      text: "Le mot 'décembre' vient du latin *decem*, signifiant 'dix', car il était le dixième mois du calendrier romain.",
     },
   },
   {
     date: "2026-12-03",
     general_question: {
       question:
-        "Quel est le nom de l'hormone du sommeil, souvent utilisée pour traiter les troubles du sommeil ?",
-      answer: "La Mélatonine.",
+        "Quel est le nom du plus grand volcan actif en Europe, situé en Sicile ?",
+      answer: "L'Etna.",
       explanation:
-        "La mélatonine est sécrétée par la glande pinéale. Sa production est stimulée par l'obscurité.",
+        "Il culmine à plus de 3 300 mètres et est l'un des volcans les plus actifs et des plus hauts d'Europe.",
     },
     open_question: {
       question:
-        "Les cryptomonnaies peuvent-elles réellement remplacer les monnaies fiduciaires traditionnelles (Euro, Dollar) ?",
+        "Les technologies de réalité virtuelle et augmentée sont-elles une source d'évasion enrichissante ou une menace pour l'interaction sociale réelle ?",
       notes:
-        "Débat sur la volatilité, la régulation, la confiance et le rôle des banques centrales.",
+        "Discussion sur l'éducation, la formation professionnelle et l'isolement social.",
     },
     did_you_know: {
-      text: "La plus petite cellule du corps humain est le spermatozoïde, et la plus grande est l'ovule.",
+      text: "Le volcan Etna est entré en éruption il y a environ 500 000 ans, ce qui en fait l'un des plus anciens volcans actifs du monde.",
     },
   },
   {
     date: "2026-12-04",
     general_question: {
-      question: "Quelle était la capitale de l'Empire byzantin ?",
-      answer: "Constantinople (aujourd'hui Istanbul).",
+      question:
+        "Qui est le sculpteur italien connu pour le 'David' et 'La Pietà' ?",
+      answer: "Michel-Ange (Michelangelo Buonarroti).",
       explanation:
-        "Fondée par l'empereur Constantin Ier en 330 apr. J.-C., elle a été le centre de l'Empire romain d'Orient.",
+        "Le 'David' (sculpté entre 1501 et 1504) est une sculpture de marbre de la Renaissance, considérée comme l'un des chefs-d'œuvre de l'art occidental.",
     },
     open_question: {
       question:
-        "Faut-il limiter l'accès aux forêts et aux zones naturelles pour les protéger de la surfréquentation touristique ?",
+        "Faut-il interdire l'élevage intensif des animaux pour des raisons éthiques, sanitaires et environnementales ?",
       notes:
-        "Débat sur l'écotourisme, le droit d'accès à la nature et la conservation des écosystèmes.",
+        "Discussion sur le bien-être animal, les coûts de la viande et la sécurité alimentaire.",
     },
     did_you_know: {
-      text: "Le Soleil est techniquement une étoile naine jaune de type G, mais elle est en fait blanche vue de l'espace.",
+      text: "Michel-Ange n'aimait pas le terme 'sculpteur' et se considérait d'abord comme un peintre.",
     },
   },
   {
     date: "2026-12-05",
     general_question: {
       question:
-        "Quel est le nom de la galaxie la plus proche de la Voie Lactée ?",
-      answer: "La galaxie d'Andromède (M31).",
+        "Quel est le nom de l'événement volcanique survenu en 79 après J.-C. qui a détruit les villes de Pompéi et Herculanum ?",
+      answer: "L'éruption du Vésuve.",
       explanation:
-        "Andromède est une galaxie spirale géante située à environ 2,5 millions d'années-lumière.",
+        "Cette éruption a enseveli les deux cités sous une épaisse couche de cendres et de roches, les préservant dans leur état d'origine.",
     },
     open_question: {
       question:
-        "Le système de notation 'âge légal de consommation' pour l'alcool et le tabac est-il efficace ou devrait-on privilégier l'éducation ?",
+        "Le droit de vote devrait-il être obligatoire pour assurer une représentation démocratique maximale ?",
       notes:
-        "Débat sur les lois restrictives, la responsabilité individuelle et la prévention des risques.",
+        "Discussion sur la légitimité du vote, l'apathie politique et les sanctions en cas d'abstention.",
     },
     did_you_know: {
-      text: "La 'Zone de l'Océan Pacifique' est si lointaine qu'il y a plus de chance d'y rencontrer un astronaute que n'importe qui d'autre.",
+      text: "Les corps pétrifiés retrouvés à Pompéi et Herculanum sont en fait des moulages des espaces vides laissés par les corps après leur décomposition dans les cendres.",
     },
   },
   {
     date: "2026-12-06",
     general_question: {
-      question: "Quel est le nom du plus grand lac salé du monde ?",
-      answer: "La Mer Caspienne.",
+      question:
+        "Quel est le nom du célèbre volcan japonais considéré comme sacré et souvent enneigé ?",
+      answer: "Le Mont Fuji.",
       explanation:
-        "Bien qu'appelée 'mer', elle est techniquement le plus grand lac du monde en superficie.",
+        "Culminant à 3 776 mètres, c'est le plus haut sommet du Japon. C'est un volcan toujours actif, bien que sa dernière éruption remonte à 1707.",
     },
     open_question: {
       question:
-        "L'éducation religieuse devrait-elle être laissée entièrement aux familles et aux institutions religieuses, ou faire partie de l'école publique ?",
+        "Le service militaire ou civil obligatoire pour les jeunes est-il un outil efficace d'intégration et de cohésion nationale ?",
       notes:
-        "Débat sur la neutralité de l'État, le pluralisme et la transmission des valeurs.",
+        "Discussion sur l'utilité, la contrainte individuelle et l'apprentissage de la citoyenneté.",
     },
     did_you_know: {
-      text: "Le corps humain est constitué d'environ 60% d'eau.",
+      text: "Seulement 30% des visiteurs du Mont Fuji montent au sommet ; la majorité se contente des sentiers de basse altitude.",
     },
   },
   {
     date: "2026-12-07",
     general_question: {
       question:
-        "Quel est le principal composant de la coquille d'un œuf de poule ?",
-      answer: "Le Carbonate de Calcium ($\text{CaCO}_3$).",
+        "Quel est l'élément chimique symbolisé par 'K' et essentiel au bon fonctionnement des nerfs et des muscles ?",
+      answer: "Le Potassium (Kalium).",
       explanation:
-        "Le carbonate de calcium est une substance très solide qui protège l'œuf.",
+        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique *Kalium*.",
     },
     open_question: {
       question:
-        "Faut-il taxer davantage les produits importés pour encourager la production locale et réduire l'empreinte carbone du transport ?",
+        "Le concept de 'neutralité carbone' d'ici 2050 est-il techniquement et économiquement réaliste à l'échelle mondiale ?",
       notes:
-        "Débat sur le protectionnisme, les accords commerciaux internationaux et l'autonomie alimentaire.",
+        "Débat sur la faisabilité des technologies de capture de carbone, les changements de mode de vie nécessaires et le coût de la transition énergétique.",
     },
     did_you_know: {
-      text: "Le seul continent qui n'a pas de glaciers est l'Australie.",
+      text: "Le potassium a été isolé pour la première fois en 1807 par le chimiste anglais Humphry Davy.",
     },
   },
   {
     date: "2026-12-08",
     general_question: {
       question:
-        "Qui est l'auteur des romans policiers 'Dix Petits Nègres' et 'Le Crime de l'Orient-Express' ?",
-      answer: "Agatha Christie.",
+        "Quel est le nom du plus grand lac salé du monde, souvent qualifié de mer ?",
+      answer: "La Mer Caspienne.",
       explanation:
-        "Agatha Christie est l'une des romancières les plus vendues de tous les temps.",
+        "Elle est en réalité le plus grand lac endoréique (sans exutoire vers l'océan) au monde, bordée par cinq pays.",
     },
     open_question: {
       question:
-        "L'accès à l'information sur Internet devrait-il être payant pour garantir la qualité et la pérennité du journalisme ?",
+        "Les entreprises devraient-elles avoir une obligation légale de réparer leurs produits plutôt que d'encourager le renouvellement (obsolescence programmée) ?",
       notes:
-        "Débat sur le 'paywall', le modèle économique des médias et l'accès gratuit à la connaissance.",
+        "Discussion sur le 'droit à la réparation', la durabilité des produits et l'économie circulaire.",
     },
     did_you_know: {
-      text: "Le mot 'nerd' (intello) a été inventé par le Dr Seuss dans son livre 'If I Ran the Zoo' en 1950.",
+      text: "La Mer Caspienne tire son nom des Caspiens, un ancien peuple qui vivait sur ses rives.",
     },
   },
   {
     date: "2026-12-09",
     general_question: {
       question:
-        "Quel est le nom du célèbre musée du Royaume-Uni, connu pour abriter la Pierre de Rosette ?",
-      answer: "Le British Museum.",
+        "Quel est le nom de l'instrument qui mesure l'humidité de l'air ?",
+      answer: "L'hygromètre.",
       explanation:
-        "Situé à Londres, le British Museum possède des collections couvrant l'histoire, l'art et la culture humaines.",
+        "L'humidité de l'air est un facteur clé des prévisions météorologiques, jouant un rôle important dans la formation des nuages et des précipitations.",
     },
     open_question: {
       question:
-        "Faut-il encourager les 'biens partagés' (voitures, outils, logements) pour lutter contre la surconsommation et l'individualisme ?",
+        "Les multinationales ont-elles trop de pouvoir sur les gouvernements et les décisions politiques (lobbying, évasion fiscale) ?",
       notes:
-        "Débat sur l'économie collaborative, la propriété privée et l'efficacité des ressources.",
+        "Débat sur la corruption légale, la souveraineté nationale et la régulation internationale.",
     },
     did_you_know: {
-      text: "Les nuages ne sont pas composés de vapeur d'eau (qui est un gaz invisible).",
+      text: "Le mot 'décembre' vient du latin *decem*, signifiant 'dix'.",
     },
   },
   {
     date: "2026-12-10",
     general_question: {
-      question: "Quel est le plus haut sommet d'Afrique ?",
-      answer: "Le Mont Kilimandjaro.",
+      question:
+        "Quel est l'élément chimique symbolisé par 'Au' et connu pour sa résistance à la corrosion ?",
+      answer: "L'or (Aurum).",
       explanation:
-        "Situé en Tanzanie, il est le plus haut sommet isolé du monde.",
+        "L'or est un métal précieux et inaltérable. Son nom latin, *Aurum*, signifie 'brillant' ou 'lueur de l'aube'.",
     },
     open_question: {
       question:
-        "Le droit au suicide assisté devrait-il être étendu aux personnes qui ne sont pas en phase terminale, mais dont la souffrance psychologique est jugée insupportable ?",
+        "Faut-il imposer une taxe carbone aux frontières pour protéger l'industrie nationale et inciter les autres pays à réduire leurs émissions ?",
       notes:
-        "Débat sur l'autonomie, l'évaluation de la souffrance et la définition de la dignité de la fin de vie.",
+        "Débat sur la protectionnisme, les règles de l'OMC et l'efficacité climatique.",
     },
     did_you_know: {
-      text: "Le plus long règne d'un monarque britannique est celui de la Reine Élisabeth II.",
+      text: "Le 10 décembre est la Journée des droits de l'homme, commémorant l'adoption de la Déclaration universelle des droits de l'homme en 1948.",
     },
   },
   {
     date: "2026-12-11",
     general_question: {
-      question:
-        "Quel est le nom du traité qui a mis fin à la Première Guerre mondiale ?",
-      answer: "Le Traité de Versailles.",
+      question: "Quelle est la capitale de l'Australie ?",
+      answer: "Canberra.",
       explanation:
-        "Signé le 28 juin 1919, il a officiellement mis fin au conflit.",
+        "Canberra est la capitale politique, tandis que Sydney est la ville la plus peuplée et la plus connue internationalement.",
     },
     open_question: {
       question:
-        "L'humanité devrait-elle se concentrer sur la conservation des espèces menacées ou sur la restauration des écosystèmes entiers ?",
+        "Les technologies de surveillance des employés à distance (logiciels de suivi) sont-elles un abus ou une nécessité de gestion ?",
       notes:
-        "Débat sur les priorités de la biodiversité : protéger l'emblématique ou le fonctionnel.",
+        "Débat sur la confiance, le droit à la déconnexion et la mesure de la productivité.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas.",
+      text: "La capitale de l'Australie était l'objet d'une compétition acharnée entre Sydney et Melbourne, d'où le choix d'une ville nouvelle et planifiée, Canberra.",
     },
   },
   {
     date: "2026-12-12",
     general_question: {
       question:
-        "Quel est le nom de la force qui s'oppose au mouvement dans l'air ou dans un liquide ?",
-      answer: "La Traînée (ou Résistance de l'air/fluide).",
+        "Quel est le nom de l'ancienne capitale de l'Empire Inca, située dans les Andes péruviennes ?",
+      answer: "Cuzco (ou Cusco).",
       explanation:
-        "La traînée est la force de friction qui agit parallèlement à la vitesse du fluide.",
+        "Cuzco était le centre politique et religieux de l'Empire Inca avant la conquête espagnole. Son nom signifie 'nombril' ou 'centre' en Quechua.",
     },
     open_question: {
       question:
-        "Faut-il introduire le droit à l'erreur fiscale pour les citoyens de bonne foi, sans pénalité lourde ?",
+        "Faut-il interdire la chasse de loisir pour préserver la biodiversité et l'équilibre des écosystèmes ?",
       notes:
-        "Débat sur la complexité de l'administration, la confiance de l'État envers le citoyen et les sanctions.",
+        "Débat sur la régulation des populations animales, les traditions locales et l'éthique animale.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "Les pierres utilisées dans les constructions incas de Cuzco étaient taillées si précisément qu'aucune maçonnerie n'était nécessaire, rendant les murs résistants aux tremblements de terre.",
     },
   },
   {
     date: "2026-12-13",
     general_question: {
-      question: "Quelle est la capitale de l'Inde ?",
-      answer: "New Delhi.",
-      explanation: "New Delhi est la capitale de l'Inde.",
+      question:
+        "Quel est le plus long fleuve d'Europe, qui se jette dans la mer Caspienne ?",
+      answer: "La Volga.",
+      explanation:
+        "Elle coule entièrement en Russie et est d'une importance cruciale pour l'irrigation, la production hydroélectrique et le transport.",
     },
     open_question: {
       question:
-        "L'enseignement doit-il se faire uniquement en présentiel pour garantir la qualité ou doit-on généraliser l'enseignement en ligne ?",
+        "Faut-il imposer des limites aux multinationales en matière d'optimisation fiscale (évasion fiscale légale) ?",
       notes:
-        "Débat sur l'interactivité sociale, l'accès à distance et l'efficacité des plateformes numériques.",
+        "Débat sur les impôts minimums mondiaux, la concurrence fiscale et l'équité des contributions.",
     },
     did_you_know: {
-      text: "Les étoiles filantes ne sont pas des étoiles.",
+      text: "La Volga est parfois surnommée 'la Mère-Volga' par les Russes en raison de son importance historique et culturelle.",
     },
   },
   {
     date: "2026-12-14",
     general_question: {
-      question: "Qui a peint 'Le Serment des Horaces' ?",
-      answer: "Jacques-Louis David.",
+      question:
+        "Quel est le nom du processus par lequel les rayons lumineux sont déviés lorsqu'ils passent d'un milieu à un autre (air/eau) ?",
+      answer: "La réfraction.",
       explanation:
-        "Ce tableau néoclassique (1784) illustre les vertus civiques.",
+        "C'est ce qui explique pourquoi un bâton plongé dans l'eau semble cassé ou courbé, car la vitesse de la lumière change dans l'eau.",
     },
     open_question: {
       question:
-        "Le droit de vote devrait-il être conditionné à la réussite d'un test de connaissances civiques de base ?",
+        "Le sport électronique ('esports') est-il un sport légitime nécessitant la même reconnaissance que le sport traditionnel ?",
       notes:
-        "Débat sur la compétence de l'électeur, l'élitisme et l'universalité du suffrage.",
+        "Débat sur la reconnaissance athlétique, l'entraînement, la discipline et les compétitions internationales.",
     },
     did_you_know: {
-      text: "La première personne à faire le tour du monde en solitaire et sans escale a été l'Australien Jon Sanders en 1988.",
+      text: "Le mot 'réfraction' vient du latin *refractio*, signifiant 'action de briser'.",
     },
   },
-
-  // Jours 356 à 365 : Décembre 2026 (17 jours restants)
   {
     date: "2026-12-15",
     general_question: {
       question:
-        "Quel est le nom de la plus grande baie du monde (par sa ligne côtière) ?",
-      answer: "La baie d'Hudson.",
+        "Quel est le nom de l'instrument utilisé pour mesurer la pression atmosphérique ?",
+      answer: "Le baromètre.",
       explanation:
-        "Située dans le nord-est du Canada, la baie d'Hudson est la deuxième plus grande baie du monde après le golfe du Mexique.",
+        "Inventé par Evangelista Torricelli, il est essentiel pour les prévisions météorologiques, car la pression est un indicateur clé des changements de temps.",
     },
     open_question: {
       question:
-        "Les entreprises devraient-elles être obligées de partager leurs profits avec leurs employés (intéressement) ?",
+        "Faut-il interdire la publicité pour les produits considérés comme mauvais pour la santé (sucre, alcool, malbouffe) ?",
       notes:
-        "Débat sur le capitalisme, la participation des salariés et la redistribution des richesses.",
+        "Débat sur la liberté de commerce versus la responsabilité de l'État dans la santé publique.",
     },
     did_you_know: {
-      text: "Le seul chiffre dont l'orthographe contient la lettre 'a' est 'quatre'.",
+      text: "Le premier baromètre à mercure a été créé en 1643 par Evangelista Torricelli.",
     },
   },
   {
     date: "2026-12-16",
     general_question: {
-      question: "Qui est l'auteur du roman 'Le Petit Prince' ?",
-      answer: "Antoine de Saint-Exupéry.",
+      question:
+        "Qui est le peintre espagnol célèbre pour ses 'montres molles' dans le tableau 'La Persistance de la mémoire' ?",
+      answer: "Salvador Dalí.",
       explanation:
-        "Publié en 1943, ce conte philosophique est l'un des livres les plus traduits et vendus au monde.",
+        "Figure majeure du Surréalisme, Dalí est connu pour ses images frappantes et bizarres inspirées des rêves et de l'inconscient.",
     },
     open_question: {
       question:
-        "Le système de santé occidental (traitement des maladies) est-il trop dépendant des grandes entreprises pharmaceutiques ?",
-      notes: "Débat sur le lobbying, les brevets et la recherche indépendante.",
+        "Le concept de 'travail pour la vie' a-t-il disparu au profit de carrières plus courtes et variées ?",
+      notes:
+        "Débat sur la précarité, la reconversion professionnelle et la gestion de carrière par l'individu.",
     },
     did_you_know: {
-      text: "Le mot 'chèque' vient du mot persan 'sak' qui signifie 'mandat ou document légal'.",
+      text: "Dalí est le seul artiste dont les œuvres sont exposées au musée du Prado et au musée Reina Sofia à Madrid.",
     },
   },
   {
     date: "2026-12-17",
     general_question: {
-      question:
-        "Quel était le nom de l'explorateur vénitien qui a parcouru la Route de la soie au $\text{XIII}^e$ siècle ?",
-      answer: "Marco Polo.",
+      question: "Quel est le plus grand désert de glace du monde ?",
+      answer: "L'Antarctique.",
       explanation:
-        "Son livre, Le Livre des merveilles, a documenté ses voyages en Asie.",
+        "L'Antarctique est considéré comme le plus grand désert au monde (le plus grand désert de sable est le Sahara), car les précipitations y sont extrêmement faibles.",
     },
     open_question: {
       question:
-        "Faut-il encourager les 'monnaies locales' (complémentaires) pour favoriser l'économie circulaire et le commerce de proximité ?",
+        "Les véhicules autonomes doivent-ils être programmés pour privilégier la vie du passager ou celle du piéton en cas d'accident inévitable ?",
       notes:
-        "Débat sur l'impact sur l'économie nationale, la fraude et la confiance dans les monnaies alternatives.",
+        "Problème du dilemme du 'Trolley' appliqué à l'IA et aux véhicules, débat éthique sur la programmation morale.",
     },
     did_you_know: {
-      text: "La plus ancienne université du monde toujours en activité est l'Université Al Quaraouiyine, fondée à Fès, Maroc, en 859.",
+      text: "L'Antarctique est le seul continent sans gouvernement permanent, sans population indigène et sans fuseau horaire officiel.",
     },
   },
   {
     date: "2026-12-18",
     general_question: {
-      question:
-        "Quel est le nom du gaz noble utilisé pour éclairer les panneaux publicitaires et les tubes néon (couleur rouge-orange) ?",
-      answer: "Le Néon (Ne).",
+      question: "Quel est le nom du plus haut sommet des Alpes ?",
+      answer: "Le Mont Blanc.",
       explanation:
-        "Le néon émet une lumière rouge-orange vif lorsqu'il est sous tension électrique.",
+        "Situé entre la France et l'Italie, il culmine à environ 4 809 mètres d'altitude. Sa hauteur varie selon les dépôts de glace au sommet.",
     },
     open_question: {
       question:
-        "Le recours au tir de barrage pour la protection des cultures contre les animaux (loups, sangliers) est-il éthiquement acceptable ?",
+        "Faut-il limiter le droit de manifester pour éviter les débordements (blocages, violences, dégradations) ?",
       notes:
-        "Débat sur la coexistence homme-faune, la protection des espèces et l'économie agricole.",
+        "Discussion sur la liberté de réunion, l'ordre public et la légitimité de la contestation.",
     },
     did_you_know: {
-      text: "Le mot 'samouraï' vient du mot japonais 'saburau', qui signifie 'servir'.",
+      text: "Le Mont Blanc a donné son nom à un type de dessert à base de crème de marrons et de crème fouettée.",
     },
   },
   {
     date: "2026-12-19",
     general_question: {
-      question: "Quel fleuve est considéré comme le plus sacré de l'Inde ?",
-      answer: "Le Gange (Ganga).",
-      explanation: "Le Gange est vénéré par les hindous comme la déesse Ganga.",
+      question:
+        "Quel est l'élément chimique symbolisé par 'Fe', essentiel à la production de l'hémoglobine dans le sang ?",
+      answer: "Le Fer (Ferrum).",
+      explanation:
+        "Le fer est crucial pour le transport de l'oxygène des poumons vers le reste du corps.",
     },
     open_question: {
       question:
-        "La surveillance des frontières par des drones et des capteurs est-elle une solution technologique viable et humaine à la crise migratoire ?",
+        "Le droit à la santé est-il une responsabilité individuelle ou une obligation collective prise en charge par l'État ?",
       notes:
-        "Débat sur la sécurité, le droit d'asile et la déshumanisation des contrôles.",
+        "Débat sur les systèmes de santé universels, les assurances privées et la prévention.",
     },
     did_you_know: {
-      text: "Le drapeau olympique, avec ses cinq anneaux, a été conçu en 1913.",
+      text: "Le fer est l'élément le plus lourd produit par fusion dans les étoiles massives ; il est créé juste avant leur explosion en supernova.",
     },
   },
   {
     date: "2026-12-20",
     general_question: {
       question:
-        "Quelle est la principale source de Vitamine $\text{D}$ pour le corps humain ?",
-      answer: "Le Soleil (exposition aux rayons UV).",
+        "Dans quel sport est attribué le trophée appelé 'La Coupe Stanley' ?",
+      answer: "Le hockey sur glace.",
       explanation:
-        "L'exposition au soleil permet à la peau de synthétiser la Vitamine $\text{D}$.",
+        "C'est le trophée remis chaque année à l'équipe championne des séries éliminatoires de la Ligue nationale de hockey (NHL).",
     },
     open_question: {
       question:
-        "Le tabac (ou la nicotine) devrait-il être totalement interdit pour les générations nées après 2010 ?",
+        "Les classes préparatoires et les grandes écoles sont-elles le meilleur modèle pour former l'élite d'une nation ?",
       notes:
-        "Débat sur la santé publique, l'interdiction générationnelle et le droit individuel de fumer.",
+        "Débat sur l'égalité des chances, l'élitisme et la diversité des parcours éducatifs.",
     },
     did_you_know: {
-      text: "Une année sur Mars dure 687 jours terrestres.",
+      text: "La Coupe Stanley a été donnée en 1892 par Lord Stanley of Preston, alors gouverneur général du Canada.",
     },
   },
   {
     date: "2026-12-21",
     general_question: {
       question:
-        "Quel est le nom de la force qui maintient l'eau à la surface d'un verre, malgré la gravité ?",
-      answer: "La Tension de surface.",
+        "Quel est le nom de la galaxie où se situe notre Système Solaire ?",
+      answer: "La Voie Lactée.",
       explanation:
-        "La tension de surface est le phénomène par lequel la surface d'un liquide se comporte comme une membrane élastique.",
+        "C'est une galaxie spirale barrée, contenant entre 100 et 400 milliards d'étoiles. Notre Soleil se trouve dans l'un de ses bras spiraux, le bras d'Orion.",
     },
     open_question: {
       question:
-        "La 'Fast Fashion' (mode rapide) devrait-elle être limitée par des lois pour réduire son impact environnemental et social ?",
+        "Le concept de 'nation' et d'identité nationale est-il obsolète à l'ère de la mondialisation et des identités multiples ?",
       notes:
-        "Débat sur la production de vêtements jetables, la pollution et les conditions de travail dans l'industrie textile.",
+        "Discussion sur le nationalisme, le cosmopolitisme et le multiculturalisme.",
     },
     did_you_know: {
-      text: "L'œil d'autruche est plus grand que son cerveau.",
+      text: "Le 21 décembre est généralement la date du solstice d'hiver, le jour le plus court de l'année dans l'hémisphère nord.",
     },
   },
   {
     date: "2026-12-22",
     general_question: {
-      question: "Quel est le nom de la déesse grecque de la victoire ?",
-      answer: "Nikè.",
-      explanation: "Nikè (ou Nike) est souvent représentée ailée.",
+      question:
+        "Quel est le nom du plus grand désert de sable au monde (hors déserts de glace) ?",
+      answer: "Le Sahara.",
+      explanation:
+        "Il couvre une grande partie de l'Afrique du Nord et est le plus grand désert chaud. Le désert de l'Antarctique est le plus grand désert au monde en général.",
     },
     open_question: {
       question:
-        "Faut-il imposer des limites de vitesse globales sur Internet (débit) pour réduire la consommation d'énergie des centres de données ?",
+        "Le concept de 'croissance infinie' dans une planète aux ressources finies est-il une contradiction fondamentale ?",
       notes:
-        "Débat sur l'écologie numérique, la performance et l'accès à la haute vitesse.",
+        "Discussion sur la croissance verte, la décroissance et l'économie circulaire.",
     },
     did_you_know: {
-      text: "La Terre est la planète la plus dense du système solaire.",
+      text: "La température moyenne estivale dans certaines parties du Sahara peut atteindre $50^circ\text{C}$.",
     },
   },
   {
     date: "2026-12-23",
     general_question: {
       question:
-        "Quel est le seul pays d'Europe qui partage une frontière terrestre avec le Danemark ?",
-      answer: "L'Allemagne.",
+        "Quel est l'élément chimique qui, combiné à l'hydrogène, forme l'eau ($H_2O$) ?",
+      answer: "L'Oxygène (O).",
       explanation:
-        "Le Danemark est en grande partie entouré d'eau, mais partage une courte frontière terrestre avec l'Allemagne au sud (Jutland).",
+        "L'oxygène est le troisième élément le plus abondant dans l'univers et est essentiel à la vie sur Terre.",
     },
     open_question: {
       question:
-        "La vaccination contre les maladies infantiles (Rougeole, etc.) devrait-elle être strictement obligatoire pour l'inscription à l'école ?",
+        "Les entreprises technologiques (GAFA) sont-elles devenues trop puissantes et doivent-elles être démantelées (lois antitrust) ?",
       notes:
-        "Débat sur l'immunité collective, la liberté de choix des parents et la santé publique.",
+        "Discussion sur le monopole, la concurrence, la protection des données et le lobbying politique.",
     },
     did_you_know: {
-      text: "Un 'joli' (unité de mesure) est utilisé pour définir le travail effectué par une force.",
+      text: "L'eau pure, sans impuretés, gèle exactement à $0^circ\text{C}$ à pression atmosphérique standard.",
     },
   },
   {
     date: "2026-12-24",
     general_question: {
       question:
-        "Quel écrivain français est l'auteur des essais philosophiques 'L'Étranger' et 'La Peste' ?",
-      answer: "Albert Camus.",
+        "Quel est le nom de l'événement volcanique survenu en 79 après J.-C. qui a détruit les villes de Pompéi et Herculanum ?",
+      answer: "L'éruption du Vésuve.",
       explanation:
-        "Camus était un philosophe, écrivain et lauréat du prix Nobel de littérature (1957).",
+        "Cette éruption a enseveli les deux cités sous une épaisse couche de cendres et de roches, les préservant dans leur état d'origine.",
     },
     open_question: {
       question:
-        "Les banques devraient-elles cesser de financer les projets d'énergies fossiles pour accélérer la transition écologique ?",
+        "Les technologies de réalité virtuelle et augmentée sont-elles une source d'évasion enrichissante ou une menace pour l'interaction sociale réelle ?",
       notes:
-        "Débat sur la finance verte, la responsabilité des institutions financières et l'approvisionnement énergétique.",
+        "Discussion sur l'éducation, la formation professionnelle et l'isolement social.",
     },
     did_you_know: {
-      text: "La plus petite distance entre la Terre et la Lune est appelée 'périgée'.",
+      text: "La veille de Noël est appelée *Christmas Eve* en anglais.",
     },
   },
   {
     date: "2026-12-25",
     general_question: {
       question:
-        "Quel est l'événement chrétien principal célébré le 25 décembre ?",
-      answer: "Noël (la naissance de Jésus-Christ).",
+        "Quel est le nom du plus grand désert de sable au monde (hors déserts de glace) ?",
+      answer: "Le Sahara.",
       explanation:
-        "Noël est une fête majeure dans le monde entier, à la fois religieuse et culturelle.",
+        "Il couvre une grande partie de l'Afrique du Nord et est le plus grand désert chaud. Le désert de l'Antarctique est le plus grand désert au monde en général.",
     },
     open_question: {
       question:
-        "Le consumérisme excessif lié aux fêtes de fin d'année est-il éthiquement justifiable face aux enjeux écologiques et sociaux ?",
+        "Faut-il légaliser l'euthanasie et le suicide assisté pour garantir le droit à une 'bonne mort' ?",
       notes:
-        "Débat sur la surconsommation, le sens de la fête et les alternatives plus sobres.",
+        "Débat éthique, médical et légal sur la fin de vie, la souffrance et le rôle des médecins.",
     },
     did_you_know: {
-      text: "La tradition de l'arbre de Noël est originaire de l'Allemagne au $\text{XVI}^e$ siècle.",
+      text: "Le 25 décembre est Noël, la fête chrétienne célébrant la naissance de Jésus-Christ.",
     },
   },
   {
     date: "2026-12-26",
     general_question: {
       question:
-        "Quel est le nom de la ville qui est la capitale de l'Islande ?",
-      answer: "Reykjavik.",
-      explanation: "Reykjavik est la capitale la plus septentrionale du monde.",
+        "Quel est le nom de la ville italienne où se trouve le célèbre Colisée ?",
+      answer: "Rome.",
+      explanation:
+        "Le Colisée, ou Amphithéâtre Flavien, est le plus grand amphithéâtre jamais construit et est devenu un symbole de la Rome impériale.",
     },
     open_question: {
       question:
-        "Les écoles devraient-elles interdire l'utilisation des écrans (smartphones, tablettes) en classe, même à des fins pédagogiques ?",
+        "Le droit des auteurs et artistes doit-il être révisé à l'ère des contenus générés par l'IA (texte, art, musique) ?",
       notes:
-        "Débat sur la distraction, les outils numériques éducatifs et l'impact sur la concentration des élèves.",
+        "Discussion sur la paternité des œuvres, l'entraînement des modèles d'IA sur des données protégées et la rémunération des créateurs.",
     },
     did_you_know: {
-      text: "Le 26 décembre est célébré comme le 'Boxing Day' dans de nombreux pays du Commonwealth.",
+      text: "En Angleterre, le 26 décembre est le *Boxing Day*, traditionnellement un jour où l'on offrait des cadeaux aux domestiques et aux personnes démunies.",
     },
   },
   {
     date: "2026-12-27",
     general_question: {
       question:
-        "Quel événement majeur de la Seconde Guerre mondiale est commémoré le 6 juin ?",
-      answer: "Le débarquement de Normandie (D-Day).",
+        "Quel est l'élément chimique qui possède six protons et est essentiel à toute vie organique sur Terre ?",
+      answer: "Le Carbone (C).",
       explanation:
-        "Le 6 juin 1944, les forces alliées ont lancé l'assaut amphibie le plus important de l'histoire.",
+        "Le carbone forme la base des molécules organiques (protéines, ADN, lipides) grâce à sa capacité à former quatre liaisons chimiques stables.",
     },
     open_question: {
       question:
-        "Faut-il imposer une 'taxe sur la malbouffe' pour financer la prévention des maladies liées à l'alimentation ?",
+        "Le droit des animaux devrait-il être réformé pour accorder une 'personnalité morale' aux animaux les plus évolués (grands singes, cétacés) ?",
       notes:
-        "Débat sur la fiscalité comportementale, la liberté de consommation et l'impact sur les revenus modestes.",
+        "Débat sur le statut légal des animaux, l'éthique et les conséquences sur l'expérimentation et l'élevage.",
     },
     did_you_know: {
-      text: "Les fourmis domestiques ne dorment pas.",
+      text: "Chaque être vivant sur Terre est basé sur le carbone. On appelle cela la 'vie à base de carbone'.",
     },
   },
   {
     date: "2026-12-28",
     general_question: {
       question:
-        "Quel est le nom de la couche de l'atmosphère terrestre qui absorbe la majeure partie du rayonnement ultraviolet du Soleil ?",
-      answer: "La couche d'Ozone.",
+        "Quel pays européen est la patrie des Jeux Olympiques antiques et modernes ?",
+      answer: "La Grèce.",
       explanation:
-        "Située principalement dans la stratosphère, la couche d'ozone ($\text{O}_3$) est essentielle pour protéger la vie sur Terre.",
+        "Les Jeux antiques se tenaient à Olympie dès 776 av. J.-C. Les premiers Jeux modernes ont eu lieu à Athènes en 1896.",
     },
     open_question: {
       question:
-        "Les robots devraient-ils payer des impôts ou des cotisations sociales pour compenser les emplois qu'ils suppriment ?",
+        "Le droit à l'oubli numérique devrait-il être absolu ou limité par l'intérêt historique et la liberté d'expression ?",
       notes:
-        "Débat sur la 'taxe robot', le financement de la protection sociale et la définition du travail à l'ère de l'automatisation.",
+        "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
     },
     did_you_know: {
-      text: "Le mot 'radar' est un acronyme signifiant 'Radio Detection And Ranging'.",
+      text: "Les vainqueurs des Jeux Olympiques antiques ne recevaient pas de médailles, mais une couronne d'olivier sauvage.",
     },
   },
   {
     date: "2026-12-29",
     general_question: {
       question:
-        "Quel animal marin est le plus grand invertébré (sans colonne vertébrale) connu ?",
-      answer: "Le calmar colossal (Mesonychoteuthis hamiltoni).",
+        "Quel est le nom de l'instrument qui mesure les tremblements de terre ?",
+      answer: "Le sismographe (ou sismomètre).",
       explanation:
-        "Le calmar colossal est généralement plus lourd et détient le record du plus grand œil du monde animal.",
+        "Il enregistre l'amplitude et la durée des ondes sismiques et permet de localiser l'épicentre d'un séisme.",
     },
     open_question: {
       question:
-        "Le système de notation 'âge légal de consommation' pour l'alcool et le tabac est-il efficace ou devrait-on privilégier l'éducation ?",
+        "Le concept de 'croissance infinie' dans une planète aux ressources finies est-il une contradiction fondamentale ?",
       notes:
-        "Débat sur les lois restrictives, la responsabilité individuelle et la prévention des risques.",
+        "Discussion sur la croissance verte, la décroissance et l'économie circulaire.",
     },
     did_you_know: {
-      text: "La 'Journée mondiale des océans' est célébrée chaque 8 juin.",
+      text: "Le séisme le plus puissant jamais enregistré a eu lieu au Chili en 1960, atteignant une magnitude de 9,5.",
     },
   },
   {
     date: "2026-12-30",
     general_question: {
       question:
-        "Qui a peint 'Les Noces de Cana', la plus grande toile du musée du Louvre ?",
-      answer: "Paul Véronèse.",
+        "Qui est le mathématicien connu pour avoir défini le concept de 'nombre imaginaire' (la racine carrée de -1) ?",
+      answer:
+        "René Descartes (bien que popularisé par d'autres, il a introduit le terme 'imaginaire').",
       explanation:
-        "Cette œuvre massive (6,77 m par 9,94 m) représente le premier miracle de Jésus-Christ.",
+        "Le concept fut exploré par Cardano, mais le terme 'nombre imaginaire' fut inventé par Descartes en 1637. L'unité imaginaire est désignée par $i$ ($i^2 = -1$).",
     },
     open_question: {
       question:
-        "La censure de contenu sur Internet par les plateformes privées est-elle une protection nécessaire ou une atteinte à la liberté d'expression ?",
+        "Le sport professionnel moderne est-il un modèle d'excellence athlétique ou une machine de divertissement hyper-commercialisée ?",
       notes:
-        "Débat sur la modération du contenu, la responsabilité des grandes entreprises technologiques et les abus potentiels.",
+        "Discussion sur les salaires, les droits de diffusion, le dopage et l'esprit olympique.",
     },
     did_you_know: {
-      text: "La Russie possède la plus longue frontière terrestre du monde.",
+      text: "Descartes est également le père de la géométrie analytique, qui relie l'algèbre à la géométrie.",
     },
   },
   {
     date: "2026-12-31",
     general_question: {
       question:
-        "Quel est le plus grand désert de sable au monde (hors régions polaires) ?",
-      answer: "Le Sahara.",
+        "Quel est le seul continent qui n'est traversé par aucun fleuve ?",
+      answer: "L'Antarctique.",
       explanation:
-        "Le Sahara, qui couvre une grande partie de l'Afrique du Nord, est le plus grand désert chaud.",
+        "L'eau y est presque entièrement sous forme de glace. Les rares flux d'eau sont saisonniers ou sous-glaciaires.",
     },
     open_question: {
       question:
-        "Le tourisme de masse est-il compatible avec la préservation des sites historiques et naturels ?",
+        "Les technologies de surveillance des employés à distance (logiciels de suivi) sont-elles un abus ou une nécessité de gestion ?",
       notes:
-        "Débat sur les quotas d'accès, la dégradation des sites (ex: Venise, Machu Picchu) et l'économie locale.",
+        "Débat sur la confiance, le droit à la déconnexion et la mesure de la productivité.",
     },
     did_you_know: {
-      text: "Le 31 décembre est connu sous le nom de 'Réveillon de la Saint-Sylvestre', marquant la fin de l'année civile.",
+      text: "Le 31 décembre est connu comme la Saint-Sylvestre, du nom du Pape Sylvestre Ier.",
     },
   },
 ];
-
-// Fonction pour exporter les données dans le scope global ou par module export
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = DAYS_DATA;
-}
