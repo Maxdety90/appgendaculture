@@ -2504,15 +2504,7 @@ const DAYS_DATA = [
       answer:
         "Aucun. C’est une question piège",
       explanation:
-        "Correction : Lors de la bataille d’Austerlitz (1805), Napoléon Bonaparte n’a pas été vaincu, il a au contraire remporté une victoire décisive contre les armées de :
-
-l’empereur François II d’Autriche
-
-le tsar Alexandre Ier de Russie
-
-Napoléon est parfois qualifié de dictateur, mais il est le vainqueur, pas le vaincu, de cette bataille.
-
-👉 Donc, aucun dictateur européen n’a été vaincu à Austerlitz.",
+        "aucun dictateur européen n’a été vaincu à Austerlitz.",
     },
     open_question: {
       question:
@@ -7075,4 +7067,5 @@ Napoléon est parfois qualifié de dictateur, mais il est le vainqueur, pas le v
     },
   },
 ];
+
 
