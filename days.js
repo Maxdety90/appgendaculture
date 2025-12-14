@@ -1123,7 +1123,7 @@ const DAYS_DATA = [
         "Qui a formulé les trois lois du mouvement et la loi de la gravitation universelle ?",
       answer: "Isaac Newton.",
       explanation:
-        "Publiées en 1687 dans ses *Philosophiæ Naturalis Principia Mathematica*, ces lois sont la base de la mécanique classique.",
+        "Publiées en 1687 dans ses Philosophiæ Naturalis Principia Mathematica, ces lois sont la base de la mécanique classique.",
     },
     open_question: {
       question:
@@ -1934,7 +1934,7 @@ const DAYS_DATA = [
         "Quel est l'élément chimique symbolisé par 'Au' et connu pour sa résistance à la corrosion ?",
       answer: "L'or (Aurum).",
       explanation:
-        "L'or est un métal précieux et inaltérable. Son nom latin, *Aurum*, signifie 'brillant' ou 'lueur de l'aube'.",
+        "L'or est un métal précieux et inaltérable. Son nom latin, Aurum, signifie 'brillant' ou 'lueur de l'aube'.",
     },
     open_question: {
       question:
@@ -2056,7 +2056,7 @@ const DAYS_DATA = [
         "Discussion sur l'âge de départ, les cotisations et la nécessité de réformes structurelles.",
     },
     did_you_know: {
-      text: "Le mot 'bibliothèque' en français est souvent dérivé du grec *bibliothēkē*, signifiant étymologiquement 'dépôt de livres'.",
+      text: "Le mot 'bibliothèque' en français est souvent dérivé du grec bibliothēkē, signifiant étymologiquement 'dépôt de livres'.",
     },
   },
   {
@@ -2493,7 +2493,7 @@ const DAYS_DATA = [
         "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
     },
     did_you_know: {
-      text: "L'expression 'May the Fourth Be With You' est une référence au film *Star Wars*, faisant un jeu de mots avec la phrase 'May the Force Be With You'.",
+      text: "L'expression 'May the Fourth Be With You' est une référence au film Star Wars, faisant un jeu de mots avec la phrase 'May the Force Be With You'.",
     },
   },
   {
@@ -3284,7 +3284,7 @@ const DAYS_DATA = [
         "Débat sur les impôts minimums mondiaux, la concurrence fiscale et l'équité des contributions.",
     },
     did_you_know: {
-      text: "Le mot 'atmosphère' vient du grec *atmós* (vapeur) et *sphaira* (sphère).",
+      text: "Le mot 'atmosphère' vient du grec atmós (vapeur) et sphaira (sphère).",
     },
   },
   {
@@ -3313,7 +3313,7 @@ const DAYS_DATA = [
         "Qui a écrit le roman d'anticipation 'Vingt mille lieues sous les mers' ?",
       answer: "Jules Verne.",
       explanation:
-        "Publié en 1870, ce roman raconte l'aventure du professeur Aronnax à bord du sous-marin *Nautilus*, commandé par le Capitaine Nemo.",
+        "Publié en 1870, ce roman raconte l'aventure du professeur Aronnax à bord du sous-marin Nautilus, commandé par le Capitaine Nemo.",
     },
     open_question: {
       question:
@@ -3359,7 +3359,7 @@ const DAYS_DATA = [
         "Discussion sur la balance entre la sécurité publique et les libertés individuelles, ainsi que les risques de dérives autoritaires.",
     },
     did_you_know: {
-      text: "Le mot 'pandémie' vient du grec *pan* (tout) et *démos* (peuple).",
+      text: "Le mot 'pandémie' vient du grec pan (tout) et démos (peuple).",
     },
   },
   {
@@ -3890,7 +3890,7 @@ const DAYS_DATA = [
         "Discussion sur l'égalité salariale, la jalousie et l'efficacité des négociations individuelles.",
     },
     did_you_know: {
-      text: "Le mot 'juillet' vient du latin *Julius*, en hommage à Jules César. En Europe, le mois de juillet marque souvent le début de la période de vacances estivales.",
+      text: "Le mot 'juillet' vient du latin Julius, en hommage à Jules César. En Europe, le mois de juillet marque souvent le début de la période de vacances estivales.",
     },
   },
   {
@@ -3965,7 +3965,7 @@ const DAYS_DATA = [
         "Débat sur les critères de recherche vs. d'enseignement, l'homogénéisation des modèles et la course au prestige.",
     },
     did_you_know: {
-      text: "Le mot 'juillet' vient du latin *Julius*, en l'honneur de Jules César, né ce mois-là.",
+      text: "Le mot 'juillet' vient du latin Julius, en l'honneur de Jules César, né ce mois-là.",
     },
   },
   {
@@ -4117,7 +4117,7 @@ const DAYS_DATA = [
         "Discussion sur la transparence fiscale internationale, les paradis fiscaux et le droit à l'intimité financière.",
     },
     did_you_know: {
-      text: "Le mot 'canicule' vient du latin *canicula*, qui signifie 'petite chienne', en référence à Sirius, l'étoile la plus brillante de la constellation du Grand Chien, dont la levée héliaque coïncidait autrefois avec les jours les plus chauds de l'été.",
+      text: "Le mot 'canicule' vient du latin canicula, qui signifie 'petite chienne', en référence à Sirius, l'étoile la plus brillante de la constellation du Grand Chien, dont la levée héliaque coïncidait autrefois avec les jours les plus chauds de l'été.",
     },
   },
   {
@@ -4269,7 +4269,7 @@ const DAYS_DATA = [
         "Débat sur la légitime défense, les traités de non-prolifération et le rôle des marchands d'armes.",
     },
     did_you_know: {
-      text: "Le nom de l'avion B-29 qui a largué la bombe atomique sur Hiroshima, *Enola Gay*, était le nom de la mère du pilote, Paul Tibbets.",
+      text: "Le nom de l'avion B-29 qui a largué la bombe atomique sur Hiroshima, Enola Gay, était le nom de la mère du pilote, Paul Tibbets.",
     },
   },
   {
@@ -4298,7 +4298,7 @@ const DAYS_DATA = [
         "Quel est l'élément chimique symbolisé par 'K' et essentiel au bon fonctionnement des nerfs et des muscles ?",
       answer: "Le Potassium (Kalium).",
       explanation:
-        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique *Kalium*.",
+        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique Kalium.",
     },
     open_question: {
       question:
@@ -4355,7 +4355,7 @@ const DAYS_DATA = [
         "Quel est le nom de l'explorateur vénitien célèbre pour avoir documenté ses voyages en Asie, notamment en Chine, au XIIIe siècle ?",
       answer: "Marco Polo.",
       explanation:
-        "Son livre, *Le Livre des Merveilles du Monde* (ou *Il Milione*), a servi de source d'inspiration pour de nombreux explorateurs ultérieurs.",
+        "Son livre, Le Livre des Merveilles du Monde (ou Il Milione), a servi de source d'inspiration pour de nombreux explorateurs ultérieurs.",
     },
     open_question: {
       question:
@@ -4458,7 +4458,7 @@ const DAYS_DATA = [
         "Débat éthique, médical et légal sur la fin de vie, la souffrance et le rôle des médecins.",
     },
     did_you_know: {
-      text: "Le mot 'hygromètre' vient du grec *hygros* (humide) et *métron* (mesure).",
+      text: "Le mot 'hygromètre' vient du grec hygros (humide) et métron (mesure).",
     },
   },
   {
@@ -4553,7 +4553,7 @@ const DAYS_DATA = [
         "Discussion sur la balance entre la sécurité publique et les libertés individuelles, ainsi que les risques de dérives autoritaires.",
     },
     did_you_know: {
-      text: "Le mot 'impérialisme' vient du latin *imperium*, signifiant 'pouvoir de commander'.",
+      text: "Le mot 'impérialisme' vient du latin imperium, signifiant 'pouvoir de commander'.",
     },
   },
   {
@@ -4704,7 +4704,7 @@ const DAYS_DATA = [
         "Débat sur le rôle des modérateurs, les algorithmes de détection et la définition de l'abus.",
     },
     did_you_know: {
-      text: "Le mot 'poésie' vient du grec *poiesis*, qui signifie 'faire' ou 'créer'.",
+      text: "Le mot 'poésie' vient du grec poiesis, qui signifie 'faire' ou 'créer'.",
     },
   },
   {
@@ -4733,7 +4733,7 @@ const DAYS_DATA = [
         "Quel est l'élément chimique symbolisé par 'Na', essentiel pour l'équilibre hydrique et la fonction nerveuse ?",
       answer: "Le Sodium (Natrium).",
       explanation:
-        "Le sodium est un métal alcalin. Son nom latin, *Natrium*, lui a donné son symbole chimique 'Na'.",
+        "Le sodium est un métal alcalin. Son nom latin, Natrium, lui a donné son symbole chimique 'Na'.",
     },
     open_question: {
       question:
@@ -4763,7 +4763,7 @@ const DAYS_DATA = [
         "Débat sur la protectionnisme, les règles de l'OMC et l'efficacité climatique.",
     },
     did_you_know: {
-      text: "Le mot 'septembre' vient du latin *septem*, signifiant 'septième', car il était le septième mois du calendrier romain antique.",
+      text: "Le mot 'septembre' vient du latin septem, signifiant 'septième', car il était le septième mois du calendrier romain antique.",
     },
   },
   {
@@ -4820,7 +4820,7 @@ const DAYS_DATA = [
         "Débat sur la faisabilité des technologies de capture de carbone, les changements de mode de vie nécessaires et le coût de la transition énergétique.",
     },
     did_you_know: {
-      text: "Le mot 'septembre' vient du latin *septem*, signifiant 'septième', car il était le septième mois du calendrier romain.",
+      text: "Le mot 'septembre' vient du latin septem, signifiant 'septième', car il était le septième mois du calendrier romain.",
     },
   },
   {
@@ -4858,7 +4858,7 @@ const DAYS_DATA = [
         "Discussion sur l'évolution du marketing, la confiance du public et la réglementation des contenus.",
     },
     did_you_know: {
-      text: "Le mot 'barrage' vient du vieux français *barra* (barre, clôture).",
+      text: "Le mot 'barrage' vient du vieux français barra (barre, clôture).",
     },
   },
   {
@@ -4896,7 +4896,7 @@ const DAYS_DATA = [
         "Discussion sur la transparence fiscale internationale, les paradis fiscaux et le droit à l'intimité financière.",
     },
     did_you_know: {
-      text: "Le mot 'sonar' est un acronyme de l'anglais *Sound Navigation and Ranging*.",
+      text: "Le mot 'sonar' est un acronyme de l'anglais Sound Navigation and Ranging.",
     },
   },
   {
@@ -4925,7 +4925,7 @@ const DAYS_DATA = [
         "Quel est l'élément chimique symbolisé par 'Au' et connu pour sa résistance à la corrosion ?",
       answer: "L'or (Aurum).",
       explanation:
-        "L'or est un métal précieux et inaltérable. Son nom latin, *Aurum*, signifie 'brillant' ou 'lueur de l'aube'.",
+        "L'or est un métal précieux et inaltérable. Son nom latin, Aurum, signifie 'brillant' ou 'lueur de l'aube'.",
     },
     open_question: {
       question:
@@ -4934,7 +4934,7 @@ const DAYS_DATA = [
         "Discussion sur la liberté de réunion, l'ordre public et la légitimité de la contestation.",
     },
     did_you_know: {
-      text: "Le mot 'chimie' vient du grec *chemeia*, désignant l'art de la transformation des substances.",
+      text: "Le mot 'chimie' vient du grec chemeia, désignant l'art de la transformation des substances.",
     },
   },
   {
@@ -4972,7 +4972,7 @@ const DAYS_DATA = [
         "Discussion sur les salaires, les droits de diffusion, le dopage et l'esprit olympique.",
     },
     did_you_know: {
-      text: "Le mot 'lac' vient du latin *lacus* (bassin, étang).",
+      text: "Le mot 'lac' vient du latin lacus (bassin, étang).",
     },
   },
   {
@@ -4991,7 +4991,7 @@ const DAYS_DATA = [
         "Débat sur la liberté de commerce versus la responsabilité de l'État dans la santé publique.",
     },
     did_you_know: {
-      text: "Le mot 'sport' vient du vieux français *desport*, signifiant 'divertissement, loisir'.",
+      text: "Le mot 'sport' vient du vieux français desport, signifiant 'divertissement, loisir'.",
     },
   },
   {
@@ -5029,7 +5029,7 @@ const DAYS_DATA = [
         "Discussion sur l'égalité salariale, la jalousie et l'efficacité des négociations individuelles.",
     },
     did_you_know: {
-      text: "Le mot 'hygromètre' vient du grec *hygros* (humide) et *métron* (mesure).",
+      text: "Le mot 'hygromètre' vient du grec hygros (humide) et métron (mesure).",
     },
   },
   {
@@ -5039,7 +5039,7 @@ const DAYS_DATA = [
         "Quel est l'élément chimique symbolisé par 'K' et essentiel au bon fonctionnement des nerfs et des muscles ?",
       answer: "Le Potassium (Kalium).",
       explanation:
-        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique *Kalium*.",
+        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique Kalium.",
     },
     open_question: {
       question:
@@ -5067,7 +5067,7 @@ const DAYS_DATA = [
         "Débat sur la 'ville du quart d'heure', les transports doux et la végétalisation urbaine.",
     },
     did_you_know: {
-      text: "Le mot 'adrénaline' vient du latin *ad* (à, vers) et *renes* (reins, car elle est sécrétée par les glandes surrénales).",
+      text: "Le mot 'adrénaline' vient du latin ad (à, vers) et renes (reins, car elle est sécrétée par les glandes surrénales).",
     },
   },
   {
@@ -5105,7 +5105,7 @@ const DAYS_DATA = [
         "Discussion sur la gestion des ressources, l'agriculture intensive et la priorité de l'eau potable.",
     },
     did_you_know: {
-      text: "Le mot 'optique' vient du grec *optikē* (relatif à la vue).",
+      text: "Le mot 'optique' vient du grec optikē (relatif à la vue).",
     },
   },
   {
@@ -5134,7 +5134,7 @@ const DAYS_DATA = [
         "Quel est le nom de l'explorateur vénitien célèbre pour avoir documenté ses voyages en Asie, notamment en Chine, au XIIIe siècle ?",
       answer: "Marco Polo.",
       explanation:
-        "Son livre, *Le Livre des Merveilles du Monde* (ou *Il Milione*), a servi de source d'inspiration pour de nombreux explorateurs ultérieurs.",
+        "Son livre, Le Livre des Merveilles du Monde (ou Il Milione), a servi de source d'inspiration pour de nombreux explorateurs ultérieurs.",
     },
     open_question: {
       question:
@@ -5143,7 +5143,7 @@ const DAYS_DATA = [
         "Débat sur les systèmes de santé universels, les assurances privées et la prévention.",
     },
     did_you_know: {
-      text: "Le mot 'septembre' vient du latin *septem*, signifiant 'septième', car il était le septième mois du calendrier romain.",
+      text: "Le mot 'septembre' vient du latin septem, signifiant 'septième', car il était le septième mois du calendrier romain.",
     },
   },
   {
@@ -5200,7 +5200,7 @@ const DAYS_DATA = [
         "Débat sur l'inflation, le pouvoir d'achat et le marché du travail.",
     },
     did_you_know: {
-      text: "Le mot 'sport' vient du vieux français *desport*, signifiant 'divertissement, loisir'.",
+      text: "Le mot 'sport' vient du vieux français desport, signifiant 'divertissement, loisir'.",
     },
   },
   {
@@ -5257,7 +5257,7 @@ const DAYS_DATA = [
         "Débat sur la densité urbaine, les transports et l'égalité d'accès aux services en banlieue.",
     },
     did_you_know: {
-      text: "Le mot 'septembre' vient du latin *septem*, signifiant 'septième', car il était le septième mois du calendrier romain.",
+      text: "Le mot 'septembre' vient du latin septem, signifiant 'septième', car il était le septième mois du calendrier romain.",
     },
   },
   {
@@ -5276,7 +5276,7 @@ const DAYS_DATA = [
         "Discussion sur les droits de l'homme, la corruption et la performance économique.",
     },
     did_you_know: {
-      text: "Le mot 'sismographe' vient du grec *seismos* (tremblement de terre) et *graphein* (écrire).",
+      text: "Le mot 'sismographe' vient du grec seismos (tremblement de terre) et graphein (écrire).",
     },
   },
   {
@@ -5313,7 +5313,7 @@ const DAYS_DATA = [
         "Débat sur la faisabilité des technologies de capture de carbone, les changements de mode de vie nécessaires et le coût de la transition énergétique.",
     },
     did_you_know: {
-      text: "Le mot 'septembre' vient du latin *septem*, signifiant 'septième', car il était le septième mois du calendrier romain antique avant l'ajout de janvier et février.",
+      text: "Le mot 'septembre' vient du latin septem, signifiant 'septième', car il était le septième mois du calendrier romain antique avant l'ajout de janvier et février.",
     },
   },
 
@@ -5334,7 +5334,7 @@ const DAYS_DATA = [
         "Discussion sur l'égalité salariale, la jalousie et l'efficacité des négociations individuelles.",
     },
     did_you_know: {
-      text: "Le mot 'octobre' vient du latin *octo*, signifiant 'huit', car il était le huitième mois du calendrier romain avant que Jules César ne le réforme.",
+      text: "Le mot 'octobre' vient du latin octo, signifiant 'huit', car il était le huitième mois du calendrier romain avant que Jules César ne le réforme.",
     },
   },
   {
@@ -5410,7 +5410,7 @@ const DAYS_DATA = [
         "Débat sur les systèmes de santé universels, les assurances privées et la prévention.",
     },
     did_you_know: {
-      text: "Le mot 'philosophie' signifie 'amour de la sagesse' en grec ancien (*philosophia*).",
+      text: "Le mot 'philosophie' signifie 'amour de la sagesse' en grec ancien (philosophia).",
     },
   },
   {
@@ -5448,7 +5448,7 @@ const DAYS_DATA = [
         "Discussion sur la légitimité du vote, l'apathie politique et les sanctions en cas d'abstention.",
     },
     did_you_know: {
-      text: "Van Gogh n'a vendu qu'un seul tableau de son vivant : *La Vigne Rouge*.",
+      text: "Van Gogh n'a vendu qu'un seul tableau de son vivant : La Vigne Rouge.",
     },
   },
   {
@@ -5514,7 +5514,7 @@ const DAYS_DATA = [
         "Quel est l'élément chimique symbolisé par 'Au' et connu pour sa résistance à la corrosion ?",
       answer: "L'or (Aurum).",
       explanation:
-        "L'or est un métal précieux et inaltérable. Son nom latin, *Aurum*, signifie 'brillant' ou 'lueur de l'aube'.",
+        "L'or est un métal précieux et inaltérable. Son nom latin, Aurum, signifie 'brillant' ou 'lueur de l'aube'.",
     },
     open_question: {
       question:
@@ -5542,7 +5542,7 @@ const DAYS_DATA = [
         "Débat sur l'orientation, l'égalité des chances et les besoins éducatifs différenciés.",
     },
     did_you_know: {
-      text: "Le mot 'hockey' pourrait venir du vieux français *hoquet*, signifiant 'bâton courbé'.",
+      text: "Le mot 'hockey' pourrait venir du vieux français hoquet, signifiant 'bâton courbé'.",
     },
   },
   {
@@ -5570,7 +5570,7 @@ const DAYS_DATA = [
         "Quel est le nom de l'explorateur vénitien célèbre pour avoir documenté ses voyages en Asie, notamment en Chine, au XIIIe siècle ?",
       answer: "Marco Polo.",
       explanation:
-        "Son livre, *Le Livre des Merveilles du Monde* (ou *Il Milione*), a servi de source d'inspiration pour de nombreux explorateurs ultérieurs.",
+        "Son livre, Le Livre des Merveilles du Monde (ou Il Milione), a servi de source d'inspiration pour de nombreux explorateurs ultérieurs.",
     },
     open_question: {
       question:
@@ -5617,7 +5617,7 @@ const DAYS_DATA = [
         "Débat sur la précarité, la reconversion professionnelle et la gestion de carrière par l'individu.",
     },
     did_you_know: {
-      text: "Léonard de Vinci a utilisé une technique expérimentale pour peindre *La Cène*, ce qui a malheureusement conduit à sa détérioration rapide au fil des siècles.",
+      text: "Léonard de Vinci a utilisé une technique expérimentale pour peindre La Cène, ce qui a malheureusement conduit à sa détérioration rapide au fil des siècles.",
     },
   },
   {
@@ -5636,7 +5636,7 @@ const DAYS_DATA = [
         "Débat sur l'équilibre entre flexibilité individuelle et dynamique collective au travail.",
     },
     did_you_know: {
-      text: "Le mot 'diabète' vient du grec *diabētes*, signifiant 'qui passe à travers', faisant référence à l'élimination rapide de l'urine sucrée.",
+      text: "Le mot 'diabète' vient du grec diabētes, signifiant 'qui passe à travers', faisant référence à l'élimination rapide de l'urine sucrée.",
     },
   },
   {
@@ -5674,7 +5674,7 @@ const DAYS_DATA = [
         "Débat sur la régulation des populations animales, les traditions locales et l'éthique animale.",
     },
     did_you_know: {
-      text: "Le mot 'sonar' est un acronyme de l'anglais *Sound Navigation and Ranging*.",
+      text: "Le mot 'sonar' est un acronyme de l'anglais Sound Navigation and Ranging.",
     },
   },
   {
@@ -5759,7 +5759,7 @@ const DAYS_DATA = [
         "Quel est l'élément chimique symbolisé par 'K' et essentiel au bon fonctionnement des nerfs et des muscles ?",
       answer: "Le Potassium (Kalium).",
       explanation:
-        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique *Kalium*.",
+        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique Kalium.",
     },
     open_question: {
       question:
@@ -5902,7 +5902,7 @@ const DAYS_DATA = [
         "Débat sur l'effacement des données personnelles, l'archivage et l'accès à l'information publique.",
     },
     did_you_know: {
-      text: "Le mot 'Halloween' est une contraction de l'anglais *All Hallows' Eve*, signifiant la veille de la Toussaint.",
+      text: "Le mot 'Halloween' est une contraction de l'anglais All Hallows' Eve, signifiant la veille de la Toussaint.",
     },
   },
 
@@ -5933,7 +5933,7 @@ const DAYS_DATA = [
         "Quel est l'élément chimique symbolisé par 'Na', essentiel pour l'équilibre hydrique et la fonction nerveuse ?",
       answer: "Le Sodium (Natrium).",
       explanation:
-        "Le sodium est un métal alcalin. Son nom latin, *Natrium*, lui a donné son symbole chimique 'Na'.",
+        "Le sodium est un métal alcalin. Son nom latin, Natrium, lui a donné son symbole chimique 'Na'.",
     },
     open_question: {
       question:
@@ -6094,7 +6094,7 @@ const DAYS_DATA = [
         "Discussion sur l'éducation, la formation professionnelle et l'isolement social.",
     },
     did_you_know: {
-      text: "Van Gogh a été interné volontairement à l'asile de Saint-Paul-de-Mausole lorsqu'il a peint *La Nuit étoilée*.",
+      text: "Van Gogh a été interné volontairement à l'asile de Saint-Paul-de-Mausole lorsqu'il a peint La Nuit étoilée.",
     },
   },
   {
@@ -6113,7 +6113,7 @@ const DAYS_DATA = [
         "Débat sur la précarité, la reconversion professionnelle et la gestion de carrière par l'individu.",
     },
     did_you_know: {
-      text: "Le 11 novembre est célébré dans de nombreux pays comme le Jour du Souvenir (ou *Veterans Day* aux États-Unis), en hommage aux soldats morts au combat.",
+      text: "Le 11 novembre est célébré dans de nombreux pays comme le Jour du Souvenir (ou Veterans Day aux États-Unis), en hommage aux soldats morts au combat.",
     },
   },
   {
@@ -6151,7 +6151,7 @@ const DAYS_DATA = [
         "Discussion sur la gestion des ressources, l'agriculture intensive et la priorité de l'eau potable.",
     },
     did_you_know: {
-      text: "Le mot 'novembre' vient du latin *novem*, signifiant 'neuf', car il était le neuvième mois du calendrier romain.",
+      text: "Le mot 'novembre' vient du latin novem, signifiant 'neuf', car il était le neuvième mois du calendrier romain.",
     },
   },
   {
@@ -6320,7 +6320,7 @@ const DAYS_DATA = [
         "Discussion sur l'âge de départ, les cotisations et la nécessité de réformes structurelles.",
     },
     did_you_know: {
-      text: "Le mot 'novembre' vient du latin *novem*, signifiant 'neuf'.",
+      text: "Le mot 'novembre' vient du latin novem, signifiant 'neuf'.",
     },
   },
   {
@@ -6396,7 +6396,7 @@ const DAYS_DATA = [
         "Débat éthique, médical et légal sur la fin de vie, la souffrance et le rôle des médecins.",
     },
     did_you_know: {
-      text: "Le jour après Thanksgiving est connu sous le nom de *Black Friday*, marquant le début officieux de la saison des achats de Noël.",
+      text: "Le jour après Thanksgiving est connu sous le nom de Black Friday, marquant le début officieux de la saison des achats de Noël.",
     },
   },
   {
@@ -6512,7 +6512,7 @@ const DAYS_DATA = [
         "Discussion sur les salaires, les droits de diffusion, le dopage et l'esprit olympique.",
     },
     did_you_know: {
-      text: "Le mot 'décembre' vient du latin *decem*, signifiant 'dix', car il était le dixième mois du calendrier romain.",
+      text: "Le mot 'décembre' vient du latin decem, signifiant 'dix', car il était le dixième mois du calendrier romain.",
     },
   },
   {
@@ -6598,7 +6598,7 @@ const DAYS_DATA = [
         "Quel est l'élément chimique symbolisé par 'K' et essentiel au bon fonctionnement des nerfs et des muscles ?",
       answer: "Le Potassium (Kalium).",
       explanation:
-        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique *Kalium*.",
+        "Le potassium est un électrolyte vital. Son symbole 'K' vient du latin scientifique Kalium.",
     },
     open_question: {
       question:
@@ -6645,7 +6645,7 @@ const DAYS_DATA = [
         "Débat sur la corruption légale, la souveraineté nationale et la régulation internationale.",
     },
     did_you_know: {
-      text: "Le mot 'décembre' vient du latin *decem*, signifiant 'dix'.",
+      text: "Le mot 'décembre' vient du latin decem, signifiant 'dix'.",
     },
   },
   {
@@ -6655,7 +6655,7 @@ const DAYS_DATA = [
         "Quel est l'élément chimique symbolisé par 'Au' et connu pour sa résistance à la corrosion ?",
       answer: "L'or (Aurum).",
       explanation:
-        "L'or est un métal précieux et inaltérable. Son nom latin, *Aurum*, signifie 'brillant' ou 'lueur de l'aube'.",
+        "L'or est un métal précieux et inaltérable. Son nom latin, Aurum, signifie 'brillant' ou 'lueur de l'aube'.",
     },
     open_question: {
       question:
@@ -6739,7 +6739,7 @@ const DAYS_DATA = [
         "Débat sur la reconnaissance athlétique, l'entraînement, la discipline et les compétitions internationales.",
     },
     did_you_know: {
-      text: "Le mot 'réfraction' vient du latin *refractio*, signifiant 'action de briser'.",
+      text: "Le mot 'réfraction' vient du latin refractio, signifiant 'action de briser'.",
     },
   },
   {
@@ -6927,7 +6927,7 @@ const DAYS_DATA = [
         "Discussion sur l'éducation, la formation professionnelle et l'isolement social.",
     },
     did_you_know: {
-      text: "La veille de Noël est appelée *Christmas Eve* en anglais.",
+      text: "La veille de Noël est appelée Christmas Eve en anglais.",
     },
   },
   {
@@ -6965,7 +6965,7 @@ const DAYS_DATA = [
         "Discussion sur la paternité des œuvres, l'entraînement des modèles d'IA sur des données protégées et la rémunération des créateurs.",
     },
     did_you_know: {
-      text: "En Angleterre, le 26 décembre est le *Boxing Day*, traditionnellement un jour où l'on offrait des cadeaux aux domestiques et aux personnes démunies.",
+      text: "En Angleterre, le 26 décembre est le Boxing Day, traditionnellement un jour où l'on offrait des cadeaux aux domestiques et aux personnes démunies.",
     },
   },
   {
