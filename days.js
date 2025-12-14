@@ -2501,10 +2501,8 @@ const DAYS_DATA = [
     general_question: {
       question:
         "Quel dictateur européen a été vaincu lors de la bataille d'Austerlitz en 1805 ?",
-      answer:
-        "Aucun. C’est une question piège",
-      explanation:
-        "aucun dictateur européen n’a été vaincu à Austerlitz.",
+      answer: "Aucun. C’est une question piège",
+      explanation: "aucun dictateur européen n’a été vaincu à Austerlitz.",
     },
     open_question: {
       question:
@@ -7067,5 +7065,3 @@ const DAYS_DATA = [
     },
   },
 ];
-
-
