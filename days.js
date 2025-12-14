@@ -2502,9 +2502,17 @@ const DAYS_DATA = [
       question:
         "Quel dictateur européen a été vaincu lors de la bataille d'Austerlitz en 1805 ?",
       answer:
-        "Napoléon Bonaparte (bien qu'il ait gagné à Austerlitz, c'est un point de confusion courante. La question porte peut-être sur sa défaite finale).",
+        "Aucun. C’est une question piège",
       explanation:
-        "Correction : Napoléon a **gagné** la bataille d'Austerlitz, une de ses plus grandes victoires. Sa défaite finale est Waterloo en 1815. *Niveau : Piège Expert.*",
+        "Correction : Lors de la bataille d’Austerlitz (1805), Napoléon Bonaparte n’a pas été vaincu, il a au contraire remporté une victoire décisive contre les armées de :
+
+l’empereur François II d’Autriche
+
+le tsar Alexandre Ier de Russie
+
+Napoléon est parfois qualifié de dictateur, mais il est le vainqueur, pas le vaincu, de cette bataille.
+
+👉 Donc, aucun dictateur européen n’a été vaincu à Austerlitz.",
     },
     open_question: {
       question:
@@ -7067,3 +7075,4 @@ const DAYS_DATA = [
     },
   },
 ];
+
